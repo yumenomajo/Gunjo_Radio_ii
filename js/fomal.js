@@ -3145,25 +3145,28 @@ function changeBgColor() {
 }
 
 // 必应每日壁纸API
+// let galCG = "url(https://api.illlights.com/v1/img)";
+// let ACGBg = "url(https://uapis.cn/api/imgapi/acg/pc.php)";
+// 必应每日壁纸API
 let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://bing.img.run/1920x1080.php)";
 // 必应历史壁纸API
 let bingHistoryBg = screen.width <= 768 ? "url(https://bing.img.run/rand_m.php)" : "url(https://bing.img.run/rand.php)";
 // EEE.DOG
-let EEEDog = "url(https://api.yimian.xyz/img?type=moe&size=1920x1080)";
+let EEEDog = "url(https://api.illlights.com/v1/img)";
 // 随机美图cdn.seovx.com
-let seovx = "url(https://cdn.seovx.com/?mom=302)";
+let seovx = "url(https://uapis.cn/api/imgapi/acg/pc.php)";
 // picsum随机
-let picsum = "url(https://picsum.photos/1920/1080.webp)";
+let picsum = "url(http://www.98qy.com/sjbz/api.php)";
 // 小歪二次元
 // let waiDongman = "url(https://api.ixiaowai.cn/api/api.php)";
 //  小歪高清壁纸
-let waiBizhi = "url(https://api.ixiaowai.cn/gqapi/gqapi.php)";
+let waiBizhi = "url(https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%882)";
 // 博天随机
-let btstu = "url(http://api.btstu.cn/sjbz/?lx=suiji)";
+let btstu = "url(https://api.asxe.vip/random.php)";
 // tuapi 动漫
 // let tuapi = "url(https://tuapi.eees.cc/api.php?category=dongman)";
 // unsplash随机 https://source.unsplash.com/random/1920x1080/daily (weekly)
-let unsplash = "url(https://source.unsplash.com/random/1920x1080/)";
+let unsplash = "url(https://api.asxe.vip/scenery.php)";
 
 
 // 更换背景(自己的代码)

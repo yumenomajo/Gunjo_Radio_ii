@@ -12567,6 +12567,7 @@ hr:before {
   border-radius: 20px;
 }
 
+
 /* 必应壁纸框 */
 #bingDayBox:hover,
 #bingHistoryBox:hover,
@@ -12598,27 +12599,27 @@ hr:before {
 }
 #EEEDogBox::before {
   left: 20px;
-  content: "EEEDog动漫壁纸";
+  content: "旮旯CG壁纸";
 }
 #seovxBox::before {
   left: 30px;
-  content: "seovx美女壁纸";
+  content: "ACG壁纸1";
 }
 #picsumBox::before {
   left: 24px;
-  content: "picsum随机壁纸";
+  content: "ACG壁纸2";
 }
 #waiBizhiBox::before {
   left: 34px;
-  content: "小歪高清壁纸";
+  content: "ACG壁纸3";
 }
 #btstuBox::before {
   left: 34px;
-  content: "博天随机壁纸";
+  content: "ACG壁纸4";
 }
 #unsplashBox::before {
   left: 15px;
-  content: "Unsplash随机壁纸";
+  content: "ACG壁纸5";
 }
 
 /* 评论区圆角 */
