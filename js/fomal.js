@@ -1113,7 +1113,7 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("13/11/2024 17:09:22"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("11/13/2024 17:09:22"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
@@ -3174,10 +3174,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://api.illlights.com/v1/img);
-    --darkmode-bg:url(https://api.illlights.com/v1/img);
-    --mobileday-bg: url(https://api.illlights.com/v1/img);
-    --mobilenight-bg: url(https://api.illlights.com/v1/img);
+    --default-bg: url(/images/alice.png);
+    --darkmode-bg:url(/images/alice.png);
+    --mobileday-bg: url(/images/alice.png);
+    --mobilenight-bg: url(/images/alice.png);
   }`;
 }
 // 切换背景主函数
