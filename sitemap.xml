@@ -119,15 +119,6 @@
   </url>
   
   <url>
-    <loc>https://gunjo-radio-ii.cc/social/fcircle/index.html</loc>
-    
-    <lastmod>2025-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gunjo-radio-ii.cc/social/link/index.html</loc>
     
     <lastmod>2025-01-18</lastmod>
@@ -137,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://gunjo-radio-ii.cc/personal/about/index.html</loc>
+    <loc>https://gunjo-radio-ii.cc/social/fcircle/index.html</loc>
     
     <lastmod>2025-01-18</lastmod>
     
@@ -155,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://gunjo-radio-ii.cc/personal/bb/index.html</loc>
+    <loc>https://gunjo-radio-ii.cc/site/census/index.html</loc>
     
     <lastmod>2025-01-18</lastmod>
     
@@ -164,7 +155,16 @@
   </url>
   
   <url>
-    <loc>https://gunjo-radio-ii.cc/site/census/index.html</loc>
+    <loc>https://gunjo-radio-ii.cc/personal/about/index.html</loc>
+    
+    <lastmod>2025-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gunjo-radio-ii.cc/personal/bb/index.html</loc>
     
     <lastmod>2025-01-18</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://gunjo-radio-ii.cc/life/games/index.html</loc>
+    <loc>https://gunjo-radio-ii.cc/life/movies/index.html</loc>
     
     <lastmod>2025-01-18</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://gunjo-radio-ii.cc/life/movies/index.html</loc>
+    <loc>https://gunjo-radio-ii.cc/life/games/index.html</loc>
     
     <lastmod>2025-01-18</lastmod>
     
@@ -359,13 +359,6 @@
   </url>
   
   <url>
-    <loc>https://gunjo-radio-ii.cc/categories/%E6%9C%80%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2025-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gunjo-radio-ii.cc/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -388,6 +381,13 @@
   
   <url>
     <loc>https://gunjo-radio-ii.cc/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/</loc>
+    <lastmod>2025-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gunjo-radio-ii.cc/categories/%E6%9C%80%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2025-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

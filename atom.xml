@@ -218,28 +218,6 @@
   </entry>
   
   <entry>
-    <title>条件数学期望</title>
-    <link href="https://gunjo-radio-ii.cc/posts/5ea2bcdd.html"/>
-    <id>https://gunjo-radio-ii.cc/posts/5ea2bcdd.html</id>
-    <published>2024-11-25T13:22:51.000Z</published>
-    <updated>2025-01-18T16:51:03.589Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="4-3条件数学期望与最优预测"><a href="#4-3条件数学期望与最优预测" class="headerlink" title="4.3条件数学期望与最优预测"></a>4.3条件数学期望与最优预测</h2><h3 id="定义4-3-1【条件数学期望】"><a href="#定义4-3-1【条件数学期望】" class="headerlink" title="定义4.3.1【条件数学期望】"></a><span style="color:red">定义4.3.1【条件数学期望】</h3><p>若数学期望$\xi$的数学期望存在，则称$\xi$的条件分布函数$\mathcal{F}(x|\eta = y )$所决定的数学期望为已知$\eta = y$的情况下$\xi$的条件数学期望，简称为<strong>条件期望</strong>，记作$\mathbb{E}(\xi|\eta=y)$</p><hr><h3 id="定义4-3-2【条件方差】"><a href="#定义4-3-2【条件方差】" class="headerlink" title="定义4.3.2【条件方差】"></a><span style="color:red">定义4.3.2【条件方差】</h3><p>设$\xi \in \mathscr{L}^2,\eta$为随机变量，称：</p><script type="math/tex; mode=display">D(\xi|\eta = y)=\mathbb{E}((\xi - \mathbb{E}(\xi|\eta=y))^2|\eta=y)</script><hr><h3 id="定理4-3-1【条件期望的拆分】"><a href="#定理4-3-1【条件期望的拆分】" class="headerlink" title="定理4.3.1【条件期望的拆分】"></a><span style="color:blue">定理4.3.1【条件期望的拆分】</h3><p>对于任意波莱尔函数$f(x)$和$g(x)$，随机变量$\xi$和$\eta$，若$f(\xi)g(\eta)$的数学期望存在，则有：</p><script type="math/tex; mode=display">\mathbb{E}(f(\xi)g(\eta)|\eta)=g(\eta)\mathbb{E}(f(\xi)|\eta).</script><hr><h3 id="定理4-3-2【条件期望的平滑性】"><a href="#定理4-3-2【条件期望的平滑性】" class="headerlink" title="定理4.3.2【条件期望的平滑性】"></a><span style="color:blue">定理4.3.2【条件期望的平滑性】</h3><p>设$\xi$和$\eta$为随机变量，则：</p><script type="math/tex; mode=display">\mathbb{E}(\xi)=\mathbb{E}(\mathbb{E}(\xi|\eta))</script><hr><h3 id="定理4-3-3【联系独立性】"><a href="#定理4-3-3【联系独立性】" class="headerlink" title="定理4.3.3【联系独立性】"></a><span style="color:blue">定理4.3.3【联系独立性】</h3><p>假设${\xi_k}$为独立同分布随机变量列，$\eta$为取正整数值的随机变量，$\mathbb{E}(\eta)$有限且$\eta$与${\xi_k}$则有：</p><script type="math/tex; mode=display">\mathbb{E}(\sum_{k=1}^n \xi_k) = \mathbb{E}(\xi_1)\mathbb{E}(\eta). \tag{4.46}</script><hr><h3 id="定理4-3-4【最优预报定理】"><a href="#定理4-3-4【最优预报定理】" class="headerlink" title="定理4.3.4【最优预报定理】"></a><span style="color:blue">定理4.3.4【最优预报定理】</h3><p>设$\xi$,$\eta$ $\in \mathscr{L}^2$.若$f(x)$为波莱尔函数，则：</p><script type="math/tex; mode=display">\mathbb{E}((\xi - \mathbb{E}(\xi | \eta))^2) \leq \mathbb{E}((\xi-f(\eta))^2).</script>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;4-3条件数学期望与最优预测&quot;&gt;&lt;a href=&quot;#4-3条件数学期望与最优预测&quot; class=&quot;headerlink&quot; title=&quot;4.3条件数学期望与最优预测&quot;&gt;&lt;/a&gt;4.3条件数学期望与最优预测&lt;/h2&gt;&lt;h3 id=&quot;定义4-3-1【条件数学期望】&quot;&gt;</summary>
-      
-    
-    
-    
-    <category term="概率论" scheme="https://gunjo-radio-ii.cc/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>概率空间</title>
     <link href="https://gunjo-radio-ii.cc/posts/22949ea2.html"/>
     <id>https://gunjo-radio-ii.cc/posts/22949ea2.html</id>
@@ -252,6 +230,28 @@
       
       
     <summary type="html">&lt;h1 id=&quot;2-概率空间&quot;&gt;&lt;a href=&quot;#2-概率空间&quot; class=&quot;headerlink&quot; title=&quot;2.概率空间&quot;&gt;&lt;/a&gt;2.概率空间&lt;/h1&gt;&lt;h2 id=&quot;2-1-基本定义和简单性质&quot;&gt;&lt;a href=&quot;#2-1-基本定义和简单性质&quot; class=&quot;he</summary>
+      
+    
+    
+    
+    <category term="概率论" scheme="https://gunjo-radio-ii.cc/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>条件数学期望</title>
+    <link href="https://gunjo-radio-ii.cc/posts/5ea2bcdd.html"/>
+    <id>https://gunjo-radio-ii.cc/posts/5ea2bcdd.html</id>
+    <published>2024-11-25T13:22:51.000Z</published>
+    <updated>2025-01-18T16:51:03.589Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="4-3条件数学期望与最优预测"><a href="#4-3条件数学期望与最优预测" class="headerlink" title="4.3条件数学期望与最优预测"></a>4.3条件数学期望与最优预测</h2><h3 id="定义4-3-1【条件数学期望】"><a href="#定义4-3-1【条件数学期望】" class="headerlink" title="定义4.3.1【条件数学期望】"></a><span style="color:red">定义4.3.1【条件数学期望】</h3><p>若数学期望$\xi$的数学期望存在，则称$\xi$的条件分布函数$\mathcal{F}(x|\eta = y )$所决定的数学期望为已知$\eta = y$的情况下$\xi$的条件数学期望，简称为<strong>条件期望</strong>，记作$\mathbb{E}(\xi|\eta=y)$</p><hr><h3 id="定义4-3-2【条件方差】"><a href="#定义4-3-2【条件方差】" class="headerlink" title="定义4.3.2【条件方差】"></a><span style="color:red">定义4.3.2【条件方差】</h3><p>设$\xi \in \mathscr{L}^2,\eta$为随机变量，称：</p><script type="math/tex; mode=display">D(\xi|\eta = y)=\mathbb{E}((\xi - \mathbb{E}(\xi|\eta=y))^2|\eta=y)</script><hr><h3 id="定理4-3-1【条件期望的拆分】"><a href="#定理4-3-1【条件期望的拆分】" class="headerlink" title="定理4.3.1【条件期望的拆分】"></a><span style="color:blue">定理4.3.1【条件期望的拆分】</h3><p>对于任意波莱尔函数$f(x)$和$g(x)$，随机变量$\xi$和$\eta$，若$f(\xi)g(\eta)$的数学期望存在，则有：</p><script type="math/tex; mode=display">\mathbb{E}(f(\xi)g(\eta)|\eta)=g(\eta)\mathbb{E}(f(\xi)|\eta).</script><hr><h3 id="定理4-3-2【条件期望的平滑性】"><a href="#定理4-3-2【条件期望的平滑性】" class="headerlink" title="定理4.3.2【条件期望的平滑性】"></a><span style="color:blue">定理4.3.2【条件期望的平滑性】</h3><p>设$\xi$和$\eta$为随机变量，则：</p><script type="math/tex; mode=display">\mathbb{E}(\xi)=\mathbb{E}(\mathbb{E}(\xi|\eta))</script><hr><h3 id="定理4-3-3【联系独立性】"><a href="#定理4-3-3【联系独立性】" class="headerlink" title="定理4.3.3【联系独立性】"></a><span style="color:blue">定理4.3.3【联系独立性】</h3><p>假设${\xi_k}$为独立同分布随机变量列，$\eta$为取正整数值的随机变量，$\mathbb{E}(\eta)$有限且$\eta$与${\xi_k}$则有：</p><script type="math/tex; mode=display">\mathbb{E}(\sum_{k=1}^n \xi_k) = \mathbb{E}(\xi_1)\mathbb{E}(\eta). \tag{4.46}</script><hr><h3 id="定理4-3-4【最优预报定理】"><a href="#定理4-3-4【最优预报定理】" class="headerlink" title="定理4.3.4【最优预报定理】"></a><span style="color:blue">定理4.3.4【最优预报定理】</h3><p>设$\xi$,$\eta$ $\in \mathscr{L}^2$.若$f(x)$为波莱尔函数，则：</p><script type="math/tex; mode=display">\mathbb{E}((\xi - \mathbb{E}(\xi | \eta))^2) \leq \mathbb{E}((\xi-f(\eta))^2).</script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;4-3条件数学期望与最优预测&quot;&gt;&lt;a href=&quot;#4-3条件数学期望与最优预测&quot; class=&quot;headerlink&quot; title=&quot;4.3条件数学期望与最优预测&quot;&gt;&lt;/a&gt;4.3条件数学期望与最优预测&lt;/h2&gt;&lt;h3 id=&quot;定义4-3-1【条件数学期望】&quot;&gt;</summary>
       
     
     
