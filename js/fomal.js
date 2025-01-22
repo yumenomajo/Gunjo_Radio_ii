@@ -194,7 +194,7 @@ function showWelcome() {
               posdesc = "洛阳牡丹甲天下。";
               break;
             default:
-              posdesc = "可否带我品尝河南烩面啦？";
+              posdesc = "可否带我品尝胡辣汤啦？";
               break;
           }
           break;
