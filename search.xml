@@ -31,6 +31,35 @@
     
     
     <entry>
+      <title>1月20日群青广播更新小记</title>
+      <link href="/posts/4649bb35.html"/>
+      <url>/posts/4649bb35.html</url>
+      
+        <content type="html"><![CDATA[<h1>1，确定主题butterfly和参考材料fomal的小站</h1><p>群青广播II原本是基于shoka主题的blog，但是在配置shoka的过程中，由于缺乏系统的配置教程以及前人经验，我在配置过程中遇到了很多麻烦而且难以找到解决办法，以至于评论系统一直脱了两个月也没有完善。</p><p>后面，我在b站查询攻略的时候，找到了基于<a href="https://www.bilibili.com/video/BV1Zg4y1J7Dv/?spm_id_from=333.1387.top_right_bar_window_history.content.click&amp;vd_source=0e7fe20268de6be7c02286670ff9f94e">butterfly的blog搭建教学</a>和<a href="https://github.com/fomalhaut1998/hexo-theme-Fomalhaut">相关的开源配置</a>。考虑到butterfly较为系统和完善的工具，我还是选择放弃了之前的shoka主题，在寒假抽出大约四天的时间完成了群青广播II的重新构建与更新。</p><h1>2，更新的主要目标</h1><ul><li>[x] 完成评论系统</li><li>[x] 完成站内搜索系统</li><li>[x] 实现blog独立音乐效果</li><li>[x] UI的一些优化</li></ul><h1>3，更新过程简述</h1><h2 id="A，弯路-从零配置butterfly">A，弯路(从零配置butterfly)</h2><p>一开始，我是按着视频按部就班地下载并从零开始配置butterfly主题blog设置，但是中间遇到了比较多奇怪的问题让我很疑惑；做着做着发现，这个视频up主早已开源他的网站模板…于是开启了新路线————克隆他的github仓库让后自己调调参数。</p><h2 id="B，hexo-theme-Fomalhaut的配置失败经历">B，hexo-theme-Fomalhaut的配置失败经历</h2><p>打开hexo-theme-Fomalhaut文件夹里的配置文件，感觉一切都豁然开朗了；但是马上，我又发现参数实在是多而麻烦，傻傻的我只能硬着头皮找参数改参数。结果一次性改了太多参数，一次”hexo cl;hexo g;hexo s&quot;三连发下去，结果爆了上千行的错误代码，由于改的参数过多以至于找不到问题点，于是不得不重新克隆仓库，重新配置参数。不过，在已有参数基础上重新配置效率大大提升，损失也不算大。最后发现应该是页脚的设置矛盾导致的报错。</p><h2 id="C，vscode的搜索功能妙用">C，vscode的搜索功能妙用</h2><p>在改参数的过程中，我发现vscode的搜索功能非常实用，可以很快地在几千行代码中定位到我要修改的参数代码；另一方面，它还让我无意中找到了除了config.yml和config.butterfly.yml之外的另外两个重要的配置文件custom.css和fomal.js。这里面有很多我在前两个基础配置文件中找不到的参数，解决我很大的问题。</p><h2 id="D，音乐模块的探索">D，音乐模块的探索</h2><p>实际上，早在初中时期我就有写过一些日记和记录。日记的顶部会记录日期、时间、天气，以及我确定的“主题曲”。之前做完了shoka主题的群青广播之后，我突然发觉这个“主题曲”在blog上完全可以呈现出来！于是在大致完成了页面基本配置之后，我开始尝试着diy自己的post音乐设置。</p><p>主要实现方式还是借助aplayer的插件，这个插件可以直连网易云音乐等媒体的歌单/专辑/单曲/歌手，功能不算丰富，但对于我来说已经是绰绰有余。</p><p>不过最后我的post音乐处理办法是用post内置html代码，如下：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;1431292849&quot;</span> <span class="attr">data-volume</span>=<span class="string">&quot;0.4&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;false&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p>可以说，完全没有智能，我的水平也只能做到这样的简单操作hhh。不知道什么时候可以集成化，实现输入歌曲名可以直接链接歌曲这种操作。。</p><h2 id="E，评论系统的曲折">E，评论系统的曲折</h2><p>在shoka主题配置的过程中，我在配置基于valine云服务的评论系统多次碰壁，最后还没有成功，对此甚至产生了一定的畏惧心理。</p><p>所以，在解决其他所有问题之后，我从今天凌晨2点开始配置基于twikoo的评论系统，具体操作参考<a href="https://www.bilibili.com/video/BV1Re4y1H7g8/?spm_id_from=333.1391.0.0&amp;vd_source=0e7fe20268de6be7c02286670ff9f94e">b站视频</a>。</p><p>这里面需要注意的一点是，twikoo云服务的配置域名和我们blog的域名不能一样，<a href="http://xn--blogmail-vp1mv7cd5xpkax73bxrf5wh293al90fps7at70e.gunjo-radio-ii.cc">可以配置成blog的子域名例如mail.gunjo-radio-ii.cc</a>。因为这个错误，我至少浪费了半个小时的时间。</p><p>还有一个问题是versel的一部分ip可能被墙了；可以根据网上的教程找到可用的替代ip使得评论和网站部分功能能在墙内正常使用。</p><p>评论系统还有一个比较重要的部分是邮箱收发信息。难点在打开stmp邮箱云服务，不过我发现qq邮箱之类的邮箱设置里都有相关的功能服务开关，了解到这一点问题就不大了。</p><h2 id="F，markdown-font-matter的规范化">F，markdown font-matter的规范化</h2><p>大概做了一个markdown“头配置”的模板，以高效适应新一代群青广播II博客。</p><h2 id="G，一些未来可能可以做的更新">G，一些未来可能可以做的更新</h2><ul><li>[ ] live-2d角色的加入</li><li>[ ] 网站icon的定制优化</li><li>[ ] 网站本身的性能优化</li><li>[ ] 数据分析服务的引入【本来其实已经配置成功了ip和时间信息的设置，不知道为什么突然又不显示了…】</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂物 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> butterfly </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> 站点建设 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>1月22日research记录</title>
       <link href="/posts/fc954be3.html"/>
       <url>/posts/fc954be3.html</url>
@@ -50,6 +79,31 @@
             <tag> research </tag>
             
             <tag> optical fiber </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>markdown规范自用</title>
+      <link href="/posts/5f73ddd1.html"/>
+      <url>/posts/5f73ddd1.html</url>
+      
+        <content type="html"><![CDATA[<h1>Markdown的Front-matter范例：</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: markdown规范自用</span><br><span class="line">date: 2025-01-20 15:10:00</span><br><span class="line">updated: 2025-01-20 15:10:00</span><br><span class="line">tags:</span><br><span class="line"><span class="bullet">  -</span> Markdown</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 杂物</span><br><span class="line">description: Markdown的一些规范性整理，以便后面高效更新博客。</span><br><span class="line">top<span class="emphasis">_img: https://api.illlights.com/v1/img?rand=$&#123;Math.random()&#125;</span></span><br><span class="line"><span class="emphasis">comments: true #是否启用评论功能。</span></span><br><span class="line"><span class="emphasis">cover: https://api.illlights.com/v1/img?rand=$&#123;Math.random()&#125;</span></span><br><span class="line"><span class="emphasis">toc: true #是否在文章中显示目录。</span></span><br><span class="line"><span class="emphasis">toc_</span>number: true #目录项是否显示数字。</span><br><span class="line">toc<span class="emphasis">_style_</span>simple: false #目录的样式是否为简约风格。</span><br><span class="line"></span><br><span class="line">mathjax: true #是否启用MathJax，用于渲染数学公式。</span><br><span class="line">katex: #是否启用KaTeX，另一种数学公式渲染引擎。</span><br><span class="line"></span><br><span class="line">&lt;!-- aplayer: #配置APlayer音乐播放器的参数，包括音乐列表和播放器设置。</span><br><span class="line">  music:</span><br><span class="line"><span class="bullet">    -</span> id: 1431292849</span><br><span class="line"><span class="code">      server: netease</span></span><br><span class="line"><span class="code">      type: song</span></span><br><span class="line"><span class="code">      fixed: false</span></span><br><span class="line"><span class="code">      autoplay: true</span></span><br><span class="line"><span class="code">      lrcType: -1</span></span><br><span class="line"><span class="code">      volume: 0.4 --&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line">highlight<span class="emphasis">_shrink: false #代码块是否在页面加载时折叠。</span></span><br><span class="line"><span class="emphasis">aside: true #侧边栏是否显示</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">copyright: true</span></span><br><span class="line"><span class="emphasis">copyright_</span>author: yumenomajo</span><br><span class="line">copyright<span class="emphasis">_author_</span>href: gunjo-radio-ii.cc</span><br><span class="line">copyright<span class="emphasis">_url:</span></span><br><span class="line"><span class="emphasis">copyright_</span>info: 本文遵循[知识共享署名-相同方式共享 4.0 国际许可协议]</span><br><span class="line"></span><br><span class="line">sticky: 1 #文章是否置顶，数字越小，优先级越高。</span><br><span class="line"><span class="section">swiper<span class="emphasis">_index: 1 #文章在Swiper组件中的索引，Swiper是一个滑动组件。</span></span></span><br><span class="line"><span class="emphasis"><span class="section">---</span></span></span><br><span class="line"><span class="emphasis"><span class="section"></span></span></span><br><span class="line"><span class="emphasis"><span class="section"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;1431292849&quot;</span> <span class="attr">data-volume</span>=<span class="string">&quot;0.4&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;false&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="section"></span></span></span><br></pre></td></tr></table></figure><h1>插入音乐可能可以用上的：</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;1431292849&quot;</span> <span class="attr">data-volume</span>=<span class="string">&quot;0.4&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;false&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂物 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
             
         </tags>
       
@@ -412,60 +466,6 @@
           
       </categories>
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>1月20日群青广播更新小记</title>
-      <link href="/posts/4649bb35.html"/>
-      <url>/posts/4649bb35.html</url>
-      
-        <content type="html"><![CDATA[<h1>1，确定主题butterfly和参考材料fomal的小站</h1><p>群青广播II原本是基于shoka主题的blog，但是在配置shoka的过程中，由于缺乏系统的配置教程以及前人经验，我在配置过程中遇到了很多麻烦而且难以找到解决办法，以至于评论系统一直脱了两个月也没有完善。</p><p>后面，我在b站查询攻略的时候，找到了基于<a href="https://www.bilibili.com/video/BV1Zg4y1J7Dv/?spm_id_from=333.1387.top_right_bar_window_history.content.click&amp;vd_source=0e7fe20268de6be7c02286670ff9f94e">butterfly的blog搭建教学</a>和<a href="https://github.com/fomalhaut1998/hexo-theme-Fomalhaut">相关的开源配置</a>。考虑到butterfly较为系统和完善的工具，我还是选择放弃了之前的shoka主题，在寒假抽出大约四天的时间完成了群青广播II的重新构建与更新。</p><h1>2，更新的主要目标</h1><ul><li>[x] 完成评论系统</li><li>[x] 完成站内搜索系统</li><li>[x] 实现blog独立音乐效果</li><li>[x] UI的一些优化</li></ul><h1>3，更新过程简述</h1><h2 id="A，弯路-从零配置butterfly">A，弯路(从零配置butterfly)</h2><p>一开始，我是按着视频按部就班地下载并从零开始配置butterfly主题blog设置，但是中间遇到了比较多奇怪的问题让我很疑惑；做着做着发现，这个视频up主早已开源他的网站模板…于是开启了新路线————克隆他的github仓库让后自己调调参数。</p><h2 id="B，hexo-theme-Fomalhaut的配置失败经历">B，hexo-theme-Fomalhaut的配置失败经历</h2><p>打开hexo-theme-Fomalhaut文件夹里的配置文件，感觉一切都豁然开朗了；但是马上，我又发现参数实在是多而麻烦，傻傻的我只能硬着头皮找参数改参数。结果一次性改了太多参数，一次”hexo cl;hexo g;hexo s&quot;三连发下去，结果爆了上千行的错误代码，由于改的参数过多以至于找不到问题点，于是不得不重新克隆仓库，重新配置参数。不过，在已有参数基础上重新配置效率大大提升，损失也不算大。最后发现应该是页脚的设置矛盾导致的报错。</p><h2 id="C，vscode的搜索功能妙用">C，vscode的搜索功能妙用</h2><p>在改参数的过程中，我发现vscode的搜索功能非常实用，可以很快地在几千行代码中定位到我要修改的参数代码；另一方面，它还让我无意中找到了除了config.yml和config.butterfly.yml之外的另外两个重要的配置文件custom.css和fomal.js。这里面有很多我在前两个基础配置文件中找不到的参数，解决我很大的问题。</p><h2 id="D，音乐模块的探索">D，音乐模块的探索</h2><p>实际上，早在初中时期我就有写过一些日记和记录。日记的顶部会记录日期、时间、天气，以及我确定的“主题曲”。之前做完了shoka主题的群青广播之后，我突然发觉这个“主题曲”在blog上完全可以呈现出来！于是在大致完成了页面基本配置之后，我开始尝试着diy自己的post音乐设置。</p><p>主要实现方式还是借助aplayer的插件，这个插件可以直连网易云音乐等媒体的歌单/专辑/单曲/歌手，功能不算丰富，但对于我来说已经是绰绰有余。</p><p>不过最后我的post音乐处理办法是用post内置html代码，如下：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;1431292849&quot;</span> <span class="attr">data-volume</span>=<span class="string">&quot;0.4&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;false&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p>可以说，完全没有智能，我的水平也只能做到这样的简单操作hhh。不知道什么时候可以集成化，实现输入歌曲名可以直接链接歌曲这种操作。。</p><h2 id="E，评论系统的曲折">E，评论系统的曲折</h2><p>在shoka主题配置的过程中，我在配置基于valine云服务的评论系统多次碰壁，最后还没有成功，对此甚至产生了一定的畏惧心理。</p><p>所以，在解决其他所有问题之后，我从今天凌晨2点开始配置基于twikoo的评论系统，具体操作参考<a href="https://www.bilibili.com/video/BV1Re4y1H7g8/?spm_id_from=333.1391.0.0&amp;vd_source=0e7fe20268de6be7c02286670ff9f94e">b站视频</a>。</p><p>这里面需要注意的一点是，twikoo云服务的配置域名和我们blog的域名不能一样，<a href="http://xn--blogmail-vp1mv7cd5xpkax73bxrf5wh293al90fps7at70e.gunjo-radio-ii.cc">可以配置成blog的子域名例如mail.gunjo-radio-ii.cc</a>。因为这个错误，我至少浪费了半个小时的时间。</p><p>还有一个问题是versel的一部分ip可能被墙了；可以根据网上的教程找到可用的替代ip使得评论和网站部分功能能在墙内正常使用。</p><p>评论系统还有一个比较重要的部分是邮箱收发信息。难点在打开stmp邮箱云服务，不过我发现qq邮箱之类的邮箱设置里都有相关的功能服务开关，了解到这一点问题就不大了。</p><h2 id="F，markdown-font-matter的规范化">F，markdown font-matter的规范化</h2><p>大概做了一个markdown“头配置”的模板，以高效适应新一代群青广播II博客。</p><h2 id="G，一些未来可能可以做的更新">G，一些未来可能可以做的更新</h2><ul><li>[ ] live-2d角色的加入</li><li>[ ] 网站icon的定制优化</li><li>[ ] 网站本身的性能优化</li><li>[ ] 数据分析服务的引入【本来其实已经配置成功了ip和时间信息的设置，不知道为什么突然又不显示了…】</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 杂物 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> butterfly </tag>
-            
-            <tag> hexo </tag>
-            
-            <tag> 站点建设 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>markdown规范自用</title>
-      <link href="/posts/5f73ddd1.html"/>
-      <url>/posts/5f73ddd1.html</url>
-      
-        <content type="html"><![CDATA[<h1>Markdown的Front-matter范例：</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: markdown规范自用</span><br><span class="line">date: 2025-01-20 15:10:00</span><br><span class="line">updated: 2025-01-20 15:10:00</span><br><span class="line">tags:</span><br><span class="line"><span class="bullet">  -</span> Markdown</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> 杂物</span><br><span class="line">description: Markdown的一些规范性整理，以便后面高效更新博客。</span><br><span class="line">top<span class="emphasis">_img: https://api.illlights.com/v1/img?rand=$&#123;Math.random()&#125;</span></span><br><span class="line"><span class="emphasis">comments: true #是否启用评论功能。</span></span><br><span class="line"><span class="emphasis">cover: https://api.illlights.com/v1/img?rand=$&#123;Math.random()&#125;</span></span><br><span class="line"><span class="emphasis">toc: true #是否在文章中显示目录。</span></span><br><span class="line"><span class="emphasis">toc_</span>number: true #目录项是否显示数字。</span><br><span class="line">toc<span class="emphasis">_style_</span>simple: false #目录的样式是否为简约风格。</span><br><span class="line"></span><br><span class="line">mathjax: true #是否启用MathJax，用于渲染数学公式。</span><br><span class="line">katex: #是否启用KaTeX，另一种数学公式渲染引擎。</span><br><span class="line"></span><br><span class="line">&lt;!-- aplayer: #配置APlayer音乐播放器的参数，包括音乐列表和播放器设置。</span><br><span class="line">  music:</span><br><span class="line"><span class="bullet">    -</span> id: 1431292849</span><br><span class="line"><span class="code">      server: netease</span></span><br><span class="line"><span class="code">      type: song</span></span><br><span class="line"><span class="code">      fixed: false</span></span><br><span class="line"><span class="code">      autoplay: true</span></span><br><span class="line"><span class="code">      lrcType: -1</span></span><br><span class="line"><span class="code">      volume: 0.4 --&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line">highlight<span class="emphasis">_shrink: false #代码块是否在页面加载时折叠。</span></span><br><span class="line"><span class="emphasis">aside: true #侧边栏是否显示</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">copyright: true</span></span><br><span class="line"><span class="emphasis">copyright_</span>author: yumenomajo</span><br><span class="line">copyright<span class="emphasis">_author_</span>href: gunjo-radio-ii.cc</span><br><span class="line">copyright<span class="emphasis">_url:</span></span><br><span class="line"><span class="emphasis">copyright_</span>info: 本文遵循[知识共享署名-相同方式共享 4.0 国际许可协议]</span><br><span class="line"></span><br><span class="line">sticky: 1 #文章是否置顶，数字越小，优先级越高。</span><br><span class="line"><span class="section">swiper<span class="emphasis">_index: 1 #文章在Swiper组件中的索引，Swiper是一个滑动组件。</span></span></span><br><span class="line"><span class="emphasis"><span class="section">---</span></span></span><br><span class="line"><span class="emphasis"><span class="section"></span></span></span><br><span class="line"><span class="emphasis"><span class="section"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;1431292849&quot;</span> <span class="attr">data-volume</span>=<span class="string">&quot;0.4&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;false&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span></span></span><br><span class="line"><span class="emphasis"><span class="section"></span></span></span><br></pre></td></tr></table></figure><h1>插入音乐可能可以用上的：</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;1431292849&quot;</span> <span class="attr">data-volume</span>=<span class="string">&quot;0.4&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;false&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 杂物 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-        </tags>
       
     </entry>
     
