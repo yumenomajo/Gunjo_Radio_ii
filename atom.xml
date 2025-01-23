@@ -6,7 +6,7 @@
   <link href="https://gunjo-radio-ii.cc/atom.xml" rel="self"/>
   
   <link href="https://gunjo-radio-ii.cc/"/>
-  <updated>2025-01-22T13:05:25.714Z</updated>
+  <updated>2025-01-23T16:19:58.233Z</updated>
   <id>https://gunjo-radio-ii.cc/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025.1.23小记</title>
+    <link href="https://gunjo-radio-ii.cc/posts/b6036f1.html"/>
+    <id>https://gunjo-radio-ii.cc/posts/b6036f1.html</id>
+    <published>2025-01-23T12:32:53.000Z</published>
+    <updated>2025-01-23T16:19:58.233Z</updated>
+    
+    <content type="html"><![CDATA[<p>今日主题曲：<a href="https://music.163.com/song?id=26131720&amp;uct2=U2FsdGVkX1+mpGbVDhy4JP7JujV76Hy8o6j4Po4cSj8=">【深層森林-井内舞子】</a></p><div class="aplayer no-destroy" data-id="26131720" data-volume="0.4" data-server="netease" data-type="song" data-fixed="false" data-autoplay="true" data-lrcType="-1"> </div><p><strong>月色搅拌着薄雾，使无人的夜路感染了迷幻的色彩。</strong></p><h2 id="匆匆的早上">匆匆的早上</h2><p>本来要九点起床的我，醒来之后看见手机上显示着9：30。</p><h2 id="不公的判决">不公的判决</h2><p>中午回到宿舍，便看了一眼柯洁的酒罐直播，才没过多久裁判又把棋盘封了起来，令人惊愕而愤怒。</p><p>可悲的是，尽管裁判裁决不能服众，尽管所谓规则已经本末倒置，但是比赛结果似乎没有要“修正”的意味。仿佛在裁判和“规则”面前，一切民意都是笑话。而反过来，这场比赛也必然在人民中成为一个笑话。</p><h2 id="美赛的准备">美赛的准备</h2><p>好的，现在该开始准备以下美赛了。先看看往年O奖论文吧。</p><h3 id="摘要：">摘要：</h3><p>看了几个摘要，大概总结一下结构：</p><ol><li>背景信息</li><li>正文：针对什么问题提出了什么模型，结果如何？【具体参数、假设检验、鲁棒性】对于模型和结果最好用粗体标出。</li><li>敏感性分析</li><li>关键词</li></ol><h3 id="选题：">选题：</h3><p>重新看了一下去年的A题和C题，现在的我看来，去年的C题确实要比A题难不少。A题实际上是一个系统建模题，很多东西都是“主观”的系统构建，强调了讲好一个系统故事。而 C题则是有根有据，模型好不好很大程度上凭数据说话。本身又是一个时间序列的数据，这方面我确实还太缺乏练习了…</p><p>但不管怎么样，无论是选题还是做题还是要灵活应变吧，这一年积累了各种各样的奇怪经验，相信今年可以表现地比去年更好。</p><h2 id="不能长久的乐队">不能长久的乐队</h2><p>今天播出Ave mujica第四话，在我看来还是承接了前三集的精彩。Ave mujica的前四话总让我会想起海猫鸣泣之时，诸如人偶、演剧、以及中二的幻想台词的元素还是重合度过高。不仅如此，音乐也是相似的魔女风味。至于演出上，故事的戏剧性叠加上剧中剧的戏剧性，真是让人回味无穷。</p><p>不过，潜意识似乎意识到了一些潜在的炸雷危机。看看后续剧情还会如何推进前进吧。</p><p>再吐槽一下，为什么字幕会有红色和白色的区分啊，这真的不是所谓的<span style="color:red">【红字真实】</span>吗?</p>]]></content>
+    
+    
+    <summary type="html">美赛前夕。</summary>
+    
+    
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    
+    
+    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>2025.1.22小记</title>
@@ -499,32 +522,6 @@ f(x, y) = &#92;frac{x^3}{3} + &#92;frac{y^3}{3} + (x^2 - 2x - 3)&#92;s</summary>
 &lt;h2 id=&quot;3-4-1-分层抽样样本量确定一般公式&quot;&gt;3.4.1 分层抽样样本量确定一般公式&lt;/h2&gt;
 &lt;p&gt;令 $n_h = n w_h$，其中 $w_h$ 已经选定，于是当方差 $V$ 给定时，由 (3.4) 式&lt;/p&gt;
 </summary>
-      
-    
-    
-    
-    <category term="抽样调查" scheme="https://gunjo-radio-ii.cc/categories/%E6%8A%BD%E6%A0%B7%E8%B0%83%E6%9F%A5/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>分层抽样的分配方式</title>
-    <link href="https://gunjo-radio-ii.cc/posts/36986.html"/>
-    <id>https://gunjo-radio-ii.cc/posts/36986.html</id>
-    <published>2024-11-13T15:02:33.000Z</published>
-    <updated>2024-11-17T08:36:40.057Z</updated>
-    
-    <content type="html"><![CDATA[<hr><h2 id="3-3-2-比例分配">3.3.2 比例分配</h2><p>比例分配指的是按各层单元数占总单元数的比例，也就是按各层的层权进行分配。此时：</p><p>$$<br>\frac{n_h}{n} = \frac{N_h}{N} = W_h \text{ 或 } f_h = \frac{n_h}{N_h} = \frac{n}{N} = f<br>\tag{3.19}<br>$$</p><p>对于分层随机抽样，总体均值 $\overline{Y}$ 的估计为：</p><p>$$<br>\hat{\overline{Y}} = \overline{y}<em>{\text{prop}} = \sum</em>{h=1}^{L} W_h \overline{y}<em>h = \sum</em>{h=1}^{L} \frac{N_h}{N} \overline{y}<em>h = \sum</em>{h=1}^{L} \frac{n_h}{n} \sum_{i=1}^{n_h} \frac{y_{hi}}{n_h} = \frac{1}{n} \sum_{h=1}^{L} \sum_{i=1}^{n_h} y_{hi} = \frac{1}{n} \sum_{i=1}^{n} y_i = \overline{y}<br>\tag{3.20}<br>$$</p><p>其中，下标 <code>prop</code> 即 proportional（按比例）的缩写。</p><p>总体比例 $P$ 的估计为：</p><p>$$<br>\hat{P}=p_{\text{prop}} = p = \frac{1}{n} \sum_{h=1}^{L} a_h<br>\tag{3.21}<br>$$</p><p>这是因为总体中的任意一个单元，不管它在哪一层，都以同样的概率入样。因此按比例分配的分层随机抽样，估计量的形式特别简单。这种样本也称为自加权的样本。</p><p>$\overline{y}_{\text{prop}}$ 的方差为：</p><p>$$<br>V(\overline{y}<em>{\text{prop}}) = \sum</em>{h=1}^{L} W_h^2 V(\overline{y}<em>h) = \sum</em>{h=1}^{L} W_h \frac{n_h}{n} \frac{1-f_h}{n_h} S_h^2 = \frac{1-f}{n} \sum_{h=1}^{L} W_h S_h^2<br>\tag{3.22}<br>$$</p><p>$p_{\text{prop}}$ 的方差为：</p><p>$$<br>V(p_{\text{prop}}) = \frac{1-f}{Nn} \sum_{h=1}^{L} \frac{N_h^2 P_h Q_h}{N_h-1} \approx \frac{1-f}{n} \sum_{h=1}^{L} W_h P_h Q_h<br>\tag{3.23}<br>$$</p><hr><h2 id="3-3-3-最优分配">3.3.3 最优分配</h2><p>分层随机抽样，将样本量分配到各层，</p><p>条件：<span style="color:yellow">在总费用给定</span >，目标：<span style="color:red">估计量的方差达到最小</span ></p><p>条件：<span style="color:yellow">估计量方差给定</span >，目标：<span style="color:red">总费用最少</p><p>能满足这个条件的样本量分配就是<span style="color:purple">最优分配。</p><p>如果我们考虑简单线性费用函数，总费用为：</p><p>$$<br>C = c_0 + \sum_{h=1}^{L} c_h n_h,<br>\tag{3.24}<br>$$</p><p>则此时的最优分配是：</p><p>$$<br>\frac{n_h}{n} = \frac{W_h S_h}{\sqrt{c_h}} \Big/ \sum_{h=1}^{L} \frac{W_h S_h}{\sqrt{c_h}} = \frac{N_h S_h}{\sqrt{c_h}} \Big/ \sum_{h=1}^{L} \frac{N_h S_h}{\sqrt{c_h}}, \quad h = 1, 2, \dots, L.<br>\tag{3.25}<br>$$</p><p>由公式 (3.25) 可以看出，如果某一层单元数较多、内部差异较大、费用比较省，则对这一层的样本量要多分配一些。</p><hr><h2 id="3-3-4-奈曼分配">3.3.4 奈曼分配</h2><p>对于分层随机抽样，作为特例，如果每层抽样的费用相同，即 $c_h = c$ 时，最优分配可简化为</p><p>$$<br>n_h = n \frac{W_h S_h}{\sum_{h=1}^{L} W_h S_h} = n \frac{N_h S_h}{\sum_{h=1}^{L} N_h S_h}, \quad h = 1, 2, \dots, L.<br>\tag{3.26}<br>$$</p><p>这种分配称为奈曼（Neyman）分配。这时，$V(\overline{y}_{st})$ 达到最小：</p><p>$$<br>V_{\min}(\overline{y}<em>{st}) = \frac{1}{n} \left( \sum</em>{h=1}^{L} W_h S_h \right)^2 - \frac{1}{N} \sum_{h=1}^{L} W_h S_h^2.<br>\tag{3.27}<br>$$</p><hr>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;3-3-2-比例分配&quot;&gt;3.3.2 比例分配&lt;/h2&gt;
-&lt;p&gt;比例分配指的是按各层单元数占总单元数的比例，也就是按各层的层权进行分配。此时：&lt;/p&gt;
-&lt;p&gt;$$&lt;br&gt;
-&#92;frac{n_h}{n} = &#92;frac{N_h}{N} = W_h &#92;text{</summary>
       
     
     
