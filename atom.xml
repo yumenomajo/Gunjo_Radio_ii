@@ -6,7 +6,7 @@
   <link href="https://gunjo-radio-ii.cc/atom.xml" rel="self"/>
   
   <link href="https://gunjo-radio-ii.cc/"/>
-  <updated>2025-02-20T16:05:26.940Z</updated>
+  <updated>2025-02-20T16:07:46.343Z</updated>
   <id>https://gunjo-radio-ii.cc/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://gunjo-radio-ii.cc/posts/d1bf976f.html"/>
     <id>https://gunjo-radio-ii.cc/posts/d1bf976f.html</id>
     <published>2025-02-20T15:18:42.000Z</published>
-    <updated>2025-02-20T16:05:26.940Z</updated>
+    <updated>2025-02-20T16:07:46.343Z</updated>
     
-    <content type="html"><![CDATA[<p>今日主题曲：<a href="https://music.163.com/#/song?id=862098238">【Sparkle - RADWIMPS】</a></p><div class="aplayer no-destroy" data-id="862098238" data-volume="0.4" data-server="netease" data-type="song" data-fixed="false" data-autoplay="true" data-lrcType="-1"> </div><h2 id="大语言模型API调用探索">大语言模型API调用探索</h2><p>今天主要在研究大语言模型API的调用，选用Cherry Studio作为客户端（同时也用了Chatbox），测试了OpenAI的GPT-o1、4o以及硅基流动的DeepSeek R1和V3模型。</p><p>在测试过程中，发现DeepSeek R1在输出4096个token时会中断，需要在Cherry Studio中将<code>max_token</code>设置成16384才能正常输出长文本。然而，Chatbox中似乎没有找到相关设置选项，这个问题暂时还没解决。总体来看，DeepSeek的模型在中文语境下的表现还不错，尤其是在处理长文本时，效果比预期要好。</p><p><strong>意外发现：AI作画API</strong><br>在探索API的过程中，偶然发现了一个比较方便的AI作画API。试用了之后，发现它的作画质量明显高于两年前我本地部署的画图模型。虽然手还是画的一塌糊涂，但整体效果好像没有那么重的AI味了。这个API可能会成为我之后项目中一个有趣的工具。</p><h2 id="后续计划">后续计划</h2><ul><li><p><strong>API接入VSCode的Cursor</strong><br>计划将大语言模型的API接入VSCode的Cursor插件，方便在代码编辑过程中直接调用AI进行代码补全或问题解答。</p></li><li><p><strong>提示词工程与个性化助理</strong><br>接下来会深入研究提示词工程（Prompt Engineering），尝试通过优化提示词来提升模型输出的准确性和效率。同时，也希望能探索如何打造一个个性化的AI助理，能够根据我的需求和学习习惯提供定制化的服务。</p></li><li><p><strong>进一步测试AI作画API</strong><br>计划在周末详细测试AI作画API，看看它是否能满足我的项目需求，尤其是生成一些特定风格的图像。</p></li></ul><h2 id="小结">小结</h2><p>今天的探索还算顺利，虽然遇到了一些小问题，但也收获了不少新的知识和工具。接下来几天会继续深入这些方向，希望能有更多有趣的发现。</p>]]></content>
+    <content type="html"><![CDATA[<p>今日主题曲：<a href="https://music.163.com/#/song?id=862098238">【みずいろ -acoustic ver.- 佐藤ひろ美】</a></p><div class="aplayer no-destroy" data-id="862098238" data-volume="0.4" data-server="netease" data-type="song" data-fixed="false" data-autoplay="true" data-lrcType="-1"> </div><h2 id="大语言模型API调用探索">大语言模型API调用探索</h2><p>今天主要在研究大语言模型API的调用，选用Cherry Studio作为客户端（同时也用了Chatbox），测试了OpenAI的GPT-o1、4o以及硅基流动的DeepSeek R1和V3模型。</p><p>在测试过程中，发现DeepSeek R1在输出4096个token时会中断，需要在Cherry Studio中将<code>max_token</code>设置成16384才能正常输出长文本。然而，Chatbox中似乎没有找到相关设置选项，这个问题暂时还没解决。总体来看，DeepSeek的模型在中文语境下的表现还不错，尤其是在处理长文本时，效果比预期要好。</p><p><strong>意外发现：AI作画API</strong><br>在探索API的过程中，偶然发现了一个比较方便的AI作画API。试用了之后，发现它的作画质量明显高于两年前我本地部署的画图模型。虽然手还是画的一塌糊涂，但整体效果好像没有那么重的AI味了。这个API可能会成为我之后项目中一个有趣的工具。</p><h2 id="后续计划">后续计划</h2><ul><li><p><strong>API接入VSCode的Cursor</strong><br>计划将大语言模型的API接入VSCode的Cursor插件，方便在代码编辑过程中直接调用AI进行代码补全或问题解答。</p></li><li><p><strong>提示词工程与个性化助理</strong><br>接下来会深入研究提示词工程（Prompt Engineering），尝试通过优化提示词来提升模型输出的准确性和效率。同时，也希望能探索如何打造一个个性化的AI助理，能够根据我的需求和学习习惯提供定制化的服务。</p></li><li><p><strong>进一步测试AI作画API</strong><br>计划在周末详细测试AI作画API，看看它是否能满足我的项目需求，尤其是生成一些特定风格的图像。</p></li></ul><h2 id="小结">小结</h2><p>今天的探索还算顺利，虽然遇到了一些小问题，但也收获了不少新的知识和工具。接下来几天会继续深入这些方向，希望能有更多有趣的发现。</p>]]></content>
     
     
     <summary type="html">API调用尝试</summary>
@@ -106,9 +106,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     <category term="寒假" scheme="https://gunjo-radio-ii.cc/tags/%E5%AF%92%E5%81%87/"/>
     
@@ -154,9 +154,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
   </entry>
   
@@ -177,9 +177,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
   </entry>
   
@@ -200,9 +200,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
   </entry>
   
@@ -515,9 +515,9 @@ f(x, y) = &#92;frac{x^3}{3} + &#92;frac{y^3}{3} + (x^2 - 2x - 3)&#92;s</summary>
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
   </entry>
   
