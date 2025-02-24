@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><div id="myscoll"></div><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>凸函数的基本定义与性质 | 群青广播II📡</title><meta name="keywords" content="Statistics,Data Analysis,Machine Learning,Deep Learning,Python,Data Visualization,ACGN,Anime,Comic,Game,Novel,Music,Visual Novel"><meta name="author" content="yumenomajo🧙‍"><meta name="copyright" content="yumenomajo🧙‍"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="3. 凸函数 3.1.1 定义 函数 $f: R^n \to R$ 是凸的。 条件：  如果 $\text{dom} \ f$ 是凸集， 对于任意 $x, y \in \text{dom} \ f$ 且 $0 \leq \theta \leq 1$，有： $$ f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) \tag{3.1">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><div id="myscoll"></div><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>凸函数的基本定义与性质 | 群青广播II📡</title><meta name="keywords" content="Statistics,Data Analysis,Machine Learning,Deep Learning,Python,Data Visualization,ACGN,Anime,Comic,Game,Novel,Music,Visual Novel"><meta name="author" content="yumenomajo🧙‍"><meta name="copyright" content="yumenomajo🧙‍"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="3. 凸函数3.1.1 定义函数 $f: R^n \to R$ 是凸的。 条件： 如果 $\text{dom} \ f$ 是凸集， 对于任意 $x, y \in \text{dom} \ f$ 且 $0 \leq \theta \leq 1$，有： f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) \tag{3.1}  补充：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="凸函数的基本定义与性质">
 <meta property="og:url" content="https://gunjo-radio-ii.cc/posts/1096acc6.html">
 <meta property="og:site_name" content="群青广播II📡">
-<meta property="og:description" content="3. 凸函数 3.1.1 定义 函数 $f: R^n \to R$ 是凸的。 条件：  如果 $\text{dom} \ f$ 是凸集， 对于任意 $x, y \in \text{dom} \ f$ 且 $0 \leq \theta \leq 1$，有： $$ f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) \tag{3.1">
+<meta property="og:description" content="3. 凸函数3.1.1 定义函数 $f: R^n \to R$ 是凸的。 条件： 如果 $\text{dom} \ f$ 是凸集， 对于任意 $x, y \in \text{dom} \ f$ 且 $0 \leq \theta \leq 1$，有： f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) \tag{3.1}  补充：">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://gunjo-radio-ii.cc/images/cover.jpg">
 <meta property="article:published_time" content="2024-11-18T15:32:53.000Z">
@@ -146,245 +146,139 @@
       }
     }
     detectApple()
-    })(window)</script><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><style id="themeColor"></style><style id="rightSide"></style><style id="transPercent"></style><style id="blurNum"></style><style id="settingStyle"></style><span id="fps"></span><style id="defineBg"></style><style id="menu_shadow"></style><div class="aplayer no-destroy" data-id="9387575714" data-volume="0.4" data-server="netease" data-type="playlist" data-fixed="true"  data-autoplay="false" data-lrcType="-1"> </div><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="群青广播II📡" type="application/atom+xml">
-</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="wizard-scene"><div class="wizard-objects"><div class="wizard-square"></div><div class="wizard-circle"></div><div class="wizard-triangle"></div></div><div class="wizard"><div class="wizard-body"></div><div class="wizard-right-arm"><div class="wizard-right-hand"></div></div><div class="wizard-left-arm"><div class="wizard-left-hand"></div></div><div class="wizard-head"><div class="wizard-beard"></div><div class="wizard-face"><div class="wizard-adds"></div></div><div class="wizard-hat"><div class="wizard-hat-of-the-hat"></div><div class="wizard-four-point-star --first"></div><div class="wizard-four-point-star --second"></div><div class="wizard-four-point-star --third"></div></div></div></div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/avatar.jpg" onerror="onerror=null;src='/assets/r1.jpg'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">20</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">群青广播II📡</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div></div><center id="name-container"><a id="page-name" href="javascript:scrollToTop()">PAGE_NAME</a></center><div id="nav-right"><div id="search-button"><a class="search faa-parent animated-hover" title="检索站内任何你想要的信息"><svg class="faa-tada icon" style="height:24px;width:24px;fill:currentColor;position:relative;top:6px" aria-hidden="true"><use xlink:href="#icon-valentine_-search-love-find-heart"></use></svg><span> 搜索</span></a></div><a class="meihua faa-parent animated-hover" onclick="toggleWinbox()" title="美化设置-自定义你的风格" id="meihua-button"><svg class="faa-tada icon" style="height:26px;width:26px;fill:currentColor;position:relative;top:8px" aria-hidden="true"><use xlink:href="#icon-tupian1"></use></svg></a><a class="sun_moon faa-parent animated-hover" onclick="switchNightMode()" title="浅色和深色模式转换" id="nightmode-button"><svg class="faa-tada" style="height:25px;width:25px;fill:currentColor;position:relative;top:7px" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon">       </use></svg></a><div id="toggle-menu"><a><i class="fas fa-bars fa-fw"></i></a></div></div></div></nav><div id="post-info"><h1 class="post-title">凸函数的基本定义与性质<a class="post-edit-link" href="null_posts/最优化/凸函数.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><svg class="meta_icon post-meta-icon" style="width:30px;height:30px;position:relative;top:10px"><use xlink:href="#icon-rili"></use></svg><span class="post-meta-label">发表于 </span><time class="post-meta-date-created" datetime="2024-11-18T15:32:53.000Z" title="发表于 2024-11-18 23:32:53">2024-11-18</time><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-gengxin1"></use></svg><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-02-01T15:10:58.863Z" title="更新于 2025-02-01 23:10:58">2025-02-01</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-biaoqian"></use></svg><a class="post-meta-categories" href="/categories/%E6%9C%80%E4%BC%98%E5%8C%96/">最优化</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:8px"><use xlink:href="#icon-charuword"></use></svg><span class="post-meta-label">字数总计:</span><span class="word-count">3661</span><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:20px;height:20px;position:relative;top:5px"><use xlink:href="#icon-shizhong"></use></svg><span class="post-meta-label">阅读时长:</span><span>15分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="凸函数的基本定义与性质"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:5px"><use xlink:href="#icon-eye"></use></svg><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><hr>
-<h1>3. 凸函数</h1>
-<h3 id="3-1-1-定义">3.1.1 定义</h3>
-<p>函数 $f: R^n \to R$ 是凸的。</p>
-<h4 id="条件：">条件：</h4>
-<ol>
+    })(window)</script><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><style id="themeColor"></style><style id="rightSide"></style><style id="transPercent"></style><style id="blurNum"></style><style id="settingStyle"></style><span id="fps"></span><style id="defineBg"></style><style id="menu_shadow"></style><div class="aplayer no-destroy" data-id="9387575714" data-volume="0.4" data-server="netease" data-type="playlist" data-fixed="true"  data-autoplay="false" data-lrcType="-1"> </div><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="群青广播II📡" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="wizard-scene"><div class="wizard-objects"><div class="wizard-square"></div><div class="wizard-circle"></div><div class="wizard-triangle"></div></div><div class="wizard"><div class="wizard-body"></div><div class="wizard-right-arm"><div class="wizard-right-hand"></div></div><div class="wizard-left-arm"><div class="wizard-left-hand"></div></div><div class="wizard-head"><div class="wizard-beard"></div><div class="wizard-face"><div class="wizard-adds"></div></div><div class="wizard-hat"><div class="wizard-hat-of-the-hat"></div><div class="wizard-four-point-star --first"></div><div class="wizard-four-point-star --second"></div><div class="wizard-four-point-star --third"></div></div></div></div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/avatar.jpg" onerror="onerror=null;src='/assets/r1.jpg'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">20</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">群青广播II📡</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div></div><center id="name-container"><a id="page-name" href="javascript:scrollToTop()">PAGE_NAME</a></center><div id="nav-right"><div id="search-button"><a class="search faa-parent animated-hover" title="检索站内任何你想要的信息"><svg class="faa-tada icon" style="height:24px;width:24px;fill:currentColor;position:relative;top:6px" aria-hidden="true"><use xlink:href="#icon-valentine_-search-love-find-heart"></use></svg><span> 搜索</span></a></div><a class="meihua faa-parent animated-hover" onclick="toggleWinbox()" title="美化设置-自定义你的风格" id="meihua-button"><svg class="faa-tada icon" style="height:26px;width:26px;fill:currentColor;position:relative;top:8px" aria-hidden="true"><use xlink:href="#icon-tupian1"></use></svg></a><a class="sun_moon faa-parent animated-hover" onclick="switchNightMode()" title="浅色和深色模式转换" id="nightmode-button"><svg class="faa-tada" style="height:25px;width:25px;fill:currentColor;position:relative;top:7px" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon">       </use></svg></a><div id="toggle-menu"><a><i class="fas fa-bars fa-fw"></i></a></div></div></div></nav><div id="post-info"><h1 class="post-title">凸函数的基本定义与性质<a class="post-edit-link" href="null_posts/最优化/凸函数.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><svg class="meta_icon post-meta-icon" style="width:30px;height:30px;position:relative;top:10px"><use xlink:href="#icon-rili"></use></svg><span class="post-meta-label">发表于 </span><time class="post-meta-date-created" datetime="2024-11-18T15:32:53.000Z" title="发表于 2024-11-18 23:32:53">2024-11-18</time><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-gengxin1"></use></svg><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-02-01T15:10:58.863Z" title="更新于 2025-02-01 23:10:58">2025-02-01</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-biaoqian"></use></svg><a class="post-meta-categories" href="/categories/%E6%9C%80%E4%BC%98%E5%8C%96/">最优化</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:8px"><use xlink:href="#icon-charuword"></use></svg><span class="post-meta-label">字数总计:</span><span class="word-count">3655</span><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:20px;height:20px;position:relative;top:5px"><use xlink:href="#icon-shizhong"></use></svg><span class="post-meta-label">阅读时长:</span><span>15分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="凸函数的基本定义与性质"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:5px"><use xlink:href="#icon-eye"></use></svg><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><hr>
+<h1 id="3-凸函数"><a href="#3-凸函数" class="headerlink" title="3. 凸函数"></a>3. 凸函数</h1><h3 id="3-1-1-定义"><a href="#3-1-1-定义" class="headerlink" title="3.1.1 定义"></a>3.1.1 定义</h3><p>函数 $f: R^n \to R$ 是凸的。</p>
+<h4 id="条件："><a href="#条件：" class="headerlink" title="条件："></a>条件：</h4><ol>
 <li>如果 $\text{dom} \ f$ 是凸集，</li>
-<li>对于任意 $x, y \in \text{dom} \ f$ 且 $0 \leq \theta \leq 1$，有：<br>
-$$<br>
-f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) \tag{3.1}<br>
-$$</li>
+<li>对于任意 $x, y \in \text{dom} \ f$ 且 $0 \leq \theta \leq 1$，有：<script type="math/tex; mode=display">
+f(\theta x + (1-\theta)y) \leq \theta f(x) + (1-\theta)f(y) \tag{3.1}</script></li>
 </ol>
-<h4 id="补充：">补充：</h4>
-<ol>
-<li>当 $\leq$ 改为 $&lt;$ 时，$f$ 为严格凸函数</li>
-<li>定义 $f$ 为凹的，条件：$-f$ 为凸函数</li>
-<li>定义 $f$ 为严格凹的，条件：$-f$ 为严格凸函数</li>
-<li>某函数是仿射函数 $\iff$ 某函数既凸也凹</li>
+<h4 id="补充："><a href="#补充：" class="headerlink" title="补充："></a>补充：</h4><ol>
+<li>当 $\leq$ 改为 $&lt;$ 时，$f$ 为严格凸函数  </li>
+<li>定义 $f$ 为凹的，条件：$-f$ 为凸函数  </li>
+<li>定义 $f$ 为严格凹的，条件：$-f$ 为严格凸函数  </li>
+<li>某函数是仿射函数 $\iff$ 某函数既凸也凹  </li>
 <li>$f$ 是凸的 $\iff$ 任意 $x \in \text{dom} \ f$ 和任意向量 $v$，函数 $g(t) = f(x + tv)$ 是凸的（其定义域为 ${t | x + tv \in \text{dom} \ f}$）</li>
 </ol>
-<h3 id="3-1-2-扩展值延伸">3.1.2 扩展值延伸</h3>
-<h4 id="条件：-2">条件：</h4>
-<p>$$<br>
-\bar{f}(x) =<br>
-\begin{cases}<br>
-f(x) &amp; x \in \text{dom} \ f \\<br>
-\infty &amp; x \notin \text{dom} \ f<br>
-\end{cases}<br>
-$$</p>
-<h4 id="定义：-bar-f-R-n-to-R-cup-infty-对扩展值延伸。">定义：$\bar{f}: R^n \to R \cup {\infty}$ 对扩展值延伸。</h4>
-<ol>
+<h3 id="3-1-2-扩展值延伸"><a href="#3-1-2-扩展值延伸" class="headerlink" title="3.1.2 扩展值延伸"></a>3.1.2 扩展值延伸</h3><h4 id="条件：-1"><a href="#条件：-1" class="headerlink" title="条件："></a>条件：</h4><script type="math/tex; mode=display">
+\bar{f}(x) =
+\begin{cases}
+f(x) & x \in \text{dom} \ f \\\\
+\infty & x \notin \text{dom} \ f
+\end{cases}</script><h4 id="定义：-bar-f-R-n-to-R-cup-infty-对扩展值延伸。"><a href="#定义：-bar-f-R-n-to-R-cup-infty-对扩展值延伸。" class="headerlink" title="定义：$\bar{f}: R^n \to R \cup {\infty}$ 对扩展值延伸。"></a>定义：$\bar{f}: R^n \to R \cup {\infty}$ 对扩展值延伸。</h4><ol>
 <li>函数延伸由确定 $f$ 的定义域：$\text{dom} \ f = {x | \bar{f}(x) &lt; \infty}$。</li>
-<li>对于任意 $x$ 和 $y$，$0 &lt; \theta &lt; 1$，有：<br>
-$$<br>
-\bar{f}(\theta x + (1-\theta)y) \leq \theta \bar{f}(x) + (1-\theta)\bar{f}(y)<br>
-$$</li>
+<li>对于任意 $x$ 和 $y$，$0 &lt; \theta &lt; 1$，有：<script type="math/tex; mode=display">
+\bar{f}(\theta x + (1-\theta)y) \leq \theta \bar{f}(x) + (1-\theta)\bar{f}(y)</script></li>
 <li>同理可定义凹函数定义域外部为−∞对其进行延伸。</li>
 </ol>
-<h3 id="3-1-3-一阶条件：">3.1.3 一阶条件：</h3>
-<p><strong>大前提</strong>：在开集 $\text{dom} \ f$ 可微，<br>
-<strong>有性质</strong>：函数是凸函数 $\iff \text{dom} \ f$ 是凸集且任意 $x, y \in \text{dom} \ f$，下式成立：<br>
-$$<br>
-f(y) \geq f(x) + \nabla f(x)^T (y - x) \tag{3.2}<br>
-$$</p>
-<h4 id="补充：-2">补充：</h4>
-<ol>
-<li>
-<p><strong>全局下估计</strong>：<br>
-由 $f(x) + \nabla f(x)^T (y - x)$ 得出的仿射函数 $y$ 即为函数 $f$ 在点 $x$ 附近的 Taylor 近似。不等式 (3.2) 表明，对于一个凸函数，其一阶 Taylor 近似实际上是原函数的一个全局下估计。反之，如果某个函数的一阶 Taylor 近似总是其全局下估计，那么这个函数是凸的。</p>
-<p>不等式 (3.2) 说明从一个凸函数的局部信息（即它在某点处的函数值及导数），我们可以得到一些全局信息（如它的全局下估计）。这也许是凸函数的最重要的信息，因此对解释凸性函数以及凸优化问题的绝非常重要的性质。</p>
-<p><strong>示例</strong>：<br>
-下面是一个简单的例子，由不等式 (3.2) 可以知道，如果 $f(x)$ 在 $x_0$ 处对所有 $y \in \text{dom} \ f$，存在 $f(y) \geq f(x_0)$，即 $x_0$ 是函数 $f$ 的全局极小点。</p>
+<h3 id="3-1-3-一阶条件："><a href="#3-1-3-一阶条件：" class="headerlink" title="3.1.3 一阶条件："></a>3.1.3 一阶条件：</h3><p><strong>大前提</strong>：在开集 $\text{dom} \ f$ 可微，<br><strong>有性质</strong>：函数是凸函数 $\iff \text{dom} \ f$ 是凸集且任意 $x, y \in \text{dom} \ f$，下式成立：</p>
+<script type="math/tex; mode=display">
+f(y) \geq f(x) + \nabla f(x)^T (y - x) \tag{3.2}</script><h4 id="补充：-1"><a href="#补充：-1" class="headerlink" title="补充："></a>补充：</h4><ol>
+<li><p><strong>全局下估计</strong>：<br>由 $f(x) + \nabla f(x)^T (y - x)$ 得出的仿射函数 $y$ 即为函数 $f$ 在点 $x$ 附近的 Taylor 近似。不等式 (3.2) 表明，对于一个凸函数，其一阶 Taylor 近似实际上是原函数的一个全局下估计。反之，如果某个函数的一阶 Taylor 近似总是其全局下估计，那么这个函数是凸的。  </p>
+<p>不等式 (3.2) 说明从一个凸函数的局部信息（即它在某点处的函数值及导数），我们可以得到一些全局信息（如它的全局下估计）。这也许是凸函数的最重要的信息，因此对解释凸性函数以及凸优化问题的绝非常重要的性质。  </p>
+<p><strong>示例</strong>：<br>下面是一个简单的例子，由不等式 (3.2) 可以知道，如果 $f(x)$ 在 $x_0$ 处对所有 $y \in \text{dom} \ f$，存在 $f(y) \geq f(x_0)$，即 $x_0$ 是函数 $f$ 的全局极小点。</p>
 </li>
-<li>
-<p><strong>关于严格凸，凸函数的一阶条件</strong>：类似于定义中的做法。</p>
+<li><p><strong>关于严格凸，凸函数的一阶条件</strong>：类似于定义中的做法。</p>
 </li>
 </ol>
-<h4 id="图例：">图例：</h4>
-<p>原不等式的几何解释如下：</p>
+<h4 id="图例："><a href="#图例：" class="headerlink" title="图例："></a>图例：</h4><p>原不等式的几何解释如下：</p>
 <ul>
 <li>函数 $f(x)$ 是凸的 $\iff$ $f(x) + \nabla f(x)^T (y - x)$ 是函数值 $f(y)$ 的下估计。</li>
 </ul>
-<h3 id="一阶条件的证明：">一阶条件的证明：</h3>
-<p>为了证明式 (3.2)，先考虑 $n=1$ 的情况。我们证明可微函数 $f: R \to R$ 是凸函数的充要条件是对于 $\text{dom} \ f$ 内的任意 $x$ 和 $y$，有：<br>
-$$<br>
-f(y) \geq f(x) + f’(x)(y - x). \tag{3.4}<br>
-$$</p>
-<p>首先假设 $f$ 是凸函数，且 $x, y \in \text{dom} \ f$，因为 $\text{dom} \ f$ 是凸集（某个区间），对于任意 $0 &lt; t &lt; 1$，我们有 $z = x + t(y - x) \in \text{dom} \ f$，由函数 $f$ 的凸性可得：<br>
-$$<br>
-f(x + t(y - x)) \leq (1 - t)f(x) + tf(y).<br>
-$$</p>
-<p>将上述两端同除以 $t$ 可得：<br>
-$$<br>
-f(y) \geq f(x) + \frac{f(x + t(y - x)) - f(x)}{t}.<br>
-$$</p>
-<p>令 $t \to 0$，可以得到不等式 (3.4)。</p>
-<p>为了证明充分性，假设对于 $\text{dom} \ f$（某个区间）内的任意 $x$ 和 $y$，函数满足不等式 (3.4)。选择任意 $x \neq y$，$0 \leq \theta \leq 1$，令 $z = \theta x + (1 - \theta)y$。两次应用不等式 (3.4) 可得：<br>
-$$<br>
-f(x) \geq f(z) + f’(z)(x - z), \quad f(y) \geq f(z) + f’(z)(y - z).<br>
-$$</p>
-<p>将第一个不等式乘以 $\theta$，第二个不等式乘以 $1 - \theta$，并将二者相加可得：<br>
-$$<br>
-\theta f(x) + (1 - \theta)f(y) \geq f(z),<br>
-$$<br>
-从而说明了函数 $f$ 是凸的。</p>
+<h3 id="一阶条件的证明："><a href="#一阶条件的证明：" class="headerlink" title="一阶条件的证明："></a>一阶条件的证明：</h3><p>为了证明式 (3.2)，先考虑 $n=1$ 的情况。我们证明可微函数 $f: R \to R$ 是凸函数的充要条件是对于 $\text{dom} \ f$ 内的任意 $x$ 和 $y$，有：</p>
+<script type="math/tex; mode=display">
+f(y) \geq f(x) + f'(x)(y - x). \tag{3.4}</script><p>首先假设 $f$ 是凸函数，且 $x, y \in \text{dom} \ f$，因为 $\text{dom} \ f$ 是凸集（某个区间），对于任意 $0 &lt; t &lt; 1$，我们有 $z = x + t(y - x) \in \text{dom} \ f$，由函数 $f$ 的凸性可得：</p>
+<script type="math/tex; mode=display">
+f(x + t(y - x)) \leq (1 - t)f(x) + tf(y).</script><p>将上述两端同除以 $t$ 可得：</p>
+<script type="math/tex; mode=display">
+f(y) \geq f(x) + \frac{f(x + t(y - x)) - f(x)}{t}.</script><p>令 $t \to 0$，可以得到不等式 (3.4)。</p>
+<p>为了证明充分性，假设对于 $\text{dom} \ f$（某个区间）内的任意 $x$ 和 $y$，函数满足不等式 (3.4)。选择任意 $x \neq y$，$0 \leq \theta \leq 1$，令 $z = \theta x + (1 - \theta)y$。两次应用不等式 (3.4) 可得：</p>
+<script type="math/tex; mode=display">
+f(x) \geq f(z) + f'(z)(x - z), \quad f(y) \geq f(z) + f'(z)(y - z).</script><p>将第一个不等式乘以 $\theta$，第二个不等式乘以 $1 - \theta$，并将二者相加可得：</p>
+<script type="math/tex; mode=display">
+\theta f(x) + (1 - \theta)f(y) \geq f(z),</script><p>从而说明了函数 $f$ 是凸的。</p>
 <p>现在来证明一般情况，即 $f: R^n \to R$。设 $x, y \in R^n$，考虑过这两点的直线上的函数 $f$，即函数 $g(t) = f(ty + (1 - t)x)$，此函数对于 $t$ 求导可得 $g’(t) = \nabla f(ty + (1 - t)x)^T (y - x)$。</p>
-<p>首先假设函数 $f$ 是凸的，则函数 $g$ 是凸的，由前面的讨论可得 $g(1) \geq g(0) + g’(0)$，即：<br>
-$$<br>
-f(y) \geq f(x) + \nabla f(x)^T (y - x).<br>
-$$</p>
-<p>再假设此不等式对于任意 $x$ 和 $y$ 均成立，因此若 $\tilde{t}y + (1 - \tilde{t})x \in \text{dom} \ f$ 以及 $\tilde{t}y + (1 - \tilde{t})x \in \text{dom} \ f$，我们有：<br>
-$$<br>
-f(ty + (1 - t)x) \geq f(\tilde{t}y + (1 - \tilde{t})x) + \nabla f(\tilde{t}y + (1 - \tilde{t})x)^T (y - x)(t - \tilde{t}),<br>
-$$<br>
-即 $g(t) \geq g(\tilde{t}) + g’(\tilde{t})(t - \tilde{t})$，说明了函数 $g$ 是凸的。</p>
+<p>首先假设函数 $f$ 是凸的，则函数 $g$ 是凸的，由前面的讨论可得 $g(1) \geq g(0) + g’(0)$，即：</p>
+<script type="math/tex; mode=display">
+f(y) \geq f(x) + \nabla f(x)^T (y - x).</script><p>再假设此不等式对于任意 $x$ 和 $y$ 均成立，因此若 $\tilde{t}y + (1 - \tilde{t})x \in \text{dom} \ f$ 以及 $\tilde{t}y + (1 - \tilde{t})x \in \text{dom} \ f$，我们有：</p>
+<script type="math/tex; mode=display">
+f(ty + (1 - t)x) \geq f(\tilde{t}y + (1 - \tilde{t})x) + \nabla f(\tilde{t}y + (1 - \tilde{t})x)^T (y - x)(t - \tilde{t}),</script><p>即 $g(t) \geq g(\tilde{t}) + g’(\tilde{t})(t - \tilde{t})$，说明了函数 $g$ 是凸的。</p>
 <hr>
-<h3 id="个人思考：">个人思考：</h3>
-<ol>
+<h3 id="个人思考："><a href="#个人思考：" class="headerlink" title="个人思考："></a>个人思考：</h3><ol>
 <li>先考虑一元，在考虑 $n$【利用构造函数 $g(t) = f(ty + (1 - t)x)$ 化为 1 元情况】。</li>
 <li>利用凸函数定义取极限证明必要性。</li>
 <li>构造 $z$ 满足凸函数定义结构证明充分性。</li>
 </ol>
-<h3 id="3-1-4-二阶条件：">3.1.4 二阶条件：</h3>
-<p><strong>大前提</strong>：在开集 $\text{dom} \ f$ 上二阶可微，<br>
-<strong>有性质</strong>：函数是凸函数 $\iff$ 其 Hessian 矩阵为半正定矩阵 $\iff$ 对于所有 $x \in \text{dom} \ f$，有：<br>
-$$<br>
-\nabla^2 f(x) \succeq 0.<br>
-$$</p>
-<h4 id="补充：-3">补充：</h4>
-<p>严格凸函数、凹函数的二阶条件也是在不等号上做文章，类似可得。</p>
+<h3 id="3-1-4-二阶条件："><a href="#3-1-4-二阶条件：" class="headerlink" title="3.1.4 二阶条件："></a>3.1.4 二阶条件：</h3><p><strong>大前提</strong>：在开集 $\text{dom} \ f$ 上二阶可微，<br><strong>有性质</strong>：函数是凸函数 $\iff$ 其 Hessian 矩阵为半正定矩阵 $\iff$ 对于所有 $x \in \text{dom} \ f$，有：</p>
+<script type="math/tex; mode=display">
+\nabla^2 f(x) \succeq 0.</script><h4 id="补充：-2"><a href="#补充：-2" class="headerlink" title="补充："></a>补充：</h4><p>严格凸函数、凹函数的二阶条件也是在不等号上做文章，类似可得。</p>
 <hr>
-<h3 id="3-1-5-一些凸函数的例子：">3.1.5 一些凸函数的例子：</h3>
+<h3 id="3-1-5-一些凸函数的例子："><a href="#3-1-5-一些凸函数的例子：" class="headerlink" title="3.1.5 一些凸函数的例子："></a>3.1.5 一些凸函数的例子：</h3><ul>
+<li><strong>指数函数</strong>：对任意 $a \in \mathbb{R}$，函数 $e^{ax}$ 在 $\mathbb{R}$ 上是凸的。</li>
+<li><strong>幂函数</strong>：当 $a \geq 1$ 或 $a \leq 0$ 时，$x^a$ 在 $\mathbb{R}<em>{++}$ 上是凸函数；当 $0 &lt; a \leq 1$ 时，$x^a$ 在 $\mathbb{R}</em>{+}$ 上是凹函数。</li>
+<li><strong>绝对值幂函数</strong>：当 $p \geq 1$ 时，函数 $|x|^p$ 在 $\mathbb{R}$ 上是凸函数。</li>
+<li><strong>对数函数</strong>：函数 $\log x$ 在 $\mathbb{R}_{++}$ 上是凹函数。</li>
+<li><strong>负幂</strong>：函数 $x \mapsto \log x$ 在其定义域上是凸函数。（定义域为 $\mathbb{R}<em>{++}$ 或者 $\mathbb{R}</em>+$，当 $x = 0$ 时定义函数值为 $0$。）</li>
+</ul>
 <ul>
-<li>
-<p><strong>指数函数</strong>：对任意 $a \in \mathbb{R}$，函数 $e^{ax}$ 在 $\mathbb{R}$ 上是凸的。</p>
-</li>
-<li>
-<p><strong>幂函数</strong>：当 $a \geq 1$ 或 $a \leq 0$ 时，$x^a$ 在 $\mathbb{R}<em>{++}$ 上是凸函数；当 $0 &lt; a \leq 1$ 时，$x^a$ 在 $\mathbb{R}</em>{+}$ 上是凹函数。</p>
-</li>
-<li>
-<p><strong>绝对值幂函数</strong>：当 $p \geq 1$ 时，函数 $|x|^p$ 在 $\mathbb{R}$ 上是凸函数。</p>
-</li>
-<li>
-<p><strong>对数函数</strong>：函数 $\log x$ 在 $\mathbb{R}_{++}$ 上是凹函数。</p>
-</li>
-<li>
-<p><strong>负幂</strong>：函数 $x \mapsto \log x$ 在其定义域上是凸函数。（定义域为 $\mathbb{R}<em>{++}$ 或者 $\mathbb{R}</em>+$，当 $x = 0$ 时定义函数值为 $0$。）</p>
-</li>
-<li>
-<p><strong>范数</strong>：$\mathbb{R}^n$ 上的任意范数均为凸函数。</p>
-</li>
-<li>
-<p><strong>最大值函数</strong>：函数 $f(x) = \max{x_1, \cdots, x_n}$ 在 $\mathbb{R}^n$ 上是凸的。</p>
-</li>
-<li>
-<p><strong>二次-线性分式函数</strong>：函数 $f(x, y) = x^2 / y$，其定义域为<br>
-$$<br>
-\text{dom} \ f = \mathbb{R} \times \mathbb{R}_{++} = {(x, y) \in \mathbb{R}^2 \ | \ y &gt; 0},<br>
-$$<br>
-是凸函数（如图 3.3 所示）。</p>
-</li>
-<li>
-<p><strong>指数和的对数</strong>：函数 $f(x) = \log(e^{x_1} + \cdots + e^{x_n})$ 在 $\mathbb{R}^n$ 上是凸函数。这个函数可以看成最大值函数的可微（实际上是解析）近似，因为对任意 $x$，下面的不等式成立：<br>
-$$<br>
-\max{x_1, \cdots, x_n} \leq f(x) \leq \max{x_1, \cdots, x_n} + \log n.<br>
-$$<br>
-（当 $x$ 的所有分量都相等时取等号。）</p>
-</li>
-<li>
-<p><strong>几何平均</strong>：几何平均函数<br>
-$$<br>
-f(x) = \left(\prod_{i=1}^n x_i\right)^{1/n}<br>
-$$<br>
-在定义域 $\text{dom} \ f = \mathbb{R}_{++}$ 上是凹函数。</p>
-</li>
-<li>
-<p><strong>对数-行列式</strong>：函数 $f(X) = \log \det X$ 在定义域 $\text{dom} \ f = \mathbb{S}_{++}^n$ 上是凹函数。</p>
-</li>
+<li><strong>范数</strong>：$\mathbb{R}^n$ 上的任意范数均为凸函数。</li>
+<li><strong>最大值函数</strong>：函数 $f(x) = \max{x_1, \cdots, x_n}$ 在 $\mathbb{R}^n$ 上是凸的。</li>
+<li><strong>二次-线性分式函数</strong>：函数 $f(x, y) = x^2 / y$，其定义域为<script type="math/tex; mode=display">
+ \text{dom} \ f = \mathbb{R} \times \mathbb{R}_{++} = \{(x, y) \in \mathbb{R}^2 \ | \ y > 0\},</script> 是凸函数（如图 3.3 所示）。</li>
+<li><strong>指数和的对数</strong>：函数 $f(x) = \log(e^{x_1} + \cdots + e^{x_n})$ 在 $\mathbb{R}^n$ 上是凸函数。这个函数可以看成最大值函数的可微（实际上是解析）近似，因为对任意 $x$，下面的不等式成立：<script type="math/tex; mode=display">
+ \max\{x_1, \cdots, x_n\} \leq f(x) \leq \max\{x_1, \cdots, x_n\} + \log n.</script> （当 $x$ 的所有分量都相等时取等号。）</li>
+<li><strong>几何平均</strong>：几何平均函数<script type="math/tex; mode=display">
+ f(x) = \left(\prod_{i=1}^n x_i\right)^{1/n}</script> 在定义域 $\text{dom} \ f = \mathbb{R}_{++}$ 上是凹函数。</li>
+<li><strong>对数-行列式</strong>：函数 $f(X) = \log \det X$ 在定义域 $\text{dom} \ f = \mathbb{S}_{++}^n$ 上是凹函数。</li>
 </ul>
 <hr>
-<h3 id="相关证明">相关证明</h3>
-<h3 id="范数">范数</h3>
-<p>如果函数 $f : \mathbb{R}^n \to \mathbb{R}$ 是范数，任取 $0 \leq \theta \leq 1$，有：<br>
-$$<br>
-f(\theta x + (1 - \theta)y) \leq f(\theta x) + f((1 - \theta)y) = \theta f(x) + (1 - \theta)f(y).<br>
-$$<br>
-上述不等式可以由三角不等式得到，当范数满足齐次性时，上述不等式取等号。</p>
-<h3 id="最大值函数">最大值函数</h3>
-<p>对任意 $0 \leq \theta \leq 1$，函数 $f(x) = \max x_i$ 满足：<br>
-$$<br>
-f(\theta x + (1 - \theta)y) = \max(\theta x_i + (1 - \theta)y_i) \leq \theta \max x_i + (1 - \theta) \max y_i = \theta f(x) + (1 - \theta)f(y).<br>
-$$</p>
-<h3 id="二次-线性分式函数">二次-线性分式函数</h3>
-<h1>为了说明二次-线性分式函数 $f(x, y) = x^2 / y$ 是凸的，我们注意到，对于 $y &gt; 0$，有：<br>
-$$<br>
-\nabla^2 f(x, y) =<br>
-\frac{2}{y^3}<br>
-\begin{bmatrix}<br>
-y^2 &amp; -xy \\<br>
--xy &amp; x^2<br>
-\end{bmatrix}</h1>
-<p>\frac{2}{y^3}<br>
-\begin{bmatrix}<br>
-y \\<br>
--x<br>
-\end{bmatrix}<br>
-\begin{bmatrix}<br>
-y &amp; -x<br>
-\end{bmatrix}<br>
-\succeq 0.<br>
-$$</p>
-<h3 id="指数和的对数">指数和的对数</h3>
-<p>指数和的对数函数的 Hessian 矩阵为：<br>
-$$<br>
-\nabla^2 f(x) = \frac{1}{(1^T z)^2} \left((1^T z) \text{diag}(z) - zz^T \right),<br>
-$$<br>
-其中 $z = (e^{x_1}, \cdots, e^{x_n})$。为了说明 $\nabla^2 f(x) \succeq 0$，我们证明对任意向量 $v$，有 $v^T \nabla^2 f(x) v \geq 0$，即：<br>
-$$<br>
-v^T \nabla^2 f(x) v = \frac{1}{(1^T z)^2} \left(\left(\sum_{i=1}^n v_i^2 z_i\right)\left(\sum_{i=1}^n z_i\right) - \left(\sum_{i=1}^n v_i z_i\right)^2\right) \geq 0.<br>
-$$<br>
-上述不等式可以应用 Cauchy-Schwarz 不等式 $a^T a \cdot b^T b \geq (a^T b)^2$ 得到，此时向量 $a$ 和 $b$ 的分量为 $a_i = v_i \sqrt{z_i}$，$b_i = \sqrt{z_i}$。</p>
-<h3 id="几何平均">几何平均</h3>
-<p>类似地，我们说明，几何平均函数 $f(x) = \left(\prod_{i=1}^n x_i\right)^{1/n}$ 在定义域 $\text{dom} \ f = \mathbb{R}<em>{++}$ 上是凹的。其 Hessian 矩阵 $\nabla^2 f(x)$ 可以通过下面两个公式给出：<br>
-$$<br>
-\frac{\partial^2 f(x)}{\partial x_k^2} = -\frac{(n-1)\left(\prod</em>{i=1}^n x_i\right)^{1/n}}{n^2 x_k^2}, \quad \frac{\partial^2 f(x)}{\partial x_k \partial x_l} = \frac{\left(\prod_{i=1}^n x_i\right)^{1/n}}{n^2 x_k x_l} \quad (k \neq l).<br>
-$$</p>
-<p>因此 $\nabla^2 f(x)$ 具有如下表达式：<br>
-$$<br>
-\nabla^2 f(x) = \frac{\prod_{i=1}^n x_i^{1/n}}{n^2} \left(n \ \text{diag}\left(1/x_1^2, \cdots, 1/x_n^2\right) - qq^T\right),<br>
-$$<br>
-其中 $q_i = 1/x_i$。我们只需要证明 $\nabla^2 f(x) \preceq 0$，即对于任意向量 $v$，有：<br>
-$$<br>
-v^T \nabla^2 f(x) v = \frac{\prod_{i=1}^n x_i^{1/n}}{n^2} \left(n \sum_{i=1}^n \frac{v_i^2}{x_i^2} - \left(\sum_{i=1}^n \frac{v_i}{x_i}\right)^2\right) \leq 0.<br>
-$$</p>
-<p>这样可以应用 Cauchy-Schwarz 不等式 $(a^T a)(b^T b) \geq (a^T b)^2$ 得到，只需令向量 $a = 1$，向量 $b_i = v_i / x_i$。</p>
-<h3 id="对数-行列式">对数-行列式</h3>
-<p>对于函数 $f(X) = \log \det X$，我们可以将其转化为任意直线上单变量函数来验证它是凹的。令 $X = Z + tV$，其中 $Z, V \in \mathbb{S}^n$，定义 $g(t) = f(Z + tV)$，自变量 $t$ 满足 $Z + tV \succ 0$。不失一般性，假设 $t = 0$ 满足条件，即 $Z \succ 0$。我们有：<br>
-$$<br>
-g(t) = \log \det(Z + tV) = \log \det(Z^{1/2}(I + tZ^{-1/2}VZ^{-1/2})Z^{1/2}),<br>
-$$<br>
-$$<br>
-= \sum_{i=1}^n \log(1 + t\lambda_i) + \log \det Z,<br>
-$$<br>
-其中 $\lambda_1, \cdots, \lambda_n$ 是矩阵 $Z^{-1/2}VZ^{-1/2}$ 的特征值。</p>
-<p>因此下式成立：<br>
-$$<br>
-g’(t) = \sum_{i=1}^n \frac{\lambda_i}{1 + t\lambda_i}, \quad g’'(t) = -\sum_{i=1}^n \frac{\lambda_i^2}{(1 + t\lambda_i)^2}.<br>
-$$</p>
-<p>因为 $g’'(t) \leq 0$，函数 $g$ 是凹的。</p>
+<h3 id="相关证明"><a href="#相关证明" class="headerlink" title="相关证明"></a>相关证明</h3><h3 id="范数"><a href="#范数" class="headerlink" title="范数"></a>范数</h3><p>如果函数 $f : \mathbb{R}^n \to \mathbb{R}$ 是范数，任取 $0 \leq \theta \leq 1$，有：</p>
+<script type="math/tex; mode=display">
+f(\theta x + (1 - \theta)y) \leq f(\theta x) + f((1 - \theta)y) = \theta f(x) + (1 - \theta)f(y).</script><p>上述不等式可以由三角不等式得到，当范数满足齐次性时，上述不等式取等号。</p>
+<h3 id="最大值函数"><a href="#最大值函数" class="headerlink" title="最大值函数"></a>最大值函数</h3><p>对任意 $0 \leq \theta \leq 1$，函数 $f(x) = \max x_i$ 满足：</p>
+<script type="math/tex; mode=display">
+f(\theta x + (1 - \theta)y) = \max(\theta x_i + (1 - \theta)y_i) \leq \theta \max x_i + (1 - \theta) \max y_i = \theta f(x) + (1 - \theta)f(y).</script><h3 id="二次-线性分式函数"><a href="#二次-线性分式函数" class="headerlink" title="二次-线性分式函数"></a>二次-线性分式函数</h3><p>为了说明二次-线性分式函数 $f(x, y) = x^2 / y$ 是凸的，我们注意到，对于 $y &gt; 0$，有：</p>
+<script type="math/tex; mode=display">
+\nabla^2 f(x, y) =
+\frac{2}{y^3}
+\begin{bmatrix}
+y^2 & -xy \\\\
+-xy & x^2
+\end{bmatrix}
+=
+\frac{2}{y^3}
+\begin{bmatrix}
+y \\\\
+-x
+\end{bmatrix}
+\begin{bmatrix}
+y & -x
+\end{bmatrix}
+\succeq 0.</script><h3 id="指数和的对数"><a href="#指数和的对数" class="headerlink" title="指数和的对数"></a>指数和的对数</h3><p>指数和的对数函数的 Hessian 矩阵为：</p>
+<script type="math/tex; mode=display">
+\nabla^2 f(x) = \frac{1}{(1^T z)^2} \left((1^T z) \text{diag}(z) - zz^T \right),</script><p>其中 $z = (e^{x_1}, \cdots, e^{x_n})$。为了说明 $\nabla^2 f(x) \succeq 0$，我们证明对任意向量 $v$，有 $v^T \nabla^2 f(x) v \geq 0$，即：</p>
+<script type="math/tex; mode=display">
+v^T \nabla^2 f(x) v = \frac{1}{(1^T z)^2} \left(\left(\sum_{i=1}^n v_i^2 z_i\right)\left(\sum_{i=1}^n z_i\right) - \left(\sum_{i=1}^n v_i z_i\right)^2\right) \geq 0.</script><p>上述不等式可以应用 Cauchy-Schwarz 不等式 $a^T a \cdot b^T b \geq (a^T b)^2$ 得到，此时向量 $a$ 和 $b$ 的分量为 $a_i = v_i \sqrt{z_i}$，$b_i = \sqrt{z_i}$。</p>
+<h3 id="几何平均"><a href="#几何平均" class="headerlink" title="几何平均"></a>几何平均</h3><p>类似地，我们说明，几何平均函数 $f(x) = \left(\prod<em>{i=1}^n x_i\right)^{1/n}$ 在定义域 $\text{dom} \ f = \mathbb{R}</em>{++}$ 上是凹的。其 Hessian 矩阵 $\nabla^2 f(x)$ 可以通过下面两个公式给出：</p>
+<script type="math/tex; mode=display">
+\frac{\partial^2 f(x)}{\partial x_k^2} = -\frac{(n-1)\left(\prod_{i=1}^n x_i\right)^{1/n}}{n^2 x_k^2}, \quad \frac{\partial^2 f(x)}{\partial x_k \partial x_l} = \frac{\left(\prod_{i=1}^n x_i\right)^{1/n}}{n^2 x_k x_l} \quad (k \neq l).</script><p>因此 $\nabla^2 f(x)$ 具有如下表达式：</p>
+<script type="math/tex; mode=display">
+\nabla^2 f(x) = \frac{\prod_{i=1}^n x_i^{1/n}}{n^2} \left(n \ \text{diag}\left(1/x_1^2, \cdots, 1/x_n^2\right) - qq^T\right),</script><p>其中 $q_i = 1/x_i$。我们只需要证明 $\nabla^2 f(x) \preceq 0$，即对于任意向量 $v$，有：</p>
+<script type="math/tex; mode=display">
+v^T \nabla^2 f(x) v = \frac{\prod_{i=1}^n x_i^{1/n}}{n^2} \left(n \sum_{i=1}^n \frac{v_i^2}{x_i^2} - \left(\sum_{i=1}^n \frac{v_i}{x_i}\right)^2\right) \leq 0.</script><p>这样可以应用 Cauchy-Schwarz 不等式 $(a^T a)(b^T b) \geq (a^T b)^2$ 得到，只需令向量 $a = 1$，向量 $b_i = v_i / x_i$。</p>
+<h3 id="对数-行列式"><a href="#对数-行列式" class="headerlink" title="对数-行列式"></a>对数-行列式</h3><p>对于函数 $f(X) = \log \det X$，我们可以将其转化为任意直线上单变量函数来验证它是凹的。令 $X = Z + tV$，其中 $Z, V \in \mathbb{S}^n$，定义 $g(t) = f(Z + tV)$，自变量 $t$ 满足 $Z + tV \succ 0$。不失一般性，假设 $t = 0$ 满足条件，即 $Z \succ 0$。我们有：</p>
+<script type="math/tex; mode=display">
+g(t) = \log \det(Z + tV) = \log \det(Z^{1/2}(I + tZ^{-1/2}VZ^{-1/2})Z^{1/2}),</script><script type="math/tex; mode=display">
+= \sum_{i=1}^n \log(1 + t\lambda_i) + \log \det Z,</script><p>其中 $\lambda_1, \cdots, \lambda_n$ 是矩阵 $Z^{-1/2}VZ^{-1/2}$ 的特征值。</p>
+<p>因此下式成立：</p>
+<script type="math/tex; mode=display">
+g'(t) = \sum_{i=1}^n \frac{\lambda_i}{1 + t\lambda_i}, \quad g''(t) = -\sum_{i=1}^n \frac{\lambda_i^2}{(1 + t\lambda_i)^2}.</script><p>因为 $g’’(t) \leq 0$，函数 $g$ 是凹的。</p>
 <hr>
-<h3 id="3-1-6-下水平集">3.1.6 下水平集</h3>
-<p>函数 $f : \mathbb{R}^n \to \mathbb{R}$ 的 $\alpha$-下水平集定义为：<br>
-$$<br>
-C_\alpha = {x \in \text{dom} \ f \ | \ f(x) \leq \alpha}.<br>
-$$</p>
-<p>对于任意 $\alpha$ 值，凸函数的下水平集仍然是凸集。</p>
-<h4 id="证明：">证明：</h4>
-<p>由定义得：如果 $x, y \in C_\alpha$，则有 $f(x) \leq \alpha, f(y) \leq \alpha$，</p>
+<h3 id="3-1-6-下水平集"><a href="#3-1-6-下水平集" class="headerlink" title="3.1.6 下水平集"></a>3.1.6 下水平集</h3><p>函数 $f : \mathbb{R}^n \to \mathbb{R}$ 的 $\alpha$-下水平集定义为：</p>
+<script type="math/tex; mode=display">
+C_\alpha = \{x \in \text{dom} \ f \ | \ f(x) \leq \alpha\}.</script><p>对于任意 $\alpha$ 值，凸函数的下水平集仍然是凸集。</p>
+<h4 id="证明："><a href="#证明：" class="headerlink" title="证明："></a>证明：</h4><p>由定义得：如果 $x, y \in C_\alpha$，则有 $f(x) \leq \alpha, f(y) \leq \alpha$，</p>
 <p>因此对于任意 $0 \leq \theta \leq 1$，有 $f(\theta x + (1 - \theta)y) \leq \alpha$，</p>
 <p>即 $\theta x + (1 - \theta)y \in C_\alpha$。</p>
 <hr>
@@ -393,93 +287,52 @@ $$</p>
 <p>如果 $-f$ 是凸函数，则由 ${x \in \text{dom} \ f \ | \ f(x) &gt; \alpha}$ 定义的 $\alpha$-上水平集也是凸集。</p>
 <p>下水平集的性质可以用来判断集合的凸性，若某个集合可以描述为一个凸函数的下水平集，或者一个凹函数的上水平集，则其是凸集。</p>
 <hr>
-<h3 id="3-1-7-上镜图">3.1.7 上镜图</h3>
-<p>函数 $f : \mathbb{R}^n \to \mathbb{R}$ 的图像定义为：<br>
-$$<br>
-{(x, f(x)) \ | \ x \in \text{dom} \ f},<br>
-$$<br>
-它是 $\mathbb{R}^{n+1}$ 空间的一个子集。</p>
-<p>函数 $f : \mathbb{R}^n \to \mathbb{R}$ 的上镜图定义为：<br>
-$$<br>
-\text{epi} \ f = {(x, t) \ | \ x \in \text{dom} \ f, \ f(x) \leq t}.<br>
-$$<br>
-它也是 $\mathbb{R}^{n+1}$ 空间的一个子集。（“Epi”是“之上的”意思，所以上镜图的英文 epigraph 是“在函数图像之上”的意思。）</p>
+<h3 id="3-1-7-上镜图"><a href="#3-1-7-上镜图" class="headerlink" title="3.1.7 上镜图"></a>3.1.7 上镜图</h3><p>函数 $f : \mathbb{R}^n \to \mathbb{R}$ 的图像定义为：</p>
+<script type="math/tex; mode=display">
+\{(x, f(x)) \ | \ x \in \text{dom} \ f\},</script><p>它是 $\mathbb{R}^{n+1}$ 空间的一个子集。</p>
+<p>函数 $f : \mathbb{R}^n \to \mathbb{R}$ 的上镜图定义为：</p>
+<script type="math/tex; mode=display">
+\text{epi} \ f = \{(x, t) \ | \ x \in \text{dom} \ f, \ f(x) \leq t\}.</script><p>它也是 $\mathbb{R}^{n+1}$ 空间的一个子集。（“Epi”是“之上的”意思，所以上镜图的英文 epigraph 是“在函数图像之上”的意思。）</p>
 <hr>
 <p>凸集和凸函数的联系可以通过上掩图来建立：</p>
 <ol>
 <li>一个函数是凸函数，当且仅当其上掩图是凸集。</li>
-<li>一个函数是凹函数，当且仅当其下掩图<br>
-$$<br>
-\text{hypo} \ f = {(x, t) \ | \ t \geq f(x)},<br>
-$$<br>
-是凸集。</li>
+<li>一个函数是凹函数，当且仅当其下掩图<script type="math/tex; mode=display">
+\text{hypo} \ f = \{(x, t) \ | \ t \geq f(x)\},</script>是凸集。</li>
 </ol>
-<h3 id="3-1-8-Jensen-不等式及其扩展">3.1.8 Jensen 不等式及其扩展</h3>
-<h4 id="基本不等式">基本不等式</h4>
-<p>$$<br>
-f(\theta x + (1 - \theta)y) \leq \theta f(x) + (1 - \theta)f(y),<br>
-$$<br>
-称作 Jensen 不等式。</p>
+<h3 id="3-1-8-Jensen-不等式及其扩展"><a href="#3-1-8-Jensen-不等式及其扩展" class="headerlink" title="3.1.8 Jensen 不等式及其扩展"></a>3.1.8 Jensen 不等式及其扩展</h3><h4 id="基本不等式"><a href="#基本不等式" class="headerlink" title="基本不等式"></a>基本不等式</h4><script type="math/tex; mode=display">
+f(\theta x + (1 - \theta)y) \leq \theta f(x) + (1 - \theta)f(y),</script><p>称作 Jensen 不等式。</p>
 <p>可以很方便地扩展至更多点的凸组合：</p>
-<p>如果函数 $f$ 是凸函数，$x_1, x_2, \cdots, x_k \in \text{dom} \ f$，$\theta_1, \cdots, \theta_k \geq 0$ 且 $\theta_1 + \cdots + \theta_k = 1$，则下式成立：<br>
-$$<br>
-f(\theta_1 x_1 + \cdots + \theta_k x_k) \leq \theta_1 f(x_1) + \cdots + \theta_k f(x_k).<br>
-$$</p>
-<p>考虑凸集时，此不等式可以扩展至积分项和期望。</p>
-<p>例如，如果在 $S \subseteq \text{dom} \ f$ 上 $p(x) \geq 0$ 且 $\int_S p(x) , dx = 1$，则当相应的积分均存在时，下式成立：<br>
-$$<br>
-f\left(\int_S p(x)x , dx\right) \leq \int_S f(x)p(x) , dx.<br>
-$$</p>
-<h4 id="概率情形的扩展">概率情形的扩展</h4>
-<p>扩展到更一般的情况，我们可以采用其支撑属于 $\text{dom} \ f$ 的任意概率测度。</p>
-<p>如果 $x$ 是随机变量，事件 $x \in \text{dom} \ f$ 发生的概率为 $1$，函数 $f$ 是凸函数，且期望存在时，我们有：<br>
-$$<br>
-f(\mathbb{E}x) \leq \mathbb{E}f(x). \tag{3.5}<br>
-$$</p>
-<p>设随机变量 $x$ 的可能取值为 ${x_1, x_2}$，相应地取值概率为 $\text{prob}(x = x_1) = \theta$，$\text{prob}(x = x_2) = 1 - \theta$，则一般形式 (3.5) 可以得到基本不等式 (3.1)。所以不等式 (3.5) 可以刻画出：如果函数 $f$ 不是凸函数，那么存在随机变量 $x, x \in \text{dom} \ f$，以概率 $1$ 发生，使得 $f(\mathbb{E}x) \geq \mathbb{E}f(x)$。</p>
+<p>如果函数 $f$ 是凸函数，$x_1, x_2, \cdots, x_k \in \text{dom} \ f$，$\theta_1, \cdots, \theta_k \geq 0$ 且 $\theta_1 + \cdots + \theta_k = 1$，则下式成立：</p>
+<script type="math/tex; mode=display">
+f(\theta_1 x_1 + \cdots + \theta_k x_k) \leq \theta_1 f(x_1) + \cdots + \theta_k f(x_k).</script><p>考虑凸集时，此不等式可以扩展至积分项和期望。</p>
+<p>例如，如果在 $S \subseteq \text{dom} \ f$ 上 $p(x) \geq 0$ 且 $\int_S p(x) \, dx = 1$，则当相应的积分均存在时，下式成立：</p>
+<script type="math/tex; mode=display">
+f\left(\int_S p(x)x \, dx\right) \leq \int_S f(x)p(x) \, dx.</script><h4 id="概率情形的扩展"><a href="#概率情形的扩展" class="headerlink" title="概率情形的扩展"></a>概率情形的扩展</h4><p>扩展到更一般的情况，我们可以采用其支撑属于 $\text{dom} \ f$ 的任意概率测度。</p>
+<p>如果 $x$ 是随机变量，事件 $x \in \text{dom} \ f$ 发生的概率为 $1$，函数 $f$ 是凸函数，且期望存在时，我们有：</p>
+<script type="math/tex; mode=display">
+f(\mathbb{E}x) \leq \mathbb{E}f(x). \tag{3.5}</script><p>设随机变量 $x$ 的可能取值为 ${x_1, x_2}$，相应地取值概率为 $\text{prob}(x = x_1) = \theta$，$\text{prob}(x = x_2) = 1 - \theta$，则一般形式 (3.5) 可以得到基本不等式 (3.1)。所以不等式 (3.5) 可以刻画出：如果函数 $f$ 不是凸函数，那么存在随机变量 $x, x \in \text{dom} \ f$，以概率 $1$ 发生，使得 $f(\mathbb{E}x) \geq \mathbb{E}f(x)$。</p>
 <p>上述所有不等式均称为 Jensen 不等式。</p>
-<h3 id="3-1-9-不等式">3.1.9 不等式</h3>
-<ol>
-<li>
-<p>考虑算术-几何平均不等式：<br>
-$$<br>
-\sqrt{ab} \leq \frac{a + b}{2}, \tag{3.6}<br>
-$$<br>
-其中 $a, b &gt; 0$。我们可以利用凸性和 Jensen 不等式得到此不等式。函数 $-\log x$ 是凸函数：利用 Jensen 不等式，令 $\theta = 1/2$，可得：<br>
-$$<br>
--\log\left(\frac{a + b}{2}\right) \leq -\frac{\log a + \log b}{2}.<br>
-$$<br>
-等式两边取指数即可得到式 (3.6)。</p>
+<h3 id="3-1-9-不等式"><a href="#3-1-9-不等式" class="headerlink" title="3.1.9 不等式"></a>3.1.9 不等式</h3><ol>
+<li><p>考虑算术-几何平均不等式：</p>
+<script type="math/tex; mode=display">
+\sqrt{ab} \leq \frac{a + b}{2}, \tag{3.6}</script><p>其中 $a, b &gt; 0$。我们可以利用凸性和 Jensen 不等式得到此不等式。函数 $-\log x$ 是凸函数：利用 Jensen 不等式，令 $\theta = 1/2$，可得：</p>
+<script type="math/tex; mode=display">
+-\log\left(\frac{a + b}{2}\right) \leq -\frac{\log a + \log b}{2}.</script><p>等式两边取指数即可得到式 (3.6)。</p>
 </li>
-<li>
-<p>我们来证明 Hölder 不等式：对 $p &gt; 1$，$1/p + 1/q = 1$，以及 $x, y \in \mathbb{R}^n$，有：<br>
-$$<br>
-\sum_{i=1}^n x_i y_i \leq \left(\sum_{i=1}^n |x_i|^p\right)^{1/p} \left(\sum_{i=1}^n |y_i|^q\right)^{1/q}.<br>
-$$</p>
-</li>
+<li><p>我们来证明 Hölder 不等式：对 $p &gt; 1$，$1/p + 1/q = 1$，以及 $x, y \in \mathbb{R}^n$，有：</p>
+<script type="math/tex; mode=display">
+\sum_{i=1}^n x_i y_i \leq \left(\sum_{i=1}^n |x_i|^p\right)^{1/p} \left(\sum_{i=1}^n |y_i|^q\right)^{1/q}.</script></li>
 </ol>
-<p>由于 $-\log x$ 的凸性以及 Jensen 不等式，我们可以得到更为一般的算术-几何平均不等式：<br>
-$$<br>
-a^\theta b^{1-\theta} \leq \theta a + (1 - \theta)b,<br>
-$$<br>
-其中 $a, b &gt; 0, 0 \leq \theta \leq 1$。令：<br>
-$$<br>
-a = \frac{|x_i|^p}{\sum_{j=1}^n |x_j|^p}, \quad b = \frac{|y_i|^q}{\sum_{j=1}^n |y_j|^q}, \quad \theta = 1/p,<br>
-$$<br>
-可以得到如下不等式：<br>
-$$<br>
-\left(\frac{|x_i|^p}{\sum_{j=1}^n |x_j|^p}\right)^{1/p} \left(\frac{|y_i|^q}{\sum_{j=1}^n |y_j|^q}\right)^{1/q}<br>
-\leq \frac{|x_i|^p}{p \sum_{j=1}^n |x_j|^p} + \frac{|y_i|^q}{q \sum_{j=1}^n |y_j|^q}.<br>
-$$</p>
-<p>对 $i$ 进行求和可以得到 Hölder 不等式。</p>
-</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>凸函数的基本定义与性质</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="https://gunjo-radio-ii.cc/posts/1096acc6.html">https://gunjo-radio-ii.cc/posts/1096acc6.html</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>yumenomajo🧙‍</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2024-11-18</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2025-02-01</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/55657.html"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">概率论-绪论-基本定义-引理</div></div></a></div><div class="next-post pull-right"><a href="/posts/c8d88d26.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">分层抽样的抽样方法</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><svg class="meta_icon" style="width:22px;height:22px;position:relative;top:5px"><use xlink:href="#icon-mulu1"></use></svg><span style="font-weight:bold">目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">3. 凸函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-1-%E5%AE%9A%E4%B9%89"><span class="toc-text">3.1.1 定义</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%EF%BC%9A"><span class="toc-text">条件：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%EF%BC%9A"><span class="toc-text">补充：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-2-%E6%89%A9%E5%B1%95%E5%80%BC%E5%BB%B6%E4%BC%B8"><span class="toc-text">3.1.2 扩展值延伸</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%EF%BC%9A-2"><span class="toc-text">条件：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89%EF%BC%9A-bar-f-R-n-to-R-cup-infty-%E5%AF%B9%E6%89%A9%E5%B1%95%E5%80%BC%E5%BB%B6%E4%BC%B8%E3%80%82"><span class="toc-text">定义：$\bar{f}: R^n \to R \cup {\infty}$ 对扩展值延伸。</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-3-%E4%B8%80%E9%98%B6%E6%9D%A1%E4%BB%B6%EF%BC%9A"><span class="toc-text">3.1.3 一阶条件：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%EF%BC%9A-2"><span class="toc-text">补充：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%BE%E4%BE%8B%EF%BC%9A"><span class="toc-text">图例：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E9%98%B6%E6%9D%A1%E4%BB%B6%E7%9A%84%E8%AF%81%E6%98%8E%EF%BC%9A"><span class="toc-text">一阶条件的证明：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83%EF%BC%9A"><span class="toc-text">个人思考：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-4-%E4%BA%8C%E9%98%B6%E6%9D%A1%E4%BB%B6%EF%BC%9A"><span class="toc-text">3.1.4 二阶条件：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%EF%BC%9A-3"><span class="toc-text">补充：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-5-%E4%B8%80%E4%BA%9B%E5%87%B8%E5%87%BD%E6%95%B0%E7%9A%84%E4%BE%8B%E5%AD%90%EF%BC%9A"><span class="toc-text">3.1.5 一些凸函数的例子：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E8%AF%81%E6%98%8E"><span class="toc-text">相关证明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8C%83%E6%95%B0"><span class="toc-text">范数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%A4%A7%E5%80%BC%E5%87%BD%E6%95%B0"><span class="toc-text">最大值函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E6%AC%A1-%E7%BA%BF%E6%80%A7%E5%88%86%E5%BC%8F%E5%87%BD%E6%95%B0"><span class="toc-text">二次-线性分式函数</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">为了说明二次-线性分式函数 $f(x, y) &#x3D; x^2 &#x2F; y$ 是凸的，我们注意到，对于 $y &gt; 0$，有：
-$$
-\nabla^2 f(x, y) &#x3D;
-\frac{2}{y^3}
-\begin{bmatrix}
-y^2 &amp; -xy \\
--xy &amp; x^2
-\end{bmatrix}</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%87%E6%95%B0%E5%92%8C%E7%9A%84%E5%AF%B9%E6%95%B0"><span class="toc-text">指数和的对数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%A0%E4%BD%95%E5%B9%B3%E5%9D%87"><span class="toc-text">几何平均</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E6%95%B0-%E8%A1%8C%E5%88%97%E5%BC%8F"><span class="toc-text">对数-行列式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-6-%E4%B8%8B%E6%B0%B4%E5%B9%B3%E9%9B%86"><span class="toc-text">3.1.6 下水平集</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%EF%BC%9A"><span class="toc-text">证明：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-7-%E4%B8%8A%E9%95%9C%E5%9B%BE"><span class="toc-text">3.1.7 上镜图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-8-Jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%8F%8A%E5%85%B6%E6%89%A9%E5%B1%95"><span class="toc-text">3.1.8 Jensen 不等式及其扩展</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-text">基本不等式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A6%82%E7%8E%87%E6%83%85%E5%BD%A2%E7%9A%84%E6%89%A9%E5%B1%95"><span class="toc-text">概率情形的扩展</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-9-%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-text">3.1.9 不等式</span></a></li></ol></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background-color: transparent;"><div id="footer-wrap"><div id="ft"><div class="ft-item-1"><div class="t-top"><div class="t-t-l"><p class="ft-t t-l-t">空气动力之诗🌌</p><div class="bg-ad"><div>我们的情人，不过是随便借个名字，用幻想吹出来的肥皂泡。把信拿去吧，你可以使假戏成真。我本来是无病呻吟，漫无目的地吐露爱情……现在这些漂泊不定的鸟儿有地方栖息了你可以从信里看出来——拿去吧！——由于不是出自真心，话就说得格外动听。——拿去吧，就这么办！✨</div><div class="btn-xz-box"><a class="btn-xz" target="_blank" rel="noopener" href="https://www.bilibili.com/bangumi/play/ss5045?spm_id_from=333.337.0.0">点击开启星辰之旅</a></div></div></div><div class="t-t-r"><p class="ft-t t-l-t">猜你想看💡</p><ul class="ft-links"><li><a href="/categories/群青广播/">群青广播</a><a href="/comments/">留点什么</a></li><li><a href="/about/">关于作者</a><a href="/archives/">文章归档</a></li><li><a href="/categories/">文章分类</a><a href="/tags/">文章标签</a></li><li><a target="_blank" rel="noopener" href="https://www.fomal.cc/posts/eec9786.html">建站参考</a><a target="_blank" rel="noopener" href="https://www.acgbox.link">二次元导航</a></li></ul></div></div></div><div class="ft-item-2"><p class="ft-t">推荐友链⌛</p><div class="ft-img-group"><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div></div></div></div><div class="copyright"><span><b>&copy;2024-2025</b></span><span><b>&nbsp;&nbsp;By yumenomajo🧙‍</b></span></div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" title="博客框架为Hexo_v6.3.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Frame-Hexo-blue.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" title="主题版本Butterfly_v4.3.1"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Theme-Butterfly-6513df.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" title="本站采用多线部署，主线路托管于Vercel"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Hosted-Vercel-brightgreen.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" title="本网站源码由Github提供存储仓库"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src=" https://sourcebucket.s3.ladydaily.com/badge/Source-Github-d021d6.svg" alt=""/></a></p></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button><button class="share" type="button" title="右键模式" onclick="changeMouseMode()"><i class="fas fa-mouse"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog right_side"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button class="share" type="button" title="分享链接" onclick="share()"><i class="fas fa-share-nodes"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i><span id="percent">0<span>%</span></span></button><button id="go-down" type="button" title="直达底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div class="js-pjax" id="rightMenu"><div class="rightMenu-group rightMenu-small"><a class="rightMenu-item" href="javascript:window.history.back();"><i class="fa fa-arrow-left"></i></a><a class="rightMenu-item" href="javascript:window.history.forward();"><i class="fa fa-arrow-right"></i></a><a class="rightMenu-item" href="javascript:window.location.reload();"><i class="fa fa-refresh"></i></a><a class="rightMenu-item" href="javascript:rmf.scrollToTop();"><i class="fa fa-arrow-up"></i></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-text"><a class="rightMenu-item" href="javascript:rmf.copySelect();"><i class="fa fa-copy"></i><span>复制</span></a><a class="rightMenu-item" href="javascript:window.open(&quot;https://www.baidu.com/s?wd=&quot;+window.getSelection().toString());window.location.reload();"><i class="fa fa-search"></i><span>百度搜索</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-too"><a class="rightMenu-item" href="javascript:window.open(window.getSelection().toString());window.location.reload();"><i class="fa fa-link"></i><span>转到链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-paste"><a class="rightMenu-item" href="javascript:rmf.paste()"><i class="fa fa-copy"></i><span>粘贴</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-post"><a class="rightMenu-item" href="#post-comment"><i class="fas fa-comment"></i><span>空降评论</span></a><a class="rightMenu-item" href="javascript:rmf.copyWordsLink()"><i class="fa fa-link"></i><span>复制本文地址</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-to"><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>新窗口打开</span></a><a class="rightMenu-item" id="menu-too" href="javascript:rmf.open()"><i class="fa fa-link"></i><span>转到链接</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-img"><a class="rightMenu-item" href="javascript:rmf.saveAs()"><i class="fa fa-download"></i><span>保存图片</span></a><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>在新窗口打开</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制图片链接</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:randomPost()"><i class="fa fa-paper-plane"></i><span>随便逛逛</span></a><a class="rightMenu-item" href="javascript:switchNightMode();"><i class="fa fa-moon"></i><span>昼夜切换</span></a><a class="rightMenu-item" href="/personal/about/"><i class="fa fa-info-circle"></i><span>关于博客</span></a><a class="rightMenu-item" href="javascript:toggleWinbox();"><i class="fas fa-cog"></i><span>美化设置</span></a><a class="rightMenu-item" href="javascript:rmf.fullScreen();"><i class="fas fa-expand"></i><span>切换全屏</span></a><a class="rightMenu-item" href="javascript:window.print();"><i class="fa-solid fa-print"></i><span>打印页面</span></a></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.umd.min.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js" type="module"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><script async="async">var preloader = {
+<p>由于 $-\log x$ 的凸性以及 Jensen 不等式，我们可以得到更为一般的算术-几何平均不等式：</p>
+<script type="math/tex; mode=display">
+a^\theta b^{1-\theta} \leq \theta a + (1 - \theta)b,</script><p>其中 $a, b &gt; 0, 0 \leq \theta \leq 1$。令：</p>
+<script type="math/tex; mode=display">
+a = \frac{|x_i|^p}{\sum_{j=1}^n |x_j|^p}, \quad b = \frac{|y_i|^q}{\sum_{j=1}^n |y_j|^q}, \quad \theta = 1/p,</script><p>可以得到如下不等式：</p>
+<script type="math/tex; mode=display">
+\left(\frac{|x_i|^p}{\sum_{j=1}^n |x_j|^p}\right)^{1/p} \left(\frac{|y_i|^q}{\sum_{j=1}^n |y_j|^q}\right)^{1/q}
+\leq \frac{|x_i|^p}{p \sum_{j=1}^n |x_j|^p} + \frac{|y_i|^q}{q \sum_{j=1}^n |y_j|^q}.</script><p>对 $i$ 进行求和可以得到 Hölder 不等式。</p>
+</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>凸函数的基本定义与性质</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="https://gunjo-radio-ii.cc/posts/1096acc6.html">https://gunjo-radio-ii.cc/posts/1096acc6.html</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>yumenomajo🧙‍</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2024-11-18</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2025-02-01</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/55657.html"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">概率论-绪论-基本定义-引理</div></div></a></div><div class="next-post pull-right"><a href="/posts/c8d88d26.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">分层抽样的抽样方法</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><svg class="meta_icon" style="width:22px;height:22px;position:relative;top:5px"><use xlink:href="#icon-mulu1"></use></svg><span style="font-weight:bold">目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E5%87%B8%E5%87%BD%E6%95%B0"><span class="toc-text">3. 凸函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-1-%E5%AE%9A%E4%B9%89"><span class="toc-text">3.1.1 定义</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%EF%BC%9A"><span class="toc-text">条件：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%EF%BC%9A"><span class="toc-text">补充：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-2-%E6%89%A9%E5%B1%95%E5%80%BC%E5%BB%B6%E4%BC%B8"><span class="toc-text">3.1.2 扩展值延伸</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%EF%BC%9A-1"><span class="toc-text">条件：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89%EF%BC%9A-bar-f-R-n-to-R-cup-infty-%E5%AF%B9%E6%89%A9%E5%B1%95%E5%80%BC%E5%BB%B6%E4%BC%B8%E3%80%82"><span class="toc-text">定义：$\bar{f}: R^n \to R \cup {\infty}$ 对扩展值延伸。</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-3-%E4%B8%80%E9%98%B6%E6%9D%A1%E4%BB%B6%EF%BC%9A"><span class="toc-text">3.1.3 一阶条件：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%EF%BC%9A-1"><span class="toc-text">补充：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%BE%E4%BE%8B%EF%BC%9A"><span class="toc-text">图例：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E9%98%B6%E6%9D%A1%E4%BB%B6%E7%9A%84%E8%AF%81%E6%98%8E%EF%BC%9A"><span class="toc-text">一阶条件的证明：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83%EF%BC%9A"><span class="toc-text">个人思考：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-4-%E4%BA%8C%E9%98%B6%E6%9D%A1%E4%BB%B6%EF%BC%9A"><span class="toc-text">3.1.4 二阶条件：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%A5%E5%85%85%EF%BC%9A-2"><span class="toc-text">补充：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-5-%E4%B8%80%E4%BA%9B%E5%87%B8%E5%87%BD%E6%95%B0%E7%9A%84%E4%BE%8B%E5%AD%90%EF%BC%9A"><span class="toc-text">3.1.5 一些凸函数的例子：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E8%AF%81%E6%98%8E"><span class="toc-text">相关证明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8C%83%E6%95%B0"><span class="toc-text">范数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%A4%A7%E5%80%BC%E5%87%BD%E6%95%B0"><span class="toc-text">最大值函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E6%AC%A1-%E7%BA%BF%E6%80%A7%E5%88%86%E5%BC%8F%E5%87%BD%E6%95%B0"><span class="toc-text">二次-线性分式函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%87%E6%95%B0%E5%92%8C%E7%9A%84%E5%AF%B9%E6%95%B0"><span class="toc-text">指数和的对数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%A0%E4%BD%95%E5%B9%B3%E5%9D%87"><span class="toc-text">几何平均</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E6%95%B0-%E8%A1%8C%E5%88%97%E5%BC%8F"><span class="toc-text">对数-行列式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-6-%E4%B8%8B%E6%B0%B4%E5%B9%B3%E9%9B%86"><span class="toc-text">3.1.6 下水平集</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%EF%BC%9A"><span class="toc-text">证明：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-7-%E4%B8%8A%E9%95%9C%E5%9B%BE"><span class="toc-text">3.1.7 上镜图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-8-Jensen-%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%8F%8A%E5%85%B6%E6%89%A9%E5%B1%95"><span class="toc-text">3.1.8 Jensen 不等式及其扩展</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-text">基本不等式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A6%82%E7%8E%87%E6%83%85%E5%BD%A2%E7%9A%84%E6%89%A9%E5%B1%95"><span class="toc-text">概率情形的扩展</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-9-%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-text">3.1.9 不等式</span></a></li></ol></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background-color: transparent;"><div id="footer-wrap"><div id="ft"><div class="ft-item-1"><div class="t-top"><div class="t-t-l"><p class="ft-t t-l-t">空气动力之诗🌌</p><div class="bg-ad"><div>我们的情人，不过是随便借个名字，用幻想吹出来的肥皂泡。把信拿去吧，你可以使假戏成真。我本来是无病呻吟，漫无目的地吐露爱情……现在这些漂泊不定的鸟儿有地方栖息了你可以从信里看出来——拿去吧！——由于不是出自真心，话就说得格外动听。——拿去吧，就这么办！✨</div><div class="btn-xz-box"><a class="btn-xz" target="_blank" rel="noopener" href="https://www.bilibili.com/bangumi/play/ss5045?spm_id_from=333.337.0.0">点击开启星辰之旅</a></div></div></div><div class="t-t-r"><p class="ft-t t-l-t">猜你想看💡</p><ul class="ft-links"><li><a href="/categories/群青广播/">群青广播</a><a href="/comments/">留点什么</a></li><li><a href="/about/">关于作者</a><a href="/archives/">文章归档</a></li><li><a href="/categories/">文章分类</a><a href="/tags/">文章标签</a></li><li><a target="_blank" rel="noopener" href="https://www.fomal.cc/posts/eec9786.html">建站参考</a><a target="_blank" rel="noopener" href="https://www.acgbox.link">二次元导航</a></li></ul></div></div></div><div class="ft-item-2"><p class="ft-t">推荐友链⌛</p><div class="ft-img-group"><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div></div></div></div><div class="copyright"><span><b>&copy;2024-2025</b></span><span><b>&nbsp;&nbsp;By yumenomajo🧙‍</b></span></div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" title="博客框架为Hexo_v6.3.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Frame-Hexo-blue.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" title="主题版本Butterfly_v4.3.1"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Theme-Butterfly-6513df.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" title="本站采用多线部署，主线路托管于Vercel"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Hosted-Vercel-brightgreen.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" title="本网站源码由Github提供存储仓库"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src=" https://sourcebucket.s3.ladydaily.com/badge/Source-Github-d021d6.svg" alt=""/></a></p></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button><button class="share" type="button" title="右键模式" onclick="changeMouseMode()"><i class="fas fa-mouse"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog right_side"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button class="share" type="button" title="分享链接" onclick="share()"><i class="fas fa-share-nodes"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i><span id="percent">0<span>%</span></span></button><button id="go-down" type="button" title="直达底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div class="js-pjax" id="rightMenu"><div class="rightMenu-group rightMenu-small"><a class="rightMenu-item" href="javascript:window.history.back();"><i class="fa fa-arrow-left"></i></a><a class="rightMenu-item" href="javascript:window.history.forward();"><i class="fa fa-arrow-right"></i></a><a class="rightMenu-item" href="javascript:window.location.reload();"><i class="fa fa-refresh"></i></a><a class="rightMenu-item" href="javascript:rmf.scrollToTop();"><i class="fa fa-arrow-up"></i></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-text"><a class="rightMenu-item" href="javascript:rmf.copySelect();"><i class="fa fa-copy"></i><span>复制</span></a><a class="rightMenu-item" href="javascript:window.open(&quot;https://www.baidu.com/s?wd=&quot;+window.getSelection().toString());window.location.reload();"><i class="fa fa-search"></i><span>百度搜索</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-too"><a class="rightMenu-item" href="javascript:window.open(window.getSelection().toString());window.location.reload();"><i class="fa fa-link"></i><span>转到链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-paste"><a class="rightMenu-item" href="javascript:rmf.paste()"><i class="fa fa-copy"></i><span>粘贴</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-post"><a class="rightMenu-item" href="#post-comment"><i class="fas fa-comment"></i><span>空降评论</span></a><a class="rightMenu-item" href="javascript:rmf.copyWordsLink()"><i class="fa fa-link"></i><span>复制本文地址</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-to"><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>新窗口打开</span></a><a class="rightMenu-item" id="menu-too" href="javascript:rmf.open()"><i class="fa fa-link"></i><span>转到链接</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-img"><a class="rightMenu-item" href="javascript:rmf.saveAs()"><i class="fa fa-download"></i><span>保存图片</span></a><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>在新窗口打开</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制图片链接</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:randomPost()"><i class="fa fa-paper-plane"></i><span>随便逛逛</span></a><a class="rightMenu-item" href="javascript:switchNightMode();"><i class="fa fa-moon"></i><span>昼夜切换</span></a><a class="rightMenu-item" href="/personal/about/"><i class="fa fa-info-circle"></i><span>关于博客</span></a><a class="rightMenu-item" href="javascript:toggleWinbox();"><i class="fas fa-cog"></i><span>美化设置</span></a><a class="rightMenu-item" href="javascript:rmf.fullScreen();"><i class="fas fa-expand"></i><span>切换全屏</span></a><a class="rightMenu-item" href="javascript:window.print();"><i class="fa-solid fa-print"></i><span>打印页面</span></a></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.umd.min.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js" type="module"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><script async="async">var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
@@ -754,7 +607,7 @@ document.addEventListener('pjax:error', (e) => {
     <style></style><script data-pjax>
   function butterfly_swiper_injector_config(){
     var parent_div_git = document.getElementById('recent-posts');
-    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/4649bb35.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random(1)}" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-01-22</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/4649bb35.html&quot;);" href="javascript:void(0);" alt="">1月20日群青广播更新小记</a><div class="blog-slider__text">记录一下大概一周以来，更新blog做的一些事情。不过主要还是简述更新过程，以后需要更新的时候不至于无从下手。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/4649bb35.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/5f73ddd1.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random()}" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-01-20</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/5f73ddd1.html&quot;);" href="javascript:void(0);" alt="">markdown规范自用</a><div class="blog-slider__text">Markdown的一些规范性整理，以便后面高效更新博客。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/5f73ddd1.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/2013454d.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-08-09</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/2013454d.html&quot;);" href="javascript:void(0);" alt="">Markdown语法与外挂标签写法汇总</a><div class="blog-slider__text">🥧本文汇总Markdown格式以及外挂标签在网页端的渲染效果，可作为文档进行查询</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/2013454d.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/915faf15.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/post/gunjo.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-12-04</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/915faf15.html&quot;);" href="javascript:void(0);" alt="">絮絮叨叨的原初</a><div class="blog-slider__text">最初的起点。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/915faf15.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/4c44472f.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random(0720)}" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-02-19</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/4c44472f.html&quot;);" href="javascript:void(0);" alt="">视觉小说小记</a><div class="blog-slider__text">粗略记录一下推完的视觉小说。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/4c44472f.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/4649bb35.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random(1)}" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-01-22</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/4649bb35.html&quot;);" href="javascript:void(0);" alt="">1月20日群青广播更新小记</a><div class="blog-slider__text">记录一下大概一周以来，更新blog做的一些事情。不过主要还是简述更新过程，以后需要更新的时候不至于无从下手。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/4649bb35.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/ea20582a.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="\images\post\record0.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-02-19</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/ea20582a.html&quot;);" href="javascript:void(0);" alt="">观剧记录的原初</a><div class="blog-slider__text">观剧记录分类的开端。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/ea20582a.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/915faf15.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/post/gunjo.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-12-04</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/915faf15.html&quot;);" href="javascript:void(0);" alt="">絮絮叨叨的原初</a><div class="blog-slider__text">最初的起点。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/915faf15.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
     console.log('已挂载butterfly_swiper')
     parent_div_git.insertAdjacentHTML("afterbegin",item_html)
     }
@@ -775,19 +628,7 @@ document.addEventListener('pjax:error', (e) => {
   else if (epage === cpage){
     butterfly_swiper_injector_config();
   }
-  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
-  function gitcalendar_injector_config(){
-      var parent_div_git = document.getElementById('gitZone');
-      var item_html = '<div class="recent-post-item" id="gitcalendarBar" style="width:100%;height:auto;padding:10px;"><style>#git_container{min-height: 320px}@media screen and (max-width:650px) {#git_container{min-height: 0px}}</style><div id="git_loading" style="width:10%;height:100%;margin:0 auto;display: block;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animatetransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animatetransform></path></svg><style>#git_container{display: none;}</style></div><div id="git_container"></div></div>';
-      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
-      console.log('已挂载gitcalendar')
-      }
-
-    if( document.getElementById('gitZone') && (location.pathname ==='/site/census/'|| '/site/census/' ==='all')){
-        gitcalendar_injector_config()
-        GitCalendarInit("/api?yumenomajo",['#d9e0df', '#c6e0dc', '#a8dcd4', '#9adcd2', '#89ded1', '#77e0d0', '#5fdecb', '#47dcc6', '#39dcc3', '#1fdabe', '#00dab9'],'yumenomajo')
-    }
-  </script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
 for(var i = 0;i<arr.length;i++){
     arr[i].classList.add('wow');
     arr[i].classList.add('animate__zoomIn');
@@ -803,4 +644,16 @@ for(var i = 0;i<arr.length;i++){
     arr[i].setAttribute('data-wow-delay', '200ms');
     arr[i].setAttribute('data-wow-offset', '30');
     arr[i].setAttribute('data-wow-iteration', '1');
-  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
+  function gitcalendar_injector_config(){
+      var parent_div_git = document.getElementById('gitZone');
+      var item_html = '<div class="recent-post-item" id="gitcalendarBar" style="width:100%;height:auto;padding:10px;"><style>#git_container{min-height: 320px}@media screen and (max-width:650px) {#git_container{min-height: 0px}}</style><div id="git_loading" style="width:10%;height:100%;margin:0 auto;display: block;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animatetransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animatetransform></path></svg><style>#git_container{display: none;}</style></div><div id="git_container"></div></div>';
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+      console.log('已挂载gitcalendar')
+      }
+
+    if( document.getElementById('gitZone') && (location.pathname ==='/site/census/'|| '/site/census/' ==='all')){
+        gitcalendar_injector_config()
+        GitCalendarInit("/api?yumenomajo",['#d9e0df', '#c6e0dc', '#a8dcd4', '#9adcd2', '#89ded1', '#77e0d0', '#5fdecb', '#47dcc6', '#39dcc3', '#1fdabe', '#00dab9'],'yumenomajo')
+    }
+  </script><!-- hexo injector body_end end --></body></html>
