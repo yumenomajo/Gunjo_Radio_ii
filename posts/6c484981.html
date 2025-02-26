@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><div id="myscoll"></div><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>多元微积分习题整理 | 群青广播II📡</title><meta name="keywords" content="数学,数学分析"><meta name="author" content="yumenomajo🧙‍"><meta name="copyright" content="yumenomajo🧙‍"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="一、利用$ε$-$δ$语言描述的二元函数极限 已知二元函数 $$ f(x, y) &#x3D; \frac{x^3}{3} + \frac{y^3}{3} + (x^2 - 2x - 3)\sin y, \quad (x, y) \in \mathbb{R}^2. $$ 试用 $ε$-$δ$语言描述的二元函数极限定义证明： $$ \lim_{(x, y) \to (3, 3)} f(x, y) &#x3D; 18.">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><div id="myscoll"></div><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>多元微积分习题整理 | 群青广播II📡</title><meta name="keywords" content="数学,数学分析"><meta name="author" content="yumenomajo🧙‍"><meta name="copyright" content="yumenomajo🧙‍"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="一、利用$ε$-$δ$语言描述的二元函数极限已知二元函数  f(x, y) &#x3D; \frac{x^3}{3} + \frac{y^3}{3} + (x^2 - 2x - 3)\sin y, \quad (x, y) \in \mathbb{R}^2.试用 $ε$-$δ$语言描述的二元函数极限定义证明：  \lim_{(x, y) \to (3, 3)} f(x, y) &#x3D; 18.证明：$\foral">
 <meta property="og:type" content="article">
 <meta property="og:title" content="多元微积分习题整理">
 <meta property="og:url" content="https://gunjo-radio-ii.cc/posts/6c484981.html">
 <meta property="og:site_name" content="群青广播II📡">
-<meta property="og:description" content="一、利用$ε$-$δ$语言描述的二元函数极限 已知二元函数 $$ f(x, y) &#x3D; \frac{x^3}{3} + \frac{y^3}{3} + (x^2 - 2x - 3)\sin y, \quad (x, y) \in \mathbb{R}^2. $$ 试用 $ε$-$δ$语言描述的二元函数极限定义证明： $$ \lim_{(x, y) \to (3, 3)} f(x, y) &#x3D; 18.">
+<meta property="og:description" content="一、利用$ε$-$δ$语言描述的二元函数极限已知二元函数  f(x, y) &#x3D; \frac{x^3}{3} + \frac{y^3}{3} + (x^2 - 2x - 3)\sin y, \quad (x, y) \in \mathbb{R}^2.试用 $ε$-$δ$语言描述的二元函数极限定义证明：  \lim_{(x, y) \to (3, 3)} f(x, y) &#x3D; 18.证明：$\foral">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://gunjo-radio-ii.cc/images/cover.jpg">
 <meta property="article:published_time" content="2024-12-11T14:12:03.000Z">
@@ -148,282 +148,149 @@
     }
     detectApple()
     })(window)</script><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><style id="themeColor"></style><style id="rightSide"></style><style id="transPercent"></style><style id="blurNum"></style><style id="settingStyle"></style><span id="fps"></span><style id="defineBg"></style><style id="menu_shadow"></style><div class="aplayer no-destroy" data-id="9387575714" data-volume="0.4" data-server="netease" data-type="playlist" data-fixed="true"  data-autoplay="false" data-lrcType="-1"> </div><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="群青广播II📡" type="application/atom+xml">
-</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="wizard-scene"><div class="wizard-objects"><div class="wizard-square"></div><div class="wizard-circle"></div><div class="wizard-triangle"></div></div><div class="wizard"><div class="wizard-body"></div><div class="wizard-right-arm"><div class="wizard-right-hand"></div></div><div class="wizard-left-arm"><div class="wizard-left-hand"></div></div><div class="wizard-head"><div class="wizard-beard"></div><div class="wizard-face"><div class="wizard-adds"></div></div><div class="wizard-hat"><div class="wizard-hat-of-the-hat"></div><div class="wizard-four-point-star --first"></div><div class="wizard-four-point-star --second"></div><div class="wizard-four-point-star --third"></div></div></div></div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/avatar.jpg" onerror="onerror=null;src='/assets/r1.jpg'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">20</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">群青广播II📡</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div></div><center id="name-container"><a id="page-name" href="javascript:scrollToTop()">PAGE_NAME</a></center><div id="nav-right"><div id="search-button"><a class="search faa-parent animated-hover" title="检索站内任何你想要的信息"><svg class="faa-tada icon" style="height:24px;width:24px;fill:currentColor;position:relative;top:6px" aria-hidden="true"><use xlink:href="#icon-valentine_-search-love-find-heart"></use></svg><span> 搜索</span></a></div><a class="meihua faa-parent animated-hover" onclick="toggleWinbox()" title="美化设置-自定义你的风格" id="meihua-button"><svg class="faa-tada icon" style="height:26px;width:26px;fill:currentColor;position:relative;top:8px" aria-hidden="true"><use xlink:href="#icon-tupian1"></use></svg></a><a class="sun_moon faa-parent animated-hover" onclick="switchNightMode()" title="浅色和深色模式转换" id="nightmode-button"><svg class="faa-tada" style="height:25px;width:25px;fill:currentColor;position:relative;top:7px" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon">       </use></svg></a><div id="toggle-menu"><a><i class="fas fa-bars fa-fw"></i></a></div></div></div></nav><div id="post-info"><h1 class="post-title">多元微积分习题整理<a class="post-edit-link" href="null_posts/数学分析/多元微积分习题整理.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><svg class="meta_icon post-meta-icon" style="width:30px;height:30px;position:relative;top:10px"><use xlink:href="#icon-rili"></use></svg><span class="post-meta-label">发表于 </span><time class="post-meta-date-created" datetime="2024-12-11T14:12:03.000Z" title="发表于 2024-12-11 22:12:03">2024-12-11</time><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-gengxin1"></use></svg><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-01-18T16:51:03.586Z" title="更新于 2025-01-19 00:51:03">2025-01-19</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-biaoqian"></use></svg><a class="post-meta-categories" href="/categories/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/">数学分析</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:8px"><use xlink:href="#icon-charuword"></use></svg><span class="post-meta-label">字数总计:</span><span class="word-count">6905</span><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:20px;height:20px;position:relative;top:5px"><use xlink:href="#icon-shizhong"></use></svg><span class="post-meta-label">阅读时长:</span><span>33分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="多元微积分习题整理"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:5px"><use xlink:href="#icon-eye"></use></svg><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="一、利用-ε-δ-语言描述的二元函数极限">一、利用$ε$-$δ$语言描述的二元函数极限</h2>
-<p>已知二元函数</p>
-<p>$$<br>
-f(x, y) = \frac{x^3}{3} + \frac{y^3}{3} + (x^2 - 2x - 3)\sin y, \quad (x, y) \in \mathbb{R}^2.<br>
-$$</p>
-<p>试用 $ε$-$δ$语言描述的二元函数极限定义证明：</p>
-<p>$$<br>
-\lim_{(x, y) \to (3, 3)} f(x, y) = 18.<br>
-$$</p>
-<h3 id="证明：">证明：</h3>
-<p>$\forall , ε &gt; 0$。</p>
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="wizard-scene"><div class="wizard-objects"><div class="wizard-square"></div><div class="wizard-circle"></div><div class="wizard-triangle"></div></div><div class="wizard"><div class="wizard-body"></div><div class="wizard-right-arm"><div class="wizard-right-hand"></div></div><div class="wizard-left-arm"><div class="wizard-left-hand"></div></div><div class="wizard-head"><div class="wizard-beard"></div><div class="wizard-face"><div class="wizard-adds"></div></div><div class="wizard-hat"><div class="wizard-hat-of-the-hat"></div><div class="wizard-four-point-star --first"></div><div class="wizard-four-point-star --second"></div><div class="wizard-four-point-star --third"></div></div></div></div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/avatar.jpg" onerror="onerror=null;src='/assets/r1.jpg'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">20</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">群青广播II📡</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div></div><center id="name-container"><a id="page-name" href="javascript:scrollToTop()">PAGE_NAME</a></center><div id="nav-right"><div id="search-button"><a class="search faa-parent animated-hover" title="检索站内任何你想要的信息"><svg class="faa-tada icon" style="height:24px;width:24px;fill:currentColor;position:relative;top:6px" aria-hidden="true"><use xlink:href="#icon-valentine_-search-love-find-heart"></use></svg><span> 搜索</span></a></div><a class="meihua faa-parent animated-hover" onclick="toggleWinbox()" title="美化设置-自定义你的风格" id="meihua-button"><svg class="faa-tada icon" style="height:26px;width:26px;fill:currentColor;position:relative;top:8px" aria-hidden="true"><use xlink:href="#icon-tupian1"></use></svg></a><a class="sun_moon faa-parent animated-hover" onclick="switchNightMode()" title="浅色和深色模式转换" id="nightmode-button"><svg class="faa-tada" style="height:25px;width:25px;fill:currentColor;position:relative;top:7px" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon">       </use></svg></a><div id="toggle-menu"><a><i class="fas fa-bars fa-fw"></i></a></div></div></div></nav><div id="post-info"><h1 class="post-title">多元微积分习题整理<a class="post-edit-link" href="null_posts/数学分析/多元微积分习题整理.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><svg class="meta_icon post-meta-icon" style="width:30px;height:30px;position:relative;top:10px"><use xlink:href="#icon-rili"></use></svg><span class="post-meta-label">发表于 </span><time class="post-meta-date-created" datetime="2024-12-11T14:12:03.000Z" title="发表于 2024-12-11 22:12:03">2024-12-11</time><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-gengxin1"></use></svg><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-01-18T16:51:03.586Z" title="更新于 2025-01-19 00:51:03">2025-01-19</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-biaoqian"></use></svg><a class="post-meta-categories" href="/categories/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/">数学分析</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:8px"><use xlink:href="#icon-charuword"></use></svg><span class="post-meta-label">字数总计:</span><span class="word-count">6917</span><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:20px;height:20px;position:relative;top:5px"><use xlink:href="#icon-shizhong"></use></svg><span class="post-meta-label">阅读时长:</span><span>33分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="多元微积分习题整理"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:5px"><use xlink:href="#icon-eye"></use></svg><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="一、利用-ε-δ-语言描述的二元函数极限"><a href="#一、利用-ε-δ-语言描述的二元函数极限" class="headerlink" title="一、利用$ε$-$δ$语言描述的二元函数极限"></a>一、利用$ε$-$δ$语言描述的二元函数极限</h2><p>已知二元函数</p>
+<script type="math/tex; mode=display">
+f(x, y) = \frac{x^3}{3} + \frac{y^3}{3} + (x^2 - 2x - 3)\sin y, \quad (x, y) \in \mathbb{R}^2.</script><p>试用 $ε$-$δ$语言描述的二元函数极限定义证明：</p>
+<script type="math/tex; mode=display">
+\lim_{(x, y) \to (3, 3)} f(x, y) = 18.</script><h3 id="证明："><a href="#证明：" class="headerlink" title="证明："></a>证明：</h3><p>$\forall \, ε &gt; 0$。</p>
 <p>在矩形区域 $[2, 4] \times [2, 4]$ 进行计算。首先，使用一元函数之Lagrange中值定理，对于任意给定的 $x \in [2, 4]$，都存在介于3和$x$之间的点$\xi$使得：</p>
-<p>$$<br>
-\frac{x^3}{3} - \frac{3^3}{3} = \xi^2(x - 3).<br>
-$$</p>
-<p>因此，可得：</p>
-<p>$$<br>
-\left|\frac{x^3}{3} - \frac{3^3}{3}\right| \leq 16|x - 3|, \quad \text{当 } x \in [2, 4].<br>
-$$</p>
-<p>同理：</p>
-<p>$$<br>
-\left|\frac{y^3}{3} - \frac{3^3}{3}\right| \leq 16|y - 3|, \quad \text{当 } y \in [2, 4].<br>
-$$</p>
-<p>另外，当 $(x, y) \in [2, 4] \times [2, 4]$ 时，计算：</p>
-<p>$$<br>
-\left|(x^2 - 2x - 3)\sin y\right| = |x - 3| \cdot |x + 1| \cdot |\sin y| \leq 5|x - 3|.<br>
-$$</p>
-<p>选取：</p>
-<p>$$<br>
-\delta = \min\left{1, \frac{ε}{42}\right} &gt; 0.<br>
-$$</p>
-<p>当 $0 &lt; \sqrt{(x - 3)^2 + (y - 3)^2} &lt; \delta$ 时，使用上述不等式，计算：</p>
-<p>$$<br>
-|f(x, y) - 18| = \left|\frac{x^3}{3} + \frac{y^3}{3} + (x^2 - 2x - 3)\sin y - 18\right|<br>
-$$</p>
-<p>$$<br>
-\leq \left|\frac{x^3}{3} - \frac{3^3}{3}\right| + \left|\frac{y^3}{3} - \frac{3^3}{3}\right| + \left|(x^2 - 2x - 3)\sin y\right|<br>
-$$</p>
-<p>$$<br>
-\leq 16|x - 3| + 16|y - 3| + 5|x - 3|<br>
-$$</p>
-<p>$$<br>
-\leq 42\sqrt{(x - 3)^2 + (y - 3)^2} &lt; 42\delta \leq 42 ·\frac{\varepsilon}{42}=\varepsilon<br>
-$$</p>
-<p>根据用 $ε$-$δ$ 语言描述的二元函数极限定义，得出：</p>
-<p>$$<br>
-\lim_{(x, y) \to (3, 3)} f(x, y) = 18.<br>
-$$</p>
-<h2 id="二、利用-ε-δ-语言讨论函数连续性">二、利用$ε$-$δ$语言讨论函数连续性</h2>
-<p>已知二元函数</p>
-<p>$$<br>
-f(x, y) =<br>
-\begin{cases}<br>
-\frac{x^3}{x^2 + y^2}, &amp; \text{当 } (x, y) \neq (0, 0) \text{时}, \<br>
-0, &amp; \text{当 } (x, y) = (0, 0) \text{时}.<br>
-\end{cases}<br>
-$$</p>
-<p>试用 $ε$-$δ$语言描述的二元函数在一点连续定义证明：二元函数 $f(x, y)$ 在原点 $(0, 0)$ 处连续。</p>
-<h3 id="证明：-2">证明：</h3>
-<p>$\forall , ε &gt; 0$，我们计算：</p>
-<p>$$<br>
-|f(x, y) - f(0, 0)| = \left| \frac{x^3}{x^2 + y^2} \right| \leq |x|, \quad \text{当 } 0 &lt; \sqrt{(x - 0)^2 + (y - 0)^2} &lt; 1.<br>
-$$</p>
-<p>因此，选取：</p>
-<p>$$<br>
-\delta = \min{1, ε} &gt; 0.<br>
-$$</p>
-<p>当 $\sqrt{(x - 0)^2 + (y - 0)^2} &lt; \delta$ 时，使用上述不等式，计算：</p>
-<p>$$<br>
-|f(x, y) - f(0, 0)| \leq |x| \leq \delta \leq ε.<br>
-$$</p>
-<p>根据 $ε$-$δ$ 语言描述的二元函数在一点连续定义，可以断言：二元函数 $f(x, y)$ 在原点 $(0, 0)$ 处连续。解答完毕。</p>
-<h2 id="三、求偏导数和全微分">三、求偏导数和全微分</h2>
-<p>已知二元函数</p>
-<p>$$<br>
-u = 1 + \ln(1 + x^2 + y^2), \quad (x, y) \in \mathbb{R}^2.<br>
-$$</p>
-<p>试计算一阶偏导数 $\frac{\partial u}{\partial x}$ 和 $\frac{\partial u}{\partial y}$ 以及一阶全微分 $du$。</p>
-<h3 id="解：">解：</h3>
-<p>直接计算一阶偏导数：</p>
-<p>$$<br>
-\frac{\partial u}{\partial x} = \frac{2x}{1 + x^2 + y^2},<br>
-$$</p>
-<p>以及</p>
-<p>$$<br>
-\frac{\partial u}{\partial y} = \frac{2y}{1 + x^2 + y^2}.<br>
-$$</p>
-<p>进一步地，根据全微分公式得出：</p>
-<p>$$<br>
-du = \frac{\partial u}{\partial x} dx + \frac{\partial u}{\partial y} dy = \frac{2x dx + 2y dy}{1 + x^2 + y^2}.<br>
-$$</p>
-<h2 id="四、求梯度和方向导数">四、求梯度和方向导数</h2>
-<p>已知三元函数</p>
-<p>$$<br>
-f(x, y, z) = 1 + x^2 + 2y^3 + 3z^4, \quad (x, y, z) \in \mathbb{R}^3.<br>
-$$</p>
-<p>试求出三元函数 $f(x, y, z)$ 在 $M(1, 1, 1)$ 处沿着 $\vec{l} = (1, 2, 3)$ 的方向导数。</p>
-<h3 id="解：-2">解：</h3>
-<p>首先计算向量 $\vec{l} = (1, 2, 3)$ 的方向余弦为：</p>
-<p>$$<br>
-(\cos \alpha, \cos \beta, \cos \gamma) = \frac{\vec{l}}{|\vec{l}|} = \frac{(1, 2, 3)}{\sqrt{1^2 + 2^2 + 3^2}} = \left(\frac{1}{\sqrt{14}}, \frac{2}{\sqrt{14}}, \frac{3}{\sqrt{14}}\right).<br>
-$$</p>
-<p>再来计算三元函数 $f(x, y, z)$ 在 $M(1, 1, 1)$ 处的一阶偏导数：</p>
-<p>$$<br>
-\frac{\partial f}{\partial x} \bigg|<em>{M(1, 1, 1)} = 2x \big|</em>{M(1, 1, 1)} = 2,<br>
-$$</p>
-<p>$$<br>
-\frac{\partial f}{\partial y} \bigg|<em>{M(1, 1, 1)} = 6y^2 \big|</em>{M(1, 1, 1)} = 6,<br>
-$$</p>
-<p>$$<br>
-\frac{\partial f}{\partial z} \bigg|<em>{M(1, 1, 1)} = 12z^3 \big|</em>{M(1, 1, 1)} = 12.<br>
-$$</p>
-<p>根据公式：</p>
-<p>$$<br>
-\frac{\partial f}{\partial \vec{l}} \bigg|<em>{M(1, 1, 1)} = \frac{\partial f}{\partial x} \bigg|</em>{M(1, 1, 1)} \cdot \cos \alpha + \frac{\partial f}{\partial y} \bigg|<em>{M(1, 1, 1)} \cdot \cos \beta + \frac{\partial f}{\partial z} \bigg|</em>{M(1, 1, 1)} \cdot \cos \gamma.<br>
-$$</p>
-<p>并使用上述计算得出：</p>
-<p>$$<br>
-\frac{\partial f}{\partial l} \bigg|_{M(1, 1, 1)} = 2 \cdot \frac{1}{\sqrt{14}} + 6 \cdot \frac{2}{\sqrt{14}} + 12 \cdot \frac{3}{\sqrt{14}} = \frac{50}{\sqrt{14}}.<br>
-$$</p>
-<p>解答完毕。</p>
-<h2 id="五、求梯度和模">五、求梯度和模</h2>
-<p>已知三元函数</p>
-<p>$$<br>
-f(x, y, z) = 5 + x^3yz + xy^3z + xyz^3, \quad (x, y, z) \in \mathbb{R}^3.<br>
-$$</p>
-<p>试计算函数 $f(x, y, z)$ 在 $M(1, 1, 1)$ 处的梯度及其模。</p>
-<h3 id="解：-3">解：</h3>
-<p>计算三元函数 $f(x, y, z) = x^3yz + xy^3z + xyz^3$ 在 $M(1, 1, 1)$ 处的一阶偏导数：</p>
-<p>$$<br>
-\frac{\partial f}{\partial x} \bigg|<em>{M(1, 1, 1)} = (3x^2yz + y^3z + yz^3) \big|</em>{M(1, 1, 1)} = 5.<br>
-$$</p>
-<p>同理可得：</p>
-<p>$$<br>
-\frac{\partial f}{\partial y} \bigg|<em>{M(1, 1, 1)} = 5, \quad \frac{\partial f}{\partial z} \bigg|</em>{M(1, 1, 1)} = 5.<br>
-$$</p>
-<p>于是得到函数 $f(x, y, z)$ 在 $M(1, 1, 1)$ 处梯度：</p>
-<p>$$<br>
-\text{grad} , f \big|_{M(1, 1, 1)} = (5, 5, 5).<br>
-$$</p>
-<p>及其模：</p>
-<p>$$<br>
-|\text{grad} , f(M)| = \sqrt{5^2 + 5^2 + 5^2} = 5\sqrt{3}.<br>
-$$</p>
-<p>解答完毕。</p>
-<h2 id="六、求多元函数高阶导数">六、求多元函数高阶导数</h2>
-<p>已知二元函数</p>
-<p>$$<br>
-u = 1 + 2x^3y + 3xy^3 + 4\sin(5x + 6y), \quad (x, y) \in \mathbb{R}^2.<br>
-$$</p>
-<p>试计算一阶偏导数 $\frac{\partial u}{\partial x}$ 和 $\frac{\partial u}{\partial y}$，以及二阶偏导数 $\frac{\partial^2 u}{\partial x^2}, \frac{\partial^2 u}{\partial x \partial y}, \frac{\partial^2 u}{\partial y^2}$。</p>
-<h3 id="解：-4">解：</h3>
-<h4 id="计算一阶偏导数">计算一阶偏导数</h4>
-<p>$$<br>
-\frac{\partial u}{\partial x} = \frac{\partial}{\partial x} \left[ 1 + 2x^3y + 3xy^3 + 4\sin(5x + 6y) \right] = 6x^2y + 3y^3 + 20\cos(5x + 6y).<br>
-$$</p>
-<p>$$<br>
-\frac{\partial u}{\partial y} = \frac{\partial}{\partial y} \left[ 1 + 2x^3y + 3xy^3 + 4\sin(5x + 6y) \right] = 2x^3 + 9xy^2 + 24\cos(5x + 6y).<br>
-$$</p>
-<h4 id="再来计算二阶偏导数">再来计算二阶偏导数</h4>
-<ol>
+<script type="math/tex; mode=display">
+\frac{x^3}{3} - \frac{3^3}{3} = \xi^2(x - 3).</script><p>因此，可得：</p>
+<script type="math/tex; mode=display">
+\left|\frac{x^3}{3} - \frac{3^3}{3}\right| \leq 16|x - 3|, \quad \text{当 } x \in [2, 4].</script><p>同理：</p>
+<script type="math/tex; mode=display">
+\left|\frac{y^3}{3} - \frac{3^3}{3}\right| \leq 16|y - 3|, \quad \text{当 } y \in [2, 4].</script><p>另外，当 $(x, y) \in [2, 4] \times [2, 4]$ 时，计算：</p>
+<script type="math/tex; mode=display">
+\left|(x^2 - 2x - 3)\sin y\right| = |x - 3| \cdot |x + 1| \cdot |\sin y| \leq 5|x - 3|.</script><p>选取：</p>
+<script type="math/tex; mode=display">
+\delta = \min\left\{1, \frac{ε}{42}\right\} > 0.</script><p>当 $0 &lt; \sqrt{(x - 3)^2 + (y - 3)^2} &lt; \delta$ 时，使用上述不等式，计算：</p>
+<script type="math/tex; mode=display">
+|f(x, y) - 18| = \left|\frac{x^3}{3} + \frac{y^3}{3} + (x^2 - 2x - 3)\sin y - 18\right|</script><script type="math/tex; mode=display">
+\leq \left|\frac{x^3}{3} - \frac{3^3}{3}\right| + \left|\frac{y^3}{3} - \frac{3^3}{3}\right| + \left|(x^2 - 2x - 3)\sin y\right|</script><script type="math/tex; mode=display">
+\leq 16|x - 3| + 16|y - 3| + 5|x - 3|</script><script type="math/tex; mode=display">
+\leq 42\sqrt{(x - 3)^2 + (y - 3)^2} < 42\delta \leq 42 ·\frac{\varepsilon}{42}=\varepsilon</script><p>根据用 $ε$-$δ$ 语言描述的二元函数极限定义，得出：</p>
+<script type="math/tex; mode=display">
+\lim_{(x, y) \to (3, 3)} f(x, y) = 18.</script><h2 id="二、利用-ε-δ-语言讨论函数连续性"><a href="#二、利用-ε-δ-语言讨论函数连续性" class="headerlink" title="二、利用$ε$-$δ$语言讨论函数连续性"></a>二、利用$ε$-$δ$语言讨论函数连续性</h2><p>已知二元函数</p>
+<script type="math/tex; mode=display">
+f(x, y) =
+\begin{cases}
+\frac{x^3}{x^2 + y^2}, & \text{当 } (x, y) \neq (0, 0) \text{时}, \\
+0, & \text{当 } (x, y) = (0, 0) \text{时}.
+\end{cases}</script><p>试用 $ε$-$δ$语言描述的二元函数在一点连续定义证明：二元函数 $f(x, y)$ 在原点 $(0, 0)$ 处连续。</p>
+<h3 id="证明：-1"><a href="#证明：-1" class="headerlink" title="证明："></a>证明：</h3><p>$\forall \, ε &gt; 0$，我们计算：</p>
+<script type="math/tex; mode=display">
+|f(x, y) - f(0, 0)| = \left| \frac{x^3}{x^2 + y^2} \right| \leq |x|, \quad \text{当 } 0 < \sqrt{(x - 0)^2 + (y - 0)^2} < 1.</script><p>因此，选取：</p>
+<script type="math/tex; mode=display">
+\delta = \min\{1, ε\} > 0.</script><p>当 $\sqrt{(x - 0)^2 + (y - 0)^2} &lt; \delta$ 时，使用上述不等式，计算：</p>
+<script type="math/tex; mode=display">
+|f(x, y) - f(0, 0)| \leq |x| \leq \delta \leq ε.</script><p>根据 $ε$-$δ$ 语言描述的二元函数在一点连续定义，可以断言：二元函数 $f(x, y)$ 在原点 $(0, 0)$ 处连续。解答完毕。</p>
+<h2 id="三、求偏导数和全微分"><a href="#三、求偏导数和全微分" class="headerlink" title="三、求偏导数和全微分"></a>三、求偏导数和全微分</h2><p>已知二元函数</p>
+<script type="math/tex; mode=display">
+u = 1 + \ln(1 + x^2 + y^2), \quad (x, y) \in \mathbb{R}^2.</script><p>试计算一阶偏导数 $\frac{\partial u}{\partial x}$ 和 $\frac{\partial u}{\partial y}$ 以及一阶全微分 $du$。</p>
+<h3 id="解："><a href="#解：" class="headerlink" title="解："></a>解：</h3><p>直接计算一阶偏导数：</p>
+<script type="math/tex; mode=display">
+\frac{\partial u}{\partial x} = \frac{2x}{1 + x^2 + y^2},</script><p>以及</p>
+<script type="math/tex; mode=display">
+\frac{\partial u}{\partial y} = \frac{2y}{1 + x^2 + y^2}.</script><p>进一步地，根据全微分公式得出：</p>
+<script type="math/tex; mode=display">
+du = \frac{\partial u}{\partial x} dx + \frac{\partial u}{\partial y} dy = \frac{2x dx + 2y dy}{1 + x^2 + y^2}.</script><h2 id="四、求梯度和方向导数"><a href="#四、求梯度和方向导数" class="headerlink" title="四、求梯度和方向导数"></a>四、求梯度和方向导数</h2><p>已知三元函数</p>
+<script type="math/tex; mode=display">
+f(x, y, z) = 1 + x^2 + 2y^3 + 3z^4, \quad (x, y, z) \in \mathbb{R}^3.</script><p>试求出三元函数 $f(x, y, z)$ 在 $M(1, 1, 1)$ 处沿着 $\vec{l} = (1, 2, 3)$ 的方向导数。</p>
+<h3 id="解：-1"><a href="#解：-1" class="headerlink" title="解："></a>解：</h3><p>首先计算向量 $\vec{l} = (1, 2, 3)$ 的方向余弦为：</p>
+<script type="math/tex; mode=display">
+(\cos \alpha, \cos \beta, \cos \gamma) = \frac{\vec{l}}{|\vec{l}|} = \frac{(1, 2, 3)}{\sqrt{1^2 + 2^2 + 3^2}} = \left(\frac{1}{\sqrt{14}}, \frac{2}{\sqrt{14}}, \frac{3}{\sqrt{14}}\right).</script><p>再来计算三元函数 $f(x, y, z)$ 在 $M(1, 1, 1)$ 处的一阶偏导数：</p>
+<script type="math/tex; mode=display">
+\frac{\partial f}{\partial x} \bigg|_{M(1, 1, 1)} = 2x \big|_{M(1, 1, 1)} = 2,</script><script type="math/tex; mode=display">
+\frac{\partial f}{\partial y} \bigg|_{M(1, 1, 1)} = 6y^2 \big|_{M(1, 1, 1)} = 6,</script><script type="math/tex; mode=display">
+\frac{\partial f}{\partial z} \bigg|_{M(1, 1, 1)} = 12z^3 \big|_{M(1, 1, 1)} = 12.</script><p>根据公式：</p>
+<script type="math/tex; mode=display">
+\frac{\partial f}{\partial \vec{l}} \bigg|_{M(1, 1, 1)} = \frac{\partial f}{\partial x} \bigg|_{M(1, 1, 1)} \cdot \cos \alpha + \frac{\partial f}{\partial y} \bigg|_{M(1, 1, 1)} \cdot \cos \beta + \frac{\partial f}{\partial z} \bigg|_{M(1, 1, 1)} \cdot \cos \gamma.</script><p>并使用上述计算得出：</p>
+<script type="math/tex; mode=display">
+\frac{\partial f}{\partial l} \bigg|_{M(1, 1, 1)} = 2 \cdot \frac{1}{\sqrt{14}} + 6 \cdot \frac{2}{\sqrt{14}} + 12 \cdot \frac{3}{\sqrt{14}} = \frac{50}{\sqrt{14}}.</script><p>解答完毕。</p>
+<h2 id="五、求梯度和模"><a href="#五、求梯度和模" class="headerlink" title="五、求梯度和模"></a>五、求梯度和模</h2><p>已知三元函数</p>
+<script type="math/tex; mode=display">
+f(x, y, z) = 5 + x^3yz + xy^3z + xyz^3, \quad (x, y, z) \in \mathbb{R}^3.</script><p>试计算函数 $f(x, y, z)$ 在 $M(1, 1, 1)$ 处的梯度及其模。</p>
+<h3 id="解：-2"><a href="#解：-2" class="headerlink" title="解："></a>解：</h3><p>计算三元函数 $f(x, y, z) = x^3yz + xy^3z + xyz^3$ 在 $M(1, 1, 1)$ 处的一阶偏导数：</p>
+<script type="math/tex; mode=display">
+\frac{\partial f}{\partial x} \bigg|_{M(1, 1, 1)} = (3x^2yz + y^3z + yz^3) \big|_{M(1, 1, 1)} = 5.</script><p>同理可得：</p>
+<script type="math/tex; mode=display">
+\frac{\partial f}{\partial y} \bigg|_{M(1, 1, 1)} = 5, \quad \frac{\partial f}{\partial z} \bigg|_{M(1, 1, 1)} = 5.</script><p>于是得到函数 $f(x, y, z)$ 在 $M(1, 1, 1)$ 处梯度：</p>
+<script type="math/tex; mode=display">
+\text{grad} \, f \big|_{M(1, 1, 1)} = (5, 5, 5).</script><p>及其模：</p>
+<script type="math/tex; mode=display">
+|\text{grad} \, f(M)| = \sqrt{5^2 + 5^2 + 5^2} = 5\sqrt{3}.</script><p>解答完毕。</p>
+<h2 id="六、求多元函数高阶导数"><a href="#六、求多元函数高阶导数" class="headerlink" title="六、求多元函数高阶导数"></a>六、求多元函数高阶导数</h2><p>已知二元函数</p>
+<script type="math/tex; mode=display">
+u = 1 + 2x^3y + 3xy^3 + 4\sin(5x + 6y), \quad (x, y) \in \mathbb{R}^2.</script><p>试计算一阶偏导数 $\frac{\partial u}{\partial x}$ 和 $\frac{\partial u}{\partial y}$，以及二阶偏导数 $\frac{\partial^2 u}{\partial x^2}, \frac{\partial^2 u}{\partial x \partial y}, \frac{\partial^2 u}{\partial y^2}$。</p>
+<h3 id="解：-3"><a href="#解：-3" class="headerlink" title="解："></a>解：</h3><h4 id="计算一阶偏导数"><a href="#计算一阶偏导数" class="headerlink" title="计算一阶偏导数"></a>计算一阶偏导数</h4><script type="math/tex; mode=display">
+\frac{\partial u}{\partial x} = \frac{\partial}{\partial x} \left[ 1 + 2x^3y + 3xy^3 + 4\sin(5x + 6y) \right] = 6x^2y + 3y^3 + 20\cos(5x + 6y).</script><script type="math/tex; mode=display">
+\frac{\partial u}{\partial y} = \frac{\partial}{\partial y} \left[ 1 + 2x^3y + 3xy^3 + 4\sin(5x + 6y) \right] = 2x^3 + 9xy^2 + 24\cos(5x + 6y).</script><h4 id="再来计算二阶偏导数"><a href="#再来计算二阶偏导数" class="headerlink" title="再来计算二阶偏导数"></a>再来计算二阶偏导数</h4><ol>
 <li><strong>计算 $\frac{\partial^2 u}{\partial x^2}$</strong>：</li>
 </ol>
-<p>$$<br>
-\frac{\partial^2 u}{\partial x^2} = \frac{\partial}{\partial x} \left( \frac{\partial u}{\partial x} \right) = \frac{\partial}{\partial x} \left( 6x^2y + 3y^3 + 20\cos(5x + 6y) \right) = 12xy - 100\sin(5x + 6y).<br>
-$$</p>
-<ol start="2">
+<script type="math/tex; mode=display">
+\frac{\partial^2 u}{\partial x^2} = \frac{\partial}{\partial x} \left( \frac{\partial u}{\partial x} \right) = \frac{\partial}{\partial x} \left( 6x^2y + 3y^3 + 20\cos(5x + 6y) \right) = 12xy - 100\sin(5x + 6y).</script><ol>
 <li><strong>计算 $\frac{\partial^2 u}{\partial x \partial y}$</strong>：</li>
 </ol>
-<p>$$<br>
-\frac{\partial^2 u}{\partial x \partial y} = \frac{\partial}{\partial y} \left( \frac{\partial u}{\partial x} \right) = \frac{\partial}{\partial y} \left( 6x^2y + 3y^3 + 20\cos(5x + 6y) \right) = 6x^2 + 9y^2 - 120\sin(5x + 6y).<br>
-$$</p>
-<ol start="3">
+<script type="math/tex; mode=display">
+\frac{\partial^2 u}{\partial x \partial y} = \frac{\partial}{\partial y} \left( \frac{\partial u}{\partial x} \right) = \frac{\partial}{\partial y} \left( 6x^2y + 3y^3 + 20\cos(5x + 6y) \right) = 6x^2 + 9y^2 - 120\sin(5x + 6y).</script><ol>
 <li><strong>计算 $\frac{\partial^2 u}{\partial y^2}$</strong>：</li>
 </ol>
-<p>$$<br>
-\frac{\partial^2 u}{\partial y^2} = \frac{\partial}{\partial y} \left( \frac{\partial u}{\partial y} \right) = \frac{\partial}{\partial y} \left( 2x^3 + 9xy^2 + 24\cos(5x + 6y) \right) = 18xy - 144\sin(5x + 6y).<br>
-$$</p>
-<h3 id="解答完毕。">解答完毕。</h3>
-<h2 id="七、求函数在定义域内的极值点">七、求函数在定义域内的极值点</h2>
-<p>已知二元函数</p>
-<p>$$<br>
-f(x, y) = x^3 + 2y^3 - 3x - 6y + 9, \quad (x, y) \in \mathbb{R}^2.<br>
-$$</p>
-<h3 id="回答下列问题">回答下列问题</h3>
-<ol>
+<script type="math/tex; mode=display">
+\frac{\partial^2 u}{\partial y^2} = \frac{\partial}{\partial y} \left( \frac{\partial u}{\partial y} \right) = \frac{\partial}{\partial y} \left( 2x^3 + 9xy^2 + 24\cos(5x + 6y) \right) = 18xy - 144\sin(5x + 6y).</script><h3 id="解答完毕。"><a href="#解答完毕。" class="headerlink" title="解答完毕。"></a>解答完毕。</h3><h2 id="七、求函数在定义域内的极值点"><a href="#七、求函数在定义域内的极值点" class="headerlink" title="七、求函数在定义域内的极值点"></a>七、求函数在定义域内的极值点</h2><p>已知二元函数</p>
+<script type="math/tex; mode=display">
+f(x, y) = x^3 + 2y^3 - 3x - 6y + 9, \quad (x, y) \in \mathbb{R}^2.</script><h3 id="回答下列问题"><a href="#回答下列问题" class="headerlink" title="回答下列问题"></a>回答下列问题</h3><ol>
 <li>函数 $f(x, y)$ 在 $\mathbb{R}^2$ 内有极小值点吗？如果有，试求出所有极小值点及其极小值。如果没有，试说明理由。</li>
 <li>函数 $f(x, y)$ 在 $\mathbb{R}^2$ 内有极大值点吗？如果有，试求出所有极大值点及其极大值。如果没有，试说明理由。</li>
 </ol>
-<h3 id="解：-5">解：</h3>
-<p>求出驻点，解下列方程组：</p>
-<p>$$<br>
-\frac{\partial f}{\partial x} = 3x^2 - 3 = 0,<br>
-$$</p>
-<p>$$<br>
-\frac{\partial f}{\partial y} = 6y^2 - 6 = 0.<br>
-$$</p>
-<p>求以上方程组得到下列驻点：</p>
-<p>$$<br>
-P_1(1, 1), ; P_2(1, -1), ; P_3(-1, 1), ; P_4(-1, -1).<br>
-$$</p>
-<p>根据一点成为极值点的必要条件，除了驻点 $P_1(1, 1), P_2(1, -1), P_3(-1, 1), P_4(-1, -1)$ 以外的所有点都不是极值点。因此，须分别判别驻点 $P_1(1, 1), P_2(1, -1), P_3(-1, 1), P_4(-1, -1)$ 是否为极值点。</p>
-<h3 id="为此，计算-Hesse-矩阵">为此，计算 Hesse 矩阵</h3>
-<h1>$$<br>
-H =<br>
-\begin{pmatrix}<br>
-\frac{\partial^2 f}{\partial x^2} &amp; \frac{\partial^2 f}{\partial x \partial y} \<br>
-\frac{\partial^2 f}{\partial y \partial x} &amp; \frac{\partial^2 f}{\partial y^2}<br>
-\end{pmatrix}</h1>
-<p>\begin{pmatrix}<br>
-6x &amp; 0 \<br>
-0 &amp; 12y<br>
-\end{pmatrix}.<br>
-$$</p>
-<p>及其行列式</p>
-<p>$$<br>
-\det H = 72xy.<br>
-$$</p>
-<h3 id="使用上述计算得出">使用上述计算得出</h3>
-<p>$$<br>
-\det H|<em>{P_2(1, -1)} = \det H|</em>{P_3(-1, 1)} = -72 &lt; 0.<br>
-$$</p>
-<p>根据极值判别法，可以断言：</p>
+<h3 id="解：-4"><a href="#解：-4" class="headerlink" title="解："></a>解：</h3><p>求出驻点，解下列方程组：</p>
+<script type="math/tex; mode=display">
+\frac{\partial f}{\partial x} = 3x^2 - 3 = 0,</script><script type="math/tex; mode=display">
+\frac{\partial f}{\partial y} = 6y^2 - 6 = 0.</script><p>求以上方程组得到下列驻点：</p>
+<script type="math/tex; mode=display">
+P_1(1, 1), \; P_2(1, -1), \; P_3(-1, 1), \; P_4(-1, -1).</script><p>根据一点成为极值点的必要条件，除了驻点 $P_1(1, 1), P_2(1, -1), P_3(-1, 1), P_4(-1, -1)$ 以外的所有点都不是极值点。因此，须分别判别驻点 $P_1(1, 1), P_2(1, -1), P_3(-1, 1), P_4(-1, -1)$ 是否为极值点。</p>
+<h3 id="为此，计算-Hesse-矩阵"><a href="#为此，计算-Hesse-矩阵" class="headerlink" title="为此，计算 Hesse 矩阵"></a>为此，计算 Hesse 矩阵</h3><script type="math/tex; mode=display">
+H = 
+\begin{pmatrix}
+\frac{\partial^2 f}{\partial x^2} & \frac{\partial^2 f}{\partial x \partial y} \\
+\frac{\partial^2 f}{\partial y \partial x} & \frac{\partial^2 f}{\partial y^2}
+\end{pmatrix}
+= 
+\begin{pmatrix}
+6x & 0 \\
+0 & 12y
+\end{pmatrix}.</script><p>及其行列式</p>
+<script type="math/tex; mode=display">
+\det H = 72xy.</script><h3 id="使用上述计算得出"><a href="#使用上述计算得出" class="headerlink" title="使用上述计算得出"></a>使用上述计算得出</h3><script type="math/tex; mode=display">
+\det H|_{P_2(1, -1)} = \det H|_{P_3(-1, 1)} = -72 < 0.</script><p>根据极值判别法，可以断言：</p>
 <p>$P_2(1, -1)$ 和 $P_3(-1, 1)$ 都不是函数 $f(x, y)$ 的极值点。</p>
-<h3 id="进一步计算">进一步计算</h3>
-<p>$$<br>
-\det H|<em>{P_1(1, 1)} = \det H|</em>{P_4(-1, -1)} = 72 &gt; 0,<br>
-$$</p>
-<p>$$<br>
-\frac{\partial^2 f}{\partial x^2} \bigg|<em>{P_1(1, 1)} = 6x|</em>{P_1(1, 1)} = 6 &gt; 0, \quad \frac{\partial^2 f}{\partial x^2} \bigg|<em>{P_4(-1, -1)} = 6x|</em>{P_4(-1, -1)} = -6 &lt; 0.<br>
-$$</p>
-<p>根据极值判别法，可以断言：</p>
+<h3 id="进一步计算"><a href="#进一步计算" class="headerlink" title="进一步计算"></a>进一步计算</h3><script type="math/tex; mode=display">
+\det H|_{P_1(1, 1)} = \det H|_{P_4(-1, -1)} = 72 > 0,</script><script type="math/tex; mode=display">
+\frac{\partial^2 f}{\partial x^2} \bigg|_{P_1(1, 1)} = 6x|_{P_1(1, 1)} = 6 > 0, \quad \frac{\partial^2 f}{\partial x^2} \bigg|_{P_4(-1, -1)} = 6x|_{P_4(-1, -1)} = -6 < 0.</script><p>根据极值判别法，可以断言：</p>
 <ul>
-<li>
-<p>$P_1(1, 1)$ 是函数 $f(x, y)$ 的极小值点，函数 $f(x, y)$ 在 $P_1(1, 1)$ 处取得极小值：<br>
-$$<br>
-f(1, 1) = 3.<br>
-$$</p>
-</li>
-<li>
-<p>$P_4(-1, -1)$ 是函数 $f(x, y)$ 的极大值点，函数 $f(x, y)$ 在 $P_4(-1, -1)$ 处取得极大值：<br>
-$$<br>
-f(-1, -1) = 15.<br>
-$$</p>
-</li>
+<li><p>$P_1(1, 1)$ 是函数 $f(x, y)$ 的极小值点，函数 $f(x, y)$ 在 $P_1(1, 1)$ 处取得极小值：</p>
+<script type="math/tex; mode=display">
+f(1, 1) = 3.</script></li>
+<li><p>$P_4(-1, -1)$ 是函数 $f(x, y)$ 的极大值点，函数 $f(x, y)$ 在 $P_4(-1, -1)$ 处取得极大值：</p>
+<script type="math/tex; mode=display">
+f(-1, -1) = 15.</script></li>
 </ul>
-<h3 id="综合上述分析">综合上述分析</h3>
-<p>我们得出结论：</p>
+<h3 id="综合上述分析"><a href="#综合上述分析" class="headerlink" title="综合上述分析"></a>综合上述分析</h3><p>我们得出结论：</p>
 <ul>
 <li>函数 $f(x, y)$ 在 $\mathbb{R}^2$ 内有且仅有一个极小值点 $P_1(1, 1)$，在 $P_1(1, 1)$ 处取得极小值 $3$；</li>
 <li>函数 $f(x, y)$ 在 $\mathbb{R}^2$ 内有且仅有一个极大值点 $P_4(-1, -1)$，在 $P_4(-1, -1)$ 处取得极大值 $15$。</li>
 </ul>
 <p>解答完毕。</p>
-<h2 id="八、求函数定义域内的最值点">八、求函数定义域内的最值点</h2>
-<h3 id="【考虑边界点和极值点】">【考虑边界点和极值点】</h3>
-<p>已知二元函数</p>
-<p>$$<br>
-f(x, y) = 4x^2 + 4y^2 - x - 2y + 9, \quad (x, y) \in \mathbb{R}^2.<br>
-$$</p>
-<p>试求出三元函数 $f(x, y)$ 在闭区域 $\Omega = {(x, y) : -1 \leq x \leq 1, -1 \leq y \leq 1}$ 上的最大值和最小值。</p>
+<h2 id="八、求函数定义域内的最值点"><a href="#八、求函数定义域内的最值点" class="headerlink" title="八、求函数定义域内的最值点"></a>八、求函数定义域内的最值点</h2><h3 id="【考虑边界点和极值点】"><a href="#【考虑边界点和极值点】" class="headerlink" title="【考虑边界点和极值点】"></a>【考虑边界点和极值点】</h3><p>已知二元函数</p>
+<script type="math/tex; mode=display">
+f(x, y) = 4x^2 + 4y^2 - x - 2y + 9, \quad (x, y) \in \mathbb{R}^2.</script><p>试求出三元函数 $f(x, y)$ 在闭区域 $\Omega = {(x, y) : -1 \leq x \leq 1, -1 \leq y \leq 1}$ 上的最大值和最小值。</p>
 <hr>
-<h3 id="解：求驻点">解：求驻点</h3>
-<p>解下列方程组：</p>
-<p>$$<br>
-\frac{\partial f}{\partial x} = 8x - 1 = 0,<br>
-$$</p>
-<p>$$<br>
-\frac{\partial f}{\partial y} = 8y - 2 = 0.<br>
-$$</p>
-<p>解得驻点 $P(1/8, 1/4) \in \Omega$。进一步，计算函数值：</p>
-<p>$$<br>
-\tag{1} f§ = f(1/8, 1/4) = \frac{277}{32}.<br>
-$$</p>
-<hr>
-<h3 id="接着，求出-f-x-y-在闭区域的边界-partial-Omega-K-1-cup-K-2-cup-K-3-cup-K-4-上的最大值和最小值。">接着，求出 $f(x, y)$ 在闭区域的边界 $\partial \Omega = K_1 \cup K_2 \cup K_3 \cup K_4$ 上的最大值和最小值。</h3>
-<p>其中：</p>
+<h3 id="解：求驻点"><a href="#解：求驻点" class="headerlink" title="解：求驻点"></a>解：求驻点</h3><p>解下列方程组：</p>
+<script type="math/tex; mode=display">
+\frac{\partial f}{\partial x} = 8x - 1 = 0,</script><script type="math/tex; mode=display">
+\frac{\partial f}{\partial y} = 8y - 2 = 0.</script><p>解得驻点 $P(1/8, 1/4) \in \Omega$。进一步，计算函数值：</p>
+<script type="math/tex; mode=display">
+\tag{1} f(P) = f(1/8, 1/4) = \frac{277}{32}.</script><hr>
+<h3 id="接着，求出-f-x-y-在闭区域的边界-partial-Omega-K-1-cup-K-2-cup-K-3-cup-K-4-上的最大值和最小值。"><a href="#接着，求出-f-x-y-在闭区域的边界-partial-Omega-K-1-cup-K-2-cup-K-3-cup-K-4-上的最大值和最小值。" class="headerlink" title="接着，求出 $f(x, y)$ 在闭区域的边界 $\partial \Omega = K_1 \cup K_2 \cup K_3 \cup K_4$ 上的最大值和最小值。"></a>接着，求出 $f(x, y)$ 在闭区域的边界 $\partial \Omega = K_1 \cup K_2 \cup K_3 \cup K_4$ 上的最大值和最小值。</h3><p>其中：</p>
 <ul>
 <li>$K_1 = {(x, y) : -1 \leq x \leq 1, y = -1}$,</li>
 <li>$K_2 = {(x, y) : x = 1, -1 \leq y \leq 1}$,</li>
@@ -432,663 +299,345 @@ $$</p>
 </ul>
 <p>我们计算：</p>
 <hr>
-<h3 id="K-1-上：">$K_1$ 上：</h3>
-<p>$$<br>
-\max_{(x, y) \in K_1} f(x, y) = \max_{x \in [-1, 1]} (4x^2 - x + 15) = 20,<br>
-$$</p>
-<p>$$<br>
-\min_{(x, y) \in K_1} f(x, y) = \min_{x \in [-1, 1]} (4x^2 - x + 15) = \frac{119}{16}.<br>
-$$</p>
-<hr>
-<h3 id="K-2-上：">$K_2$ 上：</h3>
-<p>$$<br>
-\max_{(x, y) \in K_2} f(x, y) = \max_{y \in [-1, 1]} (4y^2 - 2y + 12) = 18,<br>
-$$</p>
-<p>$$<br>
-\min_{(x, y) \in K_2} f(x, y) = \min_{y \in [-1, 1]} (4y^2 - 2y + 12) = \frac{47}{4}.<br>
-$$</p>
-<hr>
-<h3 id="K-3-上：">$K_3$ 上：</h3>
-<p>$$<br>
-\max_{(x, y) \in K_3} f(x, y) = \max_{x \in [-1, 1]} (4x^2 - x + 11) = 18,<br>
-$$</p>
-<p>$$<br>
-\min_{(x, y) \in K_3} f(x, y) = \min_{x \in [-1, 1]} (4x^2 - x + 11) = \frac{87}{16}.<br>
-$$</p>
-<hr>
-<h3 id="K-4-上：">$K_4$ 上：</h3>
-<p>$$<br>
-\max_{(x, y) \in K_4} f(x, y) = \max_{y \in [-1, 1]} (4y^2 - 2y + 14) = 20,<br>
-$$</p>
-<p>$$<br>
-\min_{(x, y) \in K_4} f(x, y) = \min_{y \in [-1, 1]} (4y^2 - 2y + 14) = \frac{55}{4}.<br>
-$$</p>
-<hr>
+<h3 id="K-1-上："><a href="#K-1-上：" class="headerlink" title="$K_1$ 上："></a>$K_1$ 上：</h3><script type="math/tex; mode=display">
+\max_{(x, y) \in K_1} f(x, y) = \max_{x \in [-1, 1]} (4x^2 - x + 15) = 20,</script><script type="math/tex; mode=display">
+\min_{(x, y) \in K_1} f(x, y) = \min_{x \in [-1, 1]} (4x^2 - x + 15) = \frac{119}{16}.</script><hr>
+<h3 id="K-2-上："><a href="#K-2-上：" class="headerlink" title="$K_2$ 上："></a>$K_2$ 上：</h3><script type="math/tex; mode=display">
+\max_{(x, y) \in K_2} f(x, y) = \max_{y \in [-1, 1]} (4y^2 - 2y + 12) = 18,</script><script type="math/tex; mode=display">
+\min_{(x, y) \in K_2} f(x, y) = \min_{y \in [-1, 1]} (4y^2 - 2y + 12) = \frac{47}{4}.</script><hr>
+<h3 id="K-3-上："><a href="#K-3-上：" class="headerlink" title="$K_3$ 上："></a>$K_3$ 上：</h3><script type="math/tex; mode=display">
+\max_{(x, y) \in K_3} f(x, y) = \max_{x \in [-1, 1]} (4x^2 - x + 11) = 18,</script><script type="math/tex; mode=display">
+\min_{(x, y) \in K_3} f(x, y) = \min_{x \in [-1, 1]} (4x^2 - x + 11) = \frac{87}{16}.</script><hr>
+<h3 id="K-4-上："><a href="#K-4-上：" class="headerlink" title="$K_4$ 上："></a>$K_4$ 上：</h3><script type="math/tex; mode=display">
+\max_{(x, y) \in K_4} f(x, y) = \max_{y \in [-1, 1]} (4y^2 - 2y + 14) = 20,</script><script type="math/tex; mode=display">
+\min_{(x, y) \in K_4} f(x, y) = \min_{y \in [-1, 1]} (4y^2 - 2y + 14) = \frac{55}{4}.</script><hr>
 <p>综合以上结果得出：</p>
-<h3 id="最大值计算">最大值计算</h3>
-<p>$$<br>
-\max_{(x, y) \in \Omega} f(x, y) = \max_{(x, y) \in K_1 \cup K_2 \cup K_3 \cup K_4} f(x, y)<br>
-$$</p>
-<p>$$<br>
-= \max{20, 18, 18, 20} = 20.<br>
-$$</p>
-<h3 id="最小值计算">最小值计算</h3>
-<p>$$<br>
-\min_{(x, y) \in \Omega} f(x, y) = \min_{(x, y) \in K_1 \cup K_2 \cup K_3 \cup K_4} f(x, y)<br>
-$$</p>
-<p>$$<br>
-= \min\left{\frac{119}{16}, \frac{47}{4}, \frac{87}{16}, \frac{55}{4}\right} = \frac{87}{16}.<br>
-$$</p>
-<h3 id="继续计算得出答案：">继续计算得出答案：</h3>
-<p>$$<br>
-\max_{(x, y) \in \Omega} f(x, y) = \max\left{f§, \max_{(x, y) \in K_1 \cup K_2 \cup K_3 \cup K_4} f(x, y)\right},<br>
-$$</p>
-<p>$$<br>
-= \max\left{\frac{277}{32}, 20\right} = 20.<br>
-$$</p>
-<p>$$<br>
-\min_{(x, y) \in \Omega} f(x, y) = \min\left{f§, \min_{(x, y) \in K_1 \cup K_2 \cup K_3 \cup K_4} f(x, y)\right},<br>
-$$</p>
-<p>$$<br>
-= \min\left{\frac{277}{32}, \frac{87}{16}\right} = \frac{87}{16}.<br>
-$$</p>
-<hr>
+<h3 id="最大值计算"><a href="#最大值计算" class="headerlink" title="最大值计算"></a>最大值计算</h3><script type="math/tex; mode=display">
+\max_{(x, y) \in \Omega} f(x, y) = \max_{(x, y) \in K_1 \cup K_2 \cup K_3 \cup K_4} f(x, y)</script><script type="math/tex; mode=display">
+= \max\{20, 18, 18, 20\} = 20.</script><h3 id="最小值计算"><a href="#最小值计算" class="headerlink" title="最小值计算"></a>最小值计算</h3><script type="math/tex; mode=display">
+\min_{(x, y) \in \Omega} f(x, y) = \min_{(x, y) \in K_1 \cup K_2 \cup K_3 \cup K_4} f(x, y)</script><script type="math/tex; mode=display">
+= \min\left\{\frac{119}{16}, \frac{47}{4}, \frac{87}{16}, \frac{55}{4}\right\} = \frac{87}{16}.</script><h3 id="继续计算得出答案："><a href="#继续计算得出答案：" class="headerlink" title="继续计算得出答案："></a>继续计算得出答案：</h3><script type="math/tex; mode=display">
+\max_{(x, y) \in \Omega} f(x, y) = \max\left\{f(P), \max_{(x, y) \in K_1 \cup K_2 \cup K_3 \cup K_4} f(x, y)\right\},</script><script type="math/tex; mode=display">
+= \max\left\{\frac{277}{32}, 20\right\} = 20.</script><script type="math/tex; mode=display">
+\min_{(x, y) \in \Omega} f(x, y) = \min\left\{f(P), \min_{(x, y) \in K_1 \cup K_2 \cup K_3 \cup K_4} f(x, y)\right\},</script><script type="math/tex; mode=display">
+= \min\left\{\frac{277}{32}, \frac{87}{16}\right\} = \frac{87}{16}.</script><hr>
 <p>因此，二元函数 $f(x, y)$ 在闭区域 $\Omega = [-1, 1] \times [-1, 1]$ 上的最大值和最小值分别是 $20$ 和 $\frac{87}{16}$。</p>
 <p>解答完毕。</p>
-<h2 id="九、隐函数求导-求全微分">九、隐函数求导&amp;求全微分</h2>
-<p>【这里也可以用$-\frac{F_x(x,y)}{F_y(x,y)}$法计算，但是要注意这种方法要说明隐函数可导，稳妥方法是列方程组+这种方法计算】</p>
+<h2 id="九、隐函数求导-amp-求全微分"><a href="#九、隐函数求导-amp-求全微分" class="headerlink" title="九、隐函数求导&amp;求全微分"></a>九、隐函数求导&amp;求全微分</h2><p>【这里也可以用$-\frac{F_x(x,y)}{F_y(x,y)}$法计算，但是要注意这种方法要说明隐函数可导，稳妥方法是列方程组+这种方法计算】</p>
 <p>已知隐函数</p>
-<p>$$<br>
-z = z(x, y), \quad (x, y) \in \Omega<br>
-$$</p>
-<hr>
-<p>由方程式<br>
-$<br>
-2z + 2y^2 + 3z^2 + 4x + 5y + 6z = 0<br>
-$<br>
-确定，其中 $\Omega \subset \mathbb{R}^2$ 是一个给定的开区域。</p>
+<script type="math/tex; mode=display">
+z = z(x, y), \quad (x, y) \in \Omega</script><hr>
+<p>由方程式<br>$<br>2z + 2y^2 + 3z^2 + 4x + 5y + 6z = 0<br>$<br>确定，其中 $\Omega \subset \mathbb{R}^2$ 是一个给定的开区域。</p>
 <p>进一步假设隐函数 $z = z(x, y)$ 在开区域 $\Omega$ 内具有连续的一阶偏导数。试在 $\Omega$ 内计算一阶偏导数 $\frac{\partial z}{\partial x}$ 和 $\frac{\partial z}{\partial y}$ 以及一阶全微分 $dz$。</p>
 <hr>
-<h3 id="解：-6">解：</h3>
-<p>根据已知条件，隐函数 $z = z(x, y)$ 在开区域 $\Omega$ 内具有连续的一阶偏导数。</p>
+<h3 id="解：-5"><a href="#解：-5" class="headerlink" title="解："></a>解：</h3><p>根据已知条件，隐函数 $z = z(x, y)$ 在开区域 $\Omega$ 内具有连续的一阶偏导数。</p>
 <p>因此，在方程式</p>
-<p>$$<br>
-2z + 2y^2 + 3z^2 + 4x + 5y + 6z = 0<br>
-$$</p>
-<p>的两端分别关于自变量 $x$ 和 $y$ 求偏导数，计算得出：</p>
-<p>$$<br>
-2x + 6z \frac{\partial z}{\partial x} + 4 + 6 \frac{\partial z}{\partial x} = 0<br>
-$$</p>
-<p>以及</p>
-<p>$$<br>
-4y + 6z \frac{\partial z}{\partial y} + 5 + 6 \frac{\partial z}{\partial y} = 0<br>
-$$</p>
-<hr>
-<h3 id="求解上述等式，立刻得到：">求解上述等式，立刻得到：</h3>
-<p>$$<br>
-\frac{\partial z}{\partial x} = -\frac{x + 2}{3z + 3}, \quad \frac{\partial z}{\partial y} = -\frac{4y + 5}{6z + 6}.<br>
-$$</p>
-<hr>
-<h3 id="进一步，得出一阶全微分：">进一步，得出一阶全微分：</h3>
-<p>$$<br>
-dz = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y} dy<br>
-$$</p>
-<p>$$<br>
-dz = -\frac{x + 2}{3z + 3} dx - \frac{4y + 5}{6z + 6} dy.<br>
-$$</p>
-<h2 id="十、隐函数组求导">十、隐函数组求导</h2>
-<p>已知隐函数</p>
-<p>$$<br>
-u = u(x, y), , v = v(x, y), \quad (x, y) \in \Omega<br>
-$$</p>
-<p>由方程组</p>
-<p>$$<br>
-\begin{cases}<br>
-u^3 + v^3 - x^2 + y^2 = 0, \<br>
-u + v - x^3 y^3 - 1 = 0<br>
-\end{cases}<br>
-$$</p>
-<p>确定，其中 $\Omega \subset \mathbb{R}^2$ 是一个给定的开区域。</p>
+<script type="math/tex; mode=display">
+2z + 2y^2 + 3z^2 + 4x + 5y + 6z = 0</script><p>的两端分别关于自变量 $x$ 和 $y$ 求偏导数，计算得出：</p>
+<script type="math/tex; mode=display">
+2x + 6z \frac{\partial z}{\partial x} + 4 + 6 \frac{\partial z}{\partial x} = 0</script><p>以及</p>
+<script type="math/tex; mode=display">
+4y + 6z \frac{\partial z}{\partial y} + 5 + 6 \frac{\partial z}{\partial y} = 0</script><hr>
+<h3 id="求解上述等式，立刻得到："><a href="#求解上述等式，立刻得到：" class="headerlink" title="求解上述等式，立刻得到："></a>求解上述等式，立刻得到：</h3><script type="math/tex; mode=display">
+\frac{\partial z}{\partial x} = -\frac{x + 2}{3z + 3}, \quad \frac{\partial z}{\partial y} = -\frac{4y + 5}{6z + 6}.</script><hr>
+<h3 id="进一步，得出一阶全微分："><a href="#进一步，得出一阶全微分：" class="headerlink" title="进一步，得出一阶全微分："></a>进一步，得出一阶全微分：</h3><script type="math/tex; mode=display">
+dz = \frac{\partial z}{\partial x} dx + \frac{\partial z}{\partial y} dy</script><script type="math/tex; mode=display">
+dz = -\frac{x + 2}{3z + 3} dx - \frac{4y + 5}{6z + 6} dy.</script><h2 id="十、隐函数组求导"><a href="#十、隐函数组求导" class="headerlink" title="十、隐函数组求导"></a>十、隐函数组求导</h2><p>已知隐函数</p>
+<script type="math/tex; mode=display">
+u = u(x, y), \, v = v(x, y), \quad (x, y) \in \Omega</script><p>由方程组</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+u^3 + v^3 - x^2 + y^2 = 0, \\
+u + v - x^3 y^3 - 1 = 0
+\end{cases}</script><p>确定，其中 $\Omega \subset \mathbb{R}^2$ 是一个给定的开区域。</p>
 <p>进一步假设该隐函数 $u(x, y)$ 和 $v(x, y)$ 在开区域 $\Omega$ 内具有连续的一阶偏导数。</p>
 <p>试在 $\Omega$ 内计算一阶偏导数 $\frac{\partial u}{\partial x}$，$\frac{\partial u}{\partial y}$，$\frac{\partial v}{\partial x}$ 以及 $\frac{\partial v}{\partial y}$。</p>
 <hr>
-<h3 id="解：-7">解：</h3>
-<p>根据已知条件，在开区域 $\Omega$ 内隐函数 $u(x, y)$ 和 $v(x, y)$ 具有连续的一阶偏导数。</p>
+<h3 id="解：-6"><a href="#解：-6" class="headerlink" title="解："></a>解：</h3><p>根据已知条件，在开区域 $\Omega$ 内隐函数 $u(x, y)$ 和 $v(x, y)$ 具有连续的一阶偏导数。</p>
 <hr>
-<h4 id="对方程组等式两边分别关于-x-求偏导数，计算得出：">对方程组等式两边分别关于 $x$ 求偏导数，计算得出：</h4>
-<p>$$<br>
-3u^2 \frac{\partial u}{\partial x} + 3v^2 \frac{\partial v}{\partial x} - 2x = 0<br>
-$$</p>
-<p>$$<br>
-\frac{\partial u}{\partial x} + \frac{\partial v}{\partial x} - 3x^2 y^3 = 0<br>
-$$</p>
-<p>求解上述方程组得出：</p>
-<p>$$<br>
-\frac{\partial u}{\partial x} = \frac{2x - 9x^2 y^3 v^2}{3u^2 - 3v^2}, \quad<br>
-\frac{\partial v}{\partial x} = -\frac{2x - 9x^2 y^3 u^2}{3u^2 - 3v^2}.<br>
-$$</p>
+<h4 id="对方程组等式两边分别关于-x-求偏导数，计算得出："><a href="#对方程组等式两边分别关于-x-求偏导数，计算得出：" class="headerlink" title="对方程组等式两边分别关于 $x$ 求偏导数，计算得出："></a>对方程组等式两边分别关于 $x$ 求偏导数，计算得出：</h4><script type="math/tex; mode=display">
+3u^2 \frac{\partial u}{\partial x} + 3v^2 \frac{\partial v}{\partial x} - 2x = 0</script><script type="math/tex; mode=display">
+\frac{\partial u}{\partial x} + \frac{\partial v}{\partial x} - 3x^2 y^3 = 0</script><p>求解上述方程组得出：</p>
+<script type="math/tex; mode=display">
+\frac{\partial u}{\partial x} = \frac{2x - 9x^2 y^3 v^2}{3u^2 - 3v^2}, \quad
+\frac{\partial v}{\partial x} = -\frac{2x - 9x^2 y^3 u^2}{3u^2 - 3v^2}.</script><hr>
+<h4 id="同理，对方程组等式两边分别关于-y-求偏导数，计算得出："><a href="#同理，对方程组等式两边分别关于-y-求偏导数，计算得出：" class="headerlink" title="同理，对方程组等式两边分别关于 $y$ 求偏导数，计算得出："></a>同理，对方程组等式两边分别关于 $y$ 求偏导数，计算得出：</h4><script type="math/tex; mode=display">
+3u^2 \frac{\partial u}{\partial y} + 3v^2 \frac{\partial v}{\partial y} + 2y = 0</script><script type="math/tex; mode=display">
+\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y} - 3x^3 y^2 = 0</script><p>求解上述方程组得出：</p>
+<script type="math/tex; mode=display">
+\frac{\partial u}{\partial y} = -\frac{2y + 9x^3 y^2 v^2}{3u^2 - 3v^2}, \quad
+\frac{\partial v}{\partial y} = \frac{2y + 9x^3 y^2 u^2}{3u^2 - 3v^2}.</script><p>解答完毕。</p>
+<h2 id="十一、求切平面和法线方程"><a href="#十一、求切平面和法线方程" class="headerlink" title="十一、求切平面和法线方程"></a>十一、求切平面和法线方程</h2><p>已知空间曲面</p>
+<script type="math/tex; mode=display">
+\Sigma: 5x^2 + 6y^2 + 7z^2 = 18.</script><p>试计算曲面 $\Sigma$ 在 $M(1, 1, 1)$ 处的切平面方程和法线方程。</p>
+<h3 id="解"><a href="#解" class="headerlink" title="解"></a>解</h3><p>计算曲面 $\Sigma$ 在 $M(1,1,1)$ 处的法向量。为此，引进函数 $F(x, y, z) = 5x^2 + 6y^2 + 7z^2 - 18$. </p>
+<p>此时，</p>
+<script type="math/tex; mode=display">
+\vec{n} = \nabla F|_{M(1,1,1)} = \left(\frac{\partial F}{\partial x}, \frac{\partial F}{\partial y}, \frac{\partial F}{\partial z}\right)\Big|_{M(1,1,1)} = (10x, 12y, 14z)|_{M(1,1,1)} = (10, 12, 14).</script><p>因此，得出切平面方程：</p>
+<script type="math/tex; mode=display">
+10(x - 1) + 12(y - 1) + 14(z - 1) = 0.</script><p>以及法线方程：</p>
+<script type="math/tex; mode=display">
+\frac{x - 1}{10} = \frac{y - 1}{12} = \frac{z - 1}{14}.</script><p> 解答完毕</p>
 <hr>
-<h4 id="同理，对方程组等式两边分别关于-y-求偏导数，计算得出：">同理，对方程组等式两边分别关于 $y$ 求偏导数，计算得出：</h4>
-<p>$$<br>
-3u^2 \frac{\partial u}{\partial y} + 3v^2 \frac{\partial v}{\partial y} + 2y = 0<br>
-$$</p>
-<p>$$<br>
-\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y} - 3x^3 y^2 = 0<br>
-$$</p>
-<p>求解上述方程组得出：</p>
-<p>$$<br>
-\frac{\partial u}{\partial y} = -\frac{2y + 9x^3 y^2 v^2}{3u^2 - 3v^2}, \quad<br>
-\frac{\partial v}{\partial y} = \frac{2y + 9x^3 y^2 u^2}{3u^2 - 3v^2}.<br>
-$$</p>
-<p>解答完毕。</p>
-<h2 id="十一、求切平面和法线方程">十一、求切平面和法线方程</h2>
-<p>已知空间曲面</p>
-<p>$$<br>
-\Sigma: 5x^2 + 6y^2 + 7z^2 = 18.<br>
-$$</p>
-<p>试计算曲面 $\Sigma$ 在 $M(1, 1, 1)$ 处的切平面方程和法线方程。</p>
-<h3 id="解">解</h3>
-<p>计算曲面 $\Sigma$ 在 $M(1,1,1)$ 处的法向量。为此，引进函数 $F(x, y, z) = 5x^2 + 6y^2 + 7z^2 - 18$.</p>
-<p>此时，<br>
-$$<br>
-\vec{n} = \nabla F|<em>{M(1,1,1)} = \left(\frac{\partial F}{\partial x}, \frac{\partial F}{\partial y}, \frac{\partial F}{\partial z}\right)\Big|</em>{M(1,1,1)} = (10x, 12y, 14z)|_{M(1,1,1)} = (10, 12, 14).<br>
-$$</p>
-<p>因此，得出切平面方程：</p>
-<p>$$<br>
-10(x - 1) + 12(y - 1) + 14(z - 1) = 0.<br>
-$$</p>
-<p>以及法线方程：</p>
-<p>$$<br>
-\frac{x - 1}{10} = \frac{y - 1}{12} = \frac{z - 1}{14}.<br>
-$$</p>
-<p>解答完毕</p>
-<hr>
-<h2 id="十二、含参变量积分连续性">十二、含参变量积分连续性</h2>
-<p>已知</p>
-<p>$$<br>
-f(t) = \int_0^1 \left(x + \sqrt{x^2 + t^2}\right)e^{x^2} , dx, \quad t \in [-1, 1].<br>
-$$</p>
-<p>试计算极限：</p>
-<p>$$<br>
-\lim_{t \to 0} f(t).<br>
-$$</p>
-<hr>
-<h3 id="解-2">解</h3>
-<p>注意到被积函数 $\left(x + \sqrt{x^2 + t^2}\right)e^{x^2}$ 在矩形区域 $(x, t) \in [0,1] \times [-1,1]$ 上连续。</p>
+<h2 id="十二、含参变量积分连续性"><a href="#十二、含参变量积分连续性" class="headerlink" title="十二、含参变量积分连续性"></a>十二、含参变量积分连续性</h2><p>已知</p>
+<script type="math/tex; mode=display">
+f(t) = \int_0^1 \left(x + \sqrt{x^2 + t^2}\right)e^{x^2} \, dx, \quad t \in [-1, 1].</script><p>试计算极限：</p>
+<script type="math/tex; mode=display">
+\lim_{t \to 0} f(t).</script><hr>
+<h3 id="解-1"><a href="#解-1" class="headerlink" title="解"></a>解</h3><p>注意到被积函数 $\left(x + \sqrt{x^2 + t^2}\right)e^{x^2}$ 在矩形区域 $(x, t) \in [0,1] \times [-1,1]$ 上连续。</p>
 <p>因此，根据含参量积分的连续性定理，函数 $f(t)$ 在 $t \in [-1, 1]$ 上连续。由一元函数连续定义得出：</p>
-<p>$$<br>
-\lim_{t \to 0} f(t) = f(0).<br>
-$$</p>
-<p>现在，计算上述右端。根据 Newton-Leibniz 公式，计算</p>
-<p>$$<br>
-f(0) = \int_0^1 \left(x + \sqrt{x^2}\right)e^{x^2} , dx = \int_0^1 2xe^{x^2} , dx.<br>
-$$</p>
-<p>令 $u = x^2$，则 $du = 2x , dx$，有：</p>
-<p>$$<br>
-f(0) = \int_0^1 e^u , du = e^{x^2}\Big|_{0}^{1} = e^{1} - e^{0} = e - 1.<br>
-$$</p>
-<h3 id="综合上述计算得出：">综合上述计算得出：</h3>
-<p>$$<br>
-\lim_{t \to 0} f(t) = e - 1.<br>
-$$</p>
-<h3 id="解答完毕">解答完毕</h3>
-<h2 id="十三、含参变量积分可微性">十三、含参变量积分可微性</h2>
-<p>已知</p>
-<p>$$<br>
-f(t) = \int_{t^2}^{t^3} e^{x^2 + 2x} , dx, \quad t \in (-\infty, +\infty).<br>
-$$</p>
-<p>试求出导数 $f’(t)$。</p>
+<script type="math/tex; mode=display">
+\lim_{t \to 0} f(t) = f(0).</script><p>现在，计算上述右端。根据 Newton-Leibniz 公式，计算</p>
+<script type="math/tex; mode=display">
+f(0) = \int_0^1 \left(x + \sqrt{x^2}\right)e^{x^2} \, dx = \int_0^1 2xe^{x^2} \, dx.</script><p>令 $u = x^2$，则 $du = 2x \, dx$，有：</p>
+<script type="math/tex; mode=display">
+f(0) = \int_0^1 e^u \, du = e^{x^2}\Big|_{0}^{1} = e^{1} - e^{0} = e - 1.</script><h3 id="综合上述计算得出："><a href="#综合上述计算得出：" class="headerlink" title="综合上述计算得出："></a>综合上述计算得出：</h3><script type="math/tex; mode=display">
+\lim_{t \to 0} f(t) = e - 1.</script><h3 id="解答完毕"><a href="#解答完毕" class="headerlink" title="解答完毕"></a>解答完毕</h3><h2 id="十三、含参变量积分可微性"><a href="#十三、含参变量积分可微性" class="headerlink" title="十三、含参变量积分可微性"></a>十三、含参变量积分可微性</h2><p>已知</p>
+<script type="math/tex; mode=display">
+f(t) = \int_{t^2}^{t^3} e^{x^2 + 2x} \, dx, \quad t \in (-\infty, +\infty).</script><p>试求出导数 $f’(t)$。</p>
 <hr>
-<h3 id="解-3">解</h3>
-<p>根据含参变量积分的导数计算公式，得出：</p>
-<p>$$<br>
-f’(t) = e^{x^2 + 2x} \big|<em>{x = t^3} \cdot \frac{d(t^3)}{dt} - e^{x^2 + 2x} \big|</em>{x = t^2} \cdot \frac{d(t^2)}{dt}.<br>
-$$</p>
-<p>计算：</p>
-<p>$$<br>
-f’(t) = e^{(t^3)^2 + 2t^3} \cdot 3t^2 - e^{(t^2)^2 + 2t^2} \cdot 2t,<br>
-$$</p>
-<p>$$<br>
-= 3t^2 e^{t^6 + 2t^3} - 2t e^{t^4 + 2t^2}.<br>
-$$</p>
-<h3 id="因此，">因此，</h3>
-<p>$$<br>
-f’(t) = 3t^2 e^{t^6 + 2t^3} - 2t e^{t^4 + 2t^2}.<br>
-$$</p>
-<h3 id="解答完毕-2">解答完毕</h3>
-<h2 id="十四、含参反常积分连续性">十四、含参反常积分连续性</h2>
-<p>已知</p>
-<p>$$<br>
-f(t) = \int_{0}^{+\infty} \frac{\cos(tx)}{1+x^2} , dx, \quad t \in (-\infty, +\infty).<br>
-$$</p>
-<p>试计算极限：</p>
-<p>$$<br>
-\lim_{t \to 0} f(t).<br>
-$$</p>
-<hr>
-<h3 id="解-4">解</h3>
-<p>我们计算：</p>
-<p>$$<br>
-\left| \frac{\cos(tx)}{1+x^2} \right| \leq \frac{1}{1+x^2}, \quad \forall (x, t) \in [0, +\infty) \times (-\infty, +\infty).<br>
-$$</p>
-<p>注意到无穷积分：</p>
-<p>$$<br>
-\int_{0}^{+\infty} \frac{1}{1+x^2} , dx<br>
-$$</p>
-<p>收敛。</p>
+<h3 id="解-2"><a href="#解-2" class="headerlink" title="解"></a>解</h3><p>根据含参变量积分的导数计算公式，得出：</p>
+<script type="math/tex; mode=display">
+f'(t) = e^{x^2 + 2x} \big|_{x = t^3} \cdot \frac{d(t^3)}{dt} - e^{x^2 + 2x} \big|_{x = t^2} \cdot \frac{d(t^2)}{dt}.</script><p>计算：</p>
+<script type="math/tex; mode=display">
+f'(t) = e^{(t^3)^2 + 2t^3} \cdot 3t^2 - e^{(t^2)^2 + 2t^2} \cdot 2t,</script><script type="math/tex; mode=display">
+= 3t^2 e^{t^6 + 2t^3} - 2t e^{t^4 + 2t^2}.</script><h3 id="因此，"><a href="#因此，" class="headerlink" title="因此，"></a>因此，</h3><script type="math/tex; mode=display">
+f'(t) = 3t^2 e^{t^6 + 2t^3} - 2t e^{t^4 + 2t^2}.</script><h3 id="解答完毕-1"><a href="#解答完毕-1" class="headerlink" title="解答完毕"></a>解答完毕</h3><h2 id="十四、含参反常积分连续性"><a href="#十四、含参反常积分连续性" class="headerlink" title="十四、含参反常积分连续性"></a>十四、含参反常积分连续性</h2><p>已知</p>
+<script type="math/tex; mode=display">
+f(t) = \int_{0}^{+\infty} \frac{\cos(tx)}{1+x^2} \, dx, \quad t \in (-\infty, +\infty).</script><p>试计算极限：</p>
+<script type="math/tex; mode=display">
+\lim_{t \to 0} f(t).</script><hr>
+<h3 id="解-3"><a href="#解-3" class="headerlink" title="解"></a>解</h3><p>我们计算：</p>
+<script type="math/tex; mode=display">
+\left| \frac{\cos(tx)}{1+x^2} \right| \leq \frac{1}{1+x^2}, \quad \forall (x, t) \in [0, +\infty) \times (-\infty, +\infty).</script><p>注意到无穷积分：</p>
+<script type="math/tex; mode=display">
+\int_{0}^{+\infty} \frac{1}{1+x^2} \, dx</script><p>收敛。</p>
 <p>应用魏尔斯特拉斯M判别法，含参变量反常积分 $f(t)$ 在 $t \in (-\infty, +\infty)$上一致收敛。根据含参变量积分的连续性定理，一元函数 $f(t)$ 在 $t \in (-\infty, +\infty)$ 内连续。由一元函数连续性定义，得出：</p>
-<p>$$<br>
-\lim_{t \to 0} f(t) = f(0).<br>
-$$</p>
-<h3 id="现在，计算上述右端。">现在，计算上述右端。</h3>
-<p>根据 $t = 0$，计算：</p>
-<p>$$<br>
-f(0) = \int_{0}^{+\infty} \frac{\cos(0 \cdot x)}{1+x^2} , dx = \int_{0}^{+\infty} \frac{1}{1+x^2} , dx.<br>
-$$</p>
-<p>计算该积分：</p>
-<p>$$<br>
-\int_{0}^{+\infty} \frac{1}{1+x^2} , dx = \lim_{A \to +\infty} \int_{0}^{A} \frac{1}{1+x^2} , dx = \lim_{A \to +\infty} \left[ \arctan x \big|_{x=0}^{x=A} \right].<br>
-$$</p>
-<p>$$<br>
-= \lim_{A \to +\infty} \left( \arctan A - \arctan 0 \right) = \frac{\pi}{2}.<br>
-$$</p>
-<h3 id="综合上述计算，得出">综合上述计算，得出</h3>
-<p>$$<br>
-\lim_{t \to 0} f(t) = \frac{\pi}{2}.<br>
-$$</p>
-<h3 id="解答完毕-3">解答完毕</h3>
-<h2 id="十六、含参变量反常积分一致收敛性的讨论">十六、含参变量反常积分一致收敛性的讨论</h2>
-<p>已知含参变量反常积分</p>
-<p>$$<br>
-I(x) = \int_{0}^{+\infty} \frac{3\sin(x+y+xy) + 5y\cos(x^3+y^3)}{3+y+y^3} , dy, \quad x \in (-\infty, +\infty).<br>
-$$</p>
-<hr>
-<h3 id="试证明：反常积分-I-x-在-x-in-infty-infty-上一致收敛。">试证明：反常积分 $I(x)$ 在 $x \in (-\infty, +\infty)$ 上一致收敛。</h3>
-<h3 id="解-5">解</h3>
-<p>对于任意给定的 $y \in [0, +\infty)$，计算：</p>
-<p>$$<br>
-\left| \frac{3\sin(x+y+xy) + 5y\cos(x^3+y^3)}{3+y+y^3} \right| \leq \frac{|3\sin(x+y+xy)|}{3+y+y^3} + \frac{|5y\cos(x^3+y^3)|}{3+y+y^3}.<br>
-$$</p>
-<p>分别估计两个部分：</p>
+<script type="math/tex; mode=display">
+\lim_{t \to 0} f(t) = f(0).</script><h3 id="现在，计算上述右端。"><a href="#现在，计算上述右端。" class="headerlink" title="现在，计算上述右端。"></a>现在，计算上述右端。</h3><p>根据 $t = 0$，计算：</p>
+<script type="math/tex; mode=display">
+f(0) = \int_{0}^{+\infty} \frac{\cos(0 \cdot x)}{1+x^2} \, dx = \int_{0}^{+\infty} \frac{1}{1+x^2} \, dx.</script><p>计算该积分：</p>
+<script type="math/tex; mode=display">
+\int_{0}^{+\infty} \frac{1}{1+x^2} \, dx = \lim_{A \to +\infty} \int_{0}^{A} \frac{1}{1+x^2} \, dx = \lim_{A \to +\infty} \left[ \arctan x \big|_{x=0}^{x=A} \right].</script><script type="math/tex; mode=display">
+= \lim_{A \to +\infty} \left( \arctan A - \arctan 0 \right) = \frac{\pi}{2}.</script><h3 id="综合上述计算，得出"><a href="#综合上述计算，得出" class="headerlink" title="综合上述计算，得出"></a>综合上述计算，得出</h3><script type="math/tex; mode=display">
+\lim_{t \to 0} f(t) = \frac{\pi}{2}.</script><h3 id="解答完毕-2"><a href="#解答完毕-2" class="headerlink" title="解答完毕"></a>解答完毕</h3><h2 id="十六、含参变量反常积分一致收敛性的讨论"><a href="#十六、含参变量反常积分一致收敛性的讨论" class="headerlink" title="十六、含参变量反常积分一致收敛性的讨论"></a>十六、含参变量反常积分一致收敛性的讨论</h2><p>已知含参变量反常积分</p>
+<script type="math/tex; mode=display">
+I(x) = \int_{0}^{+\infty} \frac{3\sin(x+y+xy) + 5y\cos(x^3+y^3)}{3+y+y^3} \, dy, \quad x \in (-\infty, +\infty).</script><hr>
+<h3 id="试证明：反常积分-I-x-在-x-in-infty-infty-上一致收敛。"><a href="#试证明：反常积分-I-x-在-x-in-infty-infty-上一致收敛。" class="headerlink" title="试证明：反常积分 $I(x)$ 在 $x \in (-\infty, +\infty)$ 上一致收敛。"></a>试证明：反常积分 $I(x)$ 在 $x \in (-\infty, +\infty)$ 上一致收敛。</h3><h3 id="解-4"><a href="#解-4" class="headerlink" title="解"></a>解</h3><p>对于任意给定的 $y \in [0, +\infty)$，计算：</p>
+<script type="math/tex; mode=display">
+\left| \frac{3\sin(x+y+xy) + 5y\cos(x^3+y^3)}{3+y+y^3} \right| \leq \frac{|3\sin(x+y+xy)|}{3+y+y^3} + \frac{|5y\cos(x^3+y^3)|}{3+y+y^3}.</script><p>分别估计两个部分：</p>
 <ol>
 <li>对于 $\frac{|3\sin(x+y+xy)|}{3+y+y^3}$:</li>
 </ol>
-<p>$$<br>
-\frac{|3\sin(x+y+xy)|}{3+y+y^3} \leq \frac{3}{3+y+y^3}.<br>
-$$</p>
-<ol start="2">
+<script type="math/tex; mode=display">
+\frac{|3\sin(x+y+xy)|}{3+y+y^3} \leq \frac{3}{3+y+y^3}.</script><ol>
 <li>对于 $\frac{|5y\cos(x^3+y^3)|}{3+y+y^3}$:</li>
 </ol>
-<p>$$<br>
-\frac{|5y\cos(x^3+y^3)|}{3+y+y^3} \leq \frac{5y}{3+y+y^3}.<br>
-$$</p>
-<p>因此，</p>
-<p>$$<br>
-\left| \frac{3\sin(x+y+xy) + 5y\cos(x^3+y^3)}{3+y+y^3} \right| \leq \frac{3}{3+y+y^3} + \frac{5y}{3+y+y^3}.<br>
-$$</p>
-<p>进一步利用不等式，可以得出：</p>
-<p>$$<br>
-\frac{3}{3+y+y^3} + \frac{5y}{3+y+y^3} \leq \frac{3}{1+y^2} + \frac{5y}{1+y^2} \leq \frac{8}{1+y^2}.<br>
-$$</p>
-<h3 id="注意到反常积分：">注意到反常积分：</h3>
-<p>$$<br>
-\int_{0}^{+\infty} \frac{8}{1+y^2} , dy<br>
-$$</p>
-<p>是收敛的。因此，结合上述不等式，应用魏尔斯特拉斯M判别法，含参变量反常积分 $I(x)$ 在 $x \in (-\infty, +\infty)$ 上一致收敛。</p>
+<script type="math/tex; mode=display">
+\frac{|5y\cos(x^3+y^3)|}{3+y+y^3} \leq \frac{5y}{3+y+y^3}.</script><p>因此，</p>
+<script type="math/tex; mode=display">
+\left| \frac{3\sin(x+y+xy) + 5y\cos(x^3+y^3)}{3+y+y^3} \right| \leq \frac{3}{3+y+y^3} + \frac{5y}{3+y+y^3}.</script><p>进一步利用不等式，可以得出：</p>
+<script type="math/tex; mode=display">
+\frac{3}{3+y+y^3} + \frac{5y}{3+y+y^3} \leq \frac{3}{1+y^2} + \frac{5y}{1+y^2} \leq \frac{8}{1+y^2}.</script><h3 id="注意到反常积分："><a href="#注意到反常积分：" class="headerlink" title="注意到反常积分："></a>注意到反常积分：</h3><script type="math/tex; mode=display">
+\int_{0}^{+\infty} \frac{8}{1+y^2} \, dy</script><p>是收敛的。因此，结合上述不等式，应用魏尔斯特拉斯M判别法，含参变量反常积分 $I(x)$ 在 $x \in (-\infty, +\infty)$ 上一致收敛。</p>
 <hr>
-<h3 id="解答完毕-4">解答完毕</h3>
-<h2 id="十七、第一型曲线积分">十七、第一型曲线积分</h2>
-<p>试计算第一型曲线积分</p>
-<p>$$<br>
-\int_{\Gamma} (x^2 + 8xy + y^2) ds<br>
-$$</p>
-<p>其中$\Gamma$是下列曲线段：</p>
-<p>$$<br>
-\Gamma: \begin{cases}<br>
-x = 4\cos t, \<br>
-y = 4\sin t, \<br>
-0 \leq t \leq 2\pi.<br>
-\end{cases}<br>
-$$</p>
-<p><strong>解</strong>：根据第一型曲线积分公式，计算：</p>
-<p>$$<br>
-\int_{\Gamma} (x^2 + 8xy + y^2) ds = \int_0^{2\pi} \left{ (4\cos t)^2 + 8(4\cos t)(4\sin t) + (4\sin t)^2 \right} \cdot \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} , dt<br>
-$$</p>
-<p>进一步计算：</p>
-<p>$$<br>
-\int_{\Gamma} (x^2 + 8xy + y^2) ds = \int_0^{2\pi} \left( 16 + 128\cos t \sin t \right) \cdot \sqrt{(-4\sin t)^2 + (4\cos t)^2} , dt = 128\pi.<br>
-$$</p>
-<p>因此，第一型曲线积分的值就是：</p>
-<p>$$<br>
-\int_{\Gamma} (x^2 + 8xy + y^2) ds = 128\pi.<br>
-$$</p>
-<hr>
-<h2 id="十八、第二型曲线积分">十八、第二型曲线积分</h2>
-<p>试计算第二型曲线积分</p>
-<p>$$<br>
-\int_{\Gamma} (x^2 + 2y^2) dx + (2x^2 + 6y^2) dy<br>
-$$</p>
-<p>其中$\Gamma$是沿着曲线 $y = \frac{x^2}{2}$ 从点 $O(0, 0)$ 到点 $A(1, \frac{1}{2})$ 的部分。</p>
+<h3 id="解答完毕-3"><a href="#解答完毕-3" class="headerlink" title="解答完毕"></a>解答完毕</h3><h2 id="十七、第一型曲线积分"><a href="#十七、第一型曲线积分" class="headerlink" title="十七、第一型曲线积分"></a>十七、第一型曲线积分</h2><p>试计算第一型曲线积分</p>
+<script type="math/tex; mode=display">
+\int_{\Gamma} (x^2 + 8xy + y^2) ds</script><p>其中$\Gamma$是下列曲线段：</p>
+<script type="math/tex; mode=display">
+\Gamma: \begin{cases} 
+x = 4\cos t, \\
+y = 4\sin t, \\
+0 \leq t \leq 2\pi.
+\end{cases}</script><p><strong>解</strong>：根据第一型曲线积分公式，计算：</p>
+<script type="math/tex; mode=display">
+\int_{\Gamma} (x^2 + 8xy + y^2) ds = \int_0^{2\pi} \left\{ (4\cos t)^2 + 8(4\cos t)(4\sin t) + (4\sin t)^2 \right\} \cdot \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} \, dt</script><p>进一步计算：</p>
+<script type="math/tex; mode=display">
+\int_{\Gamma} (x^2 + 8xy + y^2) ds = \int_0^{2\pi} \left( 16 + 128\cos t \sin t \right) \cdot \sqrt{(-4\sin t)^2 + (4\cos t)^2} \, dt = 128\pi.</script><p>因此，第一型曲线积分的值就是：</p>
+<script type="math/tex; mode=display">
+\int_{\Gamma} (x^2 + 8xy + y^2) ds = 128\pi.</script><hr>
+<h2 id="十八、第二型曲线积分"><a href="#十八、第二型曲线积分" class="headerlink" title="十八、第二型曲线积分"></a>十八、第二型曲线积分</h2><p>试计算第二型曲线积分</p>
+<script type="math/tex; mode=display">
+\int_{\Gamma} (x^2 + 2y^2) dx + (2x^2 + 6y^2) dy</script><p>其中$\Gamma$是沿着曲线 $y = \frac{x^2}{2}$ 从点 $O(0, 0)$ 到点 $A(1, \frac{1}{2})$ 的部分。</p>
 <p><strong>解</strong>：根据曲线条件，曲线段$\Gamma$的参数方程是：</p>
-<p>$$<br>
-\Gamma: \begin{cases}<br>
-x = t, \<br>
-y = \frac{t^2}{2}, \<br>
-t \in [0, 1].<br>
-\end{cases}<br>
-$$</p>
-<p>使用第二型曲线积分公式，计算：</p>
-<p>$$<br>
-\int_{\Gamma} (x^2 + 2y^2) dx + (2x^2 + 6y^2) dy = \int_0^1 \left{ t^2 + 2\left(\frac{t^2}{2}\right)^2 \right} , dt + \int_0^1 t \left{ 2t^2 + 6\left(\frac{t^2}{2}\right)^2 \right} , dt = \frac{71}{60}.<br>
-$$</p>
-<p>因此，第二型曲线积分的值就是：</p>
-<p>$$<br>
-\int_{\Gamma} (x^2 + 2y^2) dx + (2x^2 + 6y^2) dy = \frac{71}{60}.<br>
-$$</p>
-<hr>
-<h2 id="十九、二重积分">十九、二重积分</h2>
-<p>试计算二重积分</p>
-<p>$$<br>
-\iint_D (x + y + 1) dxdy,<br>
-$$</p>
-<p>其中$D \subset \mathbb{R}^2$是由直线 $y = x$ 和曲线 $y = \frac{x^2}{2}$ 围成的有限区域。</p>
+<script type="math/tex; mode=display">
+\Gamma: \begin{cases}
+x = t, \\
+y = \frac{t^2}{2}, \\
+t \in [0, 1].
+\end{cases}</script><p>使用第二型曲线积分公式，计算：</p>
+<script type="math/tex; mode=display">
+\int_{\Gamma} (x^2 + 2y^2) dx + (2x^2 + 6y^2) dy = \int_0^1 \left\{ t^2 + 2\left(\frac{t^2}{2}\right)^2 \right\} \, dt + \int_0^1 t \left\{ 2t^2 + 6\left(\frac{t^2}{2}\right)^2 \right\} \, dt = \frac{71}{60}.</script><p>因此，第二型曲线积分的值就是：</p>
+<script type="math/tex; mode=display">
+\int_{\Gamma} (x^2 + 2y^2) dx + (2x^2 + 6y^2) dy = \frac{71}{60}.</script><hr>
+<h2 id="十九、二重积分"><a href="#十九、二重积分" class="headerlink" title="十九、二重积分"></a>十九、二重积分</h2><p>试计算二重积分</p>
+<script type="math/tex; mode=display">
+\iint_D (x + y + 1) dxdy,</script><p>其中$D \subset \mathbb{R}^2$是由直线 $y = x$ 和曲线 $y = \frac{x^2}{2}$ 围成的有限区域。</p>
 <p><strong>解</strong>：有限区域$D$是一个$x$-型区域，可以表示为：</p>
-<p>$$<br>
-D = {(x, y) : \frac{x^2}{2} \leq y \leq x, , 0 \leq x \leq 2 }.<br>
-$$</p>
-<p>于是，二重积分可以转化为累次积分，进行下列计算：</p>
-<p>$$<br>
-\iint_D (x + y + 1) dxdy = \int_0^2 dx \int_{x^2/2}^x (x + y + 1) , dy.<br>
-$$</p>
-<p>计算：</p>
-<p>$$<br>
-\iint_D (x + y + 1) dxdy = \int_0^2 \left[ x + x^2 -\frac{x^3}{2} - \frac{x^4}{8} \right] dx = \frac{28}{15}.<br>
-$$</p>
-<p>因此，二重积分的值就是：</p>
-<p>$$<br>
-\iint_D (x + y + 1) dxdy = \frac{28}{15}.<br>
-$$</p>
-<hr>
-<h2 id="二十、极坐标变换计算二重积分">二十、极坐标变换计算二重积分</h2>
-<p>试使用极坐标变换计算二重积分</p>
-<p>$$<br>
-\iint_D (x^2 + 8xy + y^2) dxdy,<br>
-$$</p>
-<p>其中 $D = {(x, y) \in \mathbb{R}^2 : x^2 + y^2 \leq 6 }$ 是二维平面 $R^2$ 上圆形闭区域。</p>
+<script type="math/tex; mode=display">
+D = \{(x, y) : \frac{x^2}{2} \leq y \leq x, \, 0 \leq x \leq 2 \}.</script><p>于是，二重积分可以转化为累次积分，进行下列计算：</p>
+<script type="math/tex; mode=display">
+\iint_D (x + y + 1) dxdy = \int_0^2 dx \int_{x^2/2}^x (x + y + 1) \, dy.</script><p>计算：</p>
+<script type="math/tex; mode=display">
+\iint_D (x + y + 1) dxdy = \int_0^2 \left[ x + x^2 -\frac{x^3}{2} - \frac{x^4}{8} \right] dx = \frac{28}{15}.</script><p>因此，二重积分的值就是：</p>
+<script type="math/tex; mode=display">
+\iint_D (x + y + 1) dxdy = \frac{28}{15}.</script><hr>
+<h2 id="二十、极坐标变换计算二重积分"><a href="#二十、极坐标变换计算二重积分" class="headerlink" title="二十、极坐标变换计算二重积分"></a>二十、极坐标变换计算二重积分</h2><p>试使用极坐标变换计算二重积分</p>
+<script type="math/tex; mode=display">
+\iint_D (x^2 + 8xy + y^2) dxdy,</script><p>其中 $D = {(x, y) \in \mathbb{R}^2 : x^2 + y^2 \leq 6 }$ 是二维平面 $R^2$ 上圆形闭区域。</p>
 <p><strong>解</strong>：作极坐标变换</p>
-<p>$$<br>
-x = r \cos\theta, \quad y = r \sin\theta.<br>
-$$</p>
-<p>于是，圆形区域 $D$ 在极坐标系下可以表示为：</p>
-<p>$$<br>
-D’ = { (r, \theta) : 0 \leq \theta \leq 2\pi, , 0 \leq r \leq \sqrt{6} }.<br>
-$$</p>
-<p>因此，二重积分在极坐标系下可以转化为累次积分，进行下列计算：</p>
-<p>$$<br>
-\iint_D (x^2 + 8xy + y^2) dxdy = \iint_{D’} \left( r^2 + 8r^2 \cos\theta \sin\theta  \right) r dr d\theta = \int_0^{2\pi} d\theta \int_0^{\sqrt{6}}(r^2 + 8r^2\cos\theta )r dr<br>
-$$</p>
-<p>计算得：</p>
-<p>$$<br>
-\iint_D (x^2 + 8xy + y^2) dxdy = 18\pi.<br>
-$$</p>
-<p>因此，计算二重积分的值就是：</p>
-<p>$$<br>
-\iint_D (x^2 + 8xy + y^2) dxdy = 18\pi.<br>
-$$</p>
-<hr>
-<h2 id="二十一、三重积分">二十一、三重积分</h2>
-<p>试计算三重积分</p>
-<p>$$<br>
-\iiint_\Omega (34x + 35y + 36z) dx dydz,<br>
-$$</p>
-<p>其中 $\Omega \subset \mathbb{R}^3$ 是由平面 $z = 1$ 和曲面 $z = 6x^2 + 6y^2$ 围成的有界闭区域。</p>
+<script type="math/tex; mode=display">
+x = r \cos\theta, \quad y = r \sin\theta.</script><p>于是，圆形区域 $D$ 在极坐标系下可以表示为：</p>
+<script type="math/tex; mode=display">
+D' = \{ (r, \theta) : 0 \leq \theta \leq 2\pi, \, 0 \leq r \leq \sqrt{6} \}.</script><p>因此，二重积分在极坐标系下可以转化为累次积分，进行下列计算：</p>
+<script type="math/tex; mode=display">
+\iint_D (x^2 + 8xy + y^2) dxdy = \iint_{D'} \left( r^2 + 8r^2 \cos\theta \sin\theta  \right) r dr d\theta = \int_0^{2\pi} d\theta \int_0^{\sqrt{6}}(r^2 + 8r^2\cos\theta )r dr</script><p>计算得：</p>
+<script type="math/tex; mode=display">
+\iint_D (x^2 + 8xy + y^2) dxdy = 18\pi.</script><p>因此，计算二重积分的值就是：</p>
+<script type="math/tex; mode=display">
+\iint_D (x^2 + 8xy + y^2) dxdy = 18\pi.</script><hr>
+<h2 id="二十一、三重积分"><a href="#二十一、三重积分" class="headerlink" title="二十一、三重积分"></a>二十一、三重积分</h2><p>试计算三重积分</p>
+<script type="math/tex; mode=display">
+\iiint_\Omega (34x + 35y + 36z) dx dydz,</script><p>其中 $\Omega \subset \mathbb{R}^3$ 是由平面 $z = 1$ 和曲面 $z = 6x^2 + 6y^2$ 围成的有界闭区域。</p>
 <p><strong>解</strong>：有界闭区域可以表示为：</p>
-<p>$$<br>
-\Omega = {(x, y, z) : 6x^2 + 6y^2 \leq z \leq 1, (x, y) \in D },<br>
-$$</p>
-<p>这里面界闭区域 $D$ 是在 $z = 0$ 平面上的投影，可以表示为：</p>
-<p>$$<br>
-D = {(x, y) : x^2 + y^2 \leq 1/\sqrt{6} }.<br>
-$$</p>
-<p>于是三重积分可以转化为累次积分，进行计算：</p>
-<p>$$<br>
-\iiint_\Omega (34x + 35y + 36z) dx dydz = \iint_D dxdy \int_{6(x^2 + y^2)}^1 (34x + 35y + 36z) dz=\iint_D { (1-6x^2-6y^2)(34x+35y)+18[1-(6x^2+6y^2)^2] } dxdy<br>
-$$<br>
-计算上述二重积分。为此，引进及坐标变换<br>
-$$ \begin{cases}<br>
-x=r\cos\theta\<br>
-y=r\sin\theta<br>
-\end {cases}<br>
-$$<br>
-于是有界闭区域D，被映射为极坐标系下的有界闭区域<br>
-$$<br>
-D’ = {(r,\theta):0 \leq \theta \leq 2\pi,0 \leq r \leq \frac{1}{\sqrt{6}} }.<br>
-$$<br>
-应用极坐标变换公式算：<br>
-$$<br>
-\iiint_\Omega (34x+35y+36z)dxdydz<br>
-=\iint_D{(1-6x^2-6y^2)(34x+35y)+18[1-(6x^2+6y^2)^2] }dxdy<br>
-=\iint_{D’} {(1-6r^2)(34r\cos\theta+35r\sin\theta)+18[1-36r^4]} rdrd\theta<br>
-=\int_0^{\frac{1}{\sqrt{6}}}dr\int_0^{2\pi}{(1-6r^2)(34r\cos\theta+35r\sin\theta)+18[1-36r^4]} rd\theta<br>
-=2\pi \int_0^{\frac{1}{\sqrt{6}}}{18[1-36r^4]}rdr<br>
-=2\pi<br>
-$$</p>
-<p>因此三重积分的值就是</p>
-<p>$$<br>
-\iiint_\Omega(34x+35y+36z)dxdydz=2\pi.<br>
-$$</p>
-<hr>
-<h2 id="二十二、计算空间立体体积">二十二、计算空间立体体积</h2>
-<p>已知空间立体 $\Omega \subset \mathbb{R}^3$ 是由平面 $z = 0$ 和曲面 $z = 9 - 3x^2 - 3y^2$ 围成的有界闭区域。试计算空间立体$\Omega$的体积。</p>
+<script type="math/tex; mode=display">
+\Omega = \{(x, y, z) : 6x^2 + 6y^2 \leq z \leq 1, (x, y) \in D \},</script><p>这里面界闭区域 $D$ 是在 $z = 0$ 平面上的投影，可以表示为：</p>
+<script type="math/tex; mode=display">
+D = \{(x, y) : x^2 + y^2 \leq 1/\sqrt{6} \}.</script><p>于是三重积分可以转化为累次积分，进行计算：</p>
+<script type="math/tex; mode=display">
+\iiint_\Omega (34x + 35y + 36z) dx dydz = \iint_D dxdy \int_{6(x^2 + y^2)}^1 (34x + 35y + 36z) dz=\iint_D \{ (1-6x^2-6y^2)(34x+35y)+18[1-(6x^2+6y^2)^2] \} dxdy</script><p>计算上述二重积分。为此，引进及坐标变换</p>
+<script type="math/tex; mode=display">\begin{cases}
+x=r\cos\theta\\
+y=r\sin\theta
+\end {cases}</script><p>于是有界闭区域D，被映射为极坐标系下的有界闭区域</p>
+<script type="math/tex; mode=display">
+D' = \{(r,\theta):0 \leq \theta \leq 2\pi,0 \leq r \leq \frac{1}{\sqrt{6}} \}.</script><p>应用极坐标变换公式算：</p>
+<script type="math/tex; mode=display">
+\iiint_\Omega (34x+35y+36z)dxdydz
+=\iint_D\{(1-6x^2-6y^2)(34x+35y)+18[1-(6x^2+6y^2)^2] \}dxdy
+=\iint_{D'} \{(1-6r^2)(34r\cos\theta+35r\sin\theta)+18[1-36r^4]\} rdrd\theta
+=\int_0^{\frac{1}{\sqrt{6}}}dr\int_0^{2\pi}\{(1-6r^2)(34r\cos\theta+35r\sin\theta)+18[1-36r^4]\} rd\theta
+=2\pi \int_0^{\frac{1}{\sqrt{6}}}\{18[1-36r^4]\}rdr
+=2\pi</script><p>因此三重积分的值就是</p>
+<script type="math/tex; mode=display">
+\iiint_\Omega(34x+35y+36z)dxdydz=2\pi.</script><hr>
+<h2 id="二十二、计算空间立体体积"><a href="#二十二、计算空间立体体积" class="headerlink" title="二十二、计算空间立体体积"></a>二十二、计算空间立体体积</h2><p>已知空间立体 $\Omega \subset \mathbb{R}^3$ 是由平面 $z = 0$ 和曲面 $z = 9 - 3x^2 - 3y^2$ 围成的有界闭区域。试计算空间立体$\Omega$的体积。</p>
 <p><strong>解</strong>：根据三重积分的几何意义，$\Omega$ 的体积可以表示为：</p>
-<p>$$<br>
-V = \iiint_\Omega dx dy dz.<br>
-$$</p>
-<p>注意到可以表示为：</p>
-<p>$$<br>
-\Omega = {(x, y, z) : 0 \leq z \leq 9 - 3x^2 - 3y^2, , (x, y) \in D },<br>
-$$</p>
-<p>其中 $D = {(x, y) : x^2 + y^2 \leq 3 }$。</p>
+<script type="math/tex; mode=display">
+V = \iiint_\Omega dx dy dz.</script><p>注意到可以表示为：</p>
+<script type="math/tex; mode=display">
+\Omega = \{(x, y, z) : 0 \leq z \leq 9 - 3x^2 - 3y^2, \, (x, y) \in D \},</script><p>其中 $D = {(x, y) : x^2 + y^2 \leq 3 }$。</p>
 <p>于是二重积分可以转化为累次积分为：</p>
-<p>$$<br>
-V  = \iiint_\Omega dx dy dz= \iint_D dx dy \int_0^{9 - 3x^2 - 3y^2} dz = \iint_D (9 - 3x^2 - 3y^2) dxdy.<br>
-$$</p>
-<p>计算上述二重积分。为此，引进极坐标变换：</p>
-<p>$$<br>
-x = r \cos\theta, \quad y = r \sin\theta.<br>
-$$</p>
-<p>于是有限界闭区域 $D$，被映射为极坐标系下的有限界闭区域：</p>
-<p>$$<br>
-D’ = {(r, \theta) : 0 \leq r \leq \sqrt{3}, , 0 \leq \theta \leq 2\pi }.<br>
-$$</p>
-<p>应用极坐标变换公式计算：</p>
-<p>$$<br>
-V = \int_0^{2\pi} \int_0^{\sqrt{3}} (9 - 3r^2) r dr d\theta.<br>
-$$</p>
-<p>计算得：</p>
-<p>$$<br>
-V = \frac{27\pi}{2}.<br>
-$$</p>
-<p>因此，三维欧式空间 $\mathbb{R}^3$ 中的立体 $\Omega$ 的体积是：$<br>
-\frac{27\pi}{2}.<br>
-$</p>
-<h2 id="二十三、计算曲面面积">二十三、计算曲面面积</h2>
-<p>已知三维欧式空间 $\mathbb{R}^3$ 中的曲面</p>
-<p>$$<br>
-\Sigma = { (x, y, z) \in \mathbb{R}^3 : z = 3(x^2 + y^2), , x^2 + y^2 \leq \frac{1}{12} }.<br>
-$$</p>
-<p>试计算三维欧式空间中曲面 $\Sigma$ 的面积。</p>
+<script type="math/tex; mode=display">
+V  = \iiint_\Omega dx dy dz= \iint_D dx dy \int_0^{9 - 3x^2 - 3y^2} dz = \iint_D (9 - 3x^2 - 3y^2) dxdy.</script><p>计算上述二重积分。为此，引进极坐标变换：</p>
+<script type="math/tex; mode=display">
+x = r \cos\theta, \quad y = r \sin\theta.</script><p>于是有限界闭区域 $D$，被映射为极坐标系下的有限界闭区域：</p>
+<script type="math/tex; mode=display">
+D' = \{(r, \theta) : 0 \leq r \leq \sqrt{3}, \, 0 \leq \theta \leq 2\pi \}.</script><p>应用极坐标变换公式计算：</p>
+<script type="math/tex; mode=display">
+V = \int_0^{2\pi} \int_0^{\sqrt{3}} (9 - 3r^2) r dr d\theta.</script><p>计算得：</p>
+<script type="math/tex; mode=display">
+V = \frac{27\pi}{2}.</script><p>因此，三维欧式空间 $\mathbb{R}^3$ 中的立体 $\Omega$ 的体积是：$<br>\frac{27\pi}{2}.<br>$</p>
+<h2 id="二十三、计算曲面面积"><a href="#二十三、计算曲面面积" class="headerlink" title="二十三、计算曲面面积"></a>二十三、计算曲面面积</h2><p>已知三维欧式空间 $\mathbb{R}^3$ 中的曲面</p>
+<script type="math/tex; mode=display">
+\Sigma = \{ (x, y, z) \in \mathbb{R}^3 : z = 3(x^2 + y^2), \, x^2 + y^2 \leq \frac{1}{12} \}.</script><p>试计算三维欧式空间中曲面 $\Sigma$ 的面积。</p>
 <p><strong>解</strong>：使用曲面积分公式，曲面 $\Sigma$ 的面积为</p>
-<p>$$<br>
-A = \iint_D \sqrt{1 + \left(\frac{\partial z}{\partial x}\right)^2 + \left(\frac{\partial z}{\partial y}\right)^2} dxdy = \iint_D \sqrt{1 + 36x^2 + 36y^2} dxdy,<br>
-$$</p>
-<p>其中</p>
-<p>$$<br>
-D = { (x, y) \in \mathbb{R}^2 : x^2 + y^2 \leq \frac{1}{12} }.<br>
-$$</p>
-<p>计算上述二重积分。为此，引进极坐标变换</p>
-<p>$$<br>
-\begin{cases}<br>
-x = r \cos \theta, \<br>
-y = r \sin \theta.<br>
-\end{cases}<br>
-$$</p>
-<p>于是有界闭区域 $D$，被映射为极坐标系下的有界闭区域：</p>
-<p>$$<br>
-D’ = { (r, \theta) : 0 \leq r \leq \frac{1}{\sqrt{12}}, , 0 \leq \theta \leq 2\pi }.<br>
-$$</p>
-<p>应用极坐标变换公式计算：</p>
-<p>$$<br>
-A = \iint_D \sqrt{1 + 36x^2 + 36y^2} dxdy = \int_0^{2\pi} \int_0^{\frac{1}{\sqrt{12}}} \sqrt{1 + 36r^2} r dr d\theta.<br>
-$$</p>
-<p>计算得：</p>
-<p>$$<br>
-A = \frac{7\pi}{54}.<br>
-$$</p>
-<p>因此，曲面 $\Sigma$ 的面积是：</p>
-<p>$$<br>
-\frac{7\pi}{54}.<br>
-$$</p>
-<hr>
-<h2 id="二十四、用球坐标计算三重积分">二十四、用球坐标计算三重积分</h2>
-<p>试计算三重积分</p>
-<p>$$<br>
-\iiint_\Omega \sqrt{x^2 + y^2 + z^2} dx dy dz,<br>
-$$</p>
-<p>其中 $\Omega = {(x, y, z) \in \mathbb{R}^3 : x^2 + y^2 + z^2 \leq 1}$ 是三维欧式空间 $\mathbb{R}^3$ 中的球体。</p>
+<script type="math/tex; mode=display">
+A = \iint_D \sqrt{1 + \left(\frac{\partial z}{\partial x}\right)^2 + \left(\frac{\partial z}{\partial y}\right)^2} dxdy = \iint_D \sqrt{1 + 36x^2 + 36y^2} dxdy,</script><p>其中</p>
+<script type="math/tex; mode=display">
+D = \{ (x, y) \in \mathbb{R}^2 : x^2 + y^2 \leq \frac{1}{12} \}.</script><p>计算上述二重积分。为此，引进极坐标变换</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+x = r \cos \theta, \\
+y = r \sin \theta.
+\end{cases}</script><p>于是有界闭区域 $D$，被映射为极坐标系下的有界闭区域：</p>
+<script type="math/tex; mode=display">
+D' = \{ (r, \theta) : 0 \leq r \leq \frac{1}{\sqrt{12}}, \, 0 \leq \theta \leq 2\pi \}.</script><p>应用极坐标变换公式计算：</p>
+<script type="math/tex; mode=display">
+A = \iint_D \sqrt{1 + 36x^2 + 36y^2} dxdy = \int_0^{2\pi} \int_0^{\frac{1}{\sqrt{12}}} \sqrt{1 + 36r^2} r dr d\theta.</script><p>计算得：</p>
+<script type="math/tex; mode=display">
+A = \frac{7\pi}{54}.</script><p>因此，曲面 $\Sigma$ 的面积是：</p>
+<script type="math/tex; mode=display">
+\frac{7\pi}{54}.</script><hr>
+<h2 id="二十四、用球坐标计算三重积分"><a href="#二十四、用球坐标计算三重积分" class="headerlink" title="二十四、用球坐标计算三重积分"></a>二十四、用球坐标计算三重积分</h2><p>试计算三重积分</p>
+<script type="math/tex; mode=display">
+\iiint_\Omega \sqrt{x^2 + y^2 + z^2} dx dy dz,</script><p>其中 $\Omega = {(x, y, z) \in \mathbb{R}^3 : x^2 + y^2 + z^2 \leq 1}$ 是三维欧式空间 $\mathbb{R}^3$ 中的球体。</p>
 <p><strong>证明</strong>：作球坐标变换</p>
-<p>$$<br>
-\begin{cases}<br>
-x = r \sin\phi \cos\theta, \<br>
-y = r \sin\phi \sin\theta, \<br>
-z = r \cos\phi.<br>
-\end{cases}<br>
-$$</p>
-<p>使用三重积分的球坐标变换公式可得出</p>
-<p>$$<br>
-\iiint_\Omega \sqrt{x^2 + y^2 + z^2} dx dy dz = \iiint_{\Omega’} r \cdot r^2 \sin\phi dr d\phi d\theta,<br>
-$$</p>
-<p>其中 $\Omega’$ 是在球坐标变换下的映像，可以表示为</p>
-<p>$$<br>
-\Omega’ = { (r, \phi, \theta) : 0 \leq \theta \leq 2\pi, , 0 \leq \phi \leq \pi,0 \leq r \leq 1}.<br>
-$$<br>
-于是，把球坐标变换下的三重积分转化为累次积分，进行计算<br>
-$$<br>
-\iiint_\Omega \sqrt{x^2 + y^2 + z^2} , dx , dy , dz = \iiint_{\Omega’} r \cdot r^2 \sin\phi , dr , d\phi , d\theta<br>
-$$</p>
-<p>$$<br>
-= \int_0^1 \int_0^\pi \int_0^{2\pi} r^3 \sin\phi , d\theta , d\phi , dr<br>
-$$</p>
-<p>$$<br>
-= \int_0^1 r^3 , dr \int_0^\pi \sin\phi , d\phi \int_0^{2\pi} , d\theta<br>
-$$</p>
-<p>$$<br>
-= \pi.<br>
-$$</p>
-<hr>
-<h2 id="二十五、第一型曲面积分的计算：">二十五、第一型曲面积分的计算：</h2>
-<p>$$<br>
-\iint_\Sigma (1+xy)dS,<br>
-$$<br>
-其中$\Sigma$是下列曲面</p>
-<p>$$<br>
-\Sigma:z=x^2+y^2,x^2+y^2 \leq 1 .<br>
-$$</p>
-<hr>
-<p>解：根据第一型曲面积分的计算公式，可以把第一型曲面积分转化为下列二重积分：<br>
-$$<br>
-\iint_\Sigma(1+xy)dS<br>
-=\iint_D(1+xy)\sqrt{1+(\frac{\partial{z}}{\partial{x}})^2+(\frac{\partial{z}}{\partial{y}})^2}dxdy<br>
-$$<br>
-其中D是下列圆形闭区域<br>
-$$<br>
-D={(x,y):x^2+y^2 \leq 1} .<br>
-$$<br>
-于是得出<br>
-$$<br>
-\iint_\Sigma(1+xy)dS<br>
-=\iint_D (1+xy)\sqrt{1+(2x)^2+(2y)^2}dxdy<br>
-$$</p>
-<p>现在计算上述等式右端的二重积分。为此引进极坐标变换：<br>
-$$<br>
-\begin{cases}<br>
-x=r\cos{\theta}\<br>
-y=r\sin{\theta}<br>
-\end{cases}<br>
-$$<br>
-于是有界闭区域D，被映射为极坐标系下的有界闭区域<br>
-$$<br>
-D^<em>={(r,\theta):0 \leq \theta \leq 2\pi,0 \leq r \leq 1}.<br>
-$$<br>
-应用极坐标变换公式计算：<br>
-$$<br>
-\iint_\Sigma(1+xy)dS<br>
-=\iint_D(1+xy)\sqrt{1+(2x)^2+(2y)^2}dxdy<br>
-=\iint_{D^</em>} (1+r^2\cos{\theta}\sin{\theta})\sqrt{1+(2r\cos{\theta})^2+(2r\sin{\theta})^2}rdrd\theta<br>
-=\int_0^1dr\int_0^{2\pi}(1+r^2\cos{\theta}\sin{\theta})\sqrt{1+(2r\cos{\theta})^2+(2r\sin{\theta})^2}rd\theta<br>
-=\frac{(5\sqrt{5}-1)\pi}{6}<br>
-$$<br>
-因此，原第一型曲面积分<br>
-$$<br>
-\iint_\Sigma(1+xy)dS<br>
-=\frac{(5\sqrt{5}-1)\pi}{6}<br>
-$$</p>
-<hr>
-<h2 id="二十六、第二曲面积分的计算：">二十六、第二曲面积分的计算：</h2>
-<p>试计算下列第二型曲面积分：<br>
-$$<br>
-\iint_\Sigma xdydz+ydzdx+zdxdy<br>
-$$<br>
-其中$\Sigma$取上侧。这里$\Sigma$是下列曲面：<br>
-$$<br>
-\Sigma:z=x^2+y^2,x^2+y^2 \leq 1 .<br>
-$$<br>
-解：根据第二型曲面积分的计算公式，得出：</p>
-<p>$$<br>
-\iint_\Sigma xdydz+ydzdx+zdxdy<br>
-=\iint_D{x · (-\frac{\partial{z}}{\partial{x}})+y · (-\frac{\partial{z}}{\partial{y}})+(x^2+y^2)·1}dxdy<br>
-=\iint_D{-2x^2-2y^2+(x^2+y^2)·1}dxdy<br>
-=-\iint_D(x^2+y^2)dxdy<br>
-$$<br>
-其中D是下列圆形闭区域<br>
-$$<br>
-D={(x,y):x^2+y^2 \leq 1} .<br>
-$$<br>
-于是得出<br>
-$$<br>
-\iint_\Sigma xdydz+ydzdx+zdxdy<br>
-=-\iint_D(x^2+y^2)dxdy<br>
-$$</p>
-<p>现在计算上述等式右端的二重积分。为此引进极坐标变换：<br>
-$$<br>
-\begin{cases}<br>
-x=r\cos{\theta}\<br>
-y=r\sin{\theta}<br>
-\end{cases}<br>
-$$<br>
-于是有界闭区域D，被映射为极坐标系下的有界闭区域<br>
-$$<br>
-D^<em>={(r,\theta):0 \leq \theta \leq 2\pi,0 \leq r \leq 1}.<br>
-$$<br>
-应用极坐标变换公式计算：<br>
-$$<br>
-\iint_\Sigma xdydz+ydzdx+zdxdy<br>
-=-\iint_D(x^2+y^2)dxdy<br>
-=-\iint_D^{</em>}r^3drd\theta<br>
-=-\int_0^1dr\int_0^{2\pi}r^3d\theta<br>
-=-\frac{\pi}{2}.<br>
-$$<br>
-因此，原第二型曲面积分<br>
-$$<br>
-\iint_\Sigma xdydz+ydzdx+zdxdy<br>
-=-\frac{\pi}{2}.<br>
-$$</p>
-</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>多元微积分习题整理</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="https://gunjo-radio-ii.cc/posts/6c484981.html">https://gunjo-radio-ii.cc/posts/6c484981.html</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>yumenomajo🧙‍</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2024-12-11</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2025-01-19</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6/"><div class="tags-punctuation"><svg class="faa-tada icon" style="height:1.1em;width:1.1em;fill:currentColor;position:relative;top:2px;margin-right:3px" aria-hidden="true"><use xlink:href="#icon-sekuaibiaoqian"></use></svg></div>数学</a><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"><div class="tags-punctuation"><svg class="faa-tada icon" style="height:1.1em;width:1.1em;fill:currentColor;position:relative;top:2px;margin-right:3px" aria-hidden="true"><use xlink:href="#icon-sekuaibiaoqian"></use></svg></div>数学分析</a></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/5c4554ba.html"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">12.11小记</div></div></a></div><div class="next-post pull-right"><a href="/posts/fa325f0e.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">12.10小记</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/cfd4d025.html" title="两道数分参考题"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2025-01-20</div><div class="title">两道数分参考题</div></div></a></div><div><a href="/posts/776733c0.html" title="先导课"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random(0100)}" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2025-02-25</div><div class="title">先导课</div></div></a></div><div><a href="/posts/2f8bd51c.html" title="数理统计（1）绪论"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random(0101)}" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2025-02-27</div><div class="title">数理统计（1）绪论</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><svg class="meta_icon" style="width:22px;height:22px;position:relative;top:5px"><use xlink:href="#icon-mulu1"></use></svg><span style="font-weight:bold">目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%88%A9%E7%94%A8-%CE%B5-%CE%B4-%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0%E7%9A%84%E4%BA%8C%E5%85%83%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90"><span class="toc-text">一、利用$ε$-$δ$语言描述的二元函数极限</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%EF%BC%9A"><span class="toc-text">证明：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%88%A9%E7%94%A8-%CE%B5-%CE%B4-%E8%AF%AD%E8%A8%80%E8%AE%A8%E8%AE%BA%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7"><span class="toc-text">二、利用$ε$-$δ$语言讨论函数连续性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%EF%BC%9A-2"><span class="toc-text">证明：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%B1%82%E5%81%8F%E5%AF%BC%E6%95%B0%E5%92%8C%E5%85%A8%E5%BE%AE%E5%88%86"><span class="toc-text">三、求偏导数和全微分</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A"><span class="toc-text">解：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%B1%82%E6%A2%AF%E5%BA%A6%E5%92%8C%E6%96%B9%E5%90%91%E5%AF%BC%E6%95%B0"><span class="toc-text">四、求梯度和方向导数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-2"><span class="toc-text">解：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E6%B1%82%E6%A2%AF%E5%BA%A6%E5%92%8C%E6%A8%A1"><span class="toc-text">五、求梯度和模</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-3"><span class="toc-text">解：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E6%B1%82%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E9%AB%98%E9%98%B6%E5%AF%BC%E6%95%B0"><span class="toc-text">六、求多元函数高阶导数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-4"><span class="toc-text">解：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E4%B8%80%E9%98%B6%E5%81%8F%E5%AF%BC%E6%95%B0"><span class="toc-text">计算一阶偏导数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%86%8D%E6%9D%A5%E8%AE%A1%E7%AE%97%E4%BA%8C%E9%98%B6%E5%81%8F%E5%AF%BC%E6%95%B0"><span class="toc-text">再来计算二阶偏导数</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95%E3%80%82"><span class="toc-text">解答完毕。</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E6%B1%82%E5%87%BD%E6%95%B0%E5%9C%A8%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%86%85%E7%9A%84%E6%9E%81%E5%80%BC%E7%82%B9"><span class="toc-text">七、求函数在定义域内的极值点</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9E%E7%AD%94%E4%B8%8B%E5%88%97%E9%97%AE%E9%A2%98"><span class="toc-text">回答下列问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-5"><span class="toc-text">解：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E6%AD%A4%EF%BC%8C%E8%AE%A1%E7%AE%97-Hesse-%E7%9F%A9%E9%98%B5"><span class="toc-text">为此，计算 Hesse 矩阵</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">$$
-H &#x3D;
-\begin{pmatrix}
-\frac{\partial^2 f}{\partial x^2} &amp; \frac{\partial^2 f}{\partial x \partial y} \
-\frac{\partial^2 f}{\partial y \partial x} &amp; \frac{\partial^2 f}{\partial y^2}
-\end{pmatrix}</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E4%B8%8A%E8%BF%B0%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA"><span class="toc-text">使用上述计算得出</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E4%B8%80%E6%AD%A5%E8%AE%A1%E7%AE%97"><span class="toc-text">进一步计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%BC%E5%90%88%E4%B8%8A%E8%BF%B0%E5%88%86%E6%9E%90"><span class="toc-text">综合上述分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AB%E3%80%81%E6%B1%82%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%86%85%E7%9A%84%E6%9C%80%E5%80%BC%E7%82%B9"><span class="toc-text">八、求函数定义域内的最值点</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%80%90%E8%80%83%E8%99%91%E8%BE%B9%E7%95%8C%E7%82%B9%E5%92%8C%E6%9E%81%E5%80%BC%E7%82%B9%E3%80%91"><span class="toc-text">【考虑边界点和极值点】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A%E6%B1%82%E9%A9%BB%E7%82%B9"><span class="toc-text">解：求驻点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A5%E7%9D%80%EF%BC%8C%E6%B1%82%E5%87%BA-f-x-y-%E5%9C%A8%E9%97%AD%E5%8C%BA%E5%9F%9F%E7%9A%84%E8%BE%B9%E7%95%8C-partial-Omega-K-1-cup-K-2-cup-K-3-cup-K-4-%E4%B8%8A%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%E5%92%8C%E6%9C%80%E5%B0%8F%E5%80%BC%E3%80%82"><span class="toc-text">接着，求出 $f(x, y)$ 在闭区域的边界 $\partial \Omega &#x3D; K_1 \cup K_2 \cup K_3 \cup K_4$ 上的最大值和最小值。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#K-1-%E4%B8%8A%EF%BC%9A"><span class="toc-text">$K_1$ 上：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#K-2-%E4%B8%8A%EF%BC%9A"><span class="toc-text">$K_2$ 上：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#K-3-%E4%B8%8A%EF%BC%9A"><span class="toc-text">$K_3$ 上：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#K-4-%E4%B8%8A%EF%BC%9A"><span class="toc-text">$K_4$ 上：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%A4%A7%E5%80%BC%E8%AE%A1%E7%AE%97"><span class="toc-text">最大值计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%B0%8F%E5%80%BC%E8%AE%A1%E7%AE%97"><span class="toc-text">最小值计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%A7%E7%BB%AD%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA%E7%AD%94%E6%A1%88%EF%BC%9A"><span class="toc-text">继续计算得出答案：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%9D%E3%80%81%E9%9A%90%E5%87%BD%E6%95%B0%E6%B1%82%E5%AF%BC-%E6%B1%82%E5%85%A8%E5%BE%AE%E5%88%86"><span class="toc-text">九、隐函数求导&amp;求全微分</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-6"><span class="toc-text">解：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B1%82%E8%A7%A3%E4%B8%8A%E8%BF%B0%E7%AD%89%E5%BC%8F%EF%BC%8C%E7%AB%8B%E5%88%BB%E5%BE%97%E5%88%B0%EF%BC%9A"><span class="toc-text">求解上述等式，立刻得到：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E4%B8%80%E6%AD%A5%EF%BC%8C%E5%BE%97%E5%87%BA%E4%B8%80%E9%98%B6%E5%85%A8%E5%BE%AE%E5%88%86%EF%BC%9A"><span class="toc-text">进一步，得出一阶全微分：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E3%80%81%E9%9A%90%E5%87%BD%E6%95%B0%E7%BB%84%E6%B1%82%E5%AF%BC"><span class="toc-text">十、隐函数组求导</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-7"><span class="toc-text">解：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E6%96%B9%E7%A8%8B%E7%BB%84%E7%AD%89%E5%BC%8F%E4%B8%A4%E8%BE%B9%E5%88%86%E5%88%AB%E5%85%B3%E4%BA%8E-x-%E6%B1%82%E5%81%8F%E5%AF%BC%E6%95%B0%EF%BC%8C%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA%EF%BC%9A"><span class="toc-text">对方程组等式两边分别关于 $x$ 求偏导数，计算得出：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%8C%E7%90%86%EF%BC%8C%E5%AF%B9%E6%96%B9%E7%A8%8B%E7%BB%84%E7%AD%89%E5%BC%8F%E4%B8%A4%E8%BE%B9%E5%88%86%E5%88%AB%E5%85%B3%E4%BA%8E-y-%E6%B1%82%E5%81%8F%E5%AF%BC%E6%95%B0%EF%BC%8C%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA%EF%BC%9A"><span class="toc-text">同理，对方程组等式两边分别关于 $y$ 求偏导数，计算得出：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%B8%80%E3%80%81%E6%B1%82%E5%88%87%E5%B9%B3%E9%9D%A2%E5%92%8C%E6%B3%95%E7%BA%BF%E6%96%B9%E7%A8%8B"><span class="toc-text">十一、求切平面和法线方程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3"><span class="toc-text">解</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%BA%8C%E3%80%81%E5%90%AB%E5%8F%82%E5%8F%98%E9%87%8F%E7%A7%AF%E5%88%86%E8%BF%9E%E7%BB%AD%E6%80%A7"><span class="toc-text">十二、含参变量积分连续性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3-2"><span class="toc-text">解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%BC%E5%90%88%E4%B8%8A%E8%BF%B0%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA%EF%BC%9A"><span class="toc-text">综合上述计算得出：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95"><span class="toc-text">解答完毕</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%B8%89%E3%80%81%E5%90%AB%E5%8F%82%E5%8F%98%E9%87%8F%E7%A7%AF%E5%88%86%E5%8F%AF%E5%BE%AE%E6%80%A7"><span class="toc-text">十三、含参变量积分可微性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3-3"><span class="toc-text">解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%A0%E6%AD%A4%EF%BC%8C"><span class="toc-text">因此，</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95-2"><span class="toc-text">解答完毕</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E5%9B%9B%E3%80%81%E5%90%AB%E5%8F%82%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86%E8%BF%9E%E7%BB%AD%E6%80%A7"><span class="toc-text">十四、含参反常积分连续性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3-4"><span class="toc-text">解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8E%B0%E5%9C%A8%EF%BC%8C%E8%AE%A1%E7%AE%97%E4%B8%8A%E8%BF%B0%E5%8F%B3%E7%AB%AF%E3%80%82"><span class="toc-text">现在，计算上述右端。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%BC%E5%90%88%E4%B8%8A%E8%BF%B0%E8%AE%A1%E7%AE%97%EF%BC%8C%E5%BE%97%E5%87%BA"><span class="toc-text">综合上述计算，得出</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95-3"><span class="toc-text">解答完毕</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E5%85%AD%E3%80%81%E5%90%AB%E5%8F%82%E5%8F%98%E9%87%8F%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B%E6%80%A7%E7%9A%84%E8%AE%A8%E8%AE%BA"><span class="toc-text">十六、含参变量反常积分一致收敛性的讨论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%95%E8%AF%81%E6%98%8E%EF%BC%9A%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86-I-x-%E5%9C%A8-x-in-infty-infty-%E4%B8%8A%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B%E3%80%82"><span class="toc-text">试证明：反常积分 $I(x)$ 在 $x \in (-\infty, +\infty)$ 上一致收敛。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3-5"><span class="toc-text">解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E5%88%B0%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86%EF%BC%9A"><span class="toc-text">注意到反常积分：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95-4"><span class="toc-text">解答完毕</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%B8%83%E3%80%81%E7%AC%AC%E4%B8%80%E5%9E%8B%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86"><span class="toc-text">十七、第一型曲线积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E5%85%AB%E3%80%81%E7%AC%AC%E4%BA%8C%E5%9E%8B%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86"><span class="toc-text">十八、第二型曲线积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%B9%9D%E3%80%81%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86"><span class="toc-text">十九、二重积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E3%80%81%E6%9E%81%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2%E8%AE%A1%E7%AE%97%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86"><span class="toc-text">二十、极坐标变换计算二重积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E4%B8%80%E3%80%81%E4%B8%89%E9%87%8D%E7%A7%AF%E5%88%86"><span class="toc-text">二十一、三重积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E4%BA%8C%E3%80%81%E8%AE%A1%E7%AE%97%E7%A9%BA%E9%97%B4%E7%AB%8B%E4%BD%93%E4%BD%93%E7%A7%AF"><span class="toc-text">二十二、计算空间立体体积</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E4%B8%89%E3%80%81%E8%AE%A1%E7%AE%97%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF"><span class="toc-text">二十三、计算曲面面积</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E5%9B%9B%E3%80%81%E7%94%A8%E7%90%83%E5%9D%90%E6%A0%87%E8%AE%A1%E7%AE%97%E4%B8%89%E9%87%8D%E7%A7%AF%E5%88%86"><span class="toc-text">二十四、用球坐标计算三重积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E4%BA%94%E3%80%81%E7%AC%AC%E4%B8%80%E5%9E%8B%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86%E7%9A%84%E8%AE%A1%E7%AE%97%EF%BC%9A"><span class="toc-text">二十五、第一型曲面积分的计算：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E5%85%AD%E3%80%81%E7%AC%AC%E4%BA%8C%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86%E7%9A%84%E8%AE%A1%E7%AE%97%EF%BC%9A"><span class="toc-text">二十六、第二曲面积分的计算：</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background-color: transparent;"><div id="footer-wrap"><div id="ft"><div class="ft-item-1"><div class="t-top"><div class="t-t-l"><p class="ft-t t-l-t">空气动力之诗🌌</p><div class="bg-ad"><div>我们的情人，不过是随便借个名字，用幻想吹出来的肥皂泡。把信拿去吧，你可以使假戏成真。我本来是无病呻吟，漫无目的地吐露爱情……现在这些漂泊不定的鸟儿有地方栖息了你可以从信里看出来——拿去吧！——由于不是出自真心，话就说得格外动听。——拿去吧，就这么办！✨</div><div class="btn-xz-box"><a class="btn-xz" target="_blank" rel="noopener" href="https://www.bilibili.com/bangumi/play/ss5045?spm_id_from=333.337.0.0">点击开启星辰之旅</a></div></div></div><div class="t-t-r"><p class="ft-t t-l-t">猜你想看💡</p><ul class="ft-links"><li><a href="/categories/群青广播/">群青广播</a><a href="/comments/">留点什么</a></li><li><a href="/about/">关于作者</a><a href="/archives/">文章归档</a></li><li><a href="/categories/">文章分类</a><a href="/tags/">文章标签</a></li><li><a target="_blank" rel="noopener" href="https://www.fomal.cc/posts/eec9786.html">建站参考</a><a target="_blank" rel="noopener" href="https://www.acgbox.link">二次元导航</a></li></ul></div></div></div><div class="ft-item-2"><p class="ft-t">推荐友链⌛</p><div class="ft-img-group"><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div></div></div></div><div class="copyright"><span><b>&copy;2024-2025</b></span><span><b>&nbsp;&nbsp;By yumenomajo🧙‍</b></span></div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" title="博客框架为Hexo_v6.3.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Frame-Hexo-blue.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" title="主题版本Butterfly_v4.3.1"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Theme-Butterfly-6513df.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" title="本站采用多线部署，主线路托管于Vercel"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Hosted-Vercel-brightgreen.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" title="本网站源码由Github提供存储仓库"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src=" https://sourcebucket.s3.ladydaily.com/badge/Source-Github-d021d6.svg" alt=""/></a></p></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button><button class="share" type="button" title="右键模式" onclick="changeMouseMode()"><i class="fas fa-mouse"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog right_side"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button class="share" type="button" title="分享链接" onclick="share()"><i class="fas fa-share-nodes"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i><span id="percent">0<span>%</span></span></button><button id="go-down" type="button" title="直达底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div class="js-pjax" id="rightMenu"><div class="rightMenu-group rightMenu-small"><a class="rightMenu-item" href="javascript:window.history.back();"><i class="fa fa-arrow-left"></i></a><a class="rightMenu-item" href="javascript:window.history.forward();"><i class="fa fa-arrow-right"></i></a><a class="rightMenu-item" href="javascript:window.location.reload();"><i class="fa fa-refresh"></i></a><a class="rightMenu-item" href="javascript:rmf.scrollToTop();"><i class="fa fa-arrow-up"></i></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-text"><a class="rightMenu-item" href="javascript:rmf.copySelect();"><i class="fa fa-copy"></i><span>复制</span></a><a class="rightMenu-item" href="javascript:window.open(&quot;https://www.baidu.com/s?wd=&quot;+window.getSelection().toString());window.location.reload();"><i class="fa fa-search"></i><span>百度搜索</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-too"><a class="rightMenu-item" href="javascript:window.open(window.getSelection().toString());window.location.reload();"><i class="fa fa-link"></i><span>转到链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-paste"><a class="rightMenu-item" href="javascript:rmf.paste()"><i class="fa fa-copy"></i><span>粘贴</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-post"><a class="rightMenu-item" href="#post-comment"><i class="fas fa-comment"></i><span>空降评论</span></a><a class="rightMenu-item" href="javascript:rmf.copyWordsLink()"><i class="fa fa-link"></i><span>复制本文地址</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-to"><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>新窗口打开</span></a><a class="rightMenu-item" id="menu-too" href="javascript:rmf.open()"><i class="fa fa-link"></i><span>转到链接</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-img"><a class="rightMenu-item" href="javascript:rmf.saveAs()"><i class="fa fa-download"></i><span>保存图片</span></a><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>在新窗口打开</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制图片链接</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:randomPost()"><i class="fa fa-paper-plane"></i><span>随便逛逛</span></a><a class="rightMenu-item" href="javascript:switchNightMode();"><i class="fa fa-moon"></i><span>昼夜切换</span></a><a class="rightMenu-item" href="/personal/about/"><i class="fa fa-info-circle"></i><span>关于博客</span></a><a class="rightMenu-item" href="javascript:toggleWinbox();"><i class="fas fa-cog"></i><span>美化设置</span></a><a class="rightMenu-item" href="javascript:rmf.fullScreen();"><i class="fas fa-expand"></i><span>切换全屏</span></a><a class="rightMenu-item" href="javascript:window.print();"><i class="fa-solid fa-print"></i><span>打印页面</span></a></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.umd.min.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js" type="module"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><script async="async">var preloader = {
+<script type="math/tex; mode=display">
+\begin{cases}
+x = r \sin\phi \cos\theta, \\
+y = r \sin\phi \sin\theta, \\
+z = r \cos\phi.
+\end{cases}</script><p>使用三重积分的球坐标变换公式可得出</p>
+<script type="math/tex; mode=display">
+\iiint_\Omega \sqrt{x^2 + y^2 + z^2} dx dy dz = \iiint_{\Omega'} r \cdot r^2 \sin\phi dr d\phi d\theta,</script><p>其中 $\Omega’$ 是在球坐标变换下的映像，可以表示为</p>
+<script type="math/tex; mode=display">
+\Omega' = \{ (r, \phi, \theta) : 0 \leq \theta \leq 2\pi, \, 0 \leq \phi \leq \pi,0 \leq r \leq 1\}.</script><p>于是，把球坐标变换下的三重积分转化为累次积分，进行计算</p>
+<script type="math/tex; mode=display">
+\iiint_\Omega \sqrt{x^2 + y^2 + z^2} \, dx \, dy \, dz = \iiint_{\Omega'} r \cdot r^2 \sin\phi \, dr \, d\phi \, d\theta</script><script type="math/tex; mode=display">
+= \int_0^1 \int_0^\pi \int_0^{2\pi} r^3 \sin\phi \, d\theta \, d\phi \, dr</script><script type="math/tex; mode=display">
+= \int_0^1 r^3 \, dr \int_0^\pi \sin\phi \, d\phi \int_0^{2\pi} \, d\theta</script><script type="math/tex; mode=display">
+= \pi.</script><hr>
+<h2 id="二十五、第一型曲面积分的计算："><a href="#二十五、第一型曲面积分的计算：" class="headerlink" title="二十五、第一型曲面积分的计算："></a>二十五、第一型曲面积分的计算：</h2><script type="math/tex; mode=display">
+\iint_\Sigma (1+xy)dS,</script><p>其中$\Sigma$是下列曲面</p>
+<script type="math/tex; mode=display">
+\Sigma:z=x^2+y^2,x^2+y^2 \leq 1 .</script><hr>
+<p>解：根据第一型曲面积分的计算公式，可以把第一型曲面积分转化为下列二重积分：</p>
+<script type="math/tex; mode=display">
+\iint_\Sigma(1+xy)dS
+=\iint_D(1+xy)\sqrt{1+(\frac{\partial{z}}{\partial{x}})^2+(\frac{\partial{z}}{\partial{y}})^2}dxdy</script><p>其中D是下列圆形闭区域</p>
+<script type="math/tex; mode=display">
+D=\{(x,y):x^2+y^2 \leq 1\} .</script><p>于是得出</p>
+<script type="math/tex; mode=display">
+\iint_\Sigma(1+xy)dS
+=\iint_D (1+xy)\sqrt{1+(2x)^2+(2y)^2}dxdy</script><p>现在计算上述等式右端的二重积分。为此引进极坐标变换：</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+x=r\cos{\theta}\\
+y=r\sin{\theta}
+\end{cases}</script><p>于是有界闭区域D，被映射为极坐标系下的有界闭区域</p>
+<script type="math/tex; mode=display">
+D^*=\{(r,\theta):0 \leq \theta \leq 2\pi,0 \leq r \leq 1\}.</script><p>应用极坐标变换公式计算：</p>
+<script type="math/tex; mode=display">
+\iint_\Sigma(1+xy)dS
+=\iint_D(1+xy)\sqrt{1+(2x)^2+(2y)^2}dxdy
+=\iint_{D^*} (1+r^2\cos{\theta}\sin{\theta})\sqrt{1+(2r\cos{\theta})^2+(2r\sin{\theta})^2}rdrd\theta
+=\int_0^1dr\int_0^{2\pi}(1+r^2\cos{\theta}\sin{\theta})\sqrt{1+(2r\cos{\theta})^2+(2r\sin{\theta})^2}rd\theta
+=\frac{(5\sqrt{5}-1)\pi}{6}</script><p>因此，原第一型曲面积分</p>
+<script type="math/tex; mode=display">
+\iint_\Sigma(1+xy)dS
+=\frac{(5\sqrt{5}-1)\pi}{6}</script><hr>
+<h2 id="二十六、第二曲面积分的计算："><a href="#二十六、第二曲面积分的计算：" class="headerlink" title="二十六、第二曲面积分的计算："></a>二十六、第二曲面积分的计算：</h2><p>试计算下列第二型曲面积分：</p>
+<script type="math/tex; mode=display">
+\iint_\Sigma xdydz+ydzdx+zdxdy</script><p>其中$\Sigma$取上侧。这里$\Sigma$是下列曲面：</p>
+<script type="math/tex; mode=display">
+\Sigma:z=x^2+y^2,x^2+y^2 \leq 1 .</script><p>解：根据第二型曲面积分的计算公式，得出：</p>
+<script type="math/tex; mode=display">
+\iint_\Sigma xdydz+ydzdx+zdxdy
+=\iint_D\{x · (-\frac{\partial{z}}{\partial{x}})+y · (-\frac{\partial{z}}{\partial{y}})+(x^2+y^2)·1\}dxdy
+=\iint_D\{-2x^2-2y^2+(x^2+y^2)·1\}dxdy
+=-\iint_D(x^2+y^2)dxdy</script><p>其中D是下列圆形闭区域</p>
+<script type="math/tex; mode=display">
+D=\{(x,y):x^2+y^2 \leq 1\} .</script><p>于是得出</p>
+<script type="math/tex; mode=display">
+\iint_\Sigma xdydz+ydzdx+zdxdy
+=-\iint_D(x^2+y^2)dxdy</script><p>现在计算上述等式右端的二重积分。为此引进极坐标变换：</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+x=r\cos{\theta}\\
+y=r\sin{\theta}
+\end{cases}</script><p>于是有界闭区域D，被映射为极坐标系下的有界闭区域</p>
+<script type="math/tex; mode=display">
+D^*=\{(r,\theta):0 \leq \theta \leq 2\pi,0 \leq r \leq 1\}.</script><p>应用极坐标变换公式计算：</p>
+<script type="math/tex; mode=display">
+\iint_\Sigma xdydz+ydzdx+zdxdy
+=-\iint_D(x^2+y^2)dxdy
+=-\iint_D^{*}r^3drd\theta
+=-\int_0^1dr\int_0^{2\pi}r^3d\theta
+=-\frac{\pi}{2}.</script><p>因此，原第二型曲面积分</p>
+<script type="math/tex; mode=display">
+\iint_\Sigma xdydz+ydzdx+zdxdy
+=-\frac{\pi}{2}.</script></article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>多元微积分习题整理</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="https://gunjo-radio-ii.cc/posts/6c484981.html">https://gunjo-radio-ii.cc/posts/6c484981.html</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>yumenomajo🧙‍</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2024-12-11</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2025-01-19</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6/"><div class="tags-punctuation"><svg class="faa-tada icon" style="height:1.1em;width:1.1em;fill:currentColor;position:relative;top:2px;margin-right:3px" aria-hidden="true"><use xlink:href="#icon-sekuaibiaoqian"></use></svg></div>数学</a><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"><div class="tags-punctuation"><svg class="faa-tada icon" style="height:1.1em;width:1.1em;fill:currentColor;position:relative;top:2px;margin-right:3px" aria-hidden="true"><use xlink:href="#icon-sekuaibiaoqian"></use></svg></div>数学分析</a></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/5c4554ba.html"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">12.11小记</div></div></a></div><div class="next-post pull-right"><a href="/posts/fa325f0e.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">12.10小记</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/cfd4d025.html" title="两道数分参考题"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2025-01-20</div><div class="title">两道数分参考题</div></div></a></div><div><a href="/posts/776733c0.html" title="先导课"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random(0100)}" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2025-02-27</div><div class="title">先导课</div></div></a></div><div><a href="/posts/2f8bd51c.html" title="数理统计（1）绪论"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random(0101)}" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2025-02-27</div><div class="title">数理统计（1）绪论</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><svg class="meta_icon" style="width:22px;height:22px;position:relative;top:5px"><use xlink:href="#icon-mulu1"></use></svg><span style="font-weight:bold">目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%88%A9%E7%94%A8-%CE%B5-%CE%B4-%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0%E7%9A%84%E4%BA%8C%E5%85%83%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90"><span class="toc-text">一、利用$ε$-$δ$语言描述的二元函数极限</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%EF%BC%9A"><span class="toc-text">证明：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%88%A9%E7%94%A8-%CE%B5-%CE%B4-%E8%AF%AD%E8%A8%80%E8%AE%A8%E8%AE%BA%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD%E6%80%A7"><span class="toc-text">二、利用$ε$-$δ$语言讨论函数连续性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%EF%BC%9A-1"><span class="toc-text">证明：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%B1%82%E5%81%8F%E5%AF%BC%E6%95%B0%E5%92%8C%E5%85%A8%E5%BE%AE%E5%88%86"><span class="toc-text">三、求偏导数和全微分</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A"><span class="toc-text">解：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%B1%82%E6%A2%AF%E5%BA%A6%E5%92%8C%E6%96%B9%E5%90%91%E5%AF%BC%E6%95%B0"><span class="toc-text">四、求梯度和方向导数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-1"><span class="toc-text">解：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E6%B1%82%E6%A2%AF%E5%BA%A6%E5%92%8C%E6%A8%A1"><span class="toc-text">五、求梯度和模</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-2"><span class="toc-text">解：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E6%B1%82%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E9%AB%98%E9%98%B6%E5%AF%BC%E6%95%B0"><span class="toc-text">六、求多元函数高阶导数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-3"><span class="toc-text">解：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E4%B8%80%E9%98%B6%E5%81%8F%E5%AF%BC%E6%95%B0"><span class="toc-text">计算一阶偏导数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%86%8D%E6%9D%A5%E8%AE%A1%E7%AE%97%E4%BA%8C%E9%98%B6%E5%81%8F%E5%AF%BC%E6%95%B0"><span class="toc-text">再来计算二阶偏导数</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95%E3%80%82"><span class="toc-text">解答完毕。</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E6%B1%82%E5%87%BD%E6%95%B0%E5%9C%A8%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%86%85%E7%9A%84%E6%9E%81%E5%80%BC%E7%82%B9"><span class="toc-text">七、求函数在定义域内的极值点</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9E%E7%AD%94%E4%B8%8B%E5%88%97%E9%97%AE%E9%A2%98"><span class="toc-text">回答下列问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-4"><span class="toc-text">解：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E6%AD%A4%EF%BC%8C%E8%AE%A1%E7%AE%97-Hesse-%E7%9F%A9%E9%98%B5"><span class="toc-text">为此，计算 Hesse 矩阵</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E4%B8%8A%E8%BF%B0%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA"><span class="toc-text">使用上述计算得出</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E4%B8%80%E6%AD%A5%E8%AE%A1%E7%AE%97"><span class="toc-text">进一步计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%BC%E5%90%88%E4%B8%8A%E8%BF%B0%E5%88%86%E6%9E%90"><span class="toc-text">综合上述分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AB%E3%80%81%E6%B1%82%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%86%85%E7%9A%84%E6%9C%80%E5%80%BC%E7%82%B9"><span class="toc-text">八、求函数定义域内的最值点</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E3%80%90%E8%80%83%E8%99%91%E8%BE%B9%E7%95%8C%E7%82%B9%E5%92%8C%E6%9E%81%E5%80%BC%E7%82%B9%E3%80%91"><span class="toc-text">【考虑边界点和极值点】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A%E6%B1%82%E9%A9%BB%E7%82%B9"><span class="toc-text">解：求驻点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A5%E7%9D%80%EF%BC%8C%E6%B1%82%E5%87%BA-f-x-y-%E5%9C%A8%E9%97%AD%E5%8C%BA%E5%9F%9F%E7%9A%84%E8%BE%B9%E7%95%8C-partial-Omega-K-1-cup-K-2-cup-K-3-cup-K-4-%E4%B8%8A%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%E5%92%8C%E6%9C%80%E5%B0%8F%E5%80%BC%E3%80%82"><span class="toc-text">接着，求出 $f(x, y)$ 在闭区域的边界 $\partial \Omega &#x3D; K_1 \cup K_2 \cup K_3 \cup K_4$ 上的最大值和最小值。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#K-1-%E4%B8%8A%EF%BC%9A"><span class="toc-text">$K_1$ 上：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#K-2-%E4%B8%8A%EF%BC%9A"><span class="toc-text">$K_2$ 上：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#K-3-%E4%B8%8A%EF%BC%9A"><span class="toc-text">$K_3$ 上：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#K-4-%E4%B8%8A%EF%BC%9A"><span class="toc-text">$K_4$ 上：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%A4%A7%E5%80%BC%E8%AE%A1%E7%AE%97"><span class="toc-text">最大值计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%B0%8F%E5%80%BC%E8%AE%A1%E7%AE%97"><span class="toc-text">最小值计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%A7%E7%BB%AD%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA%E7%AD%94%E6%A1%88%EF%BC%9A"><span class="toc-text">继续计算得出答案：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%9D%E3%80%81%E9%9A%90%E5%87%BD%E6%95%B0%E6%B1%82%E5%AF%BC-amp-%E6%B1%82%E5%85%A8%E5%BE%AE%E5%88%86"><span class="toc-text">九、隐函数求导&amp;求全微分</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-5"><span class="toc-text">解：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B1%82%E8%A7%A3%E4%B8%8A%E8%BF%B0%E7%AD%89%E5%BC%8F%EF%BC%8C%E7%AB%8B%E5%88%BB%E5%BE%97%E5%88%B0%EF%BC%9A"><span class="toc-text">求解上述等式，立刻得到：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E4%B8%80%E6%AD%A5%EF%BC%8C%E5%BE%97%E5%87%BA%E4%B8%80%E9%98%B6%E5%85%A8%E5%BE%AE%E5%88%86%EF%BC%9A"><span class="toc-text">进一步，得出一阶全微分：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E3%80%81%E9%9A%90%E5%87%BD%E6%95%B0%E7%BB%84%E6%B1%82%E5%AF%BC"><span class="toc-text">十、隐函数组求导</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%EF%BC%9A-6"><span class="toc-text">解：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E6%96%B9%E7%A8%8B%E7%BB%84%E7%AD%89%E5%BC%8F%E4%B8%A4%E8%BE%B9%E5%88%86%E5%88%AB%E5%85%B3%E4%BA%8E-x-%E6%B1%82%E5%81%8F%E5%AF%BC%E6%95%B0%EF%BC%8C%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA%EF%BC%9A"><span class="toc-text">对方程组等式两边分别关于 $x$ 求偏导数，计算得出：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%8C%E7%90%86%EF%BC%8C%E5%AF%B9%E6%96%B9%E7%A8%8B%E7%BB%84%E7%AD%89%E5%BC%8F%E4%B8%A4%E8%BE%B9%E5%88%86%E5%88%AB%E5%85%B3%E4%BA%8E-y-%E6%B1%82%E5%81%8F%E5%AF%BC%E6%95%B0%EF%BC%8C%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA%EF%BC%9A"><span class="toc-text">同理，对方程组等式两边分别关于 $y$ 求偏导数，计算得出：</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%B8%80%E3%80%81%E6%B1%82%E5%88%87%E5%B9%B3%E9%9D%A2%E5%92%8C%E6%B3%95%E7%BA%BF%E6%96%B9%E7%A8%8B"><span class="toc-text">十一、求切平面和法线方程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3"><span class="toc-text">解</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%BA%8C%E3%80%81%E5%90%AB%E5%8F%82%E5%8F%98%E9%87%8F%E7%A7%AF%E5%88%86%E8%BF%9E%E7%BB%AD%E6%80%A7"><span class="toc-text">十二、含参变量积分连续性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3-1"><span class="toc-text">解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%BC%E5%90%88%E4%B8%8A%E8%BF%B0%E8%AE%A1%E7%AE%97%E5%BE%97%E5%87%BA%EF%BC%9A"><span class="toc-text">综合上述计算得出：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95"><span class="toc-text">解答完毕</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%B8%89%E3%80%81%E5%90%AB%E5%8F%82%E5%8F%98%E9%87%8F%E7%A7%AF%E5%88%86%E5%8F%AF%E5%BE%AE%E6%80%A7"><span class="toc-text">十三、含参变量积分可微性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3-2"><span class="toc-text">解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%A0%E6%AD%A4%EF%BC%8C"><span class="toc-text">因此，</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95-1"><span class="toc-text">解答完毕</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E5%9B%9B%E3%80%81%E5%90%AB%E5%8F%82%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86%E8%BF%9E%E7%BB%AD%E6%80%A7"><span class="toc-text">十四、含参反常积分连续性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3-3"><span class="toc-text">解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8E%B0%E5%9C%A8%EF%BC%8C%E8%AE%A1%E7%AE%97%E4%B8%8A%E8%BF%B0%E5%8F%B3%E7%AB%AF%E3%80%82"><span class="toc-text">现在，计算上述右端。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%BC%E5%90%88%E4%B8%8A%E8%BF%B0%E8%AE%A1%E7%AE%97%EF%BC%8C%E5%BE%97%E5%87%BA"><span class="toc-text">综合上述计算，得出</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95-2"><span class="toc-text">解答完毕</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E5%85%AD%E3%80%81%E5%90%AB%E5%8F%82%E5%8F%98%E9%87%8F%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B%E6%80%A7%E7%9A%84%E8%AE%A8%E8%AE%BA"><span class="toc-text">十六、含参变量反常积分一致收敛性的讨论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%95%E8%AF%81%E6%98%8E%EF%BC%9A%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86-I-x-%E5%9C%A8-x-in-infty-infty-%E4%B8%8A%E4%B8%80%E8%87%B4%E6%94%B6%E6%95%9B%E3%80%82"><span class="toc-text">试证明：反常积分 $I(x)$ 在 $x \in (-\infty, +\infty)$ 上一致收敛。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3-4"><span class="toc-text">解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E5%88%B0%E5%8F%8D%E5%B8%B8%E7%A7%AF%E5%88%86%EF%BC%9A"><span class="toc-text">注意到反常积分：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E7%AD%94%E5%AE%8C%E6%AF%95-3"><span class="toc-text">解答完毕</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%B8%83%E3%80%81%E7%AC%AC%E4%B8%80%E5%9E%8B%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86"><span class="toc-text">十七、第一型曲线积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E5%85%AB%E3%80%81%E7%AC%AC%E4%BA%8C%E5%9E%8B%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86"><span class="toc-text">十八、第二型曲线积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E4%B9%9D%E3%80%81%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86"><span class="toc-text">十九、二重积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E3%80%81%E6%9E%81%E5%9D%90%E6%A0%87%E5%8F%98%E6%8D%A2%E8%AE%A1%E7%AE%97%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86"><span class="toc-text">二十、极坐标变换计算二重积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E4%B8%80%E3%80%81%E4%B8%89%E9%87%8D%E7%A7%AF%E5%88%86"><span class="toc-text">二十一、三重积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E4%BA%8C%E3%80%81%E8%AE%A1%E7%AE%97%E7%A9%BA%E9%97%B4%E7%AB%8B%E4%BD%93%E4%BD%93%E7%A7%AF"><span class="toc-text">二十二、计算空间立体体积</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E4%B8%89%E3%80%81%E8%AE%A1%E7%AE%97%E6%9B%B2%E9%9D%A2%E9%9D%A2%E7%A7%AF"><span class="toc-text">二十三、计算曲面面积</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E5%9B%9B%E3%80%81%E7%94%A8%E7%90%83%E5%9D%90%E6%A0%87%E8%AE%A1%E7%AE%97%E4%B8%89%E9%87%8D%E7%A7%AF%E5%88%86"><span class="toc-text">二十四、用球坐标计算三重积分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E4%BA%94%E3%80%81%E7%AC%AC%E4%B8%80%E5%9E%8B%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86%E7%9A%84%E8%AE%A1%E7%AE%97%EF%BC%9A"><span class="toc-text">二十五、第一型曲面积分的计算：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%8D%81%E5%85%AD%E3%80%81%E7%AC%AC%E4%BA%8C%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86%E7%9A%84%E8%AE%A1%E7%AE%97%EF%BC%9A"><span class="toc-text">二十六、第二曲面积分的计算：</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background-color: transparent;"><div id="footer-wrap"><div id="ft"><div class="ft-item-1"><div class="t-top"><div class="t-t-l"><p class="ft-t t-l-t">空气动力之诗🌌</p><div class="bg-ad"><div>我们的情人，不过是随便借个名字，用幻想吹出来的肥皂泡。把信拿去吧，你可以使假戏成真。我本来是无病呻吟，漫无目的地吐露爱情……现在这些漂泊不定的鸟儿有地方栖息了你可以从信里看出来——拿去吧！——由于不是出自真心，话就说得格外动听。——拿去吧，就这么办！✨</div><div class="btn-xz-box"><a class="btn-xz" target="_blank" rel="noopener" href="https://www.bilibili.com/bangumi/play/ss5045?spm_id_from=333.337.0.0">点击开启星辰之旅</a></div></div></div><div class="t-t-r"><p class="ft-t t-l-t">猜你想看💡</p><ul class="ft-links"><li><a href="/categories/群青广播/">群青广播</a><a href="/comments/">留点什么</a></li><li><a href="/about/">关于作者</a><a href="/archives/">文章归档</a></li><li><a href="/categories/">文章分类</a><a href="/tags/">文章标签</a></li><li><a target="_blank" rel="noopener" href="https://www.fomal.cc/posts/eec9786.html">建站参考</a><a target="_blank" rel="noopener" href="https://www.acgbox.link">二次元导航</a></li></ul></div></div></div><div class="ft-item-2"><p class="ft-t">推荐友链⌛</p><div class="ft-img-group"><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div></div></div></div><div class="copyright"><span><b>&copy;2024-2025</b></span><span><b>&nbsp;&nbsp;By yumenomajo🧙‍</b></span></div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" title="博客框架为Hexo_v6.3.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Frame-Hexo-blue.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" title="主题版本Butterfly_v4.3.1"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Theme-Butterfly-6513df.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" title="本站采用多线部署，主线路托管于Vercel"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Hosted-Vercel-brightgreen.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" title="本网站源码由Github提供存储仓库"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src=" https://sourcebucket.s3.ladydaily.com/badge/Source-Github-d021d6.svg" alt=""/></a></p></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button><button class="share" type="button" title="右键模式" onclick="changeMouseMode()"><i class="fas fa-mouse"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog right_side"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button class="share" type="button" title="分享链接" onclick="share()"><i class="fas fa-share-nodes"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i><span id="percent">0<span>%</span></span></button><button id="go-down" type="button" title="直达底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div class="js-pjax" id="rightMenu"><div class="rightMenu-group rightMenu-small"><a class="rightMenu-item" href="javascript:window.history.back();"><i class="fa fa-arrow-left"></i></a><a class="rightMenu-item" href="javascript:window.history.forward();"><i class="fa fa-arrow-right"></i></a><a class="rightMenu-item" href="javascript:window.location.reload();"><i class="fa fa-refresh"></i></a><a class="rightMenu-item" href="javascript:rmf.scrollToTop();"><i class="fa fa-arrow-up"></i></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-text"><a class="rightMenu-item" href="javascript:rmf.copySelect();"><i class="fa fa-copy"></i><span>复制</span></a><a class="rightMenu-item" href="javascript:window.open(&quot;https://www.baidu.com/s?wd=&quot;+window.getSelection().toString());window.location.reload();"><i class="fa fa-search"></i><span>百度搜索</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-too"><a class="rightMenu-item" href="javascript:window.open(window.getSelection().toString());window.location.reload();"><i class="fa fa-link"></i><span>转到链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-paste"><a class="rightMenu-item" href="javascript:rmf.paste()"><i class="fa fa-copy"></i><span>粘贴</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-post"><a class="rightMenu-item" href="#post-comment"><i class="fas fa-comment"></i><span>空降评论</span></a><a class="rightMenu-item" href="javascript:rmf.copyWordsLink()"><i class="fa fa-link"></i><span>复制本文地址</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-to"><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>新窗口打开</span></a><a class="rightMenu-item" id="menu-too" href="javascript:rmf.open()"><i class="fa fa-link"></i><span>转到链接</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-img"><a class="rightMenu-item" href="javascript:rmf.saveAs()"><i class="fa fa-download"></i><span>保存图片</span></a><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>在新窗口打开</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制图片链接</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:randomPost()"><i class="fa fa-paper-plane"></i><span>随便逛逛</span></a><a class="rightMenu-item" href="javascript:switchNightMode();"><i class="fa fa-moon"></i><span>昼夜切换</span></a><a class="rightMenu-item" href="/personal/about/"><i class="fa fa-info-circle"></i><span>关于博客</span></a><a class="rightMenu-item" href="javascript:toggleWinbox();"><i class="fas fa-cog"></i><span>美化设置</span></a><a class="rightMenu-item" href="javascript:rmf.fullScreen();"><i class="fas fa-expand"></i><span>切换全屏</span></a><a class="rightMenu-item" href="javascript:window.print();"><i class="fa-solid fa-print"></i><span>打印页面</span></a></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.umd.min.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js" type="module"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><script async="async">var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
