@@ -44,7 +44,7 @@
     <link href="https://gunjo-radio-ii.cc/posts/d2bae96a.html"/>
     <id>https://gunjo-radio-ii.cc/posts/d2bae96a.html</id>
     <published>2025-03-05T00:18:42.000Z</published>
-    <updated>2025-03-05T04:33:49.537Z</updated>
+    <updated>2025-03-05T04:36:29.444Z</updated>
     
     <content type="html"><![CDATA[<p>今日主题曲：<a href="https://music.163.com/#/song?id=778059">【去り逝く者、残される者- MANYO】</a></p><div class="aplayer no-destroy" data-id="778059" data-volume="0.2" data-server="netease" data-type="song" data-fixed="false" data-autoplay="true" data-lrcType="-1"> </div><h2 id="一周半小记"><a href="#一周半小记" class="headerlink" title="一周半小记"></a>一周半小记</h2><p>不知不觉一周半没有更新小记，今天趁着空闲做一篇周记。</p><p>在周五上完计量经济学课程退课后，这学期仅仅需要修读大约16学分。不得不说，这学期的课程相比于之前少得多。我也因此获得了更多的空闲时间。这就意味着：如何利用好大片的空闲时间成了这学期的重要课题。</p><p>我在上周刚开始尝试着利用prompt工程、api调用llm客户端、本地知识库搭建一个个人日程管理助手。但是，在实际的操作中发现由于系统缺乏自动化，繁琐的日常维护对于我来说是不可持续的。但这并不意味着这套系统的无效性，我相信在某些无所适从的高压时刻会派上用场的。</p><p>与此同时，我还反思了上学期推进的电子化改革带来的问题：</p><ol><li>电子化笔记实际上不如纸质化笔记来得顺手。实际体验上，纸质化笔记要更有利于深度思考。</li><li>虽然在繁琐的任务上，电子化作业效率要高得多；但是，由于监管制度的缺失，我总是会不自觉地打开b站和知乎摸鱼，消耗了很多的高质量专注时间。</li></ol><p>除此之外，还有一些其它的日常问题：</p><ol><li>在基础课程的学习上基础有明显的松动：具体表现在数理统计的学习上，苦于对概率论只是的生疏，不得不重新回顾概率论收敛、大数定律、特征函数、中心极限定理的内容。</li><li>日常作息不规律和缺乏运动和睡眠使得身体状况、记忆力、专注力有明显下滑。</li></ol><p>针对以上问题，我尝试做了一些调整：</p><ol><li>重启纸质活页笔记，主要记录主修/需要深度思考的内容比如数理统计/教育经济学。</li><li>利用Forest、IOS的限制访问、Cold Turkey Blocker一定程度上限制对某些网站和app访问，进而减少专注时间分心的可能性。同时尽量尝试减少听歌学习。</li><li>无论午觉还是晚觉都停止带手机上床，以kindle取而代之。同时加闹钟做好睡眠管理。</li><li>关于基础课程的调整，可能需要增加习题的练习以及网课学习。</li></ol><h2 id="别的需要考虑的事情"><a href="#别的需要考虑的事情" class="headerlink" title="别的需要考虑的事情"></a>别的需要考虑的事情</h2><p>虽然这学期课少，但需要集中更多的空闲时间来实现两个必须完成的战略目标：英语（大英赛/六级/口语听力的提升），科研（实验/论文/为大创挑战杯扫清障碍）。英语已经在通过安排日常任务在落实推进，问题在于科研方面总是有点无从下手，万事开头难啊。</p><h2 id="经济学的吐槽"><a href="#经济学的吐槽" class="headerlink" title="经济学的吐槽"></a>经济学的吐槽</h2><p>上了教育经济学和计量经济学两门课程，我开始对经济学相关的进阶课程有些厌恶和反感。感觉自己在接触机器学习方法中的数据驱动思想后，有点不能接受仅仅用一些捏造的数学模型来拟合现实问题。于是就决定推选了计量经济学，这里还想吐槽为什么教育经济学是必修课啊？</p><h2 id="志愿服务"><a href="#志愿服务" class="headerlink" title="志愿服务"></a>志愿服务</h2><p>这周出去做了两场志愿服务。原以为其中一场志愿服务是爬山散步划水，到了现场发现是站岗，坐牢了两个多小时。相比之下，我更倾向于做图书馆之类的志愿活动吧，当然，散步划水还是最轻松的。</p><h2 id="红烧日服的开荒"><a href="#红烧日服的开荒" class="headerlink" title="红烧日服的开荒"></a>红烧日服的开荒</h2><p>红烧日服开了人气池，于是我刷了不少初始号碰碰运气，没想到还真的刷出了神月歌和神苍井初始号，于是开始摆烂开荒。开荒过程中发现日服的福利比国服少得多，一井还多40抽，真是太痛苦了。不过，摆烂玩的话玩个乐就好了。</p>]]></content>
     
@@ -55,6 +55,8 @@
     
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
+    
+    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
@@ -127,9 +129,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     <category term="AI" scheme="https://gunjo-radio-ii.cc/tags/AI/"/>
     
@@ -231,9 +233,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     <category term="寒假" scheme="https://gunjo-radio-ii.cc/tags/%E5%AF%92%E5%81%87/"/>
     
@@ -256,9 +258,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
   </entry>
   
@@ -279,9 +281,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
   </entry>
   
@@ -302,9 +304,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
   </entry>
   
