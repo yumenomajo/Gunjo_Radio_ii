@@ -11425,7 +11425,7 @@ input[type="range"]::-webkit-slider-thumb {
 } */
 
 /* 分类磁贴 */
-/* .categoryBar-list {
+.categoryBar-list {
   max-height: 210px !important;
 }
 @media screen and (max-width: 650px) {
@@ -11435,7 +11435,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 li.categoryBar-list-item {
   border-radius: 20px !important;
-} */
+}
 
 /* 置顶滚动栏电脑端样式，手机端用默认的 */
 @media screen and (min-width: 600px) {
