@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><div id="myscoll"></div><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>数学期望 | 群青广播II📡</title><meta name="keywords" content="Statistics,Data Analysis,Machine Learning,Deep Learning,Python,Data Visualization,ACGN,Anime,Comic,Game,Novel,Music,Visual Novel"><meta name="author" content="yumenomajo🧙‍"><meta name="copyright" content="yumenomajo🧙‍"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="注意：本篇md文件在编译的时候出现了较多未知错误，输出结果缺少了一部分公式… 4.1 数学期望 4.1.1数学期望的基本定义定义定义 4.1.1【简单随机变量】对于简单随机变量 $\xi$，称：  \mathbb{E}(\xi) \triangleq \sum_{x \in \xi(\Omega)} x \mathbb{P}(\xi &#x3D; x) \tag{4.1}为 $\xi$ 的数学期望，简称为">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><div id="myscoll"></div><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>数学期望 | 群青广播II📡</title><meta name="keywords" content="Statistics,Data Analysis,Machine Learning,Deep Learning,Python,Data Visualization,ACGN,Anime,Comic,Game,Novel,Music,Visual Novel"><meta name="author" content="yumenomajo🧙‍"><meta name="copyright" content="yumenomajo🧙‍"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="注意：本篇md文件在编译的时候出现了较多未知错误，输出结果缺少了一部分公式…  4.1 数学期望 4.1.1数学期望的基本定义 定义 定义 4.1.1【简单随机变量】 对于简单随机变量 $\xi$，称： $$ \mathbb{E}(\xi) \triangleq \sum_{x \in \xi(\Omega)} x \mathbb{P}(\xi &#x3D; x) \tag{4.1} $$ 为 $\xi$">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数学期望">
 <meta property="og:url" content="https://gunjo-radio-ii.cc/posts/b9d78651.html">
 <meta property="og:site_name" content="群青广播II📡">
-<meta property="og:description" content="注意：本篇md文件在编译的时候出现了较多未知错误，输出结果缺少了一部分公式… 4.1 数学期望 4.1.1数学期望的基本定义定义定义 4.1.1【简单随机变量】对于简单随机变量 $\xi$，称：  \mathbb{E}(\xi) \triangleq \sum_{x \in \xi(\Omega)} x \mathbb{P}(\xi &#x3D; x) \tag{4.1}为 $\xi$ 的数学期望，简称为">
+<meta property="og:description" content="注意：本篇md文件在编译的时候出现了较多未知错误，输出结果缺少了一部分公式…  4.1 数学期望 4.1.1数学期望的基本定义 定义 定义 4.1.1【简单随机变量】 对于简单随机变量 $\xi$，称： $$ \mathbb{E}(\xi) \triangleq \sum_{x \in \xi(\Omega)} x \mathbb{P}(\xi &#x3D; x) \tag{4.1} $$ 为 $\xi$">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://gunjo-radio-ii.cc/images/cover.jpg">
 <meta property="article:published_time" content="2024-11-27T13:22:51.000Z">
@@ -146,52 +146,91 @@
       }
     }
     detectApple()
-    })(window)</script><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><style id="themeColor"></style><style id="rightSide"></style><style id="transPercent"></style><style id="blurNum"></style><style id="settingStyle"></style><span id="fps"></span><style id="defineBg"></style><style id="menu_shadow"></style><div class="aplayer no-destroy" data-id="9387575714" data-volume="0.4" data-server="netease" data-type="playlist" data-fixed="true"  data-autoplay="false" data-lrcType="-1"> </div><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="群青广播II📡" type="application/atom+xml">
-</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="wizard-scene"><div class="wizard-objects"><div class="wizard-square"></div><div class="wizard-circle"></div><div class="wizard-triangle"></div></div><div class="wizard"><div class="wizard-body"></div><div class="wizard-right-arm"><div class="wizard-right-hand"></div></div><div class="wizard-left-arm"><div class="wizard-left-hand"></div></div><div class="wizard-head"><div class="wizard-beard"></div><div class="wizard-face"><div class="wizard-adds"></div></div><div class="wizard-hat"><div class="wizard-hat-of-the-hat"></div><div class="wizard-four-point-star --first"></div><div class="wizard-four-point-star --second"></div><div class="wizard-four-point-star --third"></div></div></div></div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/avatar.jpg" onerror="onerror=null;src='/assets/r1.jpg'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">43</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">26</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/social/link/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-yinle"></use></svg><span class="menu_word" style="font-size:17px"> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">群青广播II📡</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/social/link/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-yinle"></use></svg><span class="menu_word" style="font-size:17px"> 友链</span></a></div></div><center id="name-container"><a id="page-name" href="javascript:scrollToTop()">PAGE_NAME</a></center><div id="nav-right"><div id="search-button"><a class="search faa-parent animated-hover" title="检索站内任何你想要的信息"><svg class="faa-tada icon" style="height:24px;width:24px;fill:currentColor;position:relative;top:6px" aria-hidden="true"><use xlink:href="#icon-valentine_-search-love-find-heart"></use></svg><span> 搜索</span></a></div><a class="meihua faa-parent animated-hover" onclick="toggleWinbox()" title="美化设置-自定义你的风格" id="meihua-button"><svg class="faa-tada icon" style="height:26px;width:26px;fill:currentColor;position:relative;top:8px" aria-hidden="true"><use xlink:href="#icon-tupian1"></use></svg></a><a class="sun_moon faa-parent animated-hover" onclick="switchNightMode()" title="浅色和深色模式转换" id="nightmode-button"><svg class="faa-tada" style="height:25px;width:25px;fill:currentColor;position:relative;top:7px" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon">       </use></svg></a><div id="toggle-menu"><a><i class="fas fa-bars fa-fw"></i></a></div></div></div></nav><div id="post-info"><h1 class="post-title">数学期望<a class="post-edit-link" href="null_posts/概率论/数学期望.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><svg class="meta_icon post-meta-icon" style="width:30px;height:30px;position:relative;top:10px"><use xlink:href="#icon-rili"></use></svg><span class="post-meta-label">发表于 </span><time class="post-meta-date-created" datetime="2024-11-27T13:22:51.000Z" title="发表于 2024-11-27 21:22:51">2024-11-27</time><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-gengxin1"></use></svg><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-03-05T03:15:55.882Z" title="更新于 2025-03-05 11:15:55">2025-03-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-biaoqian"></use></svg><a class="post-meta-categories" href="/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/">概率论</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:8px"><use xlink:href="#icon-charuword"></use></svg><span class="post-meta-label">字数总计:</span><span class="word-count">3348</span><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:20px;height:20px;position:relative;top:5px"><use xlink:href="#icon-shizhong"></use></svg><span class="post-meta-label">阅读时长:</span><span>15分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="数学期望"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:5px"><use xlink:href="#icon-eye"></use></svg><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><blockquote>
+    })(window)</script><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"><style id="themeColor"></style><style id="rightSide"></style><style id="transPercent"></style><style id="blurNum"></style><style id="settingStyle"></style><span id="fps"></span><style id="defineBg"></style><style id="menu_shadow"></style><div class="aplayer no-destroy" data-id="9387575714" data-volume="0.4" data-server="netease" data-type="playlist" data-fixed="true"  data-autoplay="false" data-lrcType="-1"> </div><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="群青广播II📡" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="wizard-scene"><div class="wizard-objects"><div class="wizard-square"></div><div class="wizard-circle"></div><div class="wizard-triangle"></div></div><div class="wizard"><div class="wizard-body"></div><div class="wizard-right-arm"><div class="wizard-right-hand"></div></div><div class="wizard-left-arm"><div class="wizard-left-hand"></div></div><div class="wizard-head"><div class="wizard-beard"></div><div class="wizard-face"><div class="wizard-adds"></div></div><div class="wizard-hat"><div class="wizard-hat-of-the-hat"></div><div class="wizard-four-point-star --first"></div><div class="wizard-four-point-star --second"></div><div class="wizard-four-point-star --third"></div></div></div></div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/avatar.jpg" onerror="onerror=null;src='/assets/r1.jpg'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">43</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">26</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/social/link/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-yinle"></use></svg><span class="menu_word" style="font-size:17px"> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">群青广播II📡</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-home"></use></svg><span class="menu_word" style="font-size:17px"> 首页</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon--article"></use></svg><span class="menu_word" style="font-size:17px"> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-guidang1">                   </use></svg><span class="menu_word" style="font-size:17px"> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-sekuaibiaoqian">                   </use></svg><span class="menu_word" style="font-size:17px"> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-fenlei">                   </use></svg><span class="menu_word" style="font-size:17px"> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-liuyan"></use></svg><span class="menu_word" style="font-size:17px"> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-paperplane"></use></svg><span class="menu_word" style="font-size:17px"> 关于</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/social/link/"><svg class="menu_icon faa-tada" aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-yinle"></use></svg><span class="menu_word" style="font-size:17px"> 友链</span></a></div></div><center id="name-container"><a id="page-name" href="javascript:scrollToTop()">PAGE_NAME</a></center><div id="nav-right"><div id="search-button"><a class="search faa-parent animated-hover" title="检索站内任何你想要的信息"><svg class="faa-tada icon" style="height:24px;width:24px;fill:currentColor;position:relative;top:6px" aria-hidden="true"><use xlink:href="#icon-valentine_-search-love-find-heart"></use></svg><span> 搜索</span></a></div><a class="meihua faa-parent animated-hover" onclick="toggleWinbox()" title="美化设置-自定义你的风格" id="meihua-button"><svg class="faa-tada icon" style="height:26px;width:26px;fill:currentColor;position:relative;top:8px" aria-hidden="true"><use xlink:href="#icon-tupian1"></use></svg></a><a class="sun_moon faa-parent animated-hover" onclick="switchNightMode()" title="浅色和深色模式转换" id="nightmode-button"><svg class="faa-tada" style="height:25px;width:25px;fill:currentColor;position:relative;top:7px" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon">       </use></svg></a><div id="toggle-menu"><a><i class="fas fa-bars fa-fw"></i></a></div></div></div></nav><div id="post-info"><h1 class="post-title">数学期望<a class="post-edit-link" href="null_posts/概率论/数学期望.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><svg class="meta_icon post-meta-icon" style="width:30px;height:30px;position:relative;top:10px"><use xlink:href="#icon-rili"></use></svg><span class="post-meta-label">发表于 </span><time class="post-meta-date-created" datetime="2024-11-27T13:22:51.000Z" title="发表于 2024-11-27 21:22:51">2024-11-27</time><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-gengxin1"></use></svg><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-03-05T03:15:55.882Z" title="更新于 2025-03-05 11:15:55">2025-03-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:18px;height:18px;position:relative;top:5px"><use xlink:href="#icon-biaoqian"></use></svg><a class="post-meta-categories" href="/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/">概率论</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:8px"><use xlink:href="#icon-charuword"></use></svg><span class="post-meta-label">字数总计:</span><span class="word-count">3379</span><span class="post-meta-separator">|</span><svg class="meta_icon post-meta-icon" style="width:20px;height:20px;position:relative;top:5px"><use xlink:href="#icon-shizhong"></use></svg><span class="post-meta-label">阅读时长:</span><span>15分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="数学期望"><svg class="meta_icon post-meta-icon" style="width:25px;height:25px;position:relative;top:5px"><use xlink:href="#icon-eye"></use></svg><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><blockquote>
 <p>注意：本篇md文件在编译的时候出现了较多未知错误，输出结果缺少了一部分公式…</p>
-<h1 id="4-1-数学期望"><a href="#4-1-数学期望" class="headerlink" title="4.1 数学期望"></a>4.1 数学期望</h1></blockquote>
-<h2 id="4-1-1数学期望的基本定义"><a href="#4-1-1数学期望的基本定义" class="headerlink" title="4.1.1数学期望的基本定义"></a>4.1.1数学期望的基本定义</h2><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a><span style="color:red">定义</span></h2><h3 id="定义-4-1-1【简单随机变量】"><a href="#定义-4-1-1【简单随机变量】" class="headerlink" title="定义 4.1.1【简单随机变量】"></a><span style="color:red">定义 4.1.1【简单随机变量】</span></h3><p>对于简单随机变量 $\xi$，称：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) \triangleq \sum_{x \in \xi(\Omega)} x \mathbb{P}(\xi = x) \tag{4.1}</script><p>为 $\xi$ 的数学期望，简称为数学期望。</p>
-<h3 id="定义-4-1-2【非负随机变量】"><a href="#定义-4-1-2【非负随机变量】" class="headerlink" title="定义 4.1.2【非负随机变量】"></a><span style="color:red">定义 4.1.2【非负随机变量】</span></h3><p>对于任意随机变量 $\xi \geq 0$，称：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) \triangleq \lim_{n \to \infty} \left( \sum_{k=1}^{n2^n} \frac{k-1}{2^n} \mathbb{P}\left(\frac{k-1}{2^n} < \xi \leq \frac{k}{2^n}\right) + n \mathbb{P}(\xi > n) \right) \tag{4.3}</script><p>为随机变量 $\xi$ 的数学期望或均值。</p>
-<h3 id="定义-4-1-3【任意随机变量】"><a href="#定义-4-1-3【任意随机变量】" class="headerlink" title="定义 4.1.3【任意随机变量】"></a><span style="color:red">定义 4.1.3【任意随机变量】</span></h3><p>对于任意随机变量 $\xi$，若 $\mathbb{E}(\xi^+) &lt; \infty$ 或 $\mathbb{E}(\xi^-) &lt; \infty$，则称：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) \triangleq \mathbb{E}(\xi^+) - \mathbb{E}(\xi^-) \tag{4.4}</script><p>为 $\xi$ 的数学期望或 $\xi$ 的均值；若 $\mathbb{E}(\xi^+) = \infty$ 且 $\mathbb{E}(\xi^-) = \infty$，则称 $\xi$ 的数学期望不存在。</p>
+</blockquote>
+<h1>4.1 数学期望</h1>
+<h2 id="4-1-1数学期望的基本定义">4.1.1数学期望的基本定义</h2>
+<h2 id="span-style-color-red-定义-span"><span style="color:red">定义</span></h2>
+<h3 id="span-style-color-red-定义-4-1-1【简单随机变量】-span"><span style="color:red">定义 4.1.1【简单随机变量】</span></h3>
+<p>对于简单随机变量 $\xi$，称：<br>
+$$<br>
+\mathbb{E}(\xi) \triangleq \sum_{x \in \xi(\Omega)} x \mathbb{P}(\xi = x) \tag{4.1}<br>
+$$<br>
+为 $\xi$ 的数学期望，简称为数学期望。</p>
+<h3 id="span-style-color-red-定义-4-1-2【非负随机变量】-span"><span style="color:red">定义 4.1.2【非负随机变量】</span></h3>
+<p>对于任意随机变量 $\xi \geq 0$，称：<br>
+$$<br>
+\mathbb{E}(\xi) \triangleq \lim_{n \to \infty} \left( \sum_{k=1}^{n2^n} \frac{k-1}{2^n} \mathbb{P}\left(\frac{k-1}{2^n} &lt; \xi \leq \frac{k}{2^n}\right) + n \mathbb{P}(\xi &gt; n) \right) \tag{4.3}<br>
+$$<br>
+为随机变量 $\xi$ 的数学期望或均值。</p>
+<h3 id="span-style-color-red-定义-4-1-3【任意随机变量】-span"><span style="color:red">定义 4.1.3【任意随机变量】</span></h3>
+<p>对于任意随机变量 $\xi$，若 $\mathbb{E}(\xi^+) &lt; \infty$ 或 $\mathbb{E}(\xi^-) &lt; \infty$，则称：<br>
+$$<br>
+\mathbb{E}(\xi) \triangleq \mathbb{E}(\xi^+) - \mathbb{E}(\xi^-) \tag{4.4}<br>
+$$<br>
+为 $\xi$ 的数学期望或 $\xi$ 的均值；若 $\mathbb{E}(\xi^+) = \infty$ 且 $\mathbb{E}(\xi^-) = \infty$，则称 $\xi$ 的数学期望不存在。</p>
 <hr>
-<h2 id="定理"><a href="#定理" class="headerlink" title="定理"></a><span style="color:blue">定理</span></h2><h3 id="定理-4-1-1"><a href="#定理-4-1-1" class="headerlink" title="定理 4.1.1"></a><span style="color:blue">定理 4.1.1</span></h3><p>条件：</p>
+<h2 id="span-style-color-blue-定理-span"><span style="color:blue">定理</span></h2>
+<h3 id="span-style-color-blue-定理-4-1-1-span"><span style="color:blue">定理 4.1.1</span></h3>
+<p>条件：</p>
 <ol>
 <li>$\xi$ 和 $\eta$ 为简单随机变量</li>
 <li>$\xi \leq \eta$</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) \leq \mathbb{E}(\eta). \tag{4.2}</script><hr>
-<h2 id="相关证明"><a href="#相关证明" class="headerlink" title="相关证明"></a><span style="color:pink">相关证明</span></h2><p><span style="color:blue">定理 4.1.1 </span> </p>
-<p>证明：</p>
-<p>显然，当 $x &gt; y$ 时有：</p>
-<script type="math/tex; mode=display">
-\mathbb{P}(\xi = x, \eta = y, \xi \leq \eta) = 0,</script><p>再由 $\xi(\Omega)$ 和 $\eta(\Omega)$ 均为有限实数集，概率的有限可加性，以及 ${\xi \leq \eta} = \Omega$ 得：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) = \sum_{x \in \xi(\Omega)} x \mathbb{P}(\xi = x) = \sum_{x \in \xi(\Omega)} \sum_{y \in \eta(\Omega)} x \mathbb{P}(\xi = x, \eta = y),</script><script type="math/tex; mode=display">
-= \sum_{x \in \xi(\Omega)} \sum_{y \in \eta(\Omega)} x \mathbb{P}(\xi = x, \eta = y, \xi \leq \eta) \leq \sum_{x \in \xi(\Omega)} \sum_{y \in \eta(\Omega)} y \mathbb{P}(\xi = x, \eta = y, \xi \leq \eta),</script><script type="math/tex; mode=display">
-= \sum_{y \in \eta(\Omega)} \sum_{x \in \xi(\Omega)} y \mathbb{P}(\xi = x, \eta = y) = \sum_{y \in \eta(\Omega)} y \mathbb{P}(\eta = y) = \mathbb{E}(\eta).</script><p>即 (3.29) 成立。</p>
-<p><span style="color:pink">思考：尝试转换</span> $\xi \leq \eta$<br><span style="color:pink">为</span><br>$x \leq y$<br><span style="color:pink">以便利于使用不等关系用来证明对应的定理。</span></p>
+<p>则：<br>
+$$<br>
+\mathbb{E}(\xi) \leq \mathbb{E}(\eta). \tag{4.2}<br>
+$$</p>
 <hr>
-<h2 id="4-1-2数学期望的性质"><a href="#4-1-2数学期望的性质" class="headerlink" title="4.1.2数学期望的性质"></a>4.1.2数学期望的性质</h2><h3 id="准备工作："><a href="#准备工作：" class="headerlink" title="准备工作："></a>准备工作：</h3><p>记：</p>
-<script type="math/tex; mode=display">
-f_n(x) = \sum_{k=1}^{n2^n} \frac{k-1}{2^n} \mathbb{1}\left(\frac{k-1}{2^n} < x \leq \frac{k}{2^n}\right) + n\mathbb{1}_{(n, \infty)}(x), \tag{4.5}</script><p>其中 $n$ 为正整数。</p>
-<p>显然 $f<em>n$ 为增函数，且 $f_n \leq f</em>{n+1}$。进一步，可以借助 $f_n$ 将 (3.9) 简化表达为：</p>
-<script type="math/tex; mode=display">
-\xi_n = f_n(\xi), \tag{4.6}</script><p>将 (4.3) 简化表达为：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) = \lim_{n \to \infty} \mathbb{E}(f_n(\xi)), \tag{4.7}</script><p>将 (4.4) 简化表达为：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) = \lim_{n \to \infty} \left(\mathbb{E}(f_n(\xi^+)) - \mathbb{E}(f_n(\xi^-))\right). \tag{4.8}</script><hr>
+<h2 id="span-style-color-pink-相关证明-span"><span style="color:pink">相关证明</span></h2>
+<p><span style="color:blue">定理 4.1.1 </span></p>
+<p>证明：</p>
+<p>显然，当 $x &gt; y$ 时有：<br>
+$$<br>
+\mathbb{P}(\xi = x, \eta = y, \xi \leq \eta) = 0,<br>
+$$<br>
+再由 $\xi(\Omega)$ 和 $\eta(\Omega)$ 均为有限实数集，概率的有限可加性，以及 ${\xi \leq \eta} = \Omega$ 得：<br>
+$$<br>
+\mathbb{E}(\xi) = \sum_{x \in \xi(\Omega)} x \mathbb{P}(\xi = x) = \sum_{x \in \xi(\Omega)} \sum_{y \in \eta(\Omega)} x \mathbb{P}(\xi = x, \eta = y),<br>
+$$<br>
+$$<br>
+= \sum_{x \in \xi(\Omega)} \sum_{y \in \eta(\Omega)} x \mathbb{P}(\xi = x, \eta = y, \xi \leq \eta) \leq \sum_{x \in \xi(\Omega)} \sum_{y \in \eta(\Omega)} y \mathbb{P}(\xi = x, \eta = y, \xi \leq \eta),<br>
+$$<br>
+$$<br>
+= \sum_{y \in \eta(\Omega)} \sum_{x \in \xi(\Omega)} y \mathbb{P}(\xi = x, \eta = y) = \sum_{y \in \eta(\Omega)} y \mathbb{P}(\eta = y) = \mathbb{E}(\eta).<br>
+$$</p>
+<p>即 (3.29) 成立。</p>
+<p><span style="color:pink">思考：尝试转换</span> $\xi \leq \eta$<br>
+<span style="color:pink">为</span><br>
+$x \leq y$<br>
+<span style="color:pink">以便利于使用不等关系用来证明对应的定理。</span></p>
+<hr>
+<h2 id="4-1-2数学期望的性质">4.1.2数学期望的性质</h2>
+<h3 id="准备工作：">准备工作：</h3>
+<p>记：<br>
+$$<br>
+f_n(x) = \sum_{k=1}^{n2^n} \frac{k-1}{2^n} \mathbb{1}\left(\frac{k-1}{2^n} &lt; x \leq \frac{k}{2^n}\right) + n\mathbb{1}_{(n, \infty)}(x), \tag{4.5}<br>
+$$<br>
+其中 $n$ 为正整数。</p>
+<p>显然 $f_n$ 为增函数，且 $f_n \leq f_{n+1}$。进一步，可以借助 $f_n$ 将 (3.9) 简化表达为：<br>
+$$<br>
+\xi_n = f_n(\xi), \tag{4.6}<br>
+$$<br>
+将 (4.3) 简化表达为：<br>
+$$<br>
+\mathbb{E}(\xi) = \lim_{n \to \infty} \mathbb{E}(f_n(\xi)), \tag{4.7}<br>
+$$<br>
+将 (4.4) 简化表达为：<br>
+$$<br>
+\mathbb{E}(\xi) = \lim_{n \to \infty} \left(\mathbb{E}(f_n(\xi^+)) - \mathbb{E}(f_n(\xi^-))\right). \tag{4.8}<br>
+$$</p>
+<hr>
 <p><span style="color:pink">个人思考：便于用简单随机变量逼近随机变量，从而利用简单随机变量的性质推出相对复杂随机变量的性质。</p>
 <hr>
-<h3 id="定理-4-1-2【数学期望的性质】"><a href="#定理-4-1-2【数学期望的性质】" class="headerlink" title="定理 4.1.2【数学期望的性质】"></a><span style="color:blue">定理 4.1.2【数学期望的性质】</span></h3><p>条件：</p>
+<h3 id="span-style-color-blue-定理-4-1-2【数学期望的性质】-span"><span style="color:blue">定理 4.1.2【数学期望的性质】</span></h3>
+<p>条件：</p>
 <ol>
 <li>$a$ 为实数</li>
 <li>随机变量 $\xi$ 和 $\eta$ 的数学期望都存在</li>
@@ -200,209 +239,332 @@ f_n(x) = \sum_{k=1}^{n2^n} \frac{k-1}{2^n} \mathbb{1}\left(\frac{k-1}{2^n} < x \
 <p>1° $\mathbb{E}(a) = a$.</p>
 <p>2° 若 $\xi \geq 0$，则 $\mathbb{E}(\xi) \geq 0$.</p>
 <p>3° 单调性：若 $\xi \leq \eta$，则 $\mathbb{E}(\xi) \leq \mathbb{E}(\eta)$.</p>
-<h3 id="定理-4-1-3-【单调收敛定理】"><a href="#定理-4-1-3-【单调收敛定理】" class="headerlink" title="定理 4.1.3 【单调收敛定理】"></a><span style="color:blue">定理 4.1.3 【单调收敛定理】</span></h3><p>条件：</p>
+<h3 id="span-style-color-blue-定理-4-1-3-【单调收敛定理】-span"><span style="color:blue">定理 4.1.3 【单调收敛定理】</span></h3>
+<p>条件：</p>
 <ol>
 <li>$\xi_n$ 为非负随机变量</li>
 <li>$\xi_n \uparrow \xi$</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\lim_{n \to \infty} \mathbb{E}(\xi_n) = \mathbb{E}(\xi).</script><h3 id="定理-4-1-3-【条件减弱】"><a href="#定理-4-1-3-【条件减弱】" class="headerlink" title="定理 4.1.3+ 【条件减弱】"></a><span style="color:blue">定理 4.1.3+ 【条件减弱】</span></h3><p>条件：<br>存在数学期望为实数的随机变量 $\eta$，使得：</p>
-<script type="math/tex; mode=display">
-\eta \leq \xi_n \uparrow \xi. \tag{4.11}</script><p>则：</p>
-<script type="math/tex; mode=display">
-\lim_{n \to \infty} \mathbb{E}(\xi_n) = \mathbb{E}(\xi).</script><h3 id="定理-4-1-4-【数学期望的线性性性质】"><a href="#定理-4-1-4-【数学期望的线性性性质】" class="headerlink" title="定理 4.1.4 【数学期望的线性性性质】"></a><span style="color:blue">定理 4.1.4 【数学期望的线性性性质】</span></h3><p>条件：</p>
+<p>则：<br>
+$$<br>
+\lim_{n \to \infty} \mathbb{E}(\xi_n) = \mathbb{E}(\xi).<br>
+$$</p>
+<h3 id="span-style-color-blue-定理-4-1-3-【条件减弱】-span"><span style="color:blue">定理 4.1.3+ 【条件减弱】</span></h3>
+<p>条件：<br>
+存在数学期望为实数的随机变量 $\eta$，使得：<br>
+$$<br>
+\eta \leq \xi_n \uparrow \xi. \tag{4.11}<br>
+$$<br>
+则：<br>
+$$<br>
+\lim_{n \to \infty} \mathbb{E}(\xi_n) = \mathbb{E}(\xi).<br>
+$$</p>
+<h3 id="span-style-color-blue-定理-4-1-4-【数学期望的线性性性质】-span"><span style="color:blue">定理 4.1.4 【数学期望的线性性性质】</span></h3>
+<p>条件：</p>
 <ol>
 <li>$a$ 和 $b$ 为实数</li>
 <li>随机变量 $\xi$ 和 $\eta$ 的数学期望都存在</li>
 <li>$\mathbb{E}(\xi)$ 和 $\mathbb{E}(\eta)$ 中至少有一个为实数</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(a\xi + b\eta) = a\mathbb{E}(\xi) + b\mathbb{E}(\eta),</script><p>并称之为数学期望的线性性质。</p>
-<h3 id="定理-4-1-5【独立性-乘积】"><a href="#定理-4-1-5【独立性-乘积】" class="headerlink" title="定理 4.1.5【独立性/乘积】"></a><span style="color:blue">定理 4.1.5【独立性/乘积】</span></h3><p>条件：</p>
+<p>则：<br>
+$$<br>
+\mathbb{E}(a\xi + b\eta) = a\mathbb{E}(\xi) + b\mathbb{E}(\eta),<br>
+$$<br>
+并称之为数学期望的线性性质。</p>
+<h3 id="span-style-color-blue-定理-4-1-5【独立性-乘积】-span"><span style="color:blue">定理 4.1.5【独立性/乘积】</span></h3>
+<p>条件：</p>
 <ol>
 <li>$\xi, \eta$ 相互独立</li>
 <li>它们的均值及 $\xi \eta$ 的均值均为实数</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi \eta) = \mathbb{E}(\xi) \mathbb{E}(\eta). \tag{4.12}</script><hr>
+<p>则：<br>
+$$<br>
+\mathbb{E}(\xi \eta) = \mathbb{E}(\xi) \mathbb{E}(\eta). \tag{4.12}<br>
+$$</p>
+<hr>
 <p><span style="color:orange">由单调收敛定理，可以证明著名的法图（Fatou）引理和控制收敛定理。</p>
 <p><span style="color:orange">单调收敛定理、法图引理和控制收敛定理是概率论研究的十分重要的基础知识。</p>
 <hr>
-<h3 id="定理-4-1-6-【法图引理】"><a href="#定理-4-1-6-【法图引理】" class="headerlink" title="定理 4.1.6 【法图引理】"></a><span style="color:blue">定理 4.1.6 【法图引理】</span></h3><p>条件：</p>
+<h3 id="span-style-color-blue-定理-4-1-6-【法图引理】-span"><span style="color:blue">定理 4.1.6 【法图引理】</span></h3>
+<p>条件：</p>
 <ol>
 <li>设 ${\xi_n}$ 为随机变量列</li>
 <li>若 $\eta \leq \xi_n$，且 $\eta$ 的数学期望为实数</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}\left(\liminf_{n \to \infty} \xi_n\right) \leq \liminf_{n \to \infty} \mathbb{E}(\xi_n). \tag{4.13}</script><h3 id="定理-4-1-7-【控制收敛定理】"><a href="#定理-4-1-7-【控制收敛定理】" class="headerlink" title="定理 4.1.7 【控制收敛定理】"></a><span style="color:blue">定理 4.1.7 【控制收敛定理】</span></h3><p>条件：</p>
+<p>则：<br>
+$$<br>
+\mathbb{E}\left(\liminf_{n \to \infty} \xi_n\right) \leq \liminf_{n \to \infty} \mathbb{E}(\xi_n). \tag{4.13}<br>
+$$</p>
+<h3 id="span-style-color-blue-定理-4-1-7-【控制收敛定理】-span"><span style="color:blue">定理 4.1.7 【控制收敛定理】</span></h3>
+<p>条件：</p>
 <ol>
 <li>${\xi_n}$ 为收敛于 $\xi$ 的随机变量序列</li>
 <li>若存在随机变量 $\eta$，使得 $\xi_n \leq |\eta|$</li>
 <li>且 $\eta$ 的数学期望为实数</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) = \lim_{n \to \infty} \mathbb{E}(\xi_n). \tag{4.14}</script><h3 id="定理-4-1-8"><a href="#定理-4-1-8" class="headerlink" title="定理 4.1.8"></a><span style="color:blue">定理 4.1.8</span></h3><p>条件：</p>
+<p>则：<br>
+$$<br>
+\mathbb{E}(\xi) = \lim_{n \to \infty} \mathbb{E}(\xi_n). \tag{4.14}<br>
+$$</p>
+<h3 id="span-style-color-blue-定理-4-1-8-span"><span style="color:blue">定理 4.1.8</span></h3>
+<p>条件：</p>
 <ol>
 <li>假设 $A$ 为离散型随机变量 $\xi$ 的概率支撑集</li>
 <li>$f(x)$ 为波莱尔函数</li>
 <li>且 $f(\xi)$ 的数学期望存在</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(f(\xi)) = \sum_{x \in A} f(x) \mathbb{P}(\xi = x). \tag{4.16}</script><h3 id="定理-4-1-8-【推广至离散型随机向量情形】"><a href="#定理-4-1-8-【推广至离散型随机向量情形】" class="headerlink" title="定理 4.1.8+【推广至离散型随机向量情形】"></a><span style="color:blue">定理 4.1.8+【推广至离散型随机向量情形】</span></h3><p>条件：</p>
+<p>则：<br>
+$$<br>
+\mathbb{E}(f(\xi)) = \sum_{x \in A} f(x) \mathbb{P}(\xi = x). \tag{4.16}<br>
+$$</p>
+<h3 id="span-style-color-blue-定理-4-1-8-【推广至离散型随机向量情形】-span"><span style="color:blue">定理 4.1.8+【推广至离散型随机向量情形】</span></h3>
+<p>条件：</p>
 <ol>
 <li>若 $A$ 为 $n$ 维离散型随机向量 $\xi$ 的概率支撑集</li>
 <li>$f$ 为波莱尔函数</li>
 <li>$f(\xi)$ 的数学期望存在</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(f(\xi)) = \sum_{\vec{x} \in A} f(\vec{x}) \mathbb{P}(\xi = \vec{x}). \tag{4.18}</script><h3 id="定理-4-1-9"><a href="#定理-4-1-9" class="headerlink" title="定理 4.1.9"></a><span style="color:blue">定理 4.1.9</span></h3><p>条件：</p>
+<p>则：<br>
+$$<br>
+\mathbb{E}(f(\xi)) = \sum_{\vec{x} \in A} f(\vec{x}) \mathbb{P}(\xi = \vec{x}). \tag{4.18}<br>
+$$</p>
+<h3 id="span-style-color-blue-定理-4-1-9-span"><span style="color:blue">定理 4.1.9</span></h3>
+<p>条件：</p>
 <ol>
 <li>假设 $p(x)$ 为连续型随机变量 $\xi$ 的密度函数</li>
 <li>$f(x)$ 为波莱尔函数</li>
 <li>且 $f(\xi)$ 的数学期望存在</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(f(\xi)) = \int_{-\infty}^\infty f(x)p(x)dx. \tag{4.19}</script><h3 id="定理-4-1-9-【推广至连续型随机向量情形】"><a href="#定理-4-1-9-【推广至连续型随机向量情形】" class="headerlink" title="定理 4.1.9+【推广至连续型随机向量情形】"></a><span style="color:blue">定理 4.1.9+【推广至连续型随机向量情形】</span></h3><p>条件：</p>
+<p>则：<br>
+$$<br>
+\mathbb{E}(f(\xi)) = \int_{-\infty}^\infty f(x)p(x)dx. \tag{4.19}<br>
+$$</p>
+<h3 id="span-style-color-blue-定理-4-1-9-【推广至连续型随机向量情形】-span"><span style="color:blue">定理 4.1.9+【推广至连续型随机向量情形】</span></h3>
+<p>条件：</p>
 <ol>
 <li>已知 $p(x)$ 为 $n$ 维连续型随机向量 $\xi$ 的密度函数</li>
 <li>$f$ 为波莱尔函数</li>
 <li>$f(\xi)$ 的数学期望存在</li>
 </ol>
-<p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(f(\xi)) = \int_{\mathbb{R}^n} f(x)p(x)dx_1 \cdots dx_n. \tag{4.23}</script><p>这里 $x = (x_1, x_2, \cdots, x_n)$。</p>
-<h3 id="定理-4-1-10"><a href="#定理-4-1-10" class="headerlink" title="定理 4.1.10"></a><span style="color:blue">定理 4.1.10</span></h3><p>条件：</p>
+<p>则：<br>
+$$<br>
+\mathbb{E}(f(\xi)) = \int_{\mathbb{R}^n} f(x)p(x)dx_1 \cdots dx_n. \tag{4.23}<br>
+$$</p>
+<p>这里 $x = (x_1, x_2, \cdots, x_n)$。</p>
+<h3 id="span-style-color-blue-定理-4-1-10-span"><span style="color:blue">定理 4.1.10</span></h3>
+<p>条件：</p>
 <ol>
 <li>若离散型随机变量 $\xi$ 的数学期望存在，其密度矩阵为：</li>
 </ol>
-<script type="math/tex; mode=display">
-\begin{pmatrix}
-x_1 & x_2 & \cdots & x_n \\
-p_1 & p_2 & \cdots & p_n
-\end{pmatrix},</script><p>则：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) = \sum_{k=1}^n x_k p_k. \tag{4.24}</script><hr>
-<p>在很多概率论教科书中，对离散型随机变量和连续型随机变量分别定义数学期望。特别对于离散型随机变量 $\xi$，在它满足条件：</p>
-<script type="math/tex; mode=display">
-\sum_{k=1}^\infty |x_k| p_k < \infty \tag{4.25}</script><p>的情况下才用 (4.24) 定义其数学期望，以保证数学期望为实数。本书的数学期望的定义稍广一些，容许其值为无穷。</p>
+<p>$$<br>
+\begin{pmatrix}<br>
+x_1 &amp; x_2 &amp; \cdots &amp; x_n \<br>
+p_1 &amp; p_2 &amp; \cdots &amp; p_n<br>
+\end{pmatrix},<br>
+$$</p>
+<p>则：</p>
+<p>$$<br>
+\mathbb{E}(\xi) = \sum_{k=1}^n x_k p_k. \tag{4.24}<br>
+$$</p>
 <hr>
-<h3 id="定理-4-1-11"><a href="#定理-4-1-11" class="headerlink" title="定理 4.1.11"></a><span style="color:blue">定理 4.1.11</span></h3><p>条件：</p>
+<p>在很多概率论教科书中，对离散型随机变量和连续型随机变量分别定义数学期望。特别对于离散型随机变量 $\xi$，在它满足条件：<br>
+$$<br>
+\sum_{k=1}^\infty |x_k| p_k &lt; \infty \tag{4.25}<br>
+$$<br>
+的情况下才用 (4.24) 定义其数学期望，以保证数学期望为实数。本书的数学期望的定义稍广一些，容许其值为无穷。</p>
+<hr>
+<h3 id="span-style-color-blue-定理-4-1-11-span"><span style="color:blue">定理 4.1.11</span></h3>
+<p>条件：</p>
 <ol>
-<li>若连续型随机变量 $\xi$ 的密度函数为 $p(x)$，且其数学期望存在，则：<script type="math/tex; mode=display">
-\mathbb{E}(\xi) = \int_{-\infty}^\infty x p(x) dx. \tag{4.26}</script></li>
+<li>若连续型随机变量 $\xi$ 的密度函数为 $p(x)$，且其数学期望存在，则：<br>
+$$<br>
+\mathbb{E}(\xi) = \int_{-\infty}^\infty x p(x) dx. \tag{4.26}<br>
+$$</li>
 </ol>
 <hr>
-<p>在很多《概率论》教材中，当：</p>
-<script type="math/tex; mode=display">
-\int_{-\infty}^\infty |x| p(x) dx < \infty \tag{4.27}</script><p>时，将 (4.26) 作为连续型随机变量的数学期望的定义，这保证了数学期望为实数。本教材的数学期望的定义稍广一些，容许其值为无穷。</p>
+<p>在很多《概率论》教材中，当：<br>
+$$<br>
+\int_{-\infty}^\infty |x| p(x) dx &lt; \infty \tag{4.27}<br>
+$$<br>
+时，将 (4.26) 作为连续型随机变量的数学期望的定义，这保证了数学期望为实数。本教材的数学期望的定义稍广一些，容许其值为无穷。</p>
 <hr>
-<h2 id="相关证明-1"><a href="#相关证明-1" class="headerlink" title="相关证明"></a>相关证明</h2><p><strong>4.1.2证明</strong><br>显然，$a = a 1_\Omega$ 为简单随机变量，由定义 4.1.1 知性质 1° 成立。<br>性质 2° 是定义 4.1.2 的直接结果。</p>
-<p>下面证明单调性。由 $\xi \leq \eta$ 知 $\xi^+ \leq \eta^+$，$\xi^- \geq \eta^-$，再注意到 (4.5) 中的 $f_n$ 为增函数，有：</p>
-<script type="math/tex; mode=display">
-f_n(\xi^+) \leq f_n(\eta^+), \quad f_n(\xi^-) \geq f_n(\eta^-),</script><p>因此由 (4.8) 得：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) = \lim_{n \to \infty} \mathbb{E}(f_n(\xi^+)) - \lim_{n \to \infty} \mathbb{E}(f_n(\xi^-)) \geq \lim_{n \to \infty} \mathbb{E}(f_n(\eta^+)) - \lim_{n \to \infty} \mathbb{E}(f_n(\eta^-)) = \mathbb{E}(\eta),</script><p>即性质 3° 成立。</p>
+<h2 id="相关证明">相关证明</h2>
+<p><strong>4.1.2证明</strong><br>
+显然，$a = a 1_\Omega$ 为简单随机变量，由定义 4.1.1 知性质 1° 成立。<br>
+性质 2° 是定义 4.1.2 的直接结果。</p>
+<p>下面证明单调性。由 $\xi \leq \eta$ 知 $\xi^+ \leq \eta^+$，$\xi^- \geq \eta^-$，再注意到 (4.5) 中的 $f_n$ 为增函数，有：<br>
+$$<br>
+f_n(\xi^+) \leq f_n(\eta^+), \quad f_n(\xi^-) \geq f_n(\eta^-),<br>
+$$<br>
+因此由 (4.8) 得：<br>
+$$<br>
+\mathbb{E}(\xi) = \lim_{n \to \infty} \mathbb{E}(f_n(\xi^+)) - \lim_{n \to \infty} \mathbb{E}(f_n(\xi^-)) \geq \lim_{n \to \infty} \mathbb{E}(f_n(\eta^+)) - \lim_{n \to \infty} \mathbb{E}(f_n(\eta^-)) = \mathbb{E}(\eta),<br>
+$$<br>
+即性质 3° 成立。</p>
 <hr>
-<p><strong>4.1.3证明</strong><br>由数学期望的单调性知：只需证明：</p>
-<script type="math/tex; mode=display">
-\lim_{m \to \infty} \mathbb{E}(\xi_m) \geq \mathbb{E}(\xi). \tag{4.9}</script><p>实际上，由 (4.5) 知 $f_n(\xi) \leq \xi$，因此对于任意 $a \in (0, 1)$：</p>
-<script type="math/tex; mode=display">
-\lim_{m \to \infty} \{\xi_m > a f_n(\xi)\} = \bigcup_{m=1}^\infty \{\xi_m > a f_n(\xi)\} = \Omega. \tag{4.10}</script><p>再由数学期望的单调性、(4.5) 和数学期望的定义 4.1.1 得：</p>
+<p><strong>4.1.3证明</strong><br>
+由数学期望的单调性知：只需证明：<br>
+$$<br>
+\lim_{m \to \infty} \mathbb{E}(\xi_m) \geq \mathbb{E}(\xi). \tag{4.9}<br>
+$$</p>
+<p>实际上，由 (4.5) 知 $f_n(\xi) \leq \xi$，因此对于任意 $a \in (0, 1)$：<br>
+$$<br>
+\lim_{m \to \infty} {\xi_m &gt; a f_n(\xi)} = \bigcup_{m=1}^\infty {\xi_m &gt; a f_n(\xi)} = \Omega. \tag{4.10}<br>
+$$</p>
+<p>再由数学期望的单调性、(4.5) 和数学期望的定义 4.1.1 得：</p>
 <!-- $$
 \mathbb{E}(\xi_m) \geq \mathbb{E}(\xi_m 1_{\{\xi_m > a f_n(\xi)\}}) \geq \mathbb{E}(a f_n(\xi) 1_{\{\xi_m > a f_n(\xi)\}}),
 $$ -->
-<script type="math/tex; mode=display">
-= na \mathbb{P}(\xi > n, \xi_m > a f_n(\xi)) + \sum_{k=1}^{n2^n} \frac{k-1}{2^n} a \mathbb{P}\left(\frac{k-1}{2^n} < \xi \leq \frac{k}{2^n}, \xi_m > a f_n(\xi)\right).</script><p>令 $m \to \infty$，利用 (4.10)、概率的下连续性和定义 4.1.1 得：</p>
-<script type="math/tex; mode=display">
-\lim_{m \to \infty} \mathbb{E}(\xi_m) \geq na \mathbb{P}(\xi > n) + \sum_{k=1}^{n2^n} \frac{k-1}{2^n} a \mathbb{P}\left(\frac{k-1}{2^n} < \xi \leq \frac{k}{2^n}\right) = a \mathbb{E}(f_n(\xi)).</script><p>令 $a \uparrow 1$，再令 $n \to \infty$，由 (4.7) 得 (4.9)，即单调收敛定理成立。</p>
+<p>$$<br>
+= na \mathbb{P}(\xi &gt; n, \xi_m &gt; a f_n(\xi)) + \sum_{k=1}^{n2^n} \frac{k-1}{2^n} a \mathbb{P}\left(\frac{k-1}{2^n} &lt; \xi \leq \frac{k}{2^n}, \xi_m &gt; a f_n(\xi)\right).<br>
+$$</p>
+<p>令 $m \to \infty$，利用 (4.10)、概率的下连续性和定义 4.1.1 得：<br>
+$$<br>
+\lim_{m \to \infty} \mathbb{E}(\xi_m) \geq na \mathbb{P}(\xi &gt; n) + \sum_{k=1}^{n2^n} \frac{k-1}{2^n} a \mathbb{P}\left(\frac{k-1}{2^n} &lt; \xi \leq \frac{k}{2^n}\right) = a \mathbb{E}(f_n(\xi)).<br>
+$$</p>
+<p>令 $a \uparrow 1$，再令 $n \to \infty$，由 (4.7) 得 (4.9)，即单调收敛定理成立。</p>
 <hr>
 <p><span style="color:pink">1，由单调性可知不等式的一边，于是尝试用双不等式来证明等式。</p>
-<p><span style="color:pink">2，构造</span>$af_n(\xi)$<span style="color:pink">实现对</span>$f_n(\xi)$<span style="color:pink">的变小，然后考虑 </span>$af_n(\xi)$<span style="color:pink">期望更小，最后利用其对a的“上确界”，还原回
+<p><span style="color:pink">2，构造</span>$af_n(\xi)$<span style="color:pink">实现对</span>$f_n(\xi)$<span style="color:pink">的变小，然后考虑 </span>$af_n(\xi)$<span style="color:pink">期望更小，最后利用其对a的“上确界”，还原回<br>
 </span>$f_n(\xi)$<span style="color:pink">实现不等式的证明。</p>
 <p><span style="color:pink">3，关于中间不等式的证明需要熟悉定义并借助我们一开始构造的</span>$f_n(\xi)$<span style="color:pink">的性质进行证明。</span></p>
 <hr>
-<p><strong>4.1.4证明</strong><br>显然，当 $\xi$ 和 $\eta$ 为简单随机变量时，线性性质成立。借助于单调收敛定理可证线性性质对于非负随机变量 $\xi$ 和 $\eta$ 成立。再由定义 4.1.3 知线性性质成立。</p>
+<p><strong>4.1.4证明</strong><br>
+显然，当 $\xi$ 和 $\eta$ 为简单随机变量时，线性性质成立。借助于单调收敛定理可证线性性质对于非负随机变量 $\xi$ 和 $\eta$ 成立。再由定义 4.1.3 知线性性质成立。</p>
 <hr>
-<p><strong>4.1.5证明</strong><br>当 $\xi$ 和 $\eta$ 为简单随机变量时，结论显然成立</p>
-<p>当 $\xi$ 和 $\eta$ 为非负随机变量时，存在简单随机变量列 ${\xi_n}$ 和 ${\eta_n}$，使得 $\xi_n \uparrow \xi, \eta_n \uparrow \eta$，则简单随机变量 $\xi_n \eta_n \uparrow \xi \eta$。由单调收敛定理 4.1.3 得：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi \eta) = \lim_{n \to \infty} \mathbb{E}(\xi_n \eta_n) = \lim_{n \to \infty} \mathbb{E}(\xi_n) \mathbb{E}(\eta_n) = \mathbb{E}(\xi) \mathbb{E}(\eta).</script><p>因此对于一般随机变量有：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi \eta) = \mathbb{E}(\xi^+ \eta^+ - \xi^+ \eta^- - \xi^- \eta^+ + \xi^- \eta^-)</script><script type="math/tex; mode=display">
-= \mathbb{E}(\xi^+ \eta^+) - \mathbb{E}(\xi^+ \eta^-) - \mathbb{E}(\xi^- \eta^+) + \mathbb{E}(\xi^- \eta^-)</script><script type="math/tex; mode=display">
-= \mathbb{E}(\xi^+) \mathbb{E}(\eta^+) - \mathbb{E}(\xi^+) \mathbb{E}(\eta^-) - \mathbb{E}(\xi^-) \mathbb{E}(\eta^+) + \mathbb{E}(\xi^-) \mathbb{E}(\eta^-)</script><script type="math/tex; mode=display">
-= (\mathbb{E}(\xi^+) - \mathbb{E}(\xi^-)) (\mathbb{E}(\eta^+) - \mathbb{E}(\eta^-)) = \mathbb{E}(\xi) \mathbb{E}(\eta).</script><hr>
+<p><strong>4.1.5证明</strong><br>
+当 $\xi$ 和 $\eta$ 为简单随机变量时，结论显然成立</p>
+<p>当 $\xi$ 和 $\eta$ 为非负随机变量时，存在简单随机变量列 ${\xi_n}$ 和 ${\eta_n}$，使得 $\xi_n \uparrow \xi, \eta_n \uparrow \eta$，则简单随机变量 $\xi_n \eta_n \uparrow \xi \eta$。由单调收敛定理 4.1.3 得：<br>
+$$<br>
+\mathbb{E}(\xi \eta) = \lim_{n \to \infty} \mathbb{E}(\xi_n \eta_n) = \lim_{n \to \infty} \mathbb{E}(\xi_n) \mathbb{E}(\eta_n) = \mathbb{E}(\xi) \mathbb{E}(\eta).<br>
+$$</p>
+<p>因此对于一般随机变量有：<br>
+$$<br>
+\mathbb{E}(\xi \eta) = \mathbb{E}(\xi^+ \eta^+ - \xi^+ \eta^- - \xi^- \eta^+ + \xi^- \eta^-)<br>
+$$<br>
+$$<br>
+= \mathbb{E}(\xi^+ \eta^+) - \mathbb{E}(\xi^+ \eta^-) - \mathbb{E}(\xi^- \eta^+) + \mathbb{E}(\xi^- \eta^-)<br>
+$$<br>
+$$<br>
+= \mathbb{E}(\xi^+) \mathbb{E}(\eta^+) - \mathbb{E}(\xi^+) \mathbb{E}(\eta^-) - \mathbb{E}(\xi^-) \mathbb{E}(\eta^+) + \mathbb{E}(\xi^-) \mathbb{E}(\eta^-)<br>
+$$<br>
+$$<br>
+= (\mathbb{E}(\xi^+) - \mathbb{E}(\xi^-)) (\mathbb{E}(\eta^+) - \mathbb{E}(\eta^-)) = \mathbb{E}(\xi) \mathbb{E}(\eta).<br>
+$$</p>
+<hr>
 <p><span style="color:pink">个人思考：从简单随机变量到非负随机变量，再到任意随机变量，层层推进环环相扣！</p>
 <hr>
-<p><strong>4.1.6证明</strong><br>记 $\eta<em>n = \inf</em>{k \geq n} \xi_k$，则：</p>
-<script type="math/tex; mode=display">
-\eta \leq \eta_n \uparrow \lim_{n \to \infty} \inf_{k \geq n}\xi_n, \quad \mathbb{E}(\eta_n) \leq \inf_{k \geq n}\mathbb{E}(\xi_k) ,</script><p>令 $n \to \infty$，由单调收敛定理得：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}\left(\liminf_{n \to \infty} \xi_n\right) = \lim_{n \to \infty} \mathbb{E}(\eta_n) \leq \lim_{n \to \infty} \inf_{k \geq n} \mathbb{E}(\xi_k) = \liminf_{n \to \infty} \mathbb{E}(\xi_n),</script><p>即 (4.13) 成立。</p>
+<p><strong>4.1.6证明</strong><br>
+记 $\eta_n = \inf_{k \geq n} \xi_k$，则：<br>
+$$<br>
+\eta \leq \eta_n \uparrow \lim_{n \to \infty} \inf_{k \geq n}\xi_n, \quad \mathbb{E}(\eta_n) \leq \inf_{k \geq n}\mathbb{E}(\xi_k) ,<br>
+$$<br>
+令 $n \to \infty$，由单调收敛定理得：<br>
+$$<br>
+\mathbb{E}\left(\liminf_{n \to \infty} \xi_n\right) = \lim_{n \to \infty} \mathbb{E}(\eta_n) \leq \lim_{n \to \infty} \inf_{k \geq n} \mathbb{E}(\xi_k) = \liminf_{n \to \infty} \mathbb{E}(\xi_n),<br>
+$$<br>
+即 (4.13) 成立。</p>
 <hr>
 <p><span style="color:pink">个人思考：利用上下界构造了</span>$\eta_n$<span style="color:pink">有单调性，方便利用单调收敛定理，同时有找到了不等式中间的桥梁。</p>
 <hr>
-<p><strong>4.1.7证明</strong><br>由于 $-\eta \leq \xi_n \leq \eta$，应用法图引理得：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\xi) = \mathbb{E}\left(\liminf_{n \to \infty} \xi_n\right) \leq \liminf_{n \to \infty} \mathbb{E}(\xi_n) \leq \limsup_{n \to \infty} \mathbb{E}(\xi_n),</script><p>因此只需证明：</p>
-<script type="math/tex; mode=display">
-\limsup_{n \to \infty} \mathbb{E}(\xi_n) \leq \mathbb{E}(\xi). \tag{4.15}</script><p>实际上，再一次应用法图引理得：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(\eta - \xi) = \mathbb{E}\left(\lim_{n \to \infty} (\eta - \xi_n)\right) \leq \lim_{n \to \infty} \mathbb{E}(\eta - \xi_n) = \mathbb{E}(\eta) - \limsup_{n \to \infty} \mathbb{E}(\xi_n),</script><p>两边减去 $\mathbb{E}(\eta)$ 后乘以 $-1$ 得：</p>
-<script type="math/tex; mode=display">
-\limsup_{n \to \infty} \mathbb{E}(\xi_n) \leq \mathbb{E}(\xi).</script><p>结合 (4.15)，即 (4.14) 成立。</p>
+<p><strong>4.1.7证明</strong><br>
+由于 $-\eta \leq \xi_n \leq \eta$，应用法图引理得：<br>
+$$<br>
+\mathbb{E}(\xi) = \mathbb{E}\left(\liminf_{n \to \infty} \xi_n\right) \leq \liminf_{n \to \infty} \mathbb{E}(\xi_n) \leq \limsup_{n \to \infty} \mathbb{E}(\xi_n),<br>
+$$<br>
+因此只需证明：<br>
+$$<br>
+\limsup_{n \to \infty} \mathbb{E}(\xi_n) \leq \mathbb{E}(\xi). \tag{4.15}<br>
+$$</p>
+<p>实际上，再一次应用法图引理得：<br>
+$$<br>
+\mathbb{E}(\eta - \xi) = \mathbb{E}\left(\lim_{n \to \infty} (\eta - \xi_n)\right) \leq \lim_{n \to \infty} \mathbb{E}(\eta - \xi_n) = \mathbb{E}(\eta) - \limsup_{n \to \infty} \mathbb{E}(\xi_n),<br>
+$$<br>
+两边减去 $\mathbb{E}(\eta)$ 后乘以 $-1$ 得：<br>
+$$<br>
+\limsup_{n \to \infty} \mathbb{E}(\xi_n) \leq \mathbb{E}(\xi).<br>
+$$</p>
+<p>结合 (4.15)，即 (4.14) 成立。</p>
 <hr>
 <p><span style="color:pink">个人思考：1，极限证明转化为上下极限证明。2，证明两次不等式得到等式。3，灵活运用法图引理。</p>
 <hr>
-<p><strong>4.1.8证明</strong><br>不妨假设 $A = {x_k : k \geq 1}$，则仅需证明：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(f(\xi)) = \sum_{k=1}^\infty f(x_k) \mathbb{P}(\xi = x_k). \tag{4.17}</script><!-- 记 $f^+(x) = \max\{f(x), 0\}$，则 $f^+(x_k) 1_{\{\xi = x_k\}}$ 和 $f^+(\xi)$ 相同的分布。再由数学期望的线性性质和单调收敛定理得： -->
+<p><strong>4.1.8证明</strong><br>
+不妨假设 $A = {x_k : k \geq 1}$，则仅需证明：<br>
+$$<br>
+\mathbb{E}(f(\xi)) = \sum_{k=1}^\infty f(x_k) \mathbb{P}(\xi = x_k). \tag{4.17}<br>
+$$</p>
+<!-- 记 $f^+(x) = \max\{f(x), 0\}$，则 $f^+(x_k) 1_{\{\xi = x_k\}}$ 和 $f^+(\xi)$ 相同的分布。再由数学期望的线性性质和单调收敛定理得： -->
 <!-- $$
 \mathbb{E}(f^+(\xi)) = \mathbb{E}\left(\sum_{k=1}^\infty f^+(x_k) 1_{\{\xi = x_k\}}\right) = \lim_{n \to \infty} \mathbb{E}\left(\sum_{k=1}^n f^+(x_k) 1_{\{\xi = x_k\}}\right)
 $$ -->
 <!-- $$
 = \sum_{k=1}^\infty f^+(x_k) \mathbb{E}(1_{\{\xi = x_k\}}) = \sum_{k=1}^\infty f^+(x_k) \mathbb{P}(\xi = x_k).
 $$ -->
-<p>记 $f^-(x) = -\min{f(x), 0}$，类似可得：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(f^-(\xi)) = \sum_{k=1}^\infty f^-(x_k) \mathbb{P}(\xi = x_k).</script><p>因此：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(f(\xi)) = \mathbb{E}(f^+(\xi)) - \mathbb{E}(f^-(\xi)),</script><script type="math/tex; mode=display">
-= \sum_{k=1}^\infty \left(f^+(x_k) - f^-(x_k)\right) \mathbb{P}(\xi = x_k) = \sum_{k=1}^\infty f(x_k) \mathbb{P}(\xi = x_k),</script><p>即 (4.17) 成立。</p>
+<p>记 $f^-(x) = -\min{f(x), 0}$，类似可得：<br>
+$$<br>
+\mathbb{E}(f^-(\xi)) = \sum_{k=1}^\infty f^-(x_k) \mathbb{P}(\xi = x_k).<br>
+$$</p>
+<p>因此：<br>
+$$<br>
+\mathbb{E}(f(\xi)) = \mathbb{E}(f^+(\xi)) - \mathbb{E}(f^-(\xi)),<br>
+$$<br>
+$$<br>
+= \sum_{k=1}^\infty \left(f^+(x_k) - f^-(x_k)\right) \mathbb{P}(\xi = x_k) = \sum_{k=1}^\infty f(x_k) \mathbb{P}(\xi = x_k),<br>
+$$<br>
+即 (4.17) 成立。</p>
 <hr>
-<p><strong>4.1.9证明</strong><br>不妨设 $f \geq 0$。显然：</p>
-<script type="math/tex; mode=display">
-\sum_{k=1}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} < f(x) \leq \frac{k}{n}\right) \leq f(x) \leq \sum_{k=1}^\infty \frac{k}{n} 1\left(\frac{k-1}{n} < f(x) \leq \frac{k}{n}\right),</script><p>因此：</p>
-<script type="math/tex; mode=display">
-\int_{-\infty}^\infty \sum_{k=1}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} < f(x) \leq \frac{k}{n}\right)p(x)dx \leq \int_{-\infty}^\infty f(x)p(x)dx \leq \int_{-\infty}^\infty \sum_{k=1}^\infty \frac{k}{n} 1\left(\frac{k-1}{n} <> f(x) \leq \frac{k}{n}\right)p(x)dx. \tag{4.20}</script><p>另外，由分布计算公式 (3.27) 知：</p>
-<script type="math/tex; mode=display">
-\int_{-\infty}^\infty 1\left(\frac{k-1}{n} \leq f(x) < \frac{k}{n}\right)p(x)dx = \mathbb{P}\left(\xi \in f^{-1}\left(\left[\frac{k-1}{n}, \frac{k}{n}\right)\right)\right),</script><script type="math/tex; mode=display">
-= \mathbb{P}\left(f(\xi) \in \left[\frac{k-1}{n}, \frac{k}{n}\right)\right) = \mathbb{E}\left(1\left(\frac{k-1}{n} \leq f(\xi) < \frac{k}{n}\right)\right).</script><p>再由单调收敛定理 4.1.3 得：</p>
-<script type="math/tex; mode=display">
-\int_{-\infty}^\infty \left(\sum_{k=1}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} \leq f(x) < \frac{k}{n}\right)\right) p(x) dx,</script><script type="math/tex; mode=display">
-= \sum_{k=1}^\infty \int_{-\infty}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} \leq f(x) < \frac{k}{n}\right) p(x) dx,</script><script type="math/tex; mode=display">
-= \sum_{k=1}^\infty \frac{k-1}{n} \mathbb{E}\left(1\left(\frac{k-1}{n} \leq f(\xi) < \frac{k}{n}\right)\right),</script><script type="math/tex; mode=display">
-= \mathbb{E}\left(\sum_{k=1}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} \leq f(\xi) < \frac{k}{n}\right)\right),</script><script type="math/tex; mode=display">
-\geq \mathbb{E}\left(f(\xi) - \frac{1}{n}\right),</script><script type="math/tex; mode=display">
-= \mathbb{E}(f(\xi)) - \frac{1}{n}. \tag{4.21}</script><p>类似地：</p>
-<script type="math/tex; mode=display">
-\int_{-\infty}^\infty \sum_{k=1}^\infty \frac{k}{n} 1\left(\frac{k-1}{n} \leq f(x) < \frac{k}{n}\right)p(x)dx
-\leq \mathbb{E}(f(\xi)) + \frac{1}{n}. \tag{4.22}</script><p>由 (4.20)、(4.21) 和 (4.22) 知：</p>
-<script type="math/tex; mode=display">
-\mathbb{E}(f(\xi)) - \frac{1}{n} \leq \int_{-\infty}^\infty f(x)p(x)dx \leq \mathbb{E}(f(\xi)) + \frac{1}{n}.</script><p>令 $n \to \infty$，得 (4.19)。</p>
+<p><strong>4.1.9证明</strong><br>
+不妨设 $f \geq 0$。显然：<br>
+$$<br>
+\sum_{k=1}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} &lt; f(x) \leq \frac{k}{n}\right) \leq f(x) \leq \sum_{k=1}^\infty \frac{k}{n} 1\left(\frac{k-1}{n} &lt; f(x) \leq \frac{k}{n}\right),<br>
+$$<br>
+因此：<br>
+$$<br>
+\int_{-\infty}^\infty \sum_{k=1}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} &lt; f(x) \leq \frac{k}{n}\right)p(x)dx \leq \int_{-\infty}^\infty f(x)p(x)dx \leq \int_{-\infty}^\infty \sum_{k=1}^\infty \frac{k}{n} 1\left(\frac{k-1}{n} &lt;&gt; f(x) \leq \frac{k}{n}\right)p(x)dx. \tag{4.20}<br>
+$$</p>
+<p>另外，由分布计算公式 (3.27) 知：<br>
+$$<br>
+\int_{-\infty}^\infty 1\left(\frac{k-1}{n} \leq f(x) &lt; \frac{k}{n}\right)p(x)dx = \mathbb{P}\left(\xi \in f^{-1}\left(\left[\frac{k-1}{n}, \frac{k}{n}\right)\right)\right),<br>
+$$<br>
+$$<br>
+= \mathbb{P}\left(f(\xi) \in \left[\frac{k-1}{n}, \frac{k}{n}\right)\right) = \mathbb{E}\left(1\left(\frac{k-1}{n} \leq f(\xi) &lt; \frac{k}{n}\right)\right).<br>
+$$</p>
+<p>再由单调收敛定理 4.1.3 得：<br>
+$$<br>
+\int_{-\infty}^\infty \left(\sum_{k=1}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} \leq f(x) &lt; \frac{k}{n}\right)\right) p(x) dx,<br>
+$$<br>
+$$<br>
+= \sum_{k=1}^\infty \int_{-\infty}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} \leq f(x) &lt; \frac{k}{n}\right) p(x) dx,<br>
+$$<br>
+$$<br>
+= \sum_{k=1}^\infty \frac{k-1}{n} \mathbb{E}\left(1\left(\frac{k-1}{n} \leq f(\xi) &lt; \frac{k}{n}\right)\right),<br>
+$$<br>
+$$<br>
+= \mathbb{E}\left(\sum_{k=1}^\infty \frac{k-1}{n} 1\left(\frac{k-1}{n} \leq f(\xi) &lt; \frac{k}{n}\right)\right),<br>
+$$<br>
+$$<br>
+\geq \mathbb{E}\left(f(\xi) - \frac{1}{n}\right),<br>
+$$<br>
+$$<br>
+= \mathbb{E}(f(\xi)) - \frac{1}{n}. \tag{4.21}<br>
+$$</p>
+<p>类似地：<br>
+$$<br>
+\int_{-\infty}^\infty \sum_{k=1}^\infty \frac{k}{n} 1\left(\frac{k-1}{n} \leq f(x) &lt; \frac{k}{n}\right)p(x)dx<br>
+\leq \mathbb{E}(f(\xi)) + \frac{1}{n}. \tag{4.22}<br>
+$$</p>
+<p>由 (4.20)、(4.21) 和 (4.22) 知：<br>
+$$<br>
+\mathbb{E}(f(\xi)) - \frac{1}{n} \leq \int_{-\infty}^\infty f(x)p(x)dx \leq \mathbb{E}(f(\xi)) + \frac{1}{n}.<br>
+$$<br>
+令 $n \to \infty$，得 (4.19)。</p>
 <hr>
-<p><strong>4.1.10证明</strong><br>在定理 4.1.8 中取 $f(x) = x$ 得结论。</p>
+<p><strong>4.1.10证明</strong><br>
+在定理 4.1.8 中取 $f(x) = x$ 得结论。</p>
 <hr>
-<p><strong>4.1.11证明</strong><br>由 (4.19) 得结论。</p>
-</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>数学期望</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="https://gunjo-radio-ii.cc/posts/b9d78651.html">https://gunjo-radio-ii.cc/posts/b9d78651.html</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>yumenomajo🧙‍</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2024-11-27</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2025-03-05</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/915faf15.html"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/post/gunjo.png" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">絮絮叨叨的原初</div></div></a></div><div class="next-post pull-right"><a href="/posts/5ea2bcdd.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">条件数学期望</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><svg class="meta_icon" style="width:22px;height:22px;position:relative;top:5px"><use xlink:href="#icon-mulu1"></use></svg><span style="font-weight:bold">目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#4-1-%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B"><span class="toc-text">4.1 数学期望</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-1%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AE%9A%E4%B9%89"><span class="toc-text">4.1.1数学期望的基本定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89"><span class="toc-text">定义</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-4-1-1%E3%80%90%E7%AE%80%E5%8D%95%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E3%80%91"><span class="toc-text">定义 4.1.1【简单随机变量】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-4-1-2%E3%80%90%E9%9D%9E%E8%B4%9F%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E3%80%91"><span class="toc-text">定义 4.1.2【非负随机变量】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-4-1-3%E3%80%90%E4%BB%BB%E6%84%8F%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E3%80%91"><span class="toc-text">定义 4.1.3【任意随机变量】</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E7%90%86"><span class="toc-text">定理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-1"><span class="toc-text">定理 4.1.1</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E8%AF%81%E6%98%8E"><span class="toc-text">相关证明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-2%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E6%80%A7%E8%B4%A8"><span class="toc-text">4.1.2数学期望的性质</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C%EF%BC%9A"><span class="toc-text">准备工作：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-2%E3%80%90%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E6%80%A7%E8%B4%A8%E3%80%91"><span class="toc-text">定理 4.1.2【数学期望的性质】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-3-%E3%80%90%E5%8D%95%E8%B0%83%E6%94%B6%E6%95%9B%E5%AE%9A%E7%90%86%E3%80%91"><span class="toc-text">定理 4.1.3 【单调收敛定理】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-3-%E3%80%90%E6%9D%A1%E4%BB%B6%E5%87%8F%E5%BC%B1%E3%80%91"><span class="toc-text">定理 4.1.3+ 【条件减弱】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-4-%E3%80%90%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E7%BA%BF%E6%80%A7%E6%80%A7%E6%80%A7%E8%B4%A8%E3%80%91"><span class="toc-text">定理 4.1.4 【数学期望的线性性性质】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-5%E3%80%90%E7%8B%AC%E7%AB%8B%E6%80%A7-%E4%B9%98%E7%A7%AF%E3%80%91"><span class="toc-text">定理 4.1.5【独立性&#x2F;乘积】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-6-%E3%80%90%E6%B3%95%E5%9B%BE%E5%BC%95%E7%90%86%E3%80%91"><span class="toc-text">定理 4.1.6 【法图引理】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-7-%E3%80%90%E6%8E%A7%E5%88%B6%E6%94%B6%E6%95%9B%E5%AE%9A%E7%90%86%E3%80%91"><span class="toc-text">定理 4.1.7 【控制收敛定理】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-8"><span class="toc-text">定理 4.1.8</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-8-%E3%80%90%E6%8E%A8%E5%B9%BF%E8%87%B3%E7%A6%BB%E6%95%A3%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%90%91%E9%87%8F%E6%83%85%E5%BD%A2%E3%80%91"><span class="toc-text">定理 4.1.8+【推广至离散型随机向量情形】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-9"><span class="toc-text">定理 4.1.9</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-9-%E3%80%90%E6%8E%A8%E5%B9%BF%E8%87%B3%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%90%91%E9%87%8F%E6%83%85%E5%BD%A2%E3%80%91"><span class="toc-text">定理 4.1.9+【推广至连续型随机向量情形】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-10"><span class="toc-text">定理 4.1.10</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E7%90%86-4-1-11"><span class="toc-text">定理 4.1.11</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E8%AF%81%E6%98%8E-1"><span class="toc-text">相关证明</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background-color: transparent;"><div id="footer-wrap"><div id="ft"><div class="ft-item-1"><div class="t-top"><div class="t-t-l"><p class="ft-t t-l-t">空气动力之诗🌌</p><div class="bg-ad"><div>我们的情人，不过是随便借个名字，用幻想吹出来的肥皂泡。<br>
+<p><strong>4.1.11证明</strong><br>
+由 (4.19) 得结论。</p>
+</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>数学期望</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="https://gunjo-radio-ii.cc/posts/b9d78651.html">https://gunjo-radio-ii.cc/posts/b9d78651.html</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>yumenomajo🧙‍</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2024-11-27</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2025-03-05</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/915faf15.html"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/post/gunjo.png" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">絮絮叨叨的原初</div></div></a></div><div class="next-post pull-right"><a href="/posts/5ea2bcdd.html"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/cover.jpg" onerror="onerror=null;src='/assets/r2.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">条件数学期望</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><svg class="meta_icon" style="width:22px;height:22px;position:relative;top:5px"><use xlink:href="#icon-mulu1"></use></svg><span style="font-weight:bold">目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">4.1 数学期望</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-1%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AE%9A%E4%B9%89"><span class="toc-text">4.1.1数学期望的基本定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#span-style-color-red-%E5%AE%9A%E4%B9%89-span"><span class="toc-text">定义</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-red-%E5%AE%9A%E4%B9%89-4-1-1%E3%80%90%E7%AE%80%E5%8D%95%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E3%80%91-span"><span class="toc-text">定义 4.1.1【简单随机变量】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-red-%E5%AE%9A%E4%B9%89-4-1-2%E3%80%90%E9%9D%9E%E8%B4%9F%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E3%80%91-span"><span class="toc-text">定义 4.1.2【非负随机变量】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-red-%E5%AE%9A%E4%B9%89-4-1-3%E3%80%90%E4%BB%BB%E6%84%8F%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E3%80%91-span"><span class="toc-text">定义 4.1.3【任意随机变量】</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-span"><span class="toc-text">定理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-1-span"><span class="toc-text">定理 4.1.1</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#span-style-color-pink-%E7%9B%B8%E5%85%B3%E8%AF%81%E6%98%8E-span"><span class="toc-text">相关证明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-2%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E6%80%A7%E8%B4%A8"><span class="toc-text">4.1.2数学期望的性质</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C%EF%BC%9A"><span class="toc-text">准备工作：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-2%E3%80%90%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E6%80%A7%E8%B4%A8%E3%80%91-span"><span class="toc-text">定理 4.1.2【数学期望的性质】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-3-%E3%80%90%E5%8D%95%E8%B0%83%E6%94%B6%E6%95%9B%E5%AE%9A%E7%90%86%E3%80%91-span"><span class="toc-text">定理 4.1.3 【单调收敛定理】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-3-%E3%80%90%E6%9D%A1%E4%BB%B6%E5%87%8F%E5%BC%B1%E3%80%91-span"><span class="toc-text">定理 4.1.3+ 【条件减弱】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-4-%E3%80%90%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E7%BA%BF%E6%80%A7%E6%80%A7%E6%80%A7%E8%B4%A8%E3%80%91-span"><span class="toc-text">定理 4.1.4 【数学期望的线性性性质】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-5%E3%80%90%E7%8B%AC%E7%AB%8B%E6%80%A7-%E4%B9%98%E7%A7%AF%E3%80%91-span"><span class="toc-text">定理 4.1.5【独立性&#x2F;乘积】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-6-%E3%80%90%E6%B3%95%E5%9B%BE%E5%BC%95%E7%90%86%E3%80%91-span"><span class="toc-text">定理 4.1.6 【法图引理】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-7-%E3%80%90%E6%8E%A7%E5%88%B6%E6%94%B6%E6%95%9B%E5%AE%9A%E7%90%86%E3%80%91-span"><span class="toc-text">定理 4.1.7 【控制收敛定理】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-8-span"><span class="toc-text">定理 4.1.8</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-8-%E3%80%90%E6%8E%A8%E5%B9%BF%E8%87%B3%E7%A6%BB%E6%95%A3%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%90%91%E9%87%8F%E6%83%85%E5%BD%A2%E3%80%91-span"><span class="toc-text">定理 4.1.8+【推广至离散型随机向量情形】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-9-span"><span class="toc-text">定理 4.1.9</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-9-%E3%80%90%E6%8E%A8%E5%B9%BF%E8%87%B3%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%90%91%E9%87%8F%E6%83%85%E5%BD%A2%E3%80%91-span"><span class="toc-text">定理 4.1.9+【推广至连续型随机向量情形】</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-10-span"><span class="toc-text">定理 4.1.10</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#span-style-color-blue-%E5%AE%9A%E7%90%86-4-1-11-span"><span class="toc-text">定理 4.1.11</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E8%AF%81%E6%98%8E"><span class="toc-text">相关证明</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background-color: transparent;"><div id="footer-wrap"><div id="ft"><div class="ft-item-1"><div class="t-top"><div class="t-t-l"><p class="ft-t t-l-t">空气动力之诗🌌</p><div class="bg-ad"><div>我们的情人，不过是随便借个名字，用幻想吹出来的肥皂泡。<br>
 把信拿去吧，你可以使假戏成真。<br>
 我本来是无病呻吟，漫无目的地吐露爱情……<br>
 现在这些漂泊不定的鸟儿有地方栖息了。<br>
@@ -811,7 +973,35 @@ document.addEventListener('pjax:error', (e) => {
     console.log('已挂载magnet')
     parent.insertAdjacentHTML("afterbegin",child)}
      </script><style>#catalog_magnet{flex-wrap: wrap;display: flex;width:100%;justify-content:space-between;padding: 10px 10px 0 10px;align-content: flex-start;}.magnet_item{flex-basis: calc(33.333333333333336% - 5px);background: #e9e9e9;margin-bottom: 10px;border-radius: 8px;transition: all 0.2s ease-in-out;}.magnet_item:hover{background: var(--text-bg-hover)}.magnet_link_more{color:#555}.magnet_link{color:black}.magnet_link:hover{color:white}@media screen and (max-width: 600px) {.magnet_item {flex-basis: 100%;}}.magnet_link_context{display:flex;padding: 10px;font-size:16px;transition: all 0.2s ease-in-out;}.magnet_link_context:hover{padding: 10px 20px;}</style>
-    <style></style><script data-pjax>
+    <style></style><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
+  function gitcalendar_injector_config(){
+      var parent_div_git = document.getElementById('gitZone');
+      var item_html = '<div class="recent-post-item" id="gitcalendarBar" style="width:100%;height:auto;padding:10px;"><style>#git_container{min-height: 320px}@media screen and (max-width:650px) {#git_container{min-height: 0px}}</style><div id="git_loading" style="width:10%;height:100%;margin:0 auto;display: block;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animatetransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animatetransform></path></svg><style>#git_container{display: none;}</style></div><div id="git_container"></div></div>';
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+      console.log('已挂载gitcalendar')
+      }
+
+    if( document.getElementById('gitZone') && (location.pathname ==='/site/census/'|| '/site/census/' ==='all')){
+        gitcalendar_injector_config()
+        GitCalendarInit("/api?yumenomajo",['#d9e0df', '#c6e0dc', '#a8dcd4', '#9adcd2', '#89ded1', '#77e0d0', '#5fdecb', '#47dcc6', '#39dcc3', '#1fdabe', '#00dab9'],'yumenomajo')
+    }
+  </script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '2s');
+    arr[i].setAttribute('data-wow-delay', '200ms');
+    arr[i].setAttribute('data-wow-offset', '30');
+    arr[i].setAttribute('data-wow-iteration', '1');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '2s');
+    arr[i].setAttribute('data-wow-delay', '200ms');
+    arr[i].setAttribute('data-wow-offset', '30');
+    arr[i].setAttribute('data-wow-iteration', '1');
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><script data-pjax>
   function butterfly_swiper_injector_config(){
     var parent_div_git = document.getElementById('recent-posts');
     var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/4c44472f.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random(0720)}" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-02-19</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/4c44472f.html&quot;);" href="javascript:void(0);" alt="">视觉小说小记(施工中)</a><div class="blog-slider__text">粗略记录一下推完的视觉小说。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/4c44472f.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/4649bb35.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.illlights.com/v1/img?rand=${Math.random(1)}" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-01-22</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/4649bb35.html&quot;);" href="javascript:void(0);" alt="">1月20日群青广播更新小记</a><div class="blog-slider__text">记录一下大概一周以来，更新blog做的一些事情。不过主要还是简述更新过程，以后需要更新的时候不至于无从下手。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/4649bb35.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/ea20582a.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="\images\post\record0.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-02-19</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/ea20582a.html&quot;);" href="javascript:void(0);" alt="">观剧记录的原初</a><div class="blog-slider__text">观剧记录分类的开端。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/ea20582a.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/915faf15.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/images/post/gunjo.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-12-04</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/915faf15.html&quot;);" href="javascript:void(0);" alt="">絮絮叨叨的原初</a><div class="blog-slider__text">最初的起点。</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/915faf15.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
@@ -835,32 +1025,4 @@ document.addEventListener('pjax:error', (e) => {
   else if (epage === cpage){
     butterfly_swiper_injector_config();
   }
-  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
-for(var i = 0;i<arr.length;i++){
-    arr[i].classList.add('wow');
-    arr[i].classList.add('animate__zoomIn');
-    arr[i].setAttribute('data-wow-duration', '2s');
-    arr[i].setAttribute('data-wow-delay', '200ms');
-    arr[i].setAttribute('data-wow-offset', '30');
-    arr[i].setAttribute('data-wow-iteration', '1');
-  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
-for(var i = 0;i<arr.length;i++){
-    arr[i].classList.add('wow');
-    arr[i].classList.add('animate__zoomIn');
-    arr[i].setAttribute('data-wow-duration', '2s');
-    arr[i].setAttribute('data-wow-delay', '200ms');
-    arr[i].setAttribute('data-wow-offset', '30');
-    arr[i].setAttribute('data-wow-iteration', '1');
-  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
-  function gitcalendar_injector_config(){
-      var parent_div_git = document.getElementById('gitZone');
-      var item_html = '<div class="recent-post-item" id="gitcalendarBar" style="width:100%;height:auto;padding:10px;"><style>#git_container{min-height: 320px}@media screen and (max-width:650px) {#git_container{min-height: 0px}}</style><div id="git_loading" style="width:10%;height:100%;margin:0 auto;display: block;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animatetransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animatetransform></path></svg><style>#git_container{display: none;}</style></div><div id="git_container"></div></div>';
-      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
-      console.log('已挂载gitcalendar')
-      }
-
-    if( document.getElementById('gitZone') && (location.pathname ==='/site/census/'|| '/site/census/' ==='all')){
-        gitcalendar_injector_config()
-        GitCalendarInit("/api?yumenomajo",['#d9e0df', '#c6e0dc', '#a8dcd4', '#9adcd2', '#89ded1', '#77e0d0', '#5fdecb', '#47dcc6', '#39dcc3', '#1fdabe', '#00dab9'],'yumenomajo')
-    }
-  </script><!-- hexo injector body_end end --></body></html>
+  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><!-- hexo injector body_end end --></body></html>
