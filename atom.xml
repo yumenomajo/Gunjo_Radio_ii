@@ -6,7 +6,7 @@
   <link href="https://gunjo-radio-ii.cc/atom.xml" rel="self"/>
   
   <link href="https://gunjo-radio-ii.cc/"/>
-  <updated>2025-04-27T09:47:30.773Z</updated>
+  <updated>2025-04-30T03:14:41.169Z</updated>
   <id>https://gunjo-radio-ii.cc/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>梳理小记</title>
+    <link href="https://gunjo-radio-ii.cc/posts/35dc5374.html"/>
+    <id>https://gunjo-radio-ii.cc/posts/35dc5374.html</id>
+    <published>2025-04-30T10:18:42.000Z</published>
+    <updated>2025-04-30T03:14:41.169Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="五月的转折">五月的转折</h2><p>五月要做的事挺多的，主要矛盾有英语六级备考和科研推进；期间穿插了党史和数理统计的考试，教育经济学和公选课的展示，还有大创答辩。各方面压力会明显增大吧。</p><p>关于六级备考：</p><ol><li>先背好必要的范文，然后常常复习；关于翻译，每天练习个一篇；</li><li>英语听力的话，似乎还是不适合无目的的泛听；尝试用回以前的听填法比较好。</li><li>关于阅读的话，考前两周再刷刷题或许就行</li></ol><p>关于科研推进：</p><ol><li>需要先泛读论文，合适的论文都随便列列架构，然后总结一下</li><li>设计好一个简易的实验框架</li><li>想要五一集中力量好好推进一下</li></ol><p>关于数理统计和党史的考试：</p><ol><li>五一闭关小修炼一下</li><li>数理统计要做的包括复习作业题目，做推荐例题；总结思考</li><li>党史要结合可能的考点，先做答案，再记忆背诵</li></ol><p>关于教育经济学和公选课展示：</p><ol><li>教育经济学PPT初稿已经完成，Push一下小侯看看能不能好好修改一下。</li><li>公选课展示暂时不想考虑</li></ol><p>感慨总是会做着正事然后摸鱼去了，遂决定做出一些系统性的改变。诚然，现在的时间还算宽裕，倘若进入多事的五月乃至于多事的大三，这样的生活方式大抵是不可持续了。因此，改革是必要的。</p><p>要避免繁琐的计划，做出的改变还算简单：</p><p>备忘录列代办事物清单，做之前设定好预定时间。<br>每天做个小总结，仅此而已。</p><h2 id="零碎的发散想法">零碎的发散想法</h2><ol><li>之前想要系统学习深度学习，现在进度才到panda包语法学习。了解了一些kaggle竞赛，可以尝试实践驱动学习。</li><li>突然想不起还有什么想法了。</li></ol>]]></content>
+    
+    
+    <summary type="html">2025.4.30小记</summary>
+    
+    
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>4月27日research记录</title>
@@ -196,9 +217,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    
+    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     
     <category term="法治" scheme="https://gunjo-radio-ii.cc/tags/%E6%B3%95%E6%B2%BB/"/>
     
@@ -223,9 +244,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    
+    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     
     <category term="Baldr Sky" scheme="https://gunjo-radio-ii.cc/tags/Baldr-Sky/"/>
     
@@ -271,9 +292,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    
+    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     
     <category term="自我管理" scheme="https://gunjo-radio-ii.cc/tags/%E8%87%AA%E6%88%91%E7%AE%A1%E7%90%86/"/>
     
@@ -344,9 +365,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    
+    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     
     <category term="AI" scheme="https://gunjo-radio-ii.cc/tags/AI/"/>
     
@@ -448,9 +469,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    
+    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     
     <category term="寒假" scheme="https://gunjo-radio-ii.cc/tags/%E5%AF%92%E5%81%87/"/>
     
@@ -473,32 +494,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
-  </entry>
-  
-  <entry>
-    <title>2025.1.23小记</title>
-    <link href="https://gunjo-radio-ii.cc/posts/b6036f1.html"/>
-    <id>https://gunjo-radio-ii.cc/posts/b6036f1.html</id>
-    <published>2025-01-23T12:32:53.000Z</published>
-    <updated>2025-01-23T16:30:07.101Z</updated>
-    
-    <content type="html"><![CDATA[<p>今日主题曲：<a href="https://music.163.com/song?id=26131720&amp;uct2=U2FsdGVkX1+mpGbVDhy4JP7JujV76Hy8o6j4Po4cSj8=">【深層森林-井内舞子】</a></p><div class="aplayer no-destroy" data-id="26131720" data-volume="0.4" data-server="netease" data-type="song" data-fixed="false" data-autoplay="true" data-lrcType="-1"> </div><p><strong>月色搅拌着薄雾，使无人的夜路感染了迷幻的色彩。</strong></p><h2 id="匆匆的早上">匆匆的早上</h2><p>本来要九点起床的我，醒来之后看见手机上显示着9：30。</p><h2 id="不公的判决">不公的判决</h2><p>中午回到宿舍，便看了一眼柯洁的酒罐直播，才没过多久裁判又把棋盘封了起来，令人惊愕而愤怒。</p><p>可悲的是，尽管裁判裁决不能服众，尽管所谓规则已经本末倒置，但是比赛结果似乎没有要“修正”的意味。仿佛在裁判和“规则”面前，一切民意都是笑话。而反过来，这场比赛也必然在人民中成为一个笑话。</p><h2 id="美赛的准备">美赛的准备</h2><p>好的，现在该开始准备以下美赛了。先看看往年O奖论文吧。</p><h3 id="摘要：">摘要：</h3><p>看了几个摘要，大概总结一下结构：</p><ol><li>背景信息</li><li>正文：针对什么问题提出了什么模型，结果如何？【具体参数、假设检验、鲁棒性】对于模型和结果最好用粗体标出。</li><li>敏感性分析</li><li>关键词</li></ol><h3 id="选题：">选题：</h3><p>重新看了一下去年的A题和C题，现在的我看来，去年的C题确实要比A题难不少。A题实际上是一个系统建模题，很多东西都是“主观”的系统构建，强调了讲好一个系统故事。而 C题则是有根有据，模型好不好很大程度上凭数据说话。本身又是一个时间序列的数据，这方面我确实还太缺乏练习了…</p><p>但不管怎么样，无论是选题还是做题还是要灵活应变吧，这一年积累了各种各样的奇怪经验，相信今年可以表现地比去年更好。</p><h2 id="不能长久的乐队">不能长久的乐队</h2><p>今天播出Ave mujica第四话，在我看来还是承接了前三集的精彩。Ave mujica的前四话总让我会想起海猫鸣泣之时，诸如人偶、演剧、以及中二的幻想台词的元素还是重合度过高。不仅如此，音乐也是相似的魔女风味。至于演出上，故事的戏剧性叠加上剧中剧的戏剧性，真是让人回味无穷。</p><p>不过，潜意识似乎意识到了一些潜在的炸雷危机。看看后续剧情还会如何推进前进吧。</p><p>再吐槽一下，为什么字幕会有红色和白色的区分啊，这真的不是所谓的<span style="color:red">【红字真实】</span>吗?</p>]]></content>
-    
-    
-    <summary type="html">美赛前夕。</summary>
-    
-    
-    
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
   </entry>
   
