@@ -242,9 +242,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     <category term="法治" scheme="https://gunjo-radio-ii.cc/tags/%E6%B3%95%E6%B2%BB/"/>
     
@@ -269,9 +269,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     <category term="Baldr Sky" scheme="https://gunjo-radio-ii.cc/tags/Baldr-Sky/"/>
     
@@ -317,9 +317,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     <category term="自我管理" scheme="https://gunjo-radio-ii.cc/tags/%E8%87%AA%E6%88%91%E7%AE%A1%E7%90%86/"/>
     
@@ -355,7 +355,7 @@
     <link href="https://gunjo-radio-ii.cc/posts/0.html"/>
     <id>https://gunjo-radio-ii.cc/posts/0.html</id>
     <published>2025-02-26T00:24:11.000Z</published>
-    <updated>2025-02-26T00:25:26.000Z</updated>
+    <updated>2025-10-13T06:49:45.291Z</updated>
     
     <content type="html"><![CDATA[<p>根据任务优先级和课程安排，结合时间折叠算法规划2025年2月26日日程：</p><table><thead><tr><th>时间段</th><th>执行体</th><th>能量消耗</th><th>战略关联</th></tr></thead><tbody><tr><td>7:30-8:00</td><td>六级核心词汇背诵</td><td>3</td><td>@exam#六级英语<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>8:00-9:40</td><td>中国共产党历史课程</td><td>8</td><td>#env不可调整项<a href="%E6%A0%B9%E6%8D%AE%E8%AF%BE%E7%A8%8B%E8%A1%A8MD%E6%96%87%E4%BB%B6%E4%B8%AD%E5%91%A8%E4%B8%89%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92%E7%A1%AE%E5%AE%9A%E7%9A%84%E6%97%B6%E9%97%B4%E5%B0%81%E9%94%81%E5%8C%BA%5B%E9%99%84%E4%BB%B62%5D">^2</a></td></tr><tr><td>9:50-11:40</td><td>智能决策系统文献阅读+笔记</td><td>7</td><td>@research#科研<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>11:40-13:15</td><td>午餐+大英赛听力训练</td><td>5</td><td>@exam#大英赛<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>13:30-15:15</td><td>《LangChain开发》模块1-2学习</td><td>6</td><td>@contest#提示词工程<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>15:30-16:15</td><td>毛泽东概论课程(详见课表)</td><td>5</td><td>#env不可调整项<a href="%E6%A0%B9%E6%8D%AE%E8%AF%BE%E7%A8%8B%E8%A1%A8MD%E6%96%87%E4%BB%B6%E4%B8%AD%E5%91%A8%E4%B8%89%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92%E7%A1%AE%E5%AE%9A%E7%9A%84%E6%97%B6%E9%97%B4%E5%B0%81%E9%94%81%E5%8C%BA%5B%E9%99%84%E4%BB%B62%5D">^2</a></td></tr><tr><td>16:25-17:10</td><td>MOOC可视化教学视频笔记</td><td>5</td><td>@contest#现代教育技术<a href="%E6%A0%B9%E6%8D%AE%E8%AF%BE%E7%A8%8B%E8%A1%A8MD%E6%96%87%E4%BB%B6%E4%B8%AD%E5%91%A8%E4%B8%89%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92%E7%A1%AE%E5%AE%9A%E7%9A%84%E6%97%B6%E9%97%B4%E5%B0%81%E9%94%81%E5%8C%BA%5B%E9%99%84%E4%BB%B62%5D">^2</a></td></tr><tr><td>17:20-19:00</td><td>结题报告撰写（深度学习模块）</td><td>8</td><td>@contest#朋辈研学<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>19:10-20:40</td><td>数理统计秩检验案例分析</td><td>7</td><td>@exam#数理统计<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>20:50-21:30</td><td>ChatGPT API接口调试</td><td>6</td><td>@contest#提示词工程<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>22:00-22:30</td><td>HIIT核心训练</td><td>3</td><td>#日常任务<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr></tbody></table><p>注：</p><ol><li>所有优先级3任务（市场调查筹备）已转入备选池，总执行压力值为7.6<a href="%E8%83%BD%E9%87%8F%E6%B6%88%E8%80%97%E6%80%BB%E5%92%8C=3+8+7+5+6+5+5+8+7+6+3=63%EF%BC%8C%E7%AD%89%E6%95%88%CE%A3%CF%81=6.3%3C8%E9%98%88%E5%80%BC">^3</a></li><li>将%&quot;科研准备&quot;离散化为3个30min知识块预埋至早餐/课间间隙</li><li>深度工作会议采用[间歇聚焦法]：50min专注+10min记忆巩固<a href="%E6%97%B6%E9%97%B4%E6%8A%98%E5%8F%A0%E8%A7%84%E5%88%99%E8%A6%81%E6%B1%82%E5%8D%95%E4%BB%BB%E5%8A%A1%E8%80%90%E5%8F%97%E6%97%B6%E9%95%BF%E4%B8%BA50mins">^4</a></li></ol>]]></content>
     
@@ -408,7 +408,7 @@
     <link href="https://gunjo-radio-ii.cc/posts/0.html"/>
     <id>https://gunjo-radio-ii.cc/posts/0.html</id>
     <published>2025-02-25T00:35:11.000Z</published>
-    <updated>2025-02-25T12:28:34.000Z</updated>
+    <updated>2025-10-13T06:49:45.289Z</updated>
     
     <content type="html"><![CDATA[<p>根据2025.2.25（周二）的课程安排与待办任务，结合时间折叠原则与熔断机制，生成如下智能规划：</p><table><thead><tr><th>时间片</th><th>执行体</th><th>能量消耗</th><th>战略关联</th><th>完成</th></tr></thead><tbody><tr><td>7:30-7:45</td><td>背诵六级词汇[手机]</td><td>2/10</td><td>战略目标1:@exam</td><td>✔</td></tr><tr><td>8:00-10:40</td><td>数理统计课程</td><td>5/10</td><td>课程必修</td><td>✔</td></tr><tr><td>10:40-11:40</td><td>科研文献精读[实验室]（准备SCI的方向论证）</td><td>8/10</td><td>战略目标3:@research</td><td></td></tr><tr><td>11:40-12:00</td><td>午餐+听力泛听训练[手机]</td><td>3/10</td><td>战略目标1:@exam</td><td>✔</td></tr><tr><td>12:00-13:15</td><td>朋辈研学报告框架搭建[图书馆]（机器学习模块）</td><td>6/10</td><td>中期阶段节点</td><td>✔</td></tr><tr><td>13:15-15:15</td><td>提示词工程学习[平板]（LangChain应用开发章节）</td><td>7/10</td><td>技能进阶</td><td></td></tr><tr><td>15:15-17:10</td><td>《决策的智慧》课程</td><td>4/10</td><td>课程必修</td><td></td></tr><tr><td>17:10-17:30</td><td>大英赛真题限时训练[图书馆]（完成SectionA精练）</td><td>6/10</td><td>战略目标2:@contest</td><td></td></tr><tr><td>21:00-21:30</td><td>单词复习+错题整理[手机]</td><td>3/10</td><td>战略目标1:@exam</td><td></td></tr><tr><td>22:00-22:30</td><td>动态拉伸训练[操场]</td><td>4/10</td><td>健康基建</td><td></td></tr></tbody></table><p><strong>执行压力控制说明</strong>：</p><ol><li>熔断处理内容：原定19:30-20:00的市场调查任务因总执行强度达7.8被延迟</li><li>科研任务（#est=180min）采取分段实施模式，利用午后精力高峰完成核心文献阅读，晚间处理技术型工作</li><li>六级备考采用&quot;碎片浸泡法&quot;，在早晚低能耗时段完成词汇迭代，配合午间泛听保持语感</li></ol><hr>]]></content>
     
@@ -448,9 +448,9 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
     <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     <category term="AI" scheme="https://gunjo-radio-ii.cc/tags/AI/"/>
     
