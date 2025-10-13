@@ -67,9 +67,9 @@
     <link href="https://gunjo-radio-ii.cc/posts/83406143.html"/>
     <id>https://gunjo-radio-ii.cc/posts/83406143.html</id>
     <published>2025-04-27T07:30:00.000Z</published>
-    <updated>2025-05-16T12:48:17.369Z</updated>
+    <updated>2025-07-01T10:44:30.100Z</updated>
     
-    <content type="html"><![CDATA[<h1>Research 主题：具体要落实的一些操作：</h1><hr><h3 id="1-文献调研"><strong>1. 文献调研</strong></h3><ul><li>[x] 搜集光纤传感器和激光散斑在生物医学领域的研究论文（推荐数据库：Google Scholar, PubMed, IEEE Xplore）。</li><li>[x] 阅读并总结3-5篇近年的顶级论文和综述文章。</li><li>[x] 归纳现有方法的优缺点，明确你的技术创新点。</li></ul><blockquote></blockquote><h3 id="现有睡眠监测方法概述：">现有睡眠监测方法概述：</h3><ol><li><p><strong>传统PSG</strong>：被视为金标准，但设备昂贵、复杂，需要专业人员操作，不适合家庭和长期监测。</p></li><li><p><strong>可穿戴设备</strong>：如智能手表、手环等，便携但精度有限，需要接触皮肤可能影响睡眠舒适度。</p></li><li><p><strong>非接触式传感器</strong>：</p><ul><li>压力传感垫：通过测量压力分布监测体动、呼吸和心跳</li><li>光纤传感器：利用光传输特性检测微小运动</li><li>雷达技术：使用毫米波捕捉生理运动</li><li>声音监测：分析呼吸和打鼾声</li></ul></li></ol><h3 id="优势：">优势：</h3><ol><li><p><strong>非接触性与舒适度</strong>：您的SL-POF床垫系统实现了完全非接触监测，不影响睡眠质量，比可穿戴设备更舒适。</p></li><li><p><strong>便携性与实用性</strong>：结合手机应用的设计使系统可在户外野营等场景使用，扩展了应用范围。</p></li><li><p><strong>技术创新</strong>：</p><ul><li>球形透镜增强设计显著提高了传统POF的灵敏度，是关键技术突破</li><li>单通道结构简化了系统设计，降低了成本和复杂度</li><li>能够在多种睡姿下保持较高监测精度</li></ul></li><li><p><strong>综合性能</strong>：同时监测HR、RR和睡眠姿势，通过机器学习实现高准确率(97.67%)的睡眠行为分类。</p></li><li><p><strong>成本效益</strong>：相比其他光纤技术(如FBG、MZI)，您的系统使用普通PMMA光纤和简单光电设备，成本显著降低。</p></li></ol><h3 id="现有技术的局限性：">现有技术的局限性：</h3><ol><li><p><strong>传统光纤传感器</strong>：如FBG和MZI依赖昂贵的光谱分析设备，难以普及。</p></li><li><p><strong>普通POF传感器</strong>：灵敏度不足，难以捕捉微弱的生理信号。</p></li><li><p><strong>压力传感垫</strong>：多采用多通道设计，系统复杂且难以便携化。</p></li><li><p><strong>可穿戴设备</strong>：需要接触皮肤，长期佩戴不舒适，且电池寿命限制使用时间。</p></li></ol><h3 id="您的技术创新点：">您的技术创新点：</h3><ol><li><p><strong>球形透镜增强机制</strong>：通过在POF端部添加球形透镜，显著提高了对微小位移的灵敏度，是最核心的创新。</p></li><li><p><strong>单通道曲折布局设计</strong>：简化系统结构同时保证了对全身信号的捕捉能力。</p></li><li><p><strong>手机集成方案</strong>：将接收端与智能手机结合，实现便携监测和数据实时传输。</p></li><li><p><strong>多睡姿适应性</strong>：特别验证了不同睡姿下的监测精度，解决了现有系统普遍存在的姿势依赖问题。</p></li><li><p><strong>机器学习分类</strong>：首次将POF传感与机器学习结合用于睡眠行为分类。</p></li></ol><p>综上所述，您的研究通过球形透镜增强POF传感技术，成功解决了现有光纤睡眠监测系统灵敏度不足、成本高和便携性差的问题，为家庭睡眠监测提供了一种实用、低成本的新方案。建议在论文中进一步强调这些创新点与现有技术的对比优势。</p><hr><h3 id="2-实验设计"><strong>2. 实验设计</strong></h3><h4 id="设备搭建"><strong>设备搭建</strong></h4><ul><li>[x] 优化光纤传感器和激光散斑检测模块，确保传感器稳定性。</li><li>[x] 使用手机摄像头采集散斑，搭建数据采集系统（确保设备的便携性）。</li></ul><h4 id="数据采集"><strong>数据采集</strong></h4><p><strong>2.2.1 被试人群设计</strong></p><ul><li><strong>纳入标准</strong>：<ul><li>健康成年人（18–65岁），共招募<strong>8-10名被试</strong>。</li></ul></li></ul><p>同学/师兄</p><p><strong>2.2.2 实验条件与流程</strong></p><ul><li><p><strong>实验条件</strong>：</p><ul><li><strong>静息状态</strong>：平躺、侧卧（左右）、坐姿（各5分钟）。</li><li><strong>运动后状态</strong>：平板支撑/快走3分钟后立即测量。</li><li><strong>睡眠姿态</strong>：要求被试刻意侧睡和平睡。</li></ul></li><li><p><strong>数据采集步骤</strong>：</p><ol><li>被试佩戴血氧指夹、呼吸带作为“标准”。</li><li>将光纤传感器贴附于床垫下方（心脏对应区域），手机摄像头对准散斑区域。</li><li>同步记录5分钟生理信号，保存原始数据（CSV/MP4格式）。</li></ol></li></ul><p><strong>2.2.3 数据标注与预处理</strong></p><ul><li><strong>标签化数据集</strong>：<ul><li>对每一帧视频标记时间戳，标注心率/呼吸频率（HR/RR）参考值（来自ECG-RR间期、呼吸带峰值）。</li></ul></li><li><strong>预处理方法</strong>：<ul><li>视频信号：使用<strong>相位相关算法</strong>提取散斑动态（Spatiotemporal Speckle Analysis）。</li><li>光纤信号：带通滤波（0.1–10 Hz）分离呼吸（0.1–0.5 Hz）与心跳（0.7–2.5 Hz）成分。</li></ul></li></ul><hr><h4 id="2-3-实验变量控制与验证（扩充内容）【这方面不是很知道该怎么做】"><strong>2.3 实验变量控制与验证</strong>（扩充内容）【这方面不是很知道该怎么做】</h4><p>直径光纤/布线方式/敏感器件的有效性<br>coin/band/位置</p><p>先尝试无敏感</p><!-- ### **2.3.1 床垫材质对信号的影响**- **变量设计**：    - 测试3种常见材质：记忆棉（厚度5 cm）、独立袋装弹簧、乳胶（密度75 kg/m³）。    - 控制变量：相同受试者在同一天不同床垫上重复实验。  - **评估指标**：    - 信噪比（SNR）：计算光纤传感器信号的有效峰谷比。    - 频率一致性：对比不同材质下HR/RR与ECG的均方根误差（RMSE）。   --><!-- ### **2.3.2 激光与光纤参数优化**- **参数范围**：    - 激光功率：1 mW、3 mW、5 mW（步进1 mW）。    - 光纤长度：1 m、3 m、5 m（多模光纤，芯径50 μm）。  - **评价方法**：    - 通过激光功率计测量输出光强，结合散斑对比度（Speckle Contrast, $ K = \sigma/I $）评估成像质量。    - 光纤长度对信号衰减的影响：拟合传输损耗曲线（dB/km）。   --><h3 id="2-3-3-系统验证与统计分析"><strong>2.3.3 系统验证与统计分析</strong></h3><ul><li><strong>一致性验证</strong>：<ul><li>Bland-Altman分析：对比本系统与ECG/血氧仪的HR/RR测量值。</li><li>皮尔逊相关系数（$ r &gt; 0.9 $视为强相关）。</li></ul></li><li><strong>重复性测试</strong>：<ul><li>同一被试在3天内重复实验，计算组内相关系数（ICC &gt; 0.8视为可靠）。</li></ul></li></ul><hr><ol><li>传感器设计与实现（Sensor Design and Implementation）</li></ol><p>A. 系统整体设计</p><ul><li>硬件构成：<br>• 单通道设计（LED光源650 nm左右，激光头设计针对低功耗和便携化）<br>• 手机摄像头数据采集及蓝牙数据传输模块<br>• 上位机数据处理（可选PC或嵌入式系统）</li><li>模块间性能测试：<br>• 每个模块的响应时间测试（例如激光头开关、摄像头采集帧率、蓝牙通信延迟）<br>• 数据完整性测试（端到端数据传输丢包率、抗干扰测试）。</li></ul><p>B. POF传感器结构</p><ul><li>制备工艺优化：<br>• 多次抛光、处理不同球形透镜尺寸，验证固定方法（在硅胶管中嵌入，UV胶固化）的一致性和耐久性。</li><li>实验验证：<br>• 对比不同球透镜尺寸对光斑强度变化的提升效果。<br>• 通过标准光源测试，测量出光强变化与外力（压力、弯曲）的关系曲线。</li></ul><p>C. 传感原理验证</p><ul><li>实验中，通过在传感器上施加已知压力及形变（使用标准负载和精密位移台）：<br>• 测定光信号输出与施加变形/压力之间的定量关系；<br>• 分析光斑偏移规律，确定最敏感的工作区间。</li><li>建模工作：<br>• 基于实验数据拟合模型，得到光强变化与生理参数（HR、RR）之间的映射公式；<br>• 为后续信号处理提供理论依据。</li></ul><p>D. 床垫设计与传感器布置</p><ul><li>制作不同尺寸和层厚度的床垫原型（夹层结构：3D打印模具+硅胶垫）</li><li>POF布置实验：<br>• 设计不同的曲折布局（如单通路或多通道，间距100 mm、50 mm等）；<br>• 对比平铺与曲折布置对信号敏感度、覆盖区域的影响。</li><li>静态测试：<br>• 在无人体干扰情况下，对床垫整体进行静态负载测试，检测传感器信号基线干扰及噪声。</li></ul><p>E. 数据处理流程与算法验证</p><ul><li>开发完整的信号处理流程，并分步验证每个阶段：<ol><li>滤波模块：<br>• 对模拟信号进行噪声滤除、低通与高通滤波，分别对心率（1–1.66 Hz）和呼吸（低频段）信号进行滤波。</li><li>频谱分析：<br>• 采用FFT计算功率谱，验证频谱中峰值对应HR及RR数据；<br>• 实验中与标准设备（如ECG和呼吸监测仪）比对验证频谱计算精度。</li><li>双级滤波验证：<br>• 对初步滤波后的信号再做峰值附近滤波，检查二次谐波处理是否有效提高准确率。</li></ol></li><li>数据同步问题：<br>• 确保采集数据与参考数据（PSG或佩戴式监测设备）在时间上校准。</li></ul><ol><li>实验结果与讨论（Results and Discussion）</li></ol><p>A. 传感器性能测试</p><ol><li>响应性测试<ul><li>弯曲测试：使用标准弯曲试验装置，记录不同弯曲角度下的光强变化；建立灵敏度曲线。</li><li>拉伸测试：对传感器施加不同拉伸量，测得对应输出信号变化，分析线性区间；</li><li>压力测试：逐步施加不同压力，获取传感器输出并标定最小分辨率。</li></ul></li></ol><p>B. 精度与一致性（人体实验）</p><ul><li>被试者选择：至少8名健康志愿者，涵盖不同性别、体型与睡眠习惯。</li><li>数据记录与对比：<br>• 同步记录数据：利用同时穿戴标准心率带（或ECG设备）和呼吸监测仪进行比对；<br>• 计算HR和RR的平均绝对误差、相对误差；<br>• 使用Bland-Altman分析评估传感器与参考设备的一致性。</li></ul><p>C. 睡眠行为分类（探索性实验）</p><ul><li>实验设置：<br>• 模拟不同睡姿，人工标注睡姿变化（未躺卧、翻身、仰卧、左侧卧、右侧卧）；<br>• 收集大样本信号数据（建议覆盖7～10小时监测），记录信号中因床垫响应产生的变化模式；</li><li>算法引入：<br>• 基于传感信号数据，初步构建机器学习模型（例如基于决策树或轻量级神经网络）对睡姿进行分类；<br>• 离线评估分类准确率，目标达到97.67%；<br>• 分析误判原因并提出改进措施（数据预处理、特征工程）。</li></ul><p>D. 可靠性验证</p><ul><li>长期稳定性测试：<br>• 多日（或连续24小时）进行数据采集，分析HR的昼夜变化规律；<br>• 确认数据趋势符合生理周期变化；<br>• 做重复性实验验证传感器在长时间使用下的漂移与衰减。</li></ul><p>E. 对比其他研究</p><ul><li>对比国际最新研究中采用FBG、MZI等光纤传感器在HR/RR监测上的数据和成本指标；</li><li>在实际应用场景中，评估本方案在多睡姿下数据稳定性、设备便携性和机械结构的优势。</li></ul><ol start="6"><li>结论（Conclusion）</li></ol><ul><li>根据实验结果清晰归纳：<br>• 本方案能实现低干扰的精确监测（HR与RR），且在多睡姿下表现稳定；<br>• 实验证明POF床垫在低成本与便携性要求下具备市场潜力；</li><li>未来研究方向：<br>• 进一步拓展心率变异性（HRV）及BCG信号提取；<br>• 加入更多监测传感（如睡眠质量、运动强度、姿势细分）的实验验证；<br>• 优化机器学习模型，扩展至连续多夜睡眠分析。</li></ul><ol start="7"><li>参考文献（References）</li></ol><ul><li>在整个实验和论文撰写过程中，需要收集并引用相关领域的文献，重点参考以下内容：<br>• 光纤传感器及其衍生技术文献；<br>• 睡眠监测技术的最新研究；<br>• 机器学习在生理信号分类中的应用成果。</li></ul><hr><h3 id="3-论文撰写"><strong>3. 论文撰写</strong></h3><h4 id="论文框架"><strong>论文框架</strong></h4><ul><li>[ ] <strong>引言</strong>：说明研究背景、现有问题和你的创新点。</li><li>[ ] <strong>方法</strong>：详细描述实验设计、设备搭建和算法。</li><li>[ ] <strong>结果</strong>：展示实验结果，包含数据对比和图表。</li><li>[ ] <strong>讨论</strong>：分析结果优势和局限性，讨论技术改进方向。</li><li>[ ] <strong>结论</strong>：总结研究成果，提出应用前景。</li></ul><h4 id="排版与投稿"><strong>排版与投稿</strong></h4><ul><li>[ ] 根据目标期刊的模板格式化论文（如字体、图表格式）。</li><li>[ ] 确保英文表达准确流畅（可使用专业润色服务）。</li></ul><hr>]]></content>
+    <content type="html"><![CDATA[<h1>Research 主题：具体要落实的一些操作：</h1><hr><h3 id="1-文献调研"><strong>1. 文献调研</strong></h3><ul><li>[x] 搜集光纤传感器和激光散斑在生物医学领域的研究论文（推荐数据库：Google Scholar, PubMed, IEEE Xplore）。</li><li>[x] 阅读并总结3-5篇近年的顶级论文和综述文章。</li><li>[x] 归纳现有方法的优缺点，明确你的技术创新点。</li></ul><blockquote></blockquote><h3 id="现有睡眠监测方法概述：">现有睡眠监测方法概述：</h3><ol><li><p><strong>传统PSG</strong>：被视为金标准，但设备昂贵、复杂，需要专业人员操作，不适合家庭和长期监测。</p></li><li><p><strong>可穿戴设备</strong>：如智能手表、手环等，便携但精度有限，需要接触皮肤可能影响睡眠舒适度。</p></li><li><p><strong>非接触式传感器</strong>：</p><ul><li>压力传感垫：通过测量压力分布监测体动、呼吸和心跳</li><li>光纤传感器：利用光传输特性检测微小运动</li><li>雷达技术：使用毫米波捕捉生理运动</li><li>声音监测：分析呼吸和打鼾声</li></ul></li></ol><h3 id="优势：">优势：</h3><ol><li><p><strong>非接触性与舒适度</strong>：您的SL-POF床垫系统实现了完全非接触监测，不影响睡眠质量，比可穿戴设备更舒适。</p></li><li><p><strong>便携性与实用性</strong>：结合手机应用的设计使系统可在户外野营等场景使用，扩展了应用范围。</p></li><li><p><strong>技术创新</strong>：</p><ul><li>球形透镜增强设计显著提高了传统POF的灵敏度，是关键技术突破</li><li>单通道结构简化了系统设计，降低了成本和复杂度</li><li>能够在多种睡姿下保持较高监测精度</li></ul></li><li><p><strong>综合性能</strong>：同时监测HR、RR和睡眠姿势，通过机器学习实现高准确率(97.67%)的睡眠行为分类。</p></li><li><p><strong>成本效益</strong>：相比其他光纤技术(如FBG、MZI)，您的系统使用普通PMMA光纤和简单光电设备，成本显著降低。</p></li></ol><h3 id="现有技术的局限性：">现有技术的局限性：</h3><ol><li><p><strong>传统光纤传感器</strong>：如FBG和MZI依赖昂贵的光谱分析设备，难以普及。</p></li><li><p><strong>普通POF传感器</strong>：灵敏度不足，难以捕捉微弱的生理信号。</p></li><li><p><strong>压力传感垫</strong>：多采用多通道设计，系统复杂且难以便携化。</p></li><li><p><strong>可穿戴设备</strong>：需要接触皮肤，长期佩戴不舒适，且电池寿命限制使用时间。</p></li></ol><h3 id="您的技术创新点：">您的技术创新点：</h3><ol><li><p><strong>球形透镜增强机制</strong>：通过在POF端部添加球形透镜，显著提高了对微小位移的灵敏度，是最核心的创新。</p></li><li><p><strong>单通道曲折布局设计</strong>：简化系统结构同时保证了对全身信号的捕捉能力。</p></li><li><p><strong>手机集成方案</strong>：将接收端与智能手机结合，实现便携监测和数据实时传输。</p></li><li><p><strong>多睡姿适应性</strong>：特别验证了不同睡姿下的监测精度，解决了现有系统普遍存在的姿势依赖问题。</p></li><li><p><strong>机器学习分类</strong>：首次将POF传感与机器学习结合用于睡眠行为分类。</p></li></ol><p>综上所述，您的研究通过球形透镜增强POF传感技术，成功解决了现有光纤睡眠监测系统灵敏度不足、成本高和便携性差的问题，为家庭睡眠监测提供了一种实用、低成本的新方案。建议在论文中进一步强调这些创新点与现有技术的对比优势。</p><hr><h3 id="2-实验设计"><strong>2. 实验设计</strong></h3><h4 id="设备搭建"><strong>设备搭建</strong></h4><ul><li>[x] 优化光纤传感器和激光散斑检测模块，确保传感器稳定性。</li><li>[x] 使用手机摄像头采集散斑，搭建数据采集系统（确保设备的便携性）。</li></ul><h4 id="数据采集"><strong>数据采集</strong></h4><p><strong>2.2.1 被试人群设计</strong></p><ul><li><strong>纳入标准</strong>：<ul><li>健康成年人（18–65岁），共招募<strong>4-5名被试</strong>。</li></ul></li></ul><p>同学/师兄</p><p><strong>2.2.2 实验条件与流程</strong></p><ul><li><p><strong>实验条件</strong>：</p><ul><li><strong>静息状态</strong>：平躺、侧卧（左右）、坐姿（各5分钟）。</li><li><strong>运动后状态</strong>：平板支撑/快走3分钟后立即测量。</li><li><strong>睡眠姿态</strong>：要求被试刻意侧睡和平睡。</li></ul></li><li><p><strong>数据采集步骤</strong>：</p><ol><li>被试佩戴血氧指夹、呼吸带作为“标准”。</li><li>将光纤传感器贴附于床垫下方（心脏对应区域），手机摄像头对准散斑区域。</li><li>同步记录5分钟生理信号，保存原始数据（CSV/MP4格式）。</li></ol></li></ul><p><strong>2.2.3 数据标注与预处理</strong></p><ul><li><strong>标签化数据集</strong>：<ul><li>对每一帧视频标记时间戳，标注心率/呼吸频率（HR/RR）参考值（来自ECG-RR间期、呼吸带峰值）。</li></ul></li><li><strong>预处理方法</strong>：<ul><li>视频信号：使用<strong>相位相关算法</strong>提取散斑动态（Spatiotemporal Speckle Analysis）。</li><li>光纤信号：带通滤波（0.1–10 Hz）分离呼吸（0.1–0.5 Hz）与心跳（0.7–2.5 Hz）成分。</li></ul></li></ul><hr><h4 id="2-3-实验变量控制与验证（扩充内容）【这方面不是很知道该怎么做】"><strong>2.3 实验变量控制与验证</strong>（扩充内容）【这方面不是很知道该怎么做】</h4><p>直径光纤/布线方式/敏感器件的有效性<br>coin/band/位置<br>有无海绵垫</p><!-- ### **2.3.1 床垫材质对信号的影响**- **变量设计**：    - 测试3种常见材质：记忆棉（厚度5 cm）、独立袋装弹簧、乳胶（密度75 kg/m³）。    - 控制变量：相同受试者在同一天不同床垫上重复实验。  - **评估指标**：    - 信噪比（SNR）：计算光纤传感器信号的有效峰谷比。    - 频率一致性：对比不同材质下HR/RR与ECG的均方根误差（RMSE）。   --><!-- ### **2.3.2 激光与光纤参数优化**- **参数范围**：    - 激光功率：1 mW、3 mW、5 mW（步进1 mW）。    - 光纤长度：1 m、3 m、5 m（多模光纤，芯径50 μm）。  - **评价方法**：    - 通过激光功率计测量输出光强，结合散斑对比度（Speckle Contrast, $ K = \sigma/I $）评估成像质量。    - 光纤长度对信号衰减的影响：拟合传输损耗曲线（dB/km）。   --><h3 id="2-3-3-系统验证与统计分析"><strong>2.3.3 系统验证与统计分析</strong></h3><ul><li><strong>一致性验证</strong>：<ul><li>Bland-Altman分析：对比本系统与ECG/血氧仪的HR/RR测量值。</li><li>皮尔逊相关系数（$ r &gt; 0.9 $视为强相关）。</li></ul></li><li><strong>重复性测试</strong>：<ul><li>同一被试在3天内重复实验，计算组内相关系数（ICC &gt; 0.8视为可靠）。</li></ul></li></ul><hr><ol><li>传感器设计与实现（Sensor Design and Implementation）</li></ol><p>A. 系统整体设计</p><ul><li>硬件构成：<br>• 单通道设计（LED光源650 nm左右，激光头设计针对低功耗和便携化）<br>• 手机摄像头数据采集及蓝牙数据传输模块<br>• 上位机数据处理（可选PC或嵌入式系统）</li><li>模块间性能测试：<br>• 每个模块的响应时间测试（例如激光头开关、摄像头采集帧率、蓝牙通信延迟）<br>• 数据完整性测试（端到端数据传输丢包率、抗干扰测试）。</li></ul><p>B. POF传感器结构</p><!-- - 制备工艺优化：    • 多次抛光、处理不同球形透镜尺寸，验证固定方法（在硅胶管中嵌入，UV胶固化）的一致性和耐久性。  - 实验验证：    • 对比不同球透镜尺寸对光斑强度变化的提升效果。    • 通过标准光源测试，测量出光强变化与外力（压力、弯曲）的关系曲线。 --><p>C. 传感原理验证</p><ul><li>实验中，通过在传感器上施加已知压力及形变（使用标准负载和精密位移台）：<br>• 测定光信号输出与施加变形/压力之间的定量关系；<br>• 分析光斑偏移规律，确定最敏感的工作区间。</li><li>建模工作：<br>• 基于实验数据拟合模型，得到光强变化与生理参数（HR、RR）之间的映射公式；<br>• 为后续信号处理提供理论依据。</li></ul><p>D. 床垫设计与传感器布置</p><ul><li>制作不同尺寸和层厚度的床垫原型（夹层结构：3D打印模具+硅胶垫）</li><li>POF布置实验：<br>• 设计不同的曲折布局（如单通路或多通道，间距100 mm、50 mm等）；<br>• 对比平铺与曲折布置对信号敏感度、覆盖区域的影响。</li><li>静态测试：<br>• 在无人体干扰情况下，对床垫整体进行静态负载测试，检测传感器信号基线干扰及噪声。</li></ul><p>E. 数据处理流程与算法验证</p><ul><li>开发完整的信号处理流程，并分步验证每个阶段：<ol><li>滤波模块：<br>• 对模拟信号进行噪声滤除、低通与高通滤波，分别对心率（1–2 Hz）和呼吸（低频段）信号进行滤波。</li><li>频谱分析：<br>• 采用FFT计算功率谱，验证频谱中峰值对应HR及RR数据；<br>• 实验中与标准设备（如ECG和呼吸监测仪）比对验证频谱计算精度。</li><li>双级滤波验证：<br>• 对初步滤波后的信号再做峰值附近滤波，检查二次谐波处理是否有效提高准确率。</li></ol></li><li>数据同步问题：<br>• 确保采集数据与参考数据（PSG或佩戴式监测设备）在时间上校准。</li></ul><ol><li>实验结果与讨论（Results and Discussion）</li></ol><p>A. 传感器性能测试</p><ol><li>响应性测试<ul><li>弯曲测试：使用标准弯曲试验装置，记录不同弯曲角度下的光强变化；建立灵敏度曲线。</li><li>拉伸测试：对传感器施加不同拉伸量，测得对应输出信号变化，分析线性区间；</li><li>压力测试：逐步施加不同压力，获取传感器输出并标定最小分辨率。</li></ul></li></ol><p>B. 精度与一致性（人体实验）</p><ul><li>被试者选择：至少4名健康志愿者，涵盖不同性别、体型与睡眠习惯。</li><li>数据记录与对比：<br>• 同步记录数据：利用同时穿戴标准心率带（或ECG设备）和呼吸监测仪进行比对；<br>• 计算HR和RR的平均绝对误差、相对误差；<br>• 使用Bland-Altman分析评估传感器与参考设备的一致性。</li></ul><p>C. 睡眠行为分类（探索性实验）</p><ul><li>实验设置：<br>• 模拟不同睡姿，人工标注睡姿变化（未躺卧、翻身、仰卧、左侧卧、右侧卧）；<br>• 收集大样本信号数据（建议覆盖7～10小时监测），记录信号中因床垫响应产生的变化模式；</li><li>算法引入：<br>• 基于传感信号数据，初步构建机器学习模型（例如基于决策树或轻量级神经网络）对睡姿进行分类；<br>• 离线评估分类准确率，目标达到97.67%；<br>• 分析误判原因并提出改进措施（数据预处理、特征工程）。</li></ul><p>D. 可靠性验证</p><ul><li>长期稳定性测试：<br>• 多日（或连续24小时）进行数据采集，分析HR的昼夜变化规律；<br>• 确认数据趋势符合生理周期变化；<br>• 做重复性实验验证传感器在长时间使用下的漂移与衰减。</li></ul><p>E. 对比其他研究</p><ul><li>对比国际最新研究中采用FBG、MZI等光纤传感器在HR/RR监测上的数据和成本指标；</li><li>在实际应用场景中，评估本方案在多睡姿下数据稳定性、设备便携性和机械结构的优势。</li></ul><ol start="6"><li>结论（Conclusion）</li></ol><ul><li>根据实验结果清晰归纳：<br>• 本方案能实现低干扰的精确监测（HR与RR），且在多睡姿下表现稳定；<br>• 实验证明POF床垫在低成本与便携性要求下具备市场潜力；</li><li>未来研究方向：<br>• 进一步拓展心率变异性（HRV）及BCG信号提取；<br>• 加入更多监测传感（如睡眠质量、运动强度、姿势细分）的实验验证；<br>• 优化机器学习模型，扩展至连续多夜睡眠分析。</li></ul><ol start="7"><li>参考文献（References）</li></ol><ul><li>在整个实验和论文撰写过程中，需要收集并引用相关领域的文献，重点参考以下内容：<br>• 光纤传感器及其衍生技术文献；<br>• 睡眠监测技术的最新研究；<br>• 机器学习在生理信号分类中的应用成果。</li></ul><hr><h3 id="3-论文撰写"><strong>3. 论文撰写</strong></h3><h4 id="论文框架"><strong>论文框架</strong></h4><ul><li>[ ] <strong>引言</strong>：说明研究背景、现有问题和你的创新点。</li><li>[ ] <strong>方法</strong>：详细描述实验设计、设备搭建和算法。</li><li>[ ] <strong>结果</strong>：展示实验结果，包含数据对比和图表。</li><li>[ ] <strong>讨论</strong>：分析结果优势和局限性，讨论技术改进方向。</li><li>[ ] <strong>结论</strong>：总结研究成果，提出应用前景。</li></ul><h4 id="排版与投稿"><strong>排版与投稿</strong></h4><ul><li>[ ] 根据目标期刊的模板格式化论文（如字体、图表格式）。</li><li>[ ] 确保英文表达准确流畅（可使用专业润色服务）。</li></ul><hr>]]></content>
     
     
     <summary type="html">research关键推进过程，</summary>
@@ -351,6 +351,36 @@
   </entry>
   
   <entry>
+    <title></title>
+    <link href="https://gunjo-radio-ii.cc/posts/0.html"/>
+    <id>https://gunjo-radio-ii.cc/posts/0.html</id>
+    <published>2025-02-26T00:24:11.000Z</published>
+    <updated>2025-02-26T00:25:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>根据任务优先级和课程安排，结合时间折叠算法规划2025年2月26日日程：</p><table><thead><tr><th>时间段</th><th>执行体</th><th>能量消耗</th><th>战略关联</th></tr></thead><tbody><tr><td>7:30-8:00</td><td>六级核心词汇背诵</td><td>3</td><td>@exam#六级英语<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>8:00-9:40</td><td>中国共产党历史课程</td><td>8</td><td>#env不可调整项<a href="%E6%A0%B9%E6%8D%AE%E8%AF%BE%E7%A8%8B%E8%A1%A8MD%E6%96%87%E4%BB%B6%E4%B8%AD%E5%91%A8%E4%B8%89%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92%E7%A1%AE%E5%AE%9A%E7%9A%84%E6%97%B6%E9%97%B4%E5%B0%81%E9%94%81%E5%8C%BA%5B%E9%99%84%E4%BB%B62%5D">^2</a></td></tr><tr><td>9:50-11:40</td><td>智能决策系统文献阅读+笔记</td><td>7</td><td>@research#科研<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>11:40-13:15</td><td>午餐+大英赛听力训练</td><td>5</td><td>@exam#大英赛<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>13:30-15:15</td><td>《LangChain开发》模块1-2学习</td><td>6</td><td>@contest#提示词工程<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>15:30-16:15</td><td>毛泽东概论课程(详见课表)</td><td>5</td><td>#env不可调整项<a href="%E6%A0%B9%E6%8D%AE%E8%AF%BE%E7%A8%8B%E8%A1%A8MD%E6%96%87%E4%BB%B6%E4%B8%AD%E5%91%A8%E4%B8%89%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92%E7%A1%AE%E5%AE%9A%E7%9A%84%E6%97%B6%E9%97%B4%E5%B0%81%E9%94%81%E5%8C%BA%5B%E9%99%84%E4%BB%B62%5D">^2</a></td></tr><tr><td>16:25-17:10</td><td>MOOC可视化教学视频笔记</td><td>5</td><td>@contest#现代教育技术<a href="%E6%A0%B9%E6%8D%AE%E8%AF%BE%E7%A8%8B%E8%A1%A8MD%E6%96%87%E4%BB%B6%E4%B8%AD%E5%91%A8%E4%B8%89%E8%AF%BE%E7%A8%8B%E5%AE%89%E6%8E%92%E7%A1%AE%E5%AE%9A%E7%9A%84%E6%97%B6%E9%97%B4%E5%B0%81%E9%94%81%E5%8C%BA%5B%E9%99%84%E4%BB%B62%5D">^2</a></td></tr><tr><td>17:20-19:00</td><td>结题报告撰写（深度学习模块）</td><td>8</td><td>@contest#朋辈研学<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>19:10-20:40</td><td>数理统计秩检验案例分析</td><td>7</td><td>@exam#数理统计<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>20:50-21:30</td><td>ChatGPT API接口调试</td><td>6</td><td>@contest#提示词工程<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr><tr><td>22:00-22:30</td><td>HIIT核心训练</td><td>3</td><td>#日常任务<a href="%E6%9D%A5%E8%87%AA%E7%94%A8%E6%88%B7%E4%BB%A3%E5%8A%9E%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%E4%B8%AD%E7%9A%84%E6%88%98%E7%95%A5%E7%9B%AE%E6%A0%87%E8%AE%BE%E7%BD%AE%5B%E9%99%84%E4%BB%B61%5D">^1</a></td></tr></tbody></table><p>注：</p><ol><li>所有优先级3任务（市场调查筹备）已转入备选池，总执行压力值为7.6<a href="%E8%83%BD%E9%87%8F%E6%B6%88%E8%80%97%E6%80%BB%E5%92%8C=3+8+7+5+6+5+5+8+7+6+3=63%EF%BC%8C%E7%AD%89%E6%95%88%CE%A3%CF%81=6.3%3C8%E9%98%88%E5%80%BC">^3</a></li><li>将%&quot;科研准备&quot;离散化为3个30min知识块预埋至早餐/课间间隙</li><li>深度工作会议采用[间歇聚焦法]：50min专注+10min记忆巩固<a href="%E6%97%B6%E9%97%B4%E6%8A%98%E5%8F%A0%E8%A7%84%E5%88%99%E8%A6%81%E6%B1%82%E5%8D%95%E4%BB%BB%E5%8A%A1%E8%80%90%E5%8F%97%E6%97%B6%E9%95%BF%E4%B8%BA50mins">^4</a></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;根据任务优先级和课程安排，结合时间折叠算法规划2025年2月26日日程：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;时间段&lt;/th&gt;
+&lt;th&gt;执行体&lt;/th&gt;
+&lt;th&gt;能量消耗&lt;/th&gt;
+&lt;th&gt;战略关联&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>数理统计（1）绪论</title>
     <link href="https://gunjo-radio-ii.cc/posts/2f8bd51c.html"/>
     <id>https://gunjo-radio-ii.cc/posts/2f8bd51c.html</id>
@@ -370,6 +400,34 @@
     <category term="数学" scheme="https://gunjo-radio-ii.cc/tags/%E6%95%B0%E5%AD%A6/"/>
     
     <category term="数理统计" scheme="https://gunjo-radio-ii.cc/tags/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://gunjo-radio-ii.cc/posts/0.html"/>
+    <id>https://gunjo-radio-ii.cc/posts/0.html</id>
+    <published>2025-02-25T00:35:11.000Z</published>
+    <updated>2025-02-25T12:28:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>根据2025.2.25（周二）的课程安排与待办任务，结合时间折叠原则与熔断机制，生成如下智能规划：</p><table><thead><tr><th>时间片</th><th>执行体</th><th>能量消耗</th><th>战略关联</th><th>完成</th></tr></thead><tbody><tr><td>7:30-7:45</td><td>背诵六级词汇[手机]</td><td>2/10</td><td>战略目标1:@exam</td><td>✔</td></tr><tr><td>8:00-10:40</td><td>数理统计课程</td><td>5/10</td><td>课程必修</td><td>✔</td></tr><tr><td>10:40-11:40</td><td>科研文献精读[实验室]（准备SCI的方向论证）</td><td>8/10</td><td>战略目标3:@research</td><td></td></tr><tr><td>11:40-12:00</td><td>午餐+听力泛听训练[手机]</td><td>3/10</td><td>战略目标1:@exam</td><td>✔</td></tr><tr><td>12:00-13:15</td><td>朋辈研学报告框架搭建[图书馆]（机器学习模块）</td><td>6/10</td><td>中期阶段节点</td><td>✔</td></tr><tr><td>13:15-15:15</td><td>提示词工程学习[平板]（LangChain应用开发章节）</td><td>7/10</td><td>技能进阶</td><td></td></tr><tr><td>15:15-17:10</td><td>《决策的智慧》课程</td><td>4/10</td><td>课程必修</td><td></td></tr><tr><td>17:10-17:30</td><td>大英赛真题限时训练[图书馆]（完成SectionA精练）</td><td>6/10</td><td>战略目标2:@contest</td><td></td></tr><tr><td>21:00-21:30</td><td>单词复习+错题整理[手机]</td><td>3/10</td><td>战略目标1:@exam</td><td></td></tr><tr><td>22:00-22:30</td><td>动态拉伸训练[操场]</td><td>4/10</td><td>健康基建</td><td></td></tr></tbody></table><p><strong>执行压力控制说明</strong>：</p><ol><li>熔断处理内容：原定19:30-20:00的市场调查任务因总执行强度达7.8被延迟</li><li>科研任务（#est=180min）采取分段实施模式，利用午后精力高峰完成核心文献阅读，晚间处理技术型工作</li><li>六级备考采用&quot;碎片浸泡法&quot;，在早晚低能耗时段完成词汇迭代，配合午间泛听保持语感</li></ol><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;根据2025.2.25（周二）的课程安排与待办任务，结合时间折叠原则与熔断机制，生成如下智能规划：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;时间片&lt;/th&gt;
+&lt;th&gt;执行体&lt;/th&gt;
+&lt;th&gt;能量消耗&lt;/th&gt;
+&lt;th&gt;战略关联&lt;/th&gt;
+&lt;th&gt;完成&lt;/</summary>
+      
+    
+    
+    
     
   </entry>
   
@@ -449,56 +507,6 @@
     <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     
     <category term="魔女的观剧记录" scheme="https://gunjo-radio-ii.cc/tags/%E9%AD%94%E5%A5%B3%E7%9A%84%E8%A7%82%E5%89%A7%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>观剧记录的原初</title>
-    <link href="https://gunjo-radio-ii.cc/posts/ea20582a.html"/>
-    <id>https://gunjo-radio-ii.cc/posts/ea20582a.html</id>
-    <published>2025-02-19T08:49:53.000Z</published>
-    <updated>2025-03-27T00:46:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://music.163.com/song?id=26131681&amp;uct2=U2FsdGVkX192ZIlgIiF8X5q79TGOIGKiZWUHhXB3Ezg=">【旅-麻枝准】</a></p><div class="aplayer no-destroy" data-id="26131681" data-volume="0.4" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-lrcType="-1"> </div><h2 id="观剧记录前记">观剧记录前记</h2><p>观剧记录是我很久之前就想做的事情，旨在记录自己读过的书、玩过的游戏、以及一些有意思的音乐等等。早在初中时，我就在语文老师要求的每周一次的“随笔”作业中记录过一些动画思考和观感。现在想起来不禁感到有点尴尬羞耻，但其实也没什么大不了的，当时应该也有不少同学写这种随笔😂。后来到了高中，我也会偶尔在不想学习的倦怠期，在日记中自我探讨批判二次元🤔。另一方面，我原来也会简略记录我看过的作品。最经典的还是在网易云音乐动态里即时同步作品-音乐-语录-以及一小段吐槽。不过到了现在，我可能只会在网易云动态记录同步旮旯的观剧纪念了。除此之外，我可能几个月在豆瓣和bangumi随缘update一下观剧进度。所以观剧记录这档事在我身上还算是有一段一脉相承的历史的。</p><h2 id="观剧记录的尝试">观剧记录的尝试</h2><p>在建立群青广播II小站之后，我就开始构思着要做观剧记录了。然而拖延的我在建站90天以后才将其落实到行动。观剧记录内容主要是个人书籍动画游戏的记录。记录内容包括自己的主观评分，内容思考，以及一些CG或者OST分享。关于记录内容的选择，我是希望自己能够全部记录的，对于以前看过的作品也尽量补档完全。希望自己能再接再厉，不要拖延，将观剧记录坚持做下去。</p>]]></content>
-    
-    
-    <summary type="html">观剧记录分类的开端。</summary>
-    
-    
-    
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
-    <category term="魔女的观剧记录" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/%E9%AD%94%E5%A5%B3%E7%9A%84%E8%A7%82%E5%89%A7%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
-    <category term="魔女的观剧记录" scheme="https://gunjo-radio-ii.cc/tags/%E9%AD%94%E5%A5%B3%E7%9A%84%E8%A7%82%E5%89%A7%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2025.2.19小记</title>
-    <link href="https://gunjo-radio-ii.cc/posts/caa8d55f.html"/>
-    <id>https://gunjo-radio-ii.cc/posts/caa8d55f.html</id>
-    <published>2025-02-19T01:49:53.000Z</published>
-    <updated>2025-02-19T10:35:30.644Z</updated>
-    
-    <content type="html"><![CDATA[<p>今日主题曲：<a href="https://music.163.com/song?id=41630289&amp;uct2=U2FsdGVkX192ZIlgIiF8X5q79TGOIGKiZWUHhXB3Ezg=">【I’m always close to you-笠原弘子】</a></p><div class="aplayer no-destroy" data-id="4985176" data-volume="0.4" data-server="netease" data-type="song" data-fixed="false" data-autoplay="true" data-lrcType="-1"> </div><h2 id="寒假下半段小结">寒假下半段小结</h2><p>寒假算是又糊里糊涂地过去了，不过真正度假时间也就二月上半旬这半个月吧。每天都在吃饭、打游戏、网上冲浪、睡觉的循环度过。当初的学习计划果然还是基本泡汤了，不过也还能接受吧，下学期时间相对充裕得多，还有不少调整空间。</p><p>游戏和娱乐方面，寒假不知道打了多少把CS，虽然枪法和道具仍然不是人，但是和同学朋友玩个乐就好了。然后和老弟通关了【双人成行】，这游戏也没有什么操作上的难度，理论上我一个人操作两台也能通关。不过，作为一个单机双人游戏确实还是拓展开发了很多玩法，很有娱乐性。另外，投入不少时间在刷红烧上，第一次尝试去看明白红烧的数值计算，养成练度也拉的差不多了，然而还有很多坐牢活动迷宫没打。旮旯上又开了428的新坑，缓慢地推着【Root Double】和【樱之诗】，完整打完了【交响乐之雨】（可能会单独拿出来写一篇blog）。记忆里还看完了【只有我不在的街道】和【夏日大作战】，两部剧情和演出挺精彩的，值得一看但似乎不算非常喜欢。</p><p>学习方面，大概也就一遍过了科目二，估计暑假一两周就能拿到驾照了。看了一眼数理统计，让我想起了被概率论支配的恐惧，学习的同时充满了焦虑和恐惧，感觉自己是学不好理论数学了；之前听说很多人学不好数学是因为学习的过程中伴随着的焦虑严重影响学习动力和效率；当时还对这个事情不以为然，现在却开始有点体会了。不过我怀疑这个结论本末倒置了，应该是数学学习内容本身对于学习者就有困难，进而引发学习者焦虑进而让学习变得更困难。希望自己能放轻松，克服这种学习困难的焦虑吧qaq。每当这个时候，我都开始庆幸自己没有选择数学专业，同时希望自己多在应用上下功夫，但往往事与愿违自己总是会摸鱼以至于应用上缺乏熟练度，理解上也只是一知半解的程度。</p><h2 id="寒假最后半周的小期望">寒假最后半周的小期望</h2><ul><li>大概看一遍数理统计，对于要学习的内容有粗糙的理解</li><li>落实之前学长推荐的ai api和prompt相关的视频</li><li>复习一下机器学习和深度学习的内容，以便准备一下朋辈研学的答辩</li><li>稍微开始准备英语竞赛和六级的备考</li></ul>]]></content>
-    
-    
-    <summary type="html">寒假尾声</summary>
-    
-    
-    
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
-    
-    <category term="群青广播" scheme="https://gunjo-radio-ii.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    
-    <category term="日记" scheme="https://gunjo-radio-ii.cc/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-    <category term="寒假" scheme="https://gunjo-radio-ii.cc/tags/%E5%AF%92%E5%81%87/"/>
     
   </entry>
   
