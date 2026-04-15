@@ -10833,13 +10833,13 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2025/12/15/3315226f9211cf7eda764482d6256ca6.jpg);
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);
+  background-image: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -10905,7 +10905,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp)
+  background: url(/images/avatar.jpg)
     no-repeat center center;
   background-size: cover;
 }
@@ -12340,7 +12340,7 @@ figure.highlight pre .deletion {
   padding: 1rem;
   position: relative;
   border-radius: 12px;
-  background-image: url(https://tuchuang.voooe.cn/images/2023/01/02/tunian.webp);
+  background-image: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
   background-size: cover;
   background-position: center;
 }
