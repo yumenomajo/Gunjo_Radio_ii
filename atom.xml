@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, yumenomajo🧙‍</rights>
   <subtitle>这里是群青广播II,还有活着的人吗？</subtitle>
   <title>群青广播II📡</title>
-  <updated>2026-10-16T06:45:44.597Z</updated>
+  <updated>2026-10-16T08:12:31.617Z</updated>
   <entry>
     <author>
       <name>yumenomajo🧙‍</name>
@@ -19,14 +19,14 @@
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     <category term="站点建设" scheme="https://gunjo-radio.cc/tags/%E7%AB%99%E7%82%B9%E5%BB%BA%E8%AE%BE/"/>
     <content>
-      <![CDATA[<p><img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/%E9%B8%A5.webp" alt=""><br>拜opus5.5、pi agent、claude code的帮助，小站得以顺利复活。<br>该次更新主要做了以下内容：</p><ul><li>debug：音乐栏消失</li><li>debug：图标透明</li><li>优化：网易云图标优化</li><li>优化：邮箱通知</li><li>优化：图片加载优化，让网站加载资源加速</li><li>最大优化：链接了我的本地知识库obsidian，并且利用脚本实现了更快捷的blog推送。如图：<img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/Pasted%20image%2020261016143417.webp" alt=""><br>到这一步确实感觉到科技改变生活啊，ai的发展让我得以完成三位一体的初步建设——<strong>基于hermes和ekko studio的个人秘书rockey</strong>、<strong>基于obsidian的个人管理系统Atlas</strong>、<strong>基于hexo的 blog-web 群青广播ii</strong>。<br>与此同时燃烧着我的token…<br>致谢有所贡献的所有ai:</li><li>claude opus 5.5/sonnet 5.5</li><li>deepseek v4.1flash</li><li>glm 5.3 (flash)</li></ul>]]>
+      <![CDATA[<p><img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/%E9%B8%A5.webp" alt=""><br>拜opus5.5、pi agent、claude code的帮助，小站得以顺利复活。<br>该次更新主要做了以下内容：</p><ul><li>debug：音乐栏消失</li><li>debug：图标透明</li><li>优化：网易云图标优化</li><li>优化：邮箱通知</li><li>优化：图片加载优化，让网站加载资源加速</li><li>最大优化：链接了我的本地知识库obsidian，并且利用脚本实现了更快捷的blog推送。如图：<img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/Pasted%20image%2020261016143417.webp" alt=""></li><li>逆天优化：修复了歌曲播放的bug，并且实现了obsidian插件化输入，太逆天了。</li></ul><p><img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/Pasted%20image%2020261016161049.webp" alt=""><img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/Pasted%20image%2020261016161214.webp" alt=""><img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/Pasted%20image%2020261016161133.webp" alt=""></p><p><a href="https://music.163.com/#/song?id=761594">【鳥の詩-Lia】</a></p><div class="aplayer no-destroy" data-id="761594" data-volume="0.2" data-server="netease" data-type="song" data-fixed="false" data-autoplay="false" data-lrcType="-1"> </div><p>到这一步确实感觉到科技改变生活啊，ai的发展让我得以完成三位一体的初步建设——<strong>基于hermes和ekko studio的个人秘书rockey</strong>、<strong>基于obsidian的个人管理系统Atlas</strong>、<strong>基于hexo的 blog-web 群青广播ii</strong>。<br>与此同时燃烧着我的token…<br>致谢有所贡献的所有ai:</p><ul><li>claude opus 5.5/sonnet 5.5</li><li>deepseek v4.1flash</li><li>glm 5.3 (flash)</li></ul>]]>
     </content>
     <id>https://gunjo-radio.cc/posts/becdee9b.html</id>
     <link href="https://gunjo-radio.cc/posts/becdee9b.html"/>
     <published>2026-10-16T06:28:15.000Z</published>
     <summary>2026年小站重启的小记</summary>
     <title>小站重启记录</title>
-    <updated>2026-10-16T06:45:44.597Z</updated>
+    <updated>2026-10-16T08:12:31.617Z</updated>
   </entry>
   <entry>
     <author>
@@ -51,6 +51,29 @@
       <name>yumenomajo🧙‍</name>
     </author>
     <content>
+      <![CDATA[<p>根据2025.2.25（周二）的课程安排与待办任务，结合时间折叠原则与熔断机制，生成如下智能规划：</p><div class="table-container"><table><thead><tr><th>时间片</th><th>执行体</th><th>能量消耗</th><th>战略关联</th><th>完成</th></tr></thead><tbody><tr><td>7:30-7:45</td><td>背诵六级词汇[手机]</td><td>2/10</td><td>战略目标1:@exam</td><td>✔</td></tr><tr><td>8:00-10:40</td><td>数理统计课程</td><td>5/10</td><td>课程必修</td><td>✔</td></tr><tr><td>10:40-11:40</td><td>科研文献精读[实验室]（准备SCI的方向论证）</td><td>8/10</td><td>战略目标3:@research</td></tr><tr><td>11:40-12:00</td><td>午餐+听力泛听训练[手机]</td><td>3/10</td><td>战略目标1:@exam</td><td>✔</td></tr><tr><td>12:00-13:15</td><td>朋辈研学报告框架搭建[图书馆]（机器学习模块）</td><td>6/10</td><td>中期阶段节点</td><td>✔</td></tr><tr><td>13:15-15:15</td><td>提示词工程学习[平板]（LangChain应用开发章节）</td><td>7/10</td><td>技能进阶</td></tr><tr><td>15:15-17:10</td><td>《决策的智慧》课程</td><td>4/10</td><td>课程必修</td></tr><tr><td>17:10-17:30</td><td>大英赛真题限时训练[图书馆]（完成SectionA精练）</td><td>6/10</td><td>战略目标2:@contest</td></tr><tr><td>21:00-21:30</td><td>单词复习+错题整理[手机]</td><td>3/10</td><td>战略目标1:@exam</td></tr><tr><td>22:00-22:30</td><td>动态拉伸训练[操场]</td><td>4/10</td><td>健康基建</td></tr></tbody></table></div><p><strong>执行压力控制说明</strong>：</p><ol><li>熔断处理内容：原定19:30-20:00的市场调查任务因总执行强度达7.8被延迟</li><li>科研任务（#est=180min）采取分段实施模式，利用午后精力高峰完成核心文献阅读，晚间处理技术型工作</li><li>六级备考采用”碎片浸泡法”，在早晚低能耗时段完成词汇迭代，配合午间泛听保持语感</li></ol><hr><blockquote id="fn_1"><sup>1</sup>. 待办任务来源：用户提供的代办任务.md<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote><blockquote id="fn_2"><sup>2</sup>. 课程时间依据：周二课表标注的数理统计与《决策的智慧》课程时间<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a></blockquote><blockquote id="fn_3"><sup>3</sup>. 实验室使用惯例：导师组每周二/四14:00-20:00开放实验室权限<a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#8617;</a></blockquote>]]>
+    </content>
+    <id>https://gunjo-radio.cc/posts/476c3a0c.html</id>
+    <link href="https://gunjo-radio.cc/posts/476c3a0c.html"/>
+    <published>2025-10-13T06:49:45.000Z</published>
+    <summary>
+      <![CDATA[<p>根据2025.2.25（周二）的课程安排与待办任务，结合时间折叠原则与熔断机制，生成如下智能规划：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>时间片</th>
+<th>执行体</th>
+<th>能量]]>
+    </summary>
+    <title>2.25小记</title>
+    <updated>2025-10-13T06:49:45.289Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>yumenomajo🧙‍</name>
+    </author>
+    <content>
       <![CDATA[<p>根据任务优先级和课程安排，结合时间折叠算法规划2025年2月26日日程：</p><div class="table-container"><table><thead><tr><th>时间段</th><th>执行体</th><th>能量消耗</th><th>战略关联</th></tr></thead><tbody><tr><td>7:30-8:00</td><td>六级核心词汇背诵</td><td>3</td><td>@exam#六级英语<sup><a href="#fn_1" id="reffn_1">1</a></sup></td></tr><tr><td>8:00-9:40</td><td>中国共产党历史课程</td><td>8</td><td>#env不可调整项<sup><a href="#fn_2" id="reffn_2">2</a></sup></td></tr><tr><td>9:50-11:40</td><td>智能决策系统文献阅读+笔记</td><td>7</td><td>@research#科研<sup><a href="#fn_1" id="reffn_1">1</a></sup></td></tr><tr><td>11:40-13:15</td><td>午餐+大英赛听力训练</td><td>5</td><td>@exam#大英赛<sup><a href="#fn_1" id="reffn_1">1</a></sup></td></tr><tr><td>13:30-15:15</td><td>《LangChain开发》模块1-2学习</td><td>6</td><td>@contest#提示词工程<sup><a href="#fn_1" id="reffn_1">1</a></sup></td></tr><tr><td>15:30-16:15</td><td>毛泽东概论课程(详见课表)</td><td>5</td><td>#env不可调整项<sup><a href="#fn_2" id="reffn_2">2</a></sup></td></tr><tr><td>16:25-17:10</td><td>MOOC可视化教学视频笔记</td><td>5</td><td>@contest#现代教育技术<sup><a href="#fn_2" id="reffn_2">2</a></sup></td></tr><tr><td>17:20-19:00</td><td>结题报告撰写（深度学习模块）</td><td>8</td><td>@contest#朋辈研学<sup><a href="#fn_1" id="reffn_1">1</a></sup></td></tr><tr><td>19:10-20:40</td><td>数理统计秩检验案例分析</td><td>7</td><td>@exam#数理统计<sup><a href="#fn_1" id="reffn_1">1</a></sup></td></tr><tr><td>20:50-21:30</td><td>ChatGPT API接口调试</td><td>6</td><td>@contest#提示词工程<sup><a href="#fn_1" id="reffn_1">1</a></sup></td></tr><tr><td>22:00-22:30</td><td>HIIT核心训练</td><td>3</td><td>#日常任务<sup><a href="#fn_1" id="reffn_1">1</a></sup></td></tr></tbody></table></div><p>注：</p><ol><li>所有优先级3任务（市场调查筹备）已转入备选池，总执行压力值为7.6<sup><a href="#fn_3" id="reffn_3">3</a></sup></li><li>将%”科研准备”离散化为3个30min知识块预埋至早餐/课间间隙</li><li>深度工作会议采用[间歇聚焦法]：50min专注+10min记忆巩固<sup><a href="#fn_4" id="reffn_4">4</a></sup></li></ol><blockquote id="fn_1"><sup>1</sup>. 来自用户代办任务清单中的战略目标设置[附件1]<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote><blockquote id="fn_2"><sup>2</sup>. 根据课程表MD文件中周三课程安排确定的时间封锁区[附件2]<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a></blockquote><blockquote id="fn_3"><sup>3</sup>. 能量消耗总和=3+8+7+5+6+5+5+8+7+6+3=63，等效Σρ=6.3&lt;8阈值<a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#8617;</a></blockquote><blockquote id="fn_4"><sup>4</sup>. 时间折叠规则要求单任务耐受时长为50mins<a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#8617;</a></blockquote>]]>
     </content>
     <id>https://gunjo-radio.cc/posts/76842091.html</id>
@@ -69,29 +92,6 @@
     </summary>
     <title>2.26小记</title>
     <updated>2025-10-13T06:49:45.291Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>yumenomajo🧙‍</name>
-    </author>
-    <content>
-      <![CDATA[<p>根据2025.2.25（周二）的课程安排与待办任务，结合时间折叠原则与熔断机制，生成如下智能规划：</p><div class="table-container"><table><thead><tr><th>时间片</th><th>执行体</th><th>能量消耗</th><th>战略关联</th><th>完成</th></tr></thead><tbody><tr><td>7:30-7:45</td><td>背诵六级词汇[手机]</td><td>2/10</td><td>战略目标1:@exam</td><td>✔</td></tr><tr><td>8:00-10:40</td><td>数理统计课程</td><td>5/10</td><td>课程必修</td><td>✔</td></tr><tr><td>10:40-11:40</td><td>科研文献精读[实验室]（准备SCI的方向论证）</td><td>8/10</td><td>战略目标3:@research</td></tr><tr><td>11:40-12:00</td><td>午餐+听力泛听训练[手机]</td><td>3/10</td><td>战略目标1:@exam</td><td>✔</td></tr><tr><td>12:00-13:15</td><td>朋辈研学报告框架搭建[图书馆]（机器学习模块）</td><td>6/10</td><td>中期阶段节点</td><td>✔</td></tr><tr><td>13:15-15:15</td><td>提示词工程学习[平板]（LangChain应用开发章节）</td><td>7/10</td><td>技能进阶</td></tr><tr><td>15:15-17:10</td><td>《决策的智慧》课程</td><td>4/10</td><td>课程必修</td></tr><tr><td>17:10-17:30</td><td>大英赛真题限时训练[图书馆]（完成SectionA精练）</td><td>6/10</td><td>战略目标2:@contest</td></tr><tr><td>21:00-21:30</td><td>单词复习+错题整理[手机]</td><td>3/10</td><td>战略目标1:@exam</td></tr><tr><td>22:00-22:30</td><td>动态拉伸训练[操场]</td><td>4/10</td><td>健康基建</td></tr></tbody></table></div><p><strong>执行压力控制说明</strong>：</p><ol><li>熔断处理内容：原定19:30-20:00的市场调查任务因总执行强度达7.8被延迟</li><li>科研任务（#est=180min）采取分段实施模式，利用午后精力高峰完成核心文献阅读，晚间处理技术型工作</li><li>六级备考采用”碎片浸泡法”，在早晚低能耗时段完成词汇迭代，配合午间泛听保持语感</li></ol><hr><blockquote id="fn_1"><sup>1</sup>. 待办任务来源：用户提供的代办任务.md<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote><blockquote id="fn_2"><sup>2</sup>. 课程时间依据：周二课表标注的数理统计与《决策的智慧》课程时间<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a></blockquote><blockquote id="fn_3"><sup>3</sup>. 实验室使用惯例：导师组每周二/四14:00-20:00开放实验室权限<a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#8617;</a></blockquote>]]>
-    </content>
-    <id>https://gunjo-radio.cc/posts/476c3a0c.html</id>
-    <link href="https://gunjo-radio.cc/posts/476c3a0c.html"/>
-    <published>2025-10-13T06:49:45.000Z</published>
-    <summary>
-      <![CDATA[<p>根据2025.2.25（周二）的课程安排与待办任务，结合时间折叠原则与熔断机制，生成如下智能规划：</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>时间片</th>
-<th>执行体</th>
-<th>能量]]>
-    </summary>
-    <title>2.25小记</title>
-    <updated>2025-10-13T06:49:45.289Z</updated>
   </entry>
   <entry>
     <author>
@@ -255,8 +255,8 @@
       <name>yumenomajo🧙‍</name>
     </author>
     <category term="群青广播" scheme="https://gunjo-radio.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="站点建设" scheme="https://gunjo-radio.cc/tags/%E7%AB%99%E7%82%B9%E5%BB%BA%E8%AE%BE/"/>
     <category term="法治" scheme="https://gunjo-radio.cc/tags/%E6%B3%95%E6%B2%BB/"/>
     <content>
@@ -274,8 +274,8 @@
       <name>yumenomajo🧙‍</name>
     </author>
     <category term="群青广播" scheme="https://gunjo-radio.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="Baldr Sky" scheme="https://gunjo-radio.cc/tags/Baldr-Sky/"/>
     <content>
       <![CDATA[<h2 id="摸鱼的一周"><a href="#摸鱼的一周" class="headerlink" title="摸鱼的一周"></a>摸鱼的一周</h2><p>一眨眼又摸过去了两周，其实一直有很多想写的，但堆到现在反而不知从何入手了，那便从头开始吧。</p><h2 id="突破的尝试"><a href="#突破的尝试" class="headerlink" title="突破的尝试"></a>突破的尝试</h2><p>在做Research的过程中不禁感叹自己水平之单薄，于是想在这学期努力一把补完AI和数据科学相关速成，以面对未来的research甚至是面试实习挑战。</p><h2 id="BSD的观剧"><a href="#BSD的观剧" class="headerlink" title="BSD的观剧"></a>BSD的观剧</h2><p>这两周一直在玩BSD，游玩时间达到40小时，文本大约120万字。可以说BSD剧情是很精彩的，类似于Rewrite的多阵营女主，剧情结构像是转化叙事顺序的Muv-luv（学院篇片段插在正篇碎片叙事），但是不排除有Rewrite中上位时空的存在。</p><p>话说回来，Muvluv-Alternative观剧也快一年，回看这部作品其实没有很前卫的设定。但不得不说的是，Muvluv对于我的魅力就是在部分剧情的沉浸感，包括反政变篇，甲21作战和横滨基地保卫战，Muvluv更多的注重于微观剧情的打磨使得我能完全沉浸在剧情中，深刻感受到剧中角色强烈的情感。</p>]]>
@@ -309,8 +309,8 @@
       <name>yumenomajo🧙‍</name>
     </author>
     <category term="群青广播" scheme="https://gunjo-radio.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="自我管理" scheme="https://gunjo-radio.cc/tags/%E8%87%AA%E6%88%91%E7%AE%A1%E7%90%86/"/>
     <category term="红烧天堂" scheme="https://gunjo-radio.cc/tags/%E7%BA%A2%E7%83%A7%E5%A4%A9%E5%A0%82/"/>
     <content>
@@ -362,8 +362,8 @@
       <name>yumenomajo🧙‍</name>
     </author>
     <category term="群青广播" scheme="https://gunjo-radio.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="AI" scheme="https://gunjo-radio.cc/tags/AI/"/>
     <category term="自我管理" scheme="https://gunjo-radio.cc/tags/%E8%87%AA%E6%88%91%E7%AE%A1%E7%90%86/"/>
     <category term="动画" scheme="https://gunjo-radio.cc/tags/%E5%8A%A8%E7%94%BB/"/>
