@@ -8,7 +8,7 @@
       <link href="/posts/becdee9b.html"/>
       <url>/posts/becdee9b.html</url>
       
-        <content type="html"><![CDATA[<p><img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/%E9%B8%A5.webp" alt=""><br>拜opus5.5、pi agent、claude code的帮助，小站得以顺利复活。<br>该次更新主要做了以下内容：</p><ul><li>debug：音乐栏消失</li><li>debug：图标透明</li><li>优化：网易云图标优化</li><li>优化：邮箱通知</li><li>优化：图片加载优化，让网站加载资源加速</li><li>最大优化：链接了我的本地知识库obsidian，并且利用脚本实现了更快捷的blog推送。如图：<img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/Pasted%20image%2020261016143417.webp" alt=""><br>到这一步确实感觉到科技改变生活啊，ai的发展让我得以完成三位一体的初步建设——基于hermes和ekko studio的秘书rockey、基于obsidian的个人管理系统Atlas、基于hexo的blog-we’v 群青广播ii</li></ul>]]></content>
+        <content type="html"><![CDATA[<p><img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/%E9%B8%A5.webp" alt=""><br>拜opus5.5、pi agent、claude code的帮助，小站得以顺利复活。<br>该次更新主要做了以下内容：</p><ul><li>debug：音乐栏消失</li><li>debug：图标透明</li><li>优化：网易云图标优化</li><li>优化：邮箱通知</li><li>优化：图片加载优化，让网站加载资源加速</li><li>最大优化：链接了我的本地知识库obsidian，并且利用脚本实现了更快捷的blog推送。如图：<img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/Pasted%20image%2020261016143417.webp" alt=""><br>到这一步确实感觉到科技改变生活啊，ai的发展让我得以完成三位一体的初步建设——<strong>基于hermes和ekko studio的个人秘书rockey</strong>、<strong>基于obsidian的个人管理系统Atlas</strong>、<strong>基于hexo的 blog-web 群青广播ii</strong>。<br>与此同时燃烧着我的token…<br>致谢有所贡献的所有ai:</li><li>claude opus 5.5/sonnet 5.5</li><li>deepseek v4.1flash</li><li>glm 5.3 (flash)</li></ul>]]></content>
       
       
       <categories>
@@ -329,9 +329,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 群青广播 </tag>
+            
+            <tag> 日记 </tag>
             
             <tag> 站点建设 </tag>
             
@@ -360,9 +360,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 群青广播 </tag>
+            
+            <tag> 日记 </tag>
             
             <tag> Baldr Sky </tag>
             
@@ -416,9 +416,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 群青广播 </tag>
+            
+            <tag> 日记 </tag>
             
             <tag> 自我管理 </tag>
             
@@ -501,9 +501,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 群青广播 </tag>
+            
+            <tag> 日记 </tag>
             
             <tag> AI </tag>
             
@@ -621,9 +621,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 群青广播 </tag>
+            
+            <tag> 日记 </tag>
             
             <tag> 寒假 </tag>
             
@@ -650,9 +650,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 群青广播 </tag>
+            
+            <tag> 日记 </tag>
             
         </tags>
       
@@ -677,9 +677,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 群青广播 </tag>
+            
+            <tag> 日记 </tag>
             
         </tags>
       
@@ -704,9 +704,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 群青广播 </tag>
+            
+            <tag> 日记 </tag>
             
         </tags>
       
@@ -1012,9 +1012,9 @@
       
         <tags>
             
-            <tag> 日记 </tag>
-            
             <tag> 群青广播 </tag>
+            
+            <tag> 日记 </tag>
             
         </tags>
       

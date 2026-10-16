@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, yumenomajo🧙‍</rights>
   <subtitle>这里是群青广播II,还有活着的人吗？</subtitle>
   <title>群青广播II📡</title>
-  <updated>2026-10-16T06:38:18.782Z</updated>
+  <updated>2026-10-16T06:45:44.597Z</updated>
   <entry>
     <author>
       <name>yumenomajo🧙‍</name>
@@ -19,14 +19,14 @@
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
     <category term="站点建设" scheme="https://gunjo-radio.cc/tags/%E7%AB%99%E7%82%B9%E5%BB%BA%E8%AE%BE/"/>
     <content>
-      <![CDATA[<p><img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/%E9%B8%A5.webp" alt=""><br>拜opus5.5、pi agent、claude code的帮助，小站得以顺利复活。<br>该次更新主要做了以下内容：</p><ul><li>debug：音乐栏消失</li><li>debug：图标透明</li><li>优化：网易云图标优化</li><li>优化：邮箱通知</li><li>优化：图片加载优化，让网站加载资源加速</li><li>最大优化：链接了我的本地知识库obsidian，并且利用脚本实现了更快捷的blog推送。如图：<img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/Pasted%20image%2020261016143417.webp" alt=""><br>到这一步确实感觉到科技改变生活啊，ai的发展让我得以完成三位一体的初步建设——基于hermes和ekko studio的秘书rockey、基于obsidian的个人管理系统Atlas、基于hexo的blog-we’v 群青广播ii</li></ul>]]>
+      <![CDATA[<p><img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/%E9%B8%A5.webp" alt=""><br>拜opus5.5、pi agent、claude code的帮助，小站得以顺利复活。<br>该次更新主要做了以下内容：</p><ul><li>debug：音乐栏消失</li><li>debug：图标透明</li><li>优化：网易云图标优化</li><li>优化：邮箱通知</li><li>优化：图片加载优化，让网站加载资源加速</li><li>最大优化：链接了我的本地知识库obsidian，并且利用脚本实现了更快捷的blog推送。如图：<img src="/images/blog/%E5%B0%8F%E7%AB%99%E9%87%8D%E5%90%AF%E8%AE%B0%E5%BD%95/Pasted%20image%2020261016143417.webp" alt=""><br>到这一步确实感觉到科技改变生活啊，ai的发展让我得以完成三位一体的初步建设——<strong>基于hermes和ekko studio的个人秘书rockey</strong>、<strong>基于obsidian的个人管理系统Atlas</strong>、<strong>基于hexo的 blog-web 群青广播ii</strong>。<br>与此同时燃烧着我的token…<br>致谢有所贡献的所有ai:</li><li>claude opus 5.5/sonnet 5.5</li><li>deepseek v4.1flash</li><li>glm 5.3 (flash)</li></ul>]]>
     </content>
     <id>https://gunjo-radio.cc/posts/becdee9b.html</id>
     <link href="https://gunjo-radio.cc/posts/becdee9b.html"/>
     <published>2026-10-16T06:28:15.000Z</published>
     <summary>2026年小站重启的小记</summary>
     <title>小站重启记录</title>
-    <updated>2026-10-16T06:38:18.782Z</updated>
+    <updated>2026-10-16T06:45:44.597Z</updated>
   </entry>
   <entry>
     <author>
@@ -255,8 +255,8 @@
       <name>yumenomajo🧙‍</name>
     </author>
     <category term="群青广播" scheme="https://gunjo-radio.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="站点建设" scheme="https://gunjo-radio.cc/tags/%E7%AB%99%E7%82%B9%E5%BB%BA%E8%AE%BE/"/>
     <category term="法治" scheme="https://gunjo-radio.cc/tags/%E6%B3%95%E6%B2%BB/"/>
     <content>
@@ -274,8 +274,8 @@
       <name>yumenomajo🧙‍</name>
     </author>
     <category term="群青广播" scheme="https://gunjo-radio.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="Baldr Sky" scheme="https://gunjo-radio.cc/tags/Baldr-Sky/"/>
     <content>
       <![CDATA[<h2 id="摸鱼的一周"><a href="#摸鱼的一周" class="headerlink" title="摸鱼的一周"></a>摸鱼的一周</h2><p>一眨眼又摸过去了两周，其实一直有很多想写的，但堆到现在反而不知从何入手了，那便从头开始吧。</p><h2 id="突破的尝试"><a href="#突破的尝试" class="headerlink" title="突破的尝试"></a>突破的尝试</h2><p>在做Research的过程中不禁感叹自己水平之单薄，于是想在这学期努力一把补完AI和数据科学相关速成，以面对未来的research甚至是面试实习挑战。</p><h2 id="BSD的观剧"><a href="#BSD的观剧" class="headerlink" title="BSD的观剧"></a>BSD的观剧</h2><p>这两周一直在玩BSD，游玩时间达到40小时，文本大约120万字。可以说BSD剧情是很精彩的，类似于Rewrite的多阵营女主，剧情结构像是转化叙事顺序的Muv-luv（学院篇片段插在正篇碎片叙事），但是不排除有Rewrite中上位时空的存在。</p><p>话说回来，Muvluv-Alternative观剧也快一年，回看这部作品其实没有很前卫的设定。但不得不说的是，Muvluv对于我的魅力就是在部分剧情的沉浸感，包括反政变篇，甲21作战和横滨基地保卫战，Muvluv更多的注重于微观剧情的打磨使得我能完全沉浸在剧情中，深刻感受到剧中角色强烈的情感。</p>]]>
@@ -309,8 +309,8 @@
       <name>yumenomajo🧙‍</name>
     </author>
     <category term="群青广播" scheme="https://gunjo-radio.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="自我管理" scheme="https://gunjo-radio.cc/tags/%E8%87%AA%E6%88%91%E7%AE%A1%E7%90%86/"/>
     <category term="红烧天堂" scheme="https://gunjo-radio.cc/tags/%E7%BA%A2%E7%83%A7%E5%A4%A9%E5%A0%82/"/>
     <content>
@@ -362,8 +362,8 @@
       <name>yumenomajo🧙‍</name>
     </author>
     <category term="群青广播" scheme="https://gunjo-radio.cc/categories/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
-    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="群青广播" scheme="https://gunjo-radio.cc/tags/%E7%BE%A4%E9%9D%92%E5%B9%BF%E6%92%AD/"/>
+    <category term="日记" scheme="https://gunjo-radio.cc/tags/%E6%97%A5%E8%AE%B0/"/>
     <category term="AI" scheme="https://gunjo-radio.cc/tags/AI/"/>
     <category term="自我管理" scheme="https://gunjo-radio.cc/tags/%E8%87%AA%E6%88%91%E7%AE%A1%E7%90%86/"/>
     <category term="动画" scheme="https://gunjo-radio.cc/tags/%E5%8A%A8%E7%94%BB/"/>
